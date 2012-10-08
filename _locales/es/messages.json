@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Cookies protegidas"
     }, 
+    "editThis_flagAll": {
+        "message": "Marcar y eliminar todas"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Cookies de solo lectura"
     }, 
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Buscar"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copiadas al portapapeles"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Exportar cookies"

@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "锁定的Cookies"
     }, 
+    "editThis_flagAll": {
+        "message": "Flag and delete all"
+    }, 
     "editThis_cookiesProtected": {
         "message": "受保护的只读Cookies"
     }, 
@@ -99,7 +102,7 @@
         "message": "请将欲导入的cookies粘贴在这里"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+        "message": "Edit This Cookie是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！"
     }, 
     "editThis_cookiesModified": {
         "message": "修改的cookies"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "搜索"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
     }, 
     "editThis_Copy_Cookies": {
         "message": "导出cookies"

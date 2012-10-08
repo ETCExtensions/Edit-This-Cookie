@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Védett sütik"
     }, 
+    "editThis_flagAll": {
+        "message": "Flag and delete all"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Csak olvasható sütik védve"
     }, 
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Keresés"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Süti exportálása"

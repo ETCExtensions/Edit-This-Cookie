@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Suojatut evästeet"
     }, 
+    "editThis_flagAll": {
+        "message": "Merkitse ja poista kaikki"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Vain luku-tilassa olevat evästeet suojattu"
     }, 
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Etsi"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Evästeet kopioitu leikepöydälle"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Vie evästeet"

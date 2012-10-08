@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Защищенные"
     }, 
+    "editThis_flagAll": {
+        "message": "Пометить и удалить все"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Данный cookie только для чтения"
     }, 
@@ -66,7 +69,7 @@
         "message": "Пропускать кэш при обновлении страницы"
     }, 
     "editThis_adsInfoAndSettings": {
-        "message": "Инфо и настройки"
+        "message": "Информация и настройки"
     }, 
     "editThis_useRegularExpressions": {
         "message": "Вы можете использовать регулярные выражения"
@@ -99,7 +102,7 @@
         "message": "Скопируйте сюда Cookies для импорта. Допустимые форматы:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+        "message": "Edit This Cookie - это менеджер cookie. Вы можете добавлять, удалять, изменять, искать, защищать и блокировать cookie!"
     }, 
     "editThis_cookiesModified": {
         "message": "Cookie отредактированы"
@@ -123,7 +126,7 @@
         "message": "Выбрать другой язык"
     }, 
     "editThis_Charity_Message": {
-        "message": "You will help children in need all over the world, because $1% of the revenues go to"
+        "message": "Вы будете помогать нуждающимся детям во всем мире, потому что $1% от доходов перечислится "
     }, 
     "editThis_Max_Date_Option": {
         "message": "Обновить максимальный срок для любого Cookie"
@@ -139,7 +142,7 @@
         "message": "Cookie созданы"
     }, 
     "editThis_cookiesImported": {
-        "message": "Cookies imported"
+        "message": "Cookies импортировано"
     }, 
     "editThis_secure": {
         "message": "Безопасность"
@@ -199,7 +202,7 @@
         "message": "Вы станете моим новым идолом, и, если хотите, я пошлю вам эту книгу:"
     }, 
     "editThis_Set_ReadOnly": {
-        "message": "Установить как только для чтения"
+        "message": "Только для чтения"
     }, 
     "editThis_deleteAll": {
         "message": "Удалить все"
@@ -271,7 +274,7 @@
         "message": "Удалить правило"
     }, 
     "editThis_cookiesExported": {
-        "message": "Cookies exported"
+        "message": "Cookies экспортировано"
     }, 
     "editThis_advertisements": {
         "message": "Реклама"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Поиск"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies скопирован в буфер обмена"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Экспорт Cookies"

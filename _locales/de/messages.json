@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Geschützter Cookie"
     }, 
+    "editThis_flagAll": {
+        "message": "Alle markieren und löschen"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Geschützter Nur-Lesen Cookie"
     }, 
@@ -99,7 +102,7 @@
         "message": "Füge hier die Cookies ein, die du importieren willst. Akzeptierte Formate:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie ist ein Cookie-Manager. Sie können Cookies hinzufügen, löschen, bearbeiten, durchsuchen, vor Änderungen schützen und blockieren!"
+        "message": "Cookie ändern"
     }, 
     "editThis_cookiesModified": {
         "message": "Cookies verändert"
@@ -163,7 +166,7 @@
         "message": "Immer nach Bestätigung fragen"
     }, 
     "editThis_gospelBookTitle": {
-        "message": "The Gospel of the Flying Spaghetti Monster"
+        "message": "Die Kirche des fliegenden Spaghettimonsters"
     }, 
     "editThis_timesUsed": {
         "message": "Sie haben 'Edit This Cookie' $1 mal benutzt"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Suche"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies wurden in die Zwischenablage kopiert"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Exportiere Cookies"

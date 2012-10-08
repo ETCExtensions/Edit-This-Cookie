@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Korunan Çerezler"
     }, 
+    "editThis_flagAll": {
+        "message": "Flag and delete all"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Sadece-okunan çerezler korunuyor"
     }, 
@@ -99,7 +102,7 @@
         "message": "Paste here the cookies to import. Accepted formats:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir, silebilir, düzeltebilir, arayabilir, koruyabilir ve engelleyebilirsin"
     }, 
     "editThis_cookiesModified": {
         "message": "Çerezler Düzenlendi"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Arama"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Export cookies"

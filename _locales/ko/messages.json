@@ -1,6 +1,6 @@
 {
     "editThis_httpOnly": {
-        "message": "HTTP only"
+        "message": "HTTP 전용"
     }, 
     "editThis_AN_optInDescription": {
         "message": "당신의 웹 사용 데이터를 공유하게 허용하기. 모든 데이터는 익명입니다."
@@ -27,7 +27,7 @@
         "message": "번역"
     }, 
     "editThis_cookiesDeleted": {
-        "message": "쿠키 삭제됨"
+        "message": "삭제된 쿠키"
     }, 
     "editThis_bugsFeatureRequestIntro": {
         "message": "버그를 발견했거나 제안사항이 있나요? 알려주세요:"
@@ -44,8 +44,11 @@
     "editThis_Protected_Cookies": {
         "message": "보호된 쿠키"
     }, 
+    "editThis_flagAll": {
+        "message": "체크하고 모두 지우기"
+    }, 
     "editThis_cookiesProtected": {
-        "message": "읽기 전용 쿠키 보호됨"
+        "message": "보호된 읽기 전용 쿠키"
     }, 
     "editThis_support": {
         "message": "지원"
@@ -102,7 +105,7 @@
         "message": "Edit This Cookie는 쿠키 관리자입니다. 이것을 이용하여 쿠키를 추가하고, 삭제하고, 편집하고, 찾고, 보호하거나 막을 수 있습니다!"
     }, 
     "editThis_cookiesModified": {
-        "message": "쿠키 편집됨"
+        "message": "편집된 쿠키"
     }, 
     "editThis_Flag_Cookie": {
         "message": "쿠키 체크하기"
@@ -114,7 +117,7 @@
         "message": "일"
     }, 
     "editThis_cookiesFlagged": {
-        "message": "체크한 쿠키 삭제됨"
+        "message": "삭제된 체크한 쿠키"
     }, 
     "editThis_stats": {
         "message": "통계"
@@ -136,16 +139,16 @@
         "message": "달"
     }, 
     "editThis_cookiesCreated": {
-        "message": "쿠키 생성됨"
+        "message": "생성된 쿠키"
     }, 
     "editThis_cookiesImported": {
-        "message": "쿠키 불러옴"
+        "message": "불러온 쿠키"
     }, 
     "editThis_secure": {
         "message": "Secure"
     }, 
     "editThis_cookiesShortened": {
-        "message": "쿠키 기한 단축됨"
+        "message": "쿠키 기한 단축"
     }, 
     "editThis_hostOnly": {
         "message": "Host only"
@@ -193,7 +196,7 @@
         "message": "새 쿠키 체크하기"
     }, 
     "editThis_ppBenefit9": {
-        "message": "제 첫번째 심장 마비의 원인이 될 것입니다. 당신이 해야 될 것은 당장 기부하는 것입니다!"
+        "message": "제 첫번째 심장 마비의 원인이 될 것입니다. 당장 기부하세요!"
     }, 
     "editThis_ppBenefit8": {
         "message": "당신은 제 종교의 새 교주가 될 것이며, 원하신다면 다음 책을 보내 드릴 수 있습니다:"
@@ -211,7 +214,7 @@
         "message": "보호된 쿠키는 어떠한 웹 사이트나 확장기능도 편집할 수 없는 쿠키입니다"
     }, 
     "editThis_noReadOnlyAdded": {
-        "message": "보호된 쿠키 없음"
+        "message": "보호된 쿠키가 없습니다."
     }, 
     "editThis_Alert_deleteAll": {
         "message": "현재 웹 사이트의 모든 쿠키를 지울까요?"
@@ -271,7 +274,7 @@
         "message": "이 규칙 지우기"
     }, 
     "editThis_cookiesExported": {
-        "message": "쿠키 내보냄"
+        "message": "내보낸 쿠키"
     }, 
     "editThis_advertisements": {
         "message": "광고"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "검색"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "클립보드에 쿠키 복사됨"
     }, 
     "editThis_Copy_Cookies": {
         "message": "쿠키 내보내기"

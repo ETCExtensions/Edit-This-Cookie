@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Cookies Protegidos"
     }, 
+    "editThis_flagAll": {
+        "message": "Flag and delete all"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Cookies Protegidos como Apenas Ler"
     }, 
@@ -99,7 +102,7 @@
         "message": "Cole aqui os cookies para importar. Formatos aceitos:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie é um gerenciador de cookies. Você pode adicionar, excluir, editar, procurar, proteger e bloquear cookies!"
+        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
     }, 
     "editThis_cookiesModified": {
         "message": "Cookies Modificados"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Pesquisar"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Exportar cookies"

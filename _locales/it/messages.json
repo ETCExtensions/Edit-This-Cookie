@@ -44,6 +44,9 @@
     "editThis_Protected_Cookies": {
         "message": "Cookie Protetti"
     }, 
+    "editThis_flagAll": {
+        "message": "Seleziona ed elimina tutti"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Cookie protetti da scrittura"
     }, 
@@ -223,16 +226,16 @@
         "message": "Anni"
     }, 
     "editThis_seconds": {
-        "message": "secondi"
+        "message": "Secondi"
     }, 
     "editThis_ContextMenu": {
-        "message": "Modifica Cookie"
+        "message": "Modifica i cookie"
     }, 
     "editThis_name": {
-        "message": "nome"
+        "message": "Nome"
     }, 
     "editThis_domain": {
-        "message": "dominio"
+        "message": "Dominio"
     }, 
     "editThis_path": {
         "message": "percorso"
@@ -256,10 +259,10 @@
         "message": "Donazioni"
     }, 
     "editThis_storeID": {
-        "message": "storeID"
+        "message": "StoreID"
     }, 
     "editThis_value": {
-        "message": "valore"
+        "message": "Valore"
     }, 
     "editThis_contactsIntro": {
         "message": "Inviaci una mail"
@@ -297,6 +300,9 @@
     }, 
     "editThis_search": {
         "message": "Cerca"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookie copiati negli appunti"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Esporta cookie"
