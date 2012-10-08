@@ -1,0 +1,321 @@
+<html>
+    <head>
+        <title>ETC</title>
+        <link rel="stylesheet" type="text/css" href="css/custom-theme1/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+		<link href="/lib/mobiscroll/dev/css/mobiscroll.core-2.0.2.css" rel="stylesheet" type="text/css" />
+		<link href="/lib/mobiscroll/dev/css/mobiscroll.android-ics-2.0.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+
+        <script src="/lib/jquery-1.8.1.min.js" type="text/javascript"></script>
+        <script src="/lib/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+        <script src="/lib/jquery.color.js" type="text/javascript"></script>
+        <script src="/js/cookie_helpers.js" type="text/javascript"></script>
+        <script src="/lib/custom_i18n.js" type="text/javascript"></script>
+        <script src="/lib/i18n_translator.js" type="text/javascript"></script>
+        <script src="/js/analytics.js" type="text/javascript" async></script>
+        <script src="/lib/object-watch.js" type="text/javascript"></script>
+        <script src="/js/utils.js" type="text/javascript"></script>
+        <script src="/js/data.js" type="text/javascript"></script>
+        
+		<script src="/lib/mobiscroll/dev/js/mobiscroll.core-2.0.2.js" type="text/javascript"></script>
+		<script src="/lib/mobiscroll/dev/js/mobiscroll.android-ics-2.0.js" type="text/javascript"></script>
+		<script src="/lib/mobiscroll/dev/js/mobiscroll.datetime-2.0.2.js" type="text/javascript"></script>
+		<script src="/lib/mobiscroll/dev/js/mobiscroll.select-2.0.2.js" type="text/javascript"></script>
+        
+        <script src="js/popup.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="alert_wrapper">
+            <div id="alert_box">
+                <div id="alert_title">
+                    <p id="alert_title_p"></p>
+                </div>
+                <div id="alert_buttons">
+                    <div id="alert_ok" class="alert_button">
+                        OK
+                    </div>
+                    <div id="alert_cancel" class="alert_button">
+                        NO
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            
+            <div id="searchBox" class="ui-corner-all">
+                <input type="text" id="searchField" value="" />
+            </div>
+
+			<div class="commands-table">
+				<div class="commands-row">
+					<div id="deleteAllButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-close"></span>
+		                    <div class="cmdText" i18n="deleteAll"></div>
+		                </div>
+		            </div>
+		            <div id="flagAllButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-flag"></span>
+		                    <div class="cmdText" i18n="flagAll"></div>
+		                </div>
+		            </div>
+		            <div id="addCookieButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-plus"></span>
+		                    <div class="cmdText" i18n="addNew"></div>
+		                </div>
+		            </div>
+		            <div id="backToList">
+		                <div>
+		                    <span class="ui-icon ui-icon-arrowreturnthick-1-w"></span>
+		                    <div class="cmdText" i18n="backToList"></div>
+		                </div>
+		            </div>
+		            <div id="optionsButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-wrench"></span>
+		                    <div class="cmdText" i18n="Options"></div>
+		                </div>
+		            </div>
+				</div>
+			</div>
+			<div class="commands-table">
+				<div class="commands-row">
+					<div id="copyButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-arrowthickstop-1-n"></span>
+		                    <div class="" i18n="Copy_Cookies"></div>
+		                </div>
+		            </div>
+		            <div id="pasteButton" title="JSON">
+		                <div>
+		                    <span class="ui-icon ui-icon-arrowthickstop-1-s"></span>
+		                    <div class="" i18n="Paste_Cookies"></div>
+		                </div>
+		            </div>
+		            <div id="refreshButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-arrowrefresh-1-e"></span>
+		                    <div class="cmdText" i18n="reset"></div>
+		                </div>
+		            </div>
+		            <div id="searchButton">
+		                <div>
+		                    <span class="ui-icon ui-icon-search"></span>
+		                    <div class="cmdText" i18n="search"></div>
+		                </div>
+		            </div>
+				</div>
+			</div>
+
+
+
+            <div id="cookiesList">
+            </div>
+
+            <div>
+                <div id="cookieFilter" class="ui-accordion ui-widget ui-accordion-icons">
+                    <h3 class="ui-accordion-header ui-helper-reset ui-state-active ui-corner-top">
+                        <span class="ui-icon ui-icon-triangle-1-s"></span>
+                        <a href="#">New Filter</a>
+                    </h3>
+                    <div class="cookie ui-widget-content ui-corner-bottom">
+		                <div class="cookie-table" style="margin:5px 0px 5px 0px; font-size:0.89em;">
+							<div class="cookie-row">
+								<div>
+									<input type="checkbox" class="filterDomain" name="domain" class="filterCheckbox" checked />
+									<label for="domain" class="">
+										Block with domain:&nbsp;
+				                    </label>
+		                        </div>
+								<span class="filteredBy" id="filterByDomain"></span>
+							</div>
+							<div class="cookie-row">
+								<div>
+									<input type="checkbox" class="filterName" name="name" class="filterCheckbox" checked />
+									<label for="name">
+										Block with name:&nbsp;
+				                    </label>
+		                        </div>
+		                        <span class="filteredBy" id="filterByName"></span>
+							</div>
+							<div class="cookie-row">
+								<div>
+									<input type="checkbox" class="filterValue" name="value" class="filterCheckbox" />
+									<label for="value">
+										Block with value:&nbsp;
+					                </label>
+		                        </div>
+		                        <span class="filteredBy" id="filterByValue"></span>
+							</div>
+						</div>
+						
+                    </div>
+                </div>
+                <div id="submitFiltersDiv">
+                    <input id='submitFiltersButton' type='submit' value=""  i18n_value="addRule"/>
+                </div>
+            </div>
+            
+            
+            
+            <div class="cookie cookie_details_template">
+				<div class="commands-table" style="margin:-10px 0 5px 5px; font-size:0.89em;">
+					<div class="commands-row">
+						<div class="flagOne">
+							<div>
+								<span class="ui-icon ui-icon-flag"></span>
+								<span i18n="Flag_Cookie"></span>
+							</div>
+						</div>
+						<div class="deleteOne">
+							<div>
+								<span class="ui-icon ui-icon-trash"></span>
+								<span i18n="Alert_deleteCookie"></span>
+							</div>
+						</div>
+						<div class="protectOne unprotected">
+							<div>
+								<span class="ui-icon ui-icon-key"></span>
+								<span i18n="Set_ReadOnly"></span>
+							</div>
+						</div>
+						<div class="protectOne protected">
+							<div>
+								<span class="ui-icon ui-icon-key"></span>
+								<span i18n="Is_ReadOnly" style="color:green;"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<input type="hidden" class="index" value="" disabled="disabled">
+				<input type="hidden" class="name"  value="" disabled="disabled">
+				<div class="cookie-table">
+					<div class="cookie-row">
+						<label class="formLabel" i18n="value"></label>
+						<textarea rows="5" class="value input" type="textarea" spellcheck="false"></textarea>
+					</div>
+					<div class="cookie-row">
+						<label class="formLabel" i18n="domain"></label>
+						<input class="domain input" type="text">
+					</div>
+					<div class="cookie-row">
+						<label class="formLabel" i18n="path"></label>
+						<input class="path input" type="text">
+					</div>
+					<div class="cookie-row" style="display:none;">
+						<label class="formLabel" i18n="storeID"></label>
+						<input class="storeId input" type="text" disabled="disabled">
+					</div>
+					<div class="cookie-row">
+						<label class="formLabel" i18n="expiration"></label>
+						<input class="expiration input" type="text">
+					</div>
+				</div>
+				<div class="cookie-table" style="text-align: center; margin-top: 15px;">
+					<div class="cookie-row">
+							<div>
+								<label class="formLabel" i18n="hostOnly"></label>
+								<input class="hostOnly checkbox" type="checkbox">
+							</div>
+							<div>
+								<label class="formLabel" i18n="session"></label>
+								<input class="session checkbox" type="checkbox">
+							</div>
+							<div>
+								<label class="formLabel" i18n="secure"></label>
+								<input class="secure checkbox" type="checkbox">
+							</div>
+							<div>
+								<label class="formLabel" i18n="httpOnly"></label>
+								<input class="httpOnly checkbox" type="checkbox">
+							</div>
+					</div>
+				</div>
+			</div>
+            
+            
+            
+            <div id="newCookie" class="ui-accordion ui-widget ui-accordion-icons">
+                <h3 class="ui-accordion-header ui-helper-reset ui-state-active ui-corner-top">
+                    <span class="ui-icon ui-icon-triangle-1-s"></span>
+                    <a href="#" i18n="addNew"></a>
+                </h3>
+		        <div class="cookie   ui-widget-content ui-corner-bottom">
+					<div class="commands-table" style="margin:-10px 0 5px 5px; font-size:0.89em;">
+						<div class="commands-row">
+							<div id="clearNew" class='clearDiv'>
+								<div>
+									<span class="ui-icon ui-icon-circle-close"></span>
+									<span i18n="reset"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cookie-table">
+						<div class="cookie-row">
+							<label class="formLabel" i18n="name"></label>
+							<input class="name input" type="text">
+						</div>
+						<div class="cookie-row">
+							<label class="formLabel" i18n="value"></label>
+							<textarea rows="5" class="value input" type="textarea" spellcheck="false"></textarea>
+						</div>
+						<div class="cookie-row">
+							<label class="formLabel" i18n="domain"></label>
+							<input class="domain input" type="text">
+						</div>
+						<div class="cookie-row">
+							<label class="formLabel" i18n="expiration"></label>
+							<input class="expiration input" type="text">
+						</div>
+					</div>
+					<div class="cookie-table" style="text-align: center; margin-top: 15px; margin-bottom: 10px;">
+						<div class="cookie-row">
+								<div>
+									<label class="formLabel" i18n="hostOnly"></label>
+									<input class="hostOnly checkbox" type="checkbox">
+								</div>
+								<div>
+									<label class="formLabel" i18n="session"></label>
+									<input class="session checkbox" type="checkbox">
+								</div>
+								<div>
+									<label class="formLabel" i18n="secure"></label>
+									<input class="secure checkbox" type="checkbox">
+								</div>
+								<div>
+									<label class="formLabel" i18n="httpOnly"></label>
+									<input class="httpOnly checkbox" type="checkbox">
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="pasteCookie" class="ui-accordion ui-widget ui-accordion-icons">
+                <h3 class="ui-accordion-header ui-helper-reset ui-state-active ui-corner-top">
+                    <span class="ui-icon ui-icon-triangle-1-s"></span>
+                    <a href="#" i18n="Paste_Cookies"></a>
+                </h3>
+		        <div class="cookie ui-widget-content ui-corner-bottom">
+					<div class="cookie-table">
+						<div class="cookie-row">
+							<textarea rows="20" class="value input" type="textarea" spellcheck="false" i18n_placeholder="Paste_Cookie_Here" placeholder=" JSON"></textarea>
+						</div>
+						<div class="cookie-row">
+							<div class="formLabel error"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="copiedToast" class="toast" i18n="Copied_clipboard"></div>
+            
+            <div id="submitDiv">
+                <input id='submitButton' type='submit' value=''  i18n_value="Alert_submitAll"/>
+            </div>
+        </div>
+    </body>
+</html>

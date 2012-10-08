@@ -1,0 +1,307 @@
+{
+    "editThis_httpOnly": {
+        "message": "httpOnly"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "Autorisez-nous à partager vos informations de navigation. Toutes les informations sont anonymes."
+    }, 
+    "editThis_contacts": {
+        "message": "Contacts"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Valider les changements de cookies"
+    }, 
+    "editThis_Options": {
+        "message": "Options"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "Cookies bloqués"
+    }, 
+    "editThis_minutes": {
+        "message": "minutes"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Si vous voulez supprimer automatiquement supprimer un cookie à chaque fois qu'il est créé, ajoutez un filtre et il ne vous embêtera plus"
+    }, 
+    "editThis_translation": {
+        "message": "Traduction"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Cookies supprimés"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Vous avez trouvé un bug ou avez une suggestion ? Contactez-nous:"
+    }, 
+    "editThis_statsIntro": {
+        "message": "Voyez comment vous avez utilisé l'application. Les données collectées sont celle depuis Juillet 2012"
+    }, 
+    "editThis_help": {
+        "message": "Aide"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Importer des cookies"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "Cookies protégés"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "Cookies protégés en lecture seule "
+    }, 
+    "editThis_support": {
+        "message": "Soutenez-nous"
+    }, 
+    "editThis_addNew": {
+        "message": "Ajouter un nouveau cookie"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "Montrer des publicités discrètes sur quelques pages que je visite"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "Aidez-nous à traduire l'extension dans votre langue"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "Sauter le cache lors du rechargement de la page"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "Info et paramètres"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "Vous pouvez utiliser les expressions régulières"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "Bugs / Caractéristiques"
+    }, 
+    "editThis_Save": {
+        "message": "Enregistrer"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Si elle est activée, vous pouvez masquer l'icône de la barre d'outils par un clic droit sur ​​elle!"
+    }, 
+    "editThis_statsSince": {
+        "message": "Cookie statique depuis:$1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "Afficher le nom de domaine à côté du nom de chaque cookie"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Choisissez votre type d'exportation préféré pour vos cookies"
+    }, 
+    "editThis_reset": {
+        "message": "Réinitialiser"
+    }, 
+    "editThis_addRule": {
+        "message": "Ajouter cette règle"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "Collez ici les cookies à importer. Les formats acceptés sont:"
+    }, 
+    "editThis_description": {
+        "message": "Edit This Cookie est un gestionnaire de cookies. Vous pouvez ajouter, supprimer, editer, rechercher , proteger et bloquer vos cookies!"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Cookies modifiés"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "Cookie marqué"
+    }, 
+    "editThis_time": {
+        "message": "Temps"
+    }, 
+    "editThis_day": {
+        "message": "Jours"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "Cookies marqués supprimés"
+    }, 
+    "editThis_stats": {
+        "message": "Statistiques"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "Choisissez une autre langue"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "Vous allez aider les enfants pauvres dans le monde, car $1% des revenues vont à"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "Remplacer l'age maximal pour tous les cookies"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "Nous developpons un logiciel open source de haute qualité et nous le faisons gratuitement. <br><br> Soutenez nous en donnant : $1. Déplacez le curseur pour modifier le montant", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "Mois"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Cookies créés"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Cookies importés"
+    }, 
+    "editThis_secure": {
+        "message": "Sécuriser"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Date d'expiration des cookies raccourcie"
+    }, 
+    "editThis_hostOnly": {
+        "message": "hôte uniquement"
+    }, 
+    "editThis_Max_Date": {
+        "message": "Définir l'age maximum d'un cookie à "
+    }, 
+    "editThis_session": {
+        "message": "session"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "Afficher l'\"Editer les cookies\" dans le menu contextuel"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "Toujours demander confirmation"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "L'évangile de la Monstrueuse Spaghetti Volante"
+    }, 
+    "editThis_timesUsed": {
+        "message": "Vous avez utilisé 'Edit This Cookie\" $1 fois"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "Vous êtes très généreux ! Si jamais je vous rencontre, je vous offre quelques bières (Hey, la bière c'est important)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "Si jamais je vous rencontre, je vous offre un café italien et un 'Babbà'"
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "Donnez moi des idées pour améliorer Edit This Cookie et j'essayerai de les rendres réelles ! (Evitez juste de me demander l'impossible)"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "Vous pouvez signaler tous les bugs qui vous dérangent sur Edit This Cookie et je les reglerai très rapidement !"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "Vous allez recevoir une carte de remerciement 'Edit this Cookie' absoluement géniale !"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "Votre nom sera ajouté au mur des célébrités"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "Vous allez être remercié par email, et vous aurez également une petite place dans mon coeur"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "Marquer un nouveau cookie"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Soyez à l'origine de mon premier succès. Vous n'avez plus qu'a faire une donation !"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "Vous êtes le nouveau dieu de ma religion, si vous voulez, je peux vous envoyer les livres suivants:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "Définir en lecture seule"
+    }, 
+    "editThis_deleteAll": {
+        "message": "Supprimer tout"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "Nous ne partageons pas les données personnelles! "
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "Un cookie protégé est un cookie qui ne peut pas être modifié, ni pas un site, ni pas une extension"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "Aucun cookie protégé pour le moment"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "Supprimer tous les cookies du site actuel"
+    }, 
+    "editThis_Donate": {
+        "message": "Contribuer"
+    }, 
+    "editThis_year": {
+        "message": "Années"
+    }, 
+    "editThis_seconds": {
+        "message": "secondes"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Modifier cookies"
+    }, 
+    "editThis_name": {
+        "message": "nom"
+    }, 
+    "editThis_domain": {
+        "message": "domaine"
+    }, 
+    "editThis_path": {
+        "message": "Chemin"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "Protégé"
+    }, 
+    "editThis_amountByHand": {
+        "message": "pour entrer un montant à la main, cliquez ici"
+    }, 
+    "editThis_backToList": {
+        "message": "Retour à la liste"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Recharger la page après la soumission des changements"
+    }, 
+    "editThis_expiration": {
+        "message": "expiration"
+    }, 
+    "editThis_donations": {
+        "message": "Donations"
+    }, 
+    "editThis_storeID": {
+        "message": "storeID"
+    }, 
+    "editThis_value": {
+        "message": "valeur"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Envoyez-nous un email"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "Aucune règle de bloquage ajoutée"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "Supprimer cette règle"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Cookies exportés"
+    }, 
+    "editThis_advertisements": {
+        "message": "Publicités"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "Aucune donnée pour le moment :("
+    }, 
+    "editThis_hour": {
+        "message": "Heures"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Encode la valeur du cookie (comme pour <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recommandé)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Voici quelques explications sur des fonctions basiques de l'extension"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "Je veux faire une donation", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_cancel": {
+        "message": "Annuler"
+    }, 
+    "editThis_search": {
+        "message": "Rechercher"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Exporter des cookies"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Supprimer le cookie"
+    }
+}

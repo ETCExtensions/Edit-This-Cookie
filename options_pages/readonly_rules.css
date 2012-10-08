@@ -1,0 +1,99 @@
+body {
+#	background-color: #F7F7F7;
+}
+
+#addRule {
+	float: right;
+	border-bottom-width: 0 !important;
+	width:130px;
+	height: 25px;
+	margin-top: -37px;
+}
+
+.table {
+	padding-left: 0px;
+	width: 100%;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+.table_row {
+	width: 100%;
+	display: table-row;
+	vertical-align:middle
+}
+
+.header div {
+	padding-left: 0px !important;
+	font-weight: bold;
+}
+
+.active {
+	background-color: #FFF;
+}
+
+.table_row div {
+	height: 30px;
+	padding-right: 10px;
+	display: table-cell;
+	text-align:left;
+	vertical-align:middle;
+}
+
+.new_rule_operations {
+	position: fixed;
+	display: none;
+    width: 40px;
+	height: 30px;
+    padding-top: 10px;
+}
+.new_rule_operations img {
+	cursor: pointer;
+    width: 10px;
+}
+
+.operations {
+	position: fixed;
+	display: none;
+    width: 20px;
+	height: 30px;
+    padding-top: 5px;
+}
+.operations img {
+    cursor: pointer;
+}
+
+.domain_field {
+	padding-left: 30px !important;
+	width: 25%;
+}
+.name_field {
+	width: 25%;
+}
+.value_field {
+	width: 40%;
+}
+
+
+.popup {
+    position: fixed;
+    display: none;
+    top: 35%;
+    left: 35%;
+    height: 21%;
+    width: 30%;
+}
+#submitDiv {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#submitButton {
+    right: 0;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

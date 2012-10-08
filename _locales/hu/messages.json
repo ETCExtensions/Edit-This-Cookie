@@ -1,0 +1,307 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "Böngészési statisztika kiadása harmadik félnek. Minden adat anonim."
+    }, 
+    "editThis_contacts": {
+        "message": "Kapcsolatok"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Változtatások véglegesítése"
+    }, 
+    "editThis_Options": {
+        "message": "Beállítások"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "Blokkolt sütik"
+    }, 
+    "editThis_minutes": {
+        "message": "Perc"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Ha automatikusan törölni akarsz egy bizonyos sütit, állíts rá egy filtert. Többé nem fog zavarni"
+    }, 
+    "editThis_translation": {
+        "message": "Fordítás"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Sütik törölve"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Bugot találtál vagy javaslatod van? Írd meg:"
+    }, 
+    "editThis_statsIntro": {
+        "message": "Here you can find out how you used this extension. This data has been collected only since July 2012."
+    }, 
+    "editThis_help": {
+        "message": "Súgó"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Sütik importálása"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "Védett sütik"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "Csak olvasható sütik védve"
+    }, 
+    "editThis_support": {
+        "message": "Támogass minket"
+    }, 
+    "editThis_addNew": {
+        "message": "Új süti"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "Szolid hirdetések mutatása néhány oldalon"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "Segíts lefordítani a kiegészítőt a saját nyelvedre:"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "Gyorsítótár kihagyása frissítésnél"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "info és beállítások"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "Használhatsz regex-et"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "Bug jelentés / Javaslatok"
+    }, 
+    "editThis_Save": {
+        "message": "Mentés"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Ha ezt engedélyezed, elrejtheted az eszköztárról az ikont ha a jobb egérgombbal rákattintasz"
+    }, 
+    "editThis_statsSince": {
+        "message": "Süti statisztikák $1 óta"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "A domain jelzése a sütik neve mellett"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Válaszd ki a kívánt exportálási formátumot"
+    }, 
+    "editThis_reset": {
+        "message": "Visszaállítás"
+    }, 
+    "editThis_addRule": {
+        "message": "Szabály hozzáadása"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "Másold ide az importálni kívánt sütiket. Elfogadott formátumok:"
+    }, 
+    "editThis_description": {
+        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Sütik módosítva"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "Süti megjelölése"
+    }, 
+    "editThis_time": {
+        "message": "Idő"
+    }, 
+    "editThis_day": {
+        "message": "Napok"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "Megjelölt sütik törölve"
+    }, 
+    "editThis_stats": {
+        "message": "Statisztikák"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "Más nyelv választása"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "You will help children in need all over the world, because $1% of the revenues go to"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "Sütik maximális lejárati dátumának átírása"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "Minőségi nyílt forráskódú szoftvereket készítünk, és ingyen adjuk mindenkinek. <br><br> Támogass minket $1 -al. A csúszkával állíthatod az összeget", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "Hónap"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Sütik létrehozva"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Cookies imported"
+    }, 
+    "editThis_secure": {
+        "message": "Biztonságos"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Cookies' expiration shortened"
+    }, 
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    }, 
+    "editThis_Max_Date": {
+        "message": "A maximális lejárati dátum állítása:"
+    }, 
+    "editThis_session": {
+        "message": "Munkamenet"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "\"Sütik Szerkesztése\" gomb a kontextuális menüben"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "Mindig kérjen megerősítést"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "Repülő Spagettiszörny Evangéliuma"
+    }, 
+    "editThis_timesUsed": {
+        "message": "$1 alkalommal használtad ezt a kiegészítőt"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "Nagylelkű vagy! Ha találkozunk, meghívlak egy pár sörre (hé, a sör fontos)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "Ha találkozunk, meghívlak egy olasz kávéra és egy 'Babbà'-ra"
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "Kitalálhatsz egy funkciót, amit szívesen látnál a kiegészítőben, és megcsinálom! (csak ne kérj lehetetlent :P )"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "Mondj egy bugot, ami idegesít a kiegészítőben, és szuper gyorsan kijavítom neked!"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "Kapni fogsz egy király \"Edit This Cookie\" köszönő képeslapot!"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "A neved ott lesz a Dicsőségfalon."
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "Kapni fogsz egy köszönő emailt, és egy ici-pici helyet a szívemben"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "Új süti megjelölése"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Be the cause of my very first heart stroke. All you have to do is donate now!"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "Te lehetsz a vezetője az új vallásomnak, és ha szeretnéd, küldök neked egy példányt a következő könyvből:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "Csak olvasható"
+    }, 
+    "editThis_deleteAll": {
+        "message": "Összes törlése"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "Garantáljuk, hogy semmilyen személyes adatot nem adunk ki!"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "A védett süti az, amit nem módosíthat sem egy oldal, sem egy kiegészítő"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "Nincs védett süti"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "A jelenlegi oldalhoz tartozó összes süti törlése?"
+    }, 
+    "editThis_Donate": {
+        "message": "Vedd ki a részed"
+    }, 
+    "editThis_year": {
+        "message": "Év"
+    }, 
+    "editThis_seconds": {
+        "message": "Másodperc"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Sütik Szerkesztése"
+    }, 
+    "editThis_name": {
+        "message": "Név"
+    }, 
+    "editThis_domain": {
+        "message": "Domain"
+    }, 
+    "editThis_path": {
+        "message": "Elérési út"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "Védett"
+    }, 
+    "editThis_amountByHand": {
+        "message": "egyéni összeg beírásához kattints ide"
+    }, 
+    "editThis_backToList": {
+        "message": "Vissza a listához"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Oldal frissítése a változtatások mentése után"
+    }, 
+    "editThis_expiration": {
+        "message": "Lejárati dátum"
+    }, 
+    "editThis_donations": {
+        "message": "Támogatás"
+    }, 
+    "editThis_storeID": {
+        "message": "StoreID"
+    }, 
+    "editThis_value": {
+        "message": "Érték"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Küldj emailt"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "No block rules added"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "Szabály törlése"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Cookies exported"
+    }, 
+    "editThis_advertisements": {
+        "message": "Hirdetések"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "Még nincs adat :("
+    }, 
+    "editThis_hour": {
+        "message": "Óra"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Sütik értékének kódolása (<a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a> alapján) (Ajánlott)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Itt találsz egy kis magyarázatot a kiegészítő alap funkcióiról"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "Támogatni akarok", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_cancel": {
+        "message": "Mégse"
+    }, 
+    "editThis_search": {
+        "message": "Keresés"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Süti exportálása"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Süti törlése"
+    }
+}

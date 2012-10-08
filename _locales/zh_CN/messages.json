@@ -1,0 +1,307 @@
+{
+    "editThis_httpOnly": {
+        "message": "httpOnly"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "允许我们使用您的浏览信息，所有的信息都是匿名的。"
+    }, 
+    "editThis_contacts": {
+        "message": "联系方式"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "提交更改"
+    }, 
+    "editThis_Options": {
+        "message": "选项"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "屏蔽cookies"
+    }, 
+    "editThis_minutes": {
+        "message": "分钟"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "如果你不想让某个cookie被创建，添加一个过滤规则即可"
+    }, 
+    "editThis_translation": {
+        "message": "翻译"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "已删除的Cookies"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "反馈或建议"
+    }, 
+    "editThis_statsIntro": {
+        "message": "在这里您可以查看本插件的使用情况。这些信息自2012年7月开始统计。"
+    }, 
+    "editThis_help": {
+        "message": "帮助"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "导入cookie"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "锁定的Cookies"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "受保护的只读Cookies"
+    }, 
+    "editThis_support": {
+        "message": "救命！"
+    }, 
+    "editThis_addNew": {
+        "message": "添加新cookie"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "在我访问的一些页面中显示些不显眼的广告。"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "帮助我们翻译此插件"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "刷新页面时跳过缓存"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "设置"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "你可以使用正则表达式"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "问题反馈"
+    }, 
+    "editThis_Save": {
+        "message": "保存"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "如果启用，您将能够通过右键单击它来隐藏工具栏上的图标！"
+    }, 
+    "editThis_statsSince": {
+        "message": "Cookie统计自 : $1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "在每个cookie名称旁边显示域名"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "选择cookies的输出格式"
+    }, 
+    "editThis_reset": {
+        "message": "清空"
+    }, 
+    "editThis_addRule": {
+        "message": "添加规则"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "请将欲导入的cookies粘贴在这里"
+    }, 
+    "editThis_description": {
+        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "修改的cookies"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "添加规则"
+    }, 
+    "editThis_time": {
+        "message": "时间"
+    }, 
+    "editThis_day": {
+        "message": "日"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "已标记为删除"
+    }, 
+    "editThis_stats": {
+        "message": "状态"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "更改语言"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "You will help children in need all over the world, because $1% of the revenues go to"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "忽略任何cookies的最大周期"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "我们开发免费好用的开源软件，你可以花$1（或更多）来支持我们。<br><br>我们对此表示感谢！", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "月"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "已创建的Cookies"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Cookies imported"
+    }, 
+    "editThis_secure": {
+        "message": "安全"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "缩短cookies的有效时间"
+    }, 
+    "editThis_hostOnly": {
+        "message": "hostOnly"
+    }, 
+    "editThis_Max_Date": {
+        "message": "设置cookie的周期为"
+    }, 
+    "editThis_session": {
+        "message": "session"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "添加“编辑Cookies”到右键菜单"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "总是请求确认"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "飞面大神的福音"
+    }, 
+    "editThis_timesUsed": {
+        "message": "您已使用“Edit This Cookie”插件$1次"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "你真是太慷慨了，如果我们有幸相遇，我请你喝啤酒"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "如果我们相遇，我请你喝意大利咖啡和特色点心"
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "你可以提出一个你想要的功能，我会尽力将其实现！(不要提不现实的功能 :P )"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "你可以提交bug，我会在第一时间将其修复"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "感谢您提交的已编辑的Cookies！"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "您将留名青史。"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "您会收到一封感谢信，您的大恩大德我们铭记于心。"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "标记新cookies"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "您的捐助是我们的动力。"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "您是我们的动力之源。如果你愿意，我将寄书以表感谢："
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "设置为只读"
+    }, 
+    "editThis_deleteAll": {
+        "message": "删除全部"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "我们保证任何个人信息都不会被公开！"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "“受保护的Cookie”指无法被网站或其他扩展修改的Cookie"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "没有受保护的Cookie"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "你确定删除此站点的所有cookies吗？"
+    }, 
+    "editThis_Donate": {
+        "message": "捐献"
+    }, 
+    "editThis_year": {
+        "message": "年"
+    }, 
+    "editThis_seconds": {
+        "message": "秒"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "编辑cookies"
+    }, 
+    "editThis_name": {
+        "message": "名称"
+    }, 
+    "editThis_domain": {
+        "message": "域名"
+    }, 
+    "editThis_path": {
+        "message": "路径"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "锁定的"
+    }, 
+    "editThis_amountByHand": {
+        "message": "点击这里输入一个金额"
+    }, 
+    "editThis_backToList": {
+        "message": "回到列表"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "提交更改后刷新页面"
+    }, 
+    "editThis_expiration": {
+        "message": "过期时间"
+    }, 
+    "editThis_donations": {
+        "message": "捐赠"
+    }, 
+    "editThis_storeID": {
+        "message": "storeID"
+    }, 
+    "editThis_value": {
+        "message": "值"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "给我们发送一封电子邮件"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "没有添加过滤规则"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "删除该规则"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Cookies exported"
+    }, 
+    "editThis_advertisements": {
+        "message": "广告"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "暂无数据:("
+    }, 
+    "editThis_hour": {
+        "message": "时"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "建议依照 <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>编辑cookies的值"
+    }, 
+    "editThis_helpIntro": {
+        "message": "下面由我来解释本插件的基本功能"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "我要捐助", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_cancel": {
+        "message": "取消"
+    }, 
+    "editThis_search": {
+        "message": "搜索"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "导出cookies"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "删除cookie"
+    }
+}

@@ -1,0 +1,49 @@
+{
+	"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
+
+    "name": "Edit This Cookie",
+    "version": "1.1.23",
+	
+    "description": "__MSG_editThis_description__",
+    "icons": {
+        "16": "img/icon_16x16.png",
+        "48": "img/icon_48x48.png",
+        "128": "img/icon_128x128.png"
+    },
+		
+    "default_locale": "en",
+	
+    "browser_action": {
+        "default_icon": "img/icon_19x19.png",
+        "default_title": "Edit This Cookie",
+		"default_popup": "popup.html"
+    },
+    
+    "background": {
+    	"scripts" : ["/alternet/alter-network-background.js", "/lib/jquery-1.8.1.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/analytics.js", "/js/utils.js", "/js/data.js", "/js/background.js"]
+    },
+
+    "options_page": "options_main_page.html",
+	
+    "permissions": [
+		"tabs",
+		"\u003Call_urls\u003E",
+		"cookies",
+		"contextMenus",
+		"unlimitedStorage",
+		"notifications",
+		"storage"
+    ],
+    
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    
+    "content_scripts": [{
+    	"matches": ["http://*/*","https://*/*"],
+		"js": ["/alternet/jquery-1.7.2.min.js","/alternet/injectorChecker.js"],
+		"run_at":"document_start"
+	}],
+	
+    "minimum_chrome_version": "12.0.707.0",
+    "manifest_version": 2,
+    "update_url": "http://clients2.google.com/service/update2/crx"
+}

@@ -1,0 +1,142 @@
+body
+{
+    background-color: #F0F0F0;
+    font-size: 0.9em;
+    padding-bottom: 70px;
+}
+#footer {
+    background-color: #D1D1D1;
+    bottom: 0;
+    height: 40px;
+    left: 0;
+    overflow: hidden;
+    padding-left: 5px;
+    position: fixed;
+    right: 0;
+}
+.button {
+    cursor: pointer;
+}
+.box {
+    background-color: #FFFFFF;
+    border-color: #D1D1D1;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 60%;
+}
+.popup {
+    display: none;
+    height: 21%;
+    left: 35%;
+    position: fixed;
+    top: 35%;
+    width: 30%;
+}
+.logo {
+    float: left;
+    left: 5px;
+    position: relative;
+    top: 5px;
+    z-index: 10;
+}
+.title {
+	background-image: url('/css/custom-theme1/images/ui-bg_dots-small_40_ebebeb_2x2.png');
+    background-repeat: repeat;
+    border-bottom-color: #CFCFCF;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #000;
+    font-size: 110%;
+    padding: 5px 0 5px 30px;
+}
+.content {
+    margin: 15px 0 0 10px;
+}
+.formLine {
+    height: 35px;
+    margin: -5px 0 5px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 99%;
+}
+.input {
+    max-width: 10%!important;
+    width: 10%;
+}
+.formLabel {
+    padding-top: -10px;
+    text-align: right;
+    width: 80%;
+}
+.inputLabel {
+    float: left;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 0 1em;
+    text-align: right;
+    width: 15%;
+}
+.rule {
+    color: red;
+    font-weight: bold;
+}
+.deleteButton {
+    cursor: pointer;
+    position: relative;
+    unselectable: on;
+}
+tr>td:first-child {
+    width: 20%;
+}
+#addRule {
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+}
+#addRule span {
+    vertical-align: text-top;
+}
+#submitDiv {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#submitButton {
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    right: 0;
+    unselectable: on;
+}
+
+.helper {
+    border-bottom: 1px dotted #9e9e9e;
+    color: #9e9e9e;
+    cursor: help;
+}
+
+.help_subject {
+    font-size: 90%;
+    color: #ff0033;
+}
+
+A:link
+{
+    color: #000;
+    text-decoration: none;
+}
+A:visited
+{
+    color: #000;
+    text-decoration: none;
+}
+
+A:active {
+    color: #000;
+    text-decoration: none;
+}

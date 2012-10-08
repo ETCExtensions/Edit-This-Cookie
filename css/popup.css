@@ -1,0 +1,253 @@
+html {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+body {
+	background-color: #ededed;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    font-size: .65em;
+}
+#wrapper {
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+#backToList {
+	display: none;
+}
+#newCookie, #pasteCookie {
+    display: none;
+}
+#newCookieFromString {
+    display: none;
+    visibility: hidden;
+}
+#cookieFilter {
+    display: none;
+}
+.filteredBy {
+    color: red;
+    font-weight: bold;
+    max-width: 250px;
+    overflow: hidden;
+}
+.filterInput {
+    float: left;
+    width: 5%;
+    margin: -2px 5px 0 10px;
+}
+
+.input {
+   width: 99%;
+}
+.checkbox {
+   margin-left:0;
+}
+#searchBox {
+    float: right;
+    z-index: 1000;
+}
+#searchField {
+    display: none;
+    position: fixed;
+    top: 1px;
+    margin-left: -101px;
+    width: 100px;
+    z-index: 1000;
+}
+#submitFiltersDiv {
+    float: right;
+    height: 30px;
+    right: 15px;
+    top: 10px;
+}
+#submitDiv {
+    display: none;
+    position: fixed;
+    height: 30px;
+    right: 3px;
+    bottom: 0;
+    overflow: visible;
+}
+.submitDivSepWindow {
+	position: relative !important;
+	top: 5px !important;
+    bottom: 0 !important;
+	width: 150px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+#submitButton {
+    bottom: -5px;
+    height: 30px;
+    width: auto;
+    unselectable: on;
+}
+.clearDiv {
+    cursor: pointer;
+    float: right;
+    margin-right: 3px;
+    margin-top: -10px;
+    unselectable: on;
+}
+.searchResult {
+    background: none!important;
+    background-color: #4DFFA3!important;
+}
+.highlight {
+    color: black;
+    font-weight: bold;
+}
+#alert_wrapper {
+    position: absolute;
+    background-color: #FFF;
+    display: none;
+    opacity: .8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+#alert_box {
+	display: inline;
+    position: absolute;
+    opacity: 10;
+    width: 100px;
+    font-size: 1.25em;
+    padding: 10px 20px 10px 20px;
+    background-color: #000;
+    color: #FFF;
+}
+#alert_title {
+    margin: 0 0 10px 0;
+    word-wrap: break-word;
+}
+#alert_title_p {
+    margin: 0;
+}
+#alert_buttons {
+    margin: auto;
+    width: 75%;
+}
+.alert_button {
+    width: 45%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #C7C7C7;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+.alert_button:hover {
+    background-color: #2a2a2a;
+}
+#alert_ok {
+    float: left;
+}
+#alert_cancel {
+    float: right;
+}
+.helper {
+    visibility: hidden;
+    margin-left: -9px;
+    color: #b10000!important;
+    cursor: help;
+    font-weight: bold;
+}
+.ui-accordion-content {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+#cookieFilter .cookie-row > div {
+	width: 150px !important;
+}
+
+.cmdText {
+	height: 16px;
+}
+
+.value {
+	resize: vertical;
+}
+#cookieList {
+}
+
+.cookie_details_template {
+	display: none;
+}
+
+
+.cookie-table, .cookie-row {
+	width: 100%;
+}
+.cookie-table {
+	display: table;
+	z-index: 10;
+    unselectable: on;
+}
+.cookie-row {
+	display: table-row;
+}
+.cookie-row > * {
+	display: table-cell;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.cookie-row > label {
+	text-align: right;
+	width: 80px;
+}
+
+
+.commands-table {
+	display: table;
+	z-index: 10;
+    unselectable: on;
+    font-size: 1.2em;
+}
+.commands-row {
+	display: table-row;
+}
+.commands-row > * {
+	display: table-cell;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.commands-row > * > * {
+	display: table-row;
+	cursor: pointer;
+}
+.commands-row > * > * > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.error {
+	width: 100%;
+	color: red;
+	font-size: 1.2em;
+	text-align: left !important;
+}
+
+.toast {
+	display:none;
+	position: fixed;
+	z-index: 4000;
+	background-color: #4D4D4D;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 1.5em;
+	padding: 7px;
+	width: auto;
+	top: 10%;
+	left: 50%;
+}

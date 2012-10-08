@@ -1,0 +1,69 @@
+body {
+#	background-color: #F7F7F7;
+}
+
+#support-box > h1 {
+#	color: rgb(255, 0, 0);
+}
+
+#paypal-slider {
+	clear: both;
+	float:left;
+	max-width:400px;
+	width: 60%;
+}
+
+#paypal-amount {
+	float:left;
+	width: 210px;
+	height: 30px;
+	margin-top: -4px;
+	margin-left: 15px;
+}
+
+#paypal-custom-amount {
+	float: left;
+	margin-top: -1px;
+	color: rgb(255, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#paypal-donate-button {
+	float: right;
+	border-bottom-width: 0 !important;
+	width:110px;
+	height: 28px;
+	margin-top: -22px;
+}
+
+#paypal-benefits {
+	clear: both;
+	margin-right:120px;
+	padding-top: 0px;
+	font-size: 110%;
+}
+
+#benefits-list {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+.benefit-unmatched {
+	color: #999;
+	text-decoration: line-through;
+}
+
+li#support-chooser {
+	color: rgb(255, 0, 0);
+}
+li#support-chooser > img {
+	margin-left: -18px;
+}
+li#support-chooser:hover {
+	color: rgb(255, 100, 100);
+}
+li#support-chooser.selected {
+	-webkit-border-start-color: rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
+}

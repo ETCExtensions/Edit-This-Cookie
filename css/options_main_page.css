@@ -1,0 +1,134 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color: #FFF;
+	font-size: 0.9em;
+	font-family: 'DejaVu Sans', Arial, sans-serif;
+	font-size: 75%;
+	cursor: default;
+	-webkit-user-select: none;
+}
+
+h1 {
+	color: rgb(92, 97, 102);
+	font-size: 150%;
+	font-weight: normal;
+	line-height: 1;
+}
+
+#navigation {
+	position: fixed;
+	left: 0;
+	width: 160px;
+	height: 100%;
+	padding-top: 15px;
+	background-color: #FFF;
+	background-color: #F7F7F7;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E3E3E3;
+	z-index: 1;
+}
+#navigation > h1 {
+	margin-left: 5px;
+}
+#navigation > ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+#navigation li {
+	-webkit-border-start: 6px solid transparent;
+	-webkit-padding-start: 18px;
+	-webkit-user-select: none;
+	color: #999;
+	cursor: pointer;
+	line-height: 17px;
+	margin: 5px 0;
+}
+#navigation li:hover {
+	color: #777;
+}
+#navigation li.selected {
+	-webkit-border-start-color: rgb(78, 87, 100);
+	color: rgb(70, 78, 90);
+	font-weight: bold;
+}
+
+#maincontent {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #F7F7F7;
+	border: none;
+}
+.box {
+	margin-left: 180px;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.box h1 {
+	color: #000;
+	margin-top: 10px;
+	margin-left: -10px;
+	font-size: 200%;
+}
+.section-title {
+	margin-top: 0px;
+	margin-left: -10px;
+	margin-bottom: 10px;
+	font-size: 110%;
+	font-weight: bold;
+}
+.section-title:first-of-type {
+	margin-top: 10px;
+}
+
+
+.button {
+    cursor: pointer;
+}
+
+.formLine {
+    height: 30px;
+}
+
+.checker > span {
+	margin-top: -2px !important;
+}
+
+A:link
+{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+A:visited
+{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+A:active {
+    color: rgb(255, 200, 200);
+    text-decoration: none;
+}
+
+.helper {
+    border-bottom: 1px dotted #9e9e9e !important;
+    color: #9e9e9e !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+hr {
+	margin: 10px 0 10px -15px;
+	border-top-color: #E3E3E3;
+	border-top-style: solid;
+	border-width: 1px 0 0 0;
+}
+
+.template {
+	display: none !important;
+}

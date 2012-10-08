@@ -1,0 +1,307 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "Anna meidän kerätä selailudataasi. (Kaikki data on anonyymiä)"
+    }, 
+    "editThis_contacts": {
+        "message": "Yhteystiedot"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Päivitä evästemuutokset"
+    }, 
+    "editThis_Options": {
+        "message": "Valinnat"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "Estetyt evästeet"
+    }, 
+    "editThis_minutes": {
+        "message": "Minuuttia"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Jos haluat automaattisesti poistaa tietyn evästeen aina kun se luodaan, lisää suodatin, jolloin se ei häiritse sinua enää."
+    }, 
+    "editThis_translation": {
+        "message": "Käännöksen suomen kielelle teki Jesse Järvi"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Evästeet poistettu"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Löysitkö bugin tai onko sinulla ehdotus? Kerro siitä meille!"
+    }, 
+    "editThis_statsIntro": {
+        "message": "Täällä voit nähdä, miten käytit tätä lisäosaa. Tätä dataa ollaan kerätty vain heinäkuusta 2012 saakka."
+    }, 
+    "editThis_help": {
+        "message": "Tuki"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Tuo evästeitä"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "Suojatut evästeet"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "Vain luku-tilassa olevat evästeet suojattu"
+    }, 
+    "editThis_support": {
+        "message": "Tue meitä"
+    }, 
+    "editThis_addNew": {
+        "message": "Lisää uusi eväste"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "Näytä huomaamattomia mainoksia joillakin käymilläni sivuilla"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "Auta meitä kääntämään tätä lisäosaa kielellesi:"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "Ohita välimuisti, kun sivu lataa uudelleen"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "tietoa ja asetuksia"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "Voit käyttää tavallisia ilmaisuja"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "Bugit / Ominaisuuspyynnöt"
+    }, 
+    "editThis_Save": {
+        "message": "Tallenna"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Jos tämä on käytössä, voit piilottaa kuvakkeen työkalupalkissa osoittamalla sitä oikealla näppäimellä."
+    }, 
+    "editThis_statsSince": {
+        "message": "Tilastoja evästeistä alkaen ajasta $1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "Näytä domain lähellä jokaisen evästeen nimeä"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Valitse haluttu vientimuoto evästeille"
+    }, 
+    "editThis_reset": {
+        "message": "Tyhjennä"
+    }, 
+    "editThis_addRule": {
+        "message": "Lisää tämä sääntö"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "Liitä tähän tuotavat evästeet. Tässä vielä sallitut tiedostomuodot:"
+    }, 
+    "editThis_description": {
+        "message": "Edit This Cookie on evästemuokkain. Voit lisätä, poistaa, muokata, hakea, suojata ja estää evästeitä!"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Evästeitä muokattu"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "Merkitse eväste"
+    }, 
+    "editThis_time": {
+        "message": "Aika"
+    }, 
+    "editThis_day": {
+        "message": "Päivää"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "Merkityt evästeet poistettu"
+    }, 
+    "editThis_stats": {
+        "message": "Tilastoja"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "Valitse toinen kieli"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "Autat samalla lapsia ympäri maailmaan, sillä $1% tuotoista saa "
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "Ohita maksimi-ikä millekkään evästeelle"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "Kehitämme korkealaatuisia avoimen lähdekoodin ohjelmistoja, ja jaamme niitä ilmaiseksi. <br> <br> Tue meitä käyttämällä $1ia. Siirrä valintapalkkia muuttaaksesi summaa.", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "Kuukautta"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Evästeet luotu"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Evästeet tuotu!"
+    }, 
+    "editThis_secure": {
+        "message": "Suojattu"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Evästeitten vanhenemisaika lyhennetty"
+    }, 
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    }, 
+    "editThis_Max_Date": {
+        "message": "Aseta evästeen maksimi-iäksi"
+    }, 
+    "editThis_session": {
+        "message": "Session"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "Näytä \"Muokkaa evästeitä\" kontekstivalikossa"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "Pyydä aina varmistusta"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "Lentävän Spagettihirviön Gospel"
+    }, 
+    "editThis_timesUsed": {
+        "message": "Olet käyttänyt Edit This Cookieta $1 kertaa."
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "Olet erittäin antelias! Jos tapaamme ikinä, tarjoan sinulle pari huurteista (hei, kalja on tärkeää)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "Jos tapaamme ikinä, tarjoan sinulle italialaisen kahvin ja \"Babbán\""
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "Voit valita toteutettavan ominaisuuden, ja teen sen todelliseksi! (kunhan et vain pyydä mahdottomia :P )"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "Voit valita minkätahansa ärsyttävän bugin, joka ärsyttää sinua Edit This Cookiessa, ja korjaan sen supernopeasti!"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "Saat siistin Edit This Cookie-kiitospostikortin!"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "Nimesi lisätään Wall of Fameen"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "Saat kiitosviestin, ja paikan sydämestäni"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "Merkitse uusi eväste"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Voit olla syy ensimmäiseen sydäriini. Sinun tarvitsee vain lahjoittaa nyt!"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "Voit olla uskonnollinen johtajani, ja jos toivot, voin lähettää sinulle tämän kirjan:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "Aseta vain luku-tilaan"
+    }, 
+    "editThis_deleteAll": {
+        "message": "Poista kaikki"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "Vannomme, että mitään henkilökohtaista dataa ei jaeta IKINÄ!"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "Suojattu eväste on eväste, jota ei voi muokata mikään verkkosivu tai laajennus."
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "Ei suojattuja evästeitä"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "Poista kaikki evästeet tältä sivulta?"
+    }, 
+    "editThis_Donate": {
+        "message": "Osallistu"
+    }, 
+    "editThis_year": {
+        "message": "Vuotta"
+    }, 
+    "editThis_seconds": {
+        "message": "Sekuntia"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Muokkaa evästeitä"
+    }, 
+    "editThis_name": {
+        "message": "Arvo"
+    }, 
+    "editThis_domain": {
+        "message": "Domain"
+    }, 
+    "editThis_path": {
+        "message": "Polku"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "Suojattu"
+    }, 
+    "editThis_amountByHand": {
+        "message": "Valitaksesi tarkan summan, paina tästä!"
+    }, 
+    "editThis_backToList": {
+        "message": "Takaisin listaukseen"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Lataa sivu uudelleen muutosten tallentamisen jälkeen."
+    }, 
+    "editThis_expiration": {
+        "message": "Vanhentuminen"
+    }, 
+    "editThis_donations": {
+        "message": "Lahjoitukset"
+    }, 
+    "editThis_storeID": {
+        "message": "StoreID"
+    }, 
+    "editThis_value": {
+        "message": "Arvo"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Lähetä meille sähköpostia (englanniksi)"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "Ei estettyjä evästeitä"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "Poista tämä sääntö"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Evästeet viety!"
+    }, 
+    "editThis_advertisements": {
+        "message": "Mainokset"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "Ei sisältöä (vielä) :("
+    }, 
+    "editThis_hour": {
+        "message": "Tuntia"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Enkoodaa evästeitten arvot (kuten <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">täällä</a> kerrotaan) (Suositeltu)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Täällä näet selityksiä lisäösan perustoimintoihin."
+    }, 
+    "editThis_iWantDonate": {
+        "message": "Haluan lahjoittaa", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_cancel": {
+        "message": "Peruuta"
+    }, 
+    "editThis_search": {
+        "message": "Etsi"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Vie evästeet"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Poista eväste"
+    }
+}
