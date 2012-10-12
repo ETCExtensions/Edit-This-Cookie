@@ -71,3 +71,15 @@ span.ui-icon {
 	text-decoration: line-through;
 }
 
+.table {
+	width: auto !important;
+	margin: -7px 0 15px 30px;
+}
+
+.table_row div {
+	height: 1.3em;
+}
+
+.table_data:hover {
+	background-color: #F7F7F7;
+}

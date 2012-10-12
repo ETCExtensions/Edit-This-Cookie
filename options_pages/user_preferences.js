@@ -77,6 +77,9 @@ function setEvents() {
         AN_status.showADS = $('#AN_showADSStatus').prop("checked");
         setOptions();
     });
+    $("#donationsMadeTitle").click(function() {
+			$("#donationsMadeDetails").toggle("slide", {"direction": "left"});
+	});
     $("#showAlerts").click(function() {
         preferences.showAlerts = $('#showAlerts').prop("checked");
     });

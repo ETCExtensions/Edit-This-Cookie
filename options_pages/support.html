@@ -43,15 +43,32 @@
                 <input type="checkbox" id="AN_showADSStatus" class="checkbox"/>
                 <b><label class="formLabel" i18n="AN_adsDescription"></label></b>
             </div>
+            
             <div class="formLine" style="margin: -20px 0 10px 0px;">
             	<img id="donation_heart" src="/img/16/heart.png" style="height:16px; width:16px; margin:-8px 9px 0 1px; vertical-align:bottom;"/>
             	<img id="donation_heart_broken" src="/img/16/broken_heart.png" style="display:none; height:16px; width:18px; margin:-8px 7px 0 1px; vertical-align:bottom;"/>
             	<b><span class="formLabel charityMessage" i18n="Charity_Message" i18n_argument="50"></span> </b>
             	<a href="http://www.unicef.org/" alt="Unicef" target="_blank"><img id="unicefImage" src="/img/unicef-logo.png" style="height: 30px; vertical-align: bottom; margin-bottom: -3px;"/></a>
+            	&nbsp;&nbsp;&nbsp;&nbsp;
+            	<span class="" id="donationsMadeTitle" style="font-size:1.2em;"><span i18n="Money_Raised"></span>: <b style="color: green; font-size:1.2em;">56.80&euro; &#8776; 73.46$</b>&nbsp;&nbsp;&nbsp;<a class="helper" href="#" i18n="Details"></a></span>
             </div>
+            <div id="donationsMadeDetails" class="table" style="display:none;">
+        		<div class="table_row header">
+	                <div i18n="Donation_Date"></div>
+	                <div i18n="Humanitarian_Program"></div>
+	                <div i18n="Amount"></div>
+                </div>
+                
+			    <div class="table_row table_data">
+	                <div>11/10/2012</div>
+	                <div><a target="_blank" href="http://www.supportunicef.org/site/c.dvKUI9OWInJ6H/b.8008351/k.24B9/Support_UNICEF__Nutrition_crisis_in_Sahel.htm">Nutrition crysis in Sahel</a></div>
+	                <div>56.80&euro;</div>
+                </div>
+        	</div>
+        	
             <hr>
             <div class="section-title" i18n="donations"></div>
-            <div i18n="paypalSupportIntro" i18n_argument='<img style="height: 20px; width:70px; vertical-align: -30%;" src="/img/paypal-logo-res.png"/>'></div>
+            <div i18n="paypalSupportIntro" i18n_argument='<img style="height: 20px; width:70px; vertical-align: -40%;" src="/img/paypal-logo-res.png"/>'></div>
             <div style="margin-top: 10px;">
                 <div id="paypal-slider"></div>
                 <div id="paypal-amount">
@@ -63,7 +80,7 @@
                         <option value="GBP">GBP &pound;</option>
                     </select>
                 </div>
-                <div id="paypal-custom-amount">(<span i18n="amountByHand"></span>)</div>
+                <div id="paypal-custom-amount" class="link_like">(<span i18n="amountByHand"></span>)</div>
             </div>
             <div id="paypal-benefits">
                 <ul id="benefits-list">
@@ -92,14 +109,33 @@
             </form>
             <div id="paypal-donate-button" i18n="Donate"></div>
             <hr>
-            <div class="section-title" i18n="translation"></div>
-            <p><span i18n="translationIntro"></span> <a target="_blank" href="http://www.getlocalization.com/editthiscookie/">http://www.getlocalization.com/editthiscookie/</a></p>
+            <div class="linkify" lnk="https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg/reviews">
+		        <div class="section-title" i18n="Rate_ETC"></div>
+		        <span>
+				    <img src='/img/16/star.png' style="height:16px; width:16px; margin:-15px 5px 1px 0px; vertical-align:bottom;"/>
+				    <span i18n="Rate_Us_Intro"></span>
+		        </span>
+	        </div>
             <hr>
-            <div class="section-title" i18n="bugsFeatureRequest"></div>
-            <p><span i18n="bugsFeatureRequestIntro"></span> <a target="_blank" href="http://code.google.com/p/editthiscookie/issues/list?can=1&q=&sort=-stars&colspec=ID%20Type%20Status%20Priority%20Milestone%20Owner%20Summary%20Stars">http://code.google.com/p/editthiscookie/issues/list</a></p>
+            <div class="linkify" lnk="http://www.getlocalization.com/editthiscookie/">
+		        <div class="section-title" i18n="translation"></div>
+		        <span i18n="translationIntro"></span>
+            </div>
             <hr>
-            <div class="section-title" i18n="contacts"></div>
-            <p><a target="_blank" href="mailto:fcapano@gmail.com?Subject=About Edit This Cookie" i18n="contactsIntro"></a></p>
+            <div class="linkify" lnk="https://github.com/fcapano/Edit-This-Cookie/issues">
+		        <div class="section-title" i18n="bugsFeatureRequest"></div>
+		        <span i18n="bugsFeatureRequestIntro"></span> 
+            </div>
+            <hr>
+            <div class="linkify" lnk="https://github.com/fcapano/Edit-This-Cookie">
+		        <div class="section-title" i18n="Source_Code"></div>
+		        <span i18n="Source_Code_Intro" i18n_argument="<img src='/img/github_logo.png' style='height:40px; vertical-align:-80%; margin-top:-20px'/>"></span>
+            </div>
+            <hr>
+            <div class="linkify" lnk="mailto:fcapano@gmail.com?Subject=About Edit This Cookie">
+		        <div class="section-title" i18n="contacts"></div>
+		        <p i18n="contactsIntro"></p>
+		    </div>
         </div>
     </body>
 </html>

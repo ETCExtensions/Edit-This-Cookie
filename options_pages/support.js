@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
     $("input:checkbox").uniform();
     setAdsOption();
-    setAdsEvent();
+    setEvents();
     setDonation();
 });
 
@@ -11,6 +11,9 @@ updateCallback = function() {
 
 function setAdsOption() {
     $(':checkbox').removeAttr('checked');
+    
+    $("#donationsMadeDetails").hide();
+    
     $("#AN_showADSStatus").prop('checked', AN_status.showADS);
     if(AN_status.showADS) {
     	$("#donation_heart").show();
@@ -26,11 +29,28 @@ function setAdsOption() {
     $.uniform.update();
 }
 
-function setAdsEvent() {	
+function setEvents() {
     $("#AN_showADSStatus").click(function() {
         AN_status.showADS = $('#AN_showADSStatus').prop("checked");
         setAdsOption();
     });
+	$("#donationsMadeTitle").click(function() {
+		$("#donationsMadeDetails").toggle("slide", {"direction": "left"});
+	});
+	$(".linkify").click(function(){
+		var urlToOpen = $(this).attr("lnk");
+		if(urlToOpen == undefined)
+			return;
+		
+		chrome.tabs.getCurrent(function(cTab){
+			chrome.tabs.create({
+				"url" : urlToOpen,
+				"active": true,
+				"index": cTab.index + 1,
+				"openerTabId": cTab.id
+			});
+		});
+	});
 }
 
 function setDonation() {

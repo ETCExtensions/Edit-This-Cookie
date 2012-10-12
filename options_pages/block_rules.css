@@ -10,35 +10,8 @@ body {
 	margin-top: -37px;
 }
 
-.table {
-	padding-left: 0px;
-	width: 100%;
-	display: table;
-	border-collapse: separate;
-	border-spacing: 0px;
-}
-
-.table_row {
-	width: 100%;
-	display: table-row;
-	vertical-align:middle
-}
-
-.header div {
-	padding-left: 0px !important;
-	font-weight: bold;
-}
-
 .active {
 	background-color: #F7F7F7;
-}
-
-.table_row div {
-	height: 30px;
-	padding-right: 10px;
-	display: table-cell;
-	text-align:left;
-	vertical-align:middle;
 }
 
 .new_rule_operations {

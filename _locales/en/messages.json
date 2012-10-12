@@ -257,13 +257,13 @@
       "message": "Translation"
    },
    "editThis_translationIntro": {
-      "message": "Help us translate the extension you your language: "
+      "message": "Help us translate the extension you your language"
    },
    "editThis_bugsFeatureRequest": {
       "message": "Bugs / Feature Requests"
    },
    "editThis_bugsFeatureRequestIntro": {
-      "message": "Found a bug or have a suggestion? Tell us: "
+      "message": "Found a bug or have a suggestion? Tell us!"
    },
    "editThis_contacts": {
       "message": "Contacts"
@@ -307,32 +307,33 @@
    "editThis_Charity_Message": {
       "message": "You will help children in need all over the world, because $1% of the revenues go to"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Details": {
+      "message": "Details"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Money_Raised": {
+      "message": "Money raised so far"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Donation_Date": {
+      "message": "Donation Date"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Amount": {
+      "message": "Amount"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Humanitarian_Program": {
+      "message": "Humanitarian program"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Source_Code": {
+      "message": "Source Code"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Source_Code_Intro": {
+      "message": "Check Edit This Cookie's source code on $1",
+      "description": "It will read: Check Edit This Cookie's source code on GitHub"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Rate_ETC": {
+      "message": "Rate Edit This Cookie"
    },
-   "editThis_": {
-      "message": ""
+   "editThis_Rate_Us_Intro": {
+      "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
    },
    "editThis_": {
       "message": ""

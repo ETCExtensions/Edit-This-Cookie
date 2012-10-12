@@ -99,20 +99,18 @@ h1 {
 	margin-top: -2px !important;
 }
 
-A:link
-{
-    color: rgb(255, 0, 0);
-    text-decoration: underline;
-}
-A:visited
-{
-    color: rgb(255, 0, 0);
-    text-decoration: underline;
+A:link, A:visited, A:active, .link_like {
+    color: #4183C4;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-A:active {
-    color: rgb(255, 200, 200);
-    text-decoration: none;
+.linkify {
+	cursor: pointer;
+}
+.linkify:hover {
+	color: #4D4D4D;
 }
 
 .helper {
@@ -131,4 +129,31 @@ hr {
 
 .template {
 	display: none !important;
+}
+
+.table {
+	padding-left: 0px;
+	width: 100%;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+
+.table_row {
+	width: 100%;
+	display: table-row;
+	vertical-align:middle
+}
+
+.header div {
+	padding-left: 0px !important;
+	font-weight: bold;
+}
+
+.table_row div {
+	height: 30px;
+	padding-right: 10px;
+	display: table-cell;
+	text-align:left;
+	vertical-align:middle;
 }

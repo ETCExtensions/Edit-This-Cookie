@@ -24,9 +24,6 @@ body {
 #paypal-custom-amount {
 	float: left;
 	margin-top: -1px;
-	color: rgb(255, 0, 0);
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 #paypal-donate-button {
@@ -66,4 +63,17 @@ li#support-chooser:hover {
 li#support-chooser.selected {
 	-webkit-border-start-color: rgb(255, 0, 0);
 	color: rgb(255, 0, 0);
+}
+
+.table {
+	width: auto !important;
+	margin-left: 30px;
+}
+
+.table_row div {
+	height: 1.3em;
+}
+
+.table_data:hover {
+	background-color: #F7F7F7;
 }
