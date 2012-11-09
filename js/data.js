@@ -92,12 +92,8 @@ var data_template = {
 };
 
 var AN_status_template  = {
-	"showADS":{
-		"default_value": true
-	},
-	"collectData":{
-		"default_value": true
-	},
+	"showADS":{},
+	"collectData":{}
 }
 
 var preferences = {};
