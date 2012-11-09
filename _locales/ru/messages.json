@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "Минуты"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Оцените Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "Если Вы хотите автоматически удалять определённый Cookie каждый раз, когда он создаётся, добавьте фильтр - и этот Cookie больше не будет беспокоить Вас."
     }, 
@@ -30,10 +33,13 @@
         "message": "Cookies удалены"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Нашли ошибку или имеете предложение? Свяжитесь с нами:"
+        "message": "Нашли ошибку или есть предложение? Сообщите нам!"
     }, 
     "editThis_statsIntro": {
         "message": "Здесь вы можете просмотреть информацию о том, как вы используете это расширение. Информация собирается только с июля 2012."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Дата пожертвования"
     }, 
     "editThis_help": {
         "message": "Справка"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "Пометить и удалить все"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "Если Вам нравится Edit This Cookie, поставьте оценку на Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Данный cookie только для чтения"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Помогите перевести Edit This Cookie на Ваш язык:"
+        "message": "Помогите перевести расширение на Ваш язык"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Пропускать кэш при обновлении страницы"
@@ -204,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "Только для чтения"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Благотворительная программа"
+    }, 
     "editThis_deleteAll": {
         "message": "Удалить все"
     }, 
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "Удалить правило"
     }, 
+    "editThis_Amount": {
+        "message": "Итого"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies экспортировано"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "Часы"
     }, 
+    "editThis_Source_Code": {
+        "message": "Исходник"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Кодировать значения cookie (в соответствии с <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (рекомендуется)"
     }, 
@@ -295,8 +313,15 @@
         "message": "Я хочу пожертвовать", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Вырученные деньги, до сих пор"
+    }, 
     "editThis_cancel": {
         "message": "Отмена"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Получить исходный код Edit This Cookie's на $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Поиск"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Удалить"
+    }, 
+    "editThis_Details": {
+        "message": "Детали"
     }
 }

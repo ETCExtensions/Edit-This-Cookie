@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "minuti"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Vota Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "Se vuoi eliminare programmaticamente un cookie ogni volta che viene creato aggiungi un filtro e non lo vedrai più in giro"
     }, 
@@ -30,10 +33,13 @@
         "message": "Cookie Cancellati"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Hai trovato un bug o hai un suggerimento? Contattaci:"
+        "message": "Hai trovato un problema o hai un suggerimento? Diccelo!"
     }, 
     "editThis_statsIntro": {
         "message": "Qui puoi vedere come hai usato l'estensione. Questi dati sono stati raccolti solo a partire da luglio 2012."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Data della donazione"
     }, 
     "editThis_help": {
         "message": "Aiuto"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "Seleziona ed elimina tutti"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "Se ti piace Edit This Cookie, lascia una recensione sul Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Cookie protetti da scrittura"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Aiutaci a tradurre l'estensione nella tua lingua:"
+        "message": "Aiutaci a tradurre l'estensione nella tua lingua"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Salta la cache quando la pagina viene ricaricata"
@@ -204,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "Proteggi da scrittura"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Programma umanitario"
+    }, 
     "editThis_deleteAll": {
         "message": "Elimina tutti"
     }, 
@@ -226,16 +238,16 @@
         "message": "Anni"
     }, 
     "editThis_seconds": {
-        "message": "Secondi"
+        "message": "secondi"
     }, 
     "editThis_ContextMenu": {
-        "message": "Modifica i cookie"
+        "message": "Modifica Cookie"
     }, 
     "editThis_name": {
-        "message": "Nome"
+        "message": "nome"
     }, 
     "editThis_domain": {
-        "message": "Dominio"
+        "message": "dominio"
     }, 
     "editThis_path": {
         "message": "percorso"
@@ -259,10 +271,10 @@
         "message": "Donazioni"
     }, 
     "editThis_storeID": {
-        "message": "StoreID"
+        "message": "storeID"
     }, 
     "editThis_value": {
-        "message": "Valore"
+        "message": "valore"
     }, 
     "editThis_contactsIntro": {
         "message": "Inviaci una mail"
@@ -272,6 +284,9 @@
     }, 
     "editThis_Alert_deleteRule": {
         "message": "Elimina questa regola"
+    }, 
+    "editThis_Amount": {
+        "message": "Importo"
     }, 
     "editThis_cookiesExported": {
         "message": "Cookie esportati"
@@ -285,8 +300,11 @@
     "editThis_hour": {
         "message": "Ore"
     }, 
+    "editThis_Source_Code": {
+        "message": "Codice Sorgente"
+    }, 
     "editThis_Encode_Cookie_Value": {
-        "message": "Codifica il valore dei cookie (come specificato da <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Raccomandato)"
+        "message": "Codifica il valore dei cookie (come <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Raccomandato)"
     }, 
     "editThis_helpIntro": {
         "message": "Qui troverai delle spiegazioni riguardati alcune delle funzioni base di questa estensione"
@@ -295,8 +313,15 @@
         "message": "Voglio donare", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Soldi raccolti ad oggi"
+    }, 
     "editThis_cancel": {
         "message": "Annulla"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Esplora il codice sorgente di Edit This Cookie su $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Cerca"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Cancella il cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Dettagli"
     }
 }

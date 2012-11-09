@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "minutes"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Rate Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "Si vous voulez supprimer automatiquement supprimer un cookie à chaque fois qu'il est créé, ajoutez un filtre et il ne vous embêtera plus"
     }, 
@@ -30,10 +33,13 @@
         "message": "Cookies supprimés"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Vous avez trouvé un bug ou avez une suggestion ? Contactez-nous:"
+        "message": "Found a bug or have a suggestion? Tell us!"
     }, 
     "editThis_statsIntro": {
         "message": "Voyez comment vous avez utilisé l'application. Les données collectées sont celle depuis Juillet 2012"
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donation Date"
     }, 
     "editThis_help": {
         "message": "Aide"
@@ -43,6 +49,12 @@
     }, 
     "editThis_Protected_Cookies": {
         "message": "Cookies protégés"
+    }, 
+    "editThis_flagAll": {
+        "message": "Flag and delete all"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Cookies protégés en lecture seule "
@@ -60,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Aidez-nous à traduire l'extension dans votre langue"
+        "message": "Help us translate the extension you your language"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sauter le cache lors du rechargement de la page"
@@ -99,7 +111,7 @@
         "message": "Collez ici les cookies à importer. Les formats acceptés sont:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie est un gestionnaire de cookies. Vous pouvez ajouter, supprimer, editer, rechercher , proteger et bloquer vos cookies!"
+        "message": "Edit This Cookie est un gestionnaire de cookies. Vous pouvez ajouter, supprimer, modifier, rechercher, protéger et bloquer les cookies!"
     }, 
     "editThis_cookiesModified": {
         "message": "Cookies modifiés"
@@ -201,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "Définir en lecture seule"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    }, 
     "editThis_deleteAll": {
         "message": "Supprimer tout"
     }, 
@@ -270,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "Supprimer cette règle"
     }, 
+    "editThis_Amount": {
+        "message": "Amount"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies exportés"
     }, 
@@ -282,6 +300,9 @@
     "editThis_hour": {
         "message": "Heures"
     }, 
+    "editThis_Source_Code": {
+        "message": "Source Code"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Encode la valeur du cookie (comme pour <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recommandé)"
     }, 
@@ -292,16 +313,29 @@
         "message": "Je veux faire une donation", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
     "editThis_cancel": {
         "message": "Annuler"
     }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
+    }, 
     "editThis_search": {
         "message": "Rechercher"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Exporter des cookies"
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Supprimer le cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
     }
 }

@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "Minutos"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Rate Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "Se você quiser automaticamente deletar um cookie toda vez que for criado adicione um filtro e ele não irá mais te incomodar"
     }, 
@@ -30,10 +33,13 @@
         "message": "Cookies deletados"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Encontrou um erro ou tem uma sugestão? Conte-nos:"
+        "message": "Found a bug or have a suggestion? Tell us!"
     }, 
     "editThis_statsIntro": {
         "message": "Aqui você pode encontrar como você usou essa extensão. Esses dados foram coletados somente desde Julho de 2012."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donation Date"
     }, 
     "editThis_help": {
         "message": "Ajuda"
@@ -47,11 +53,14 @@
     "editThis_flagAll": {
         "message": "Flag and delete all"
     }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+    }, 
     "editThis_cookiesProtected": {
         "message": "Cookies Protegidos como Apenas Ler"
     }, 
     "editThis_support": {
-        "message": "Nos ajude"
+        "message": "Ajude-nos"
     }, 
     "editThis_addNew": {
         "message": "Adicionar um novo cookie"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Ajude-nos a traduzir a extensão na sua língua:"
+        "message": "Help us translate the extension you your language"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Pular o cache quando a página for recarregada"
@@ -204,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "Marcar como apenas leitura"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    }, 
     "editThis_deleteAll": {
         "message": "Excluir tudo"
     }, 
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "Deletar regra"
     }, 
+    "editThis_Amount": {
+        "message": "Amount"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies exportados"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "Horas"
     }, 
+    "editThis_Source_Code": {
+        "message": "Source Code"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Codificar o valor dos cookies (conforme <a href=\"http://curl.haxx.se/rfc/cookie_spec.hmtl\">http://curl.haxx.se./rfc/cookie_spec.html</a>) (Recomendado)"
     }, 
@@ -295,8 +313,15 @@
         "message": "Eu quero doar", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
     "editThis_cancel": {
         "message": "Cancelar"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Pesquisar"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Deletar cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
     }
 }

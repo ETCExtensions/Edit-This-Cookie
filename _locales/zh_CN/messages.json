@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "分钟"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Rate Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "如果你不想让某个cookie被创建，添加一个过滤规则即可"
     }, 
@@ -27,13 +30,16 @@
         "message": "翻译"
     }, 
     "editThis_cookiesDeleted": {
-        "message": "已删除的Cookies"
+        "message": "已删除的cookies"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "反馈或建议"
+        "message": "Found a bug or have a suggestion? Tell us!"
     }, 
     "editThis_statsIntro": {
         "message": "在这里您可以查看本插件的使用情况。这些信息自2012年7月开始统计。"
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donation Date"
     }, 
     "editThis_help": {
         "message": "帮助"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "Flag and delete all"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "受保护的只读Cookies"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "帮助我们翻译此插件"
+        "message": "Help us translate the extension you your language"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "刷新页面时跳过缓存"
@@ -172,7 +181,7 @@
         "message": "您已使用“Edit This Cookie”插件$1次"
     }, 
     "editThis_ppBenefit7": {
-        "message": "你真是太慷慨了，如果我们有幸相遇，我请你喝啤酒"
+        "message": "你真好！来，请你喝啤酒！啤酒爽歪歪！"
     }, 
     "editThis_ppBenefit6": {
         "message": "如果我们相遇，我请你喝意大利咖啡和特色点心"
@@ -203,6 +212,9 @@
     }, 
     "editThis_Set_ReadOnly": {
         "message": "设置为只读"
+    }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
     }, 
     "editThis_deleteAll": {
         "message": "删除全部"
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "删除该规则"
     }, 
+    "editThis_Amount": {
+        "message": "Amount"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies exported"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "时"
     }, 
+    "editThis_Source_Code": {
+        "message": "Source Code"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "建议依照 <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>编辑cookies的值"
     }, 
@@ -295,8 +313,15 @@
         "message": "我要捐助", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
     "editThis_cancel": {
         "message": "取消"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "搜索"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "删除cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
     }
 }

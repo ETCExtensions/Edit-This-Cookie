@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "dakika"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Rate Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "Eğer programlı olarak bir cookienin silinmesini istiyorsan o bir filtre yaratacak ve daha fazla seni rahatsız etmeyecek"
     }, 
@@ -30,10 +33,13 @@
         "message": "Çerezler Silindi"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Bir hata buldunuz veya bir öneriniz mi var? Bize anlatın:"
+        "message": "Found a bug or have a suggestion? Tell us!"
     }, 
     "editThis_statsIntro": {
         "message": "Burada bu eklentiyi nasıl kullandığınızı görebilirsiniz. Bu veriler sadece Temmuz 2012'den beri tutulmaktadır."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donation Date"
     }, 
     "editThis_help": {
         "message": "Yardım"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "Flag and delete all"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Sadece-okunan çerezler korunuyor"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Bu eklentiyi dilinize çevirmemize yardımcı olun :"
+        "message": "Help us translate the extension you your language"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sayfa yeniden yüklendiğinde önbelleği atla"
@@ -204,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "Sadece okunan yap"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    }, 
     "editThis_deleteAll": {
         "message": "Hepsini sil"
     }, 
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "Bu kuralı sil"
     }, 
+    "editThis_Amount": {
+        "message": "Amount"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies exported"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "Hours"
     }, 
+    "editThis_Source_Code": {
+        "message": "Source Code"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "(Çerezleri değeri <her biri için a href=\"http://curl.haxx.se/rfc/cookie_spec.html\"> http://curl.haxx.se/rfc/cookie_spec.html olarak </a> ) olarak kodla (Önerilen)"
     }, 
@@ -295,8 +313,15 @@
         "message": "Bağış yapmak istiyorum", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
     "editThis_cancel": {
         "message": "İptal"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Arama"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Cookieyi sil"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
     }
 }

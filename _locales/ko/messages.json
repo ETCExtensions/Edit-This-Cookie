@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "분"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Rate Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "만약 매번 생성되는, 원치 않은 쿠키를 자동으로 지우고 싶다면 필터를 추가해 당신을 귀찮게 하지 않게 하세요"
     }, 
@@ -30,10 +33,13 @@
         "message": "삭제된 쿠키"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "버그를 발견했거나 제안사항이 있나요? 알려주세요:"
+        "message": "Found a bug or have a suggestion? Tell us!"
     }, 
     "editThis_statsIntro": {
         "message": "이 곳에서 당신이 이 확장기능을 어떻게 사용했는지 알 수 있습니다. 이 데이터는 2012년 7월부터의 것들만 모아졌습니다."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donation Date"
     }, 
     "editThis_help": {
         "message": "도움말"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "체크하고 모두 지우기"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "보호된 읽기 전용 쿠키"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "당신의 언어로 이 확장기능을 번역하는 것을 도와주세요:"
+        "message": "Help us translate the extension you your language"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "페이지를 새로고침할 때 캐시 무시하기"
@@ -204,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "읽기 전용으로 설정하기"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    }, 
     "editThis_deleteAll": {
         "message": "모두 지우기"
     }, 
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "이 규칙 지우기"
     }, 
+    "editThis_Amount": {
+        "message": "Amount"
+    }, 
     "editThis_cookiesExported": {
         "message": "내보낸 쿠키"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "시간"
     }, 
+    "editThis_Source_Code": {
+        "message": "Source Code"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "이 쿠키의 값을 (<a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>에 따라) 인코딩하기 (권장됨)"
     }, 
@@ -295,8 +313,15 @@
         "message": "다음 금액만큼 기부하고 싶습니다:", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
     "editThis_cancel": {
         "message": "취소"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "검색"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "쿠키 지우기"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
     }
 }

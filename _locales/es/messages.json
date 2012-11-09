@@ -18,7 +18,10 @@
         "message": "Cookies Bloqueados"
     }, 
     "editThis_minutes": {
-        "message": "Minutos"
+        "message": "minutos"
+    }, 
+    "editThis_Rate_ETC": {
+        "message": "Puntuar Edit This Cookie"
     }, 
     "editThis_Blocked_Def": {
         "message": "Si quieres eliminar una cookie automáticamente cada vez que se cree, añade un filtro y no te volverá a molestar"
@@ -30,10 +33,13 @@
         "message": "Cookies borradas"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "¿Has encontrado algún error o sugerencia? Cuéntanoslo:"
+        "message": "¿Encontraste un fallo o tienes una sugerencia? ¡Dínoslo!"
     }, 
     "editThis_statsIntro": {
         "message": "Aquí puedes aprender a usar esta extensión. Esta información ha sido recogida desde julio de 2012."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Fecha de la donación"
     }, 
     "editThis_help": {
         "message": "Ayuda"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "Marcar y eliminar todas"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "Si te gusta Edit This Cookie, deja una valoración en la Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Cookies de solo lectura"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Ayúdanos a traducir esta extensión a tu idioma:"
+        "message": "Ayúdanos a traducir esta extensión a tu idioma"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Saltar el caché al recargar la página"
@@ -93,7 +102,7 @@
         "message": "Elige un formato de exportación para las cookies"
     }, 
     "editThis_reset": {
-        "message": "Restablecer"
+        "message": "Borrar todos"
     }, 
     "editThis_addRule": {
         "message": "Añadir esta regla"
@@ -108,7 +117,7 @@
         "message": "Cookies modicadas"
     }, 
     "editThis_Flag_Cookie": {
-        "message": "Marcar cookie"
+        "message": "Filtrar el Cookie"
     }, 
     "editThis_time": {
         "message": "Time"
@@ -145,7 +154,7 @@
         "message": "Cookies Importadas"
     }, 
     "editThis_secure": {
-        "message": "Seguro"
+        "message": "seguro"
     }, 
     "editThis_cookiesShortened": {
         "message": "Caducidad de las cookies reducida"
@@ -193,7 +202,7 @@
         "message": "Obtendrás un correo electrónico de agradecimiento, y un pequeño lugar en mi corazón"
     }, 
     "editThis_Flag_New_Cookie": {
-        "message": "Marcar nueva cookie"
+        "message": "Filtrar nuevo Cookie"
     }, 
     "editThis_ppBenefit9": {
         "message": "Se la causa de mi primer gran éxito. ¡Solo tienes que donar ahora!"
@@ -203,6 +212,9 @@
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Proteger de cambios"
+    }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Programa humanitario"
     }, 
     "editThis_deleteAll": {
         "message": "Elimina todos"
@@ -217,7 +229,7 @@
         "message": "No hay cookies protegidas todavía"
     }, 
     "editThis_Alert_deleteAll": {
-        "message": "¿Borrar todas las cookies de esta página?"
+        "message": "Borrar todos los cookies de la web corriente?"
     }, 
     "editThis_Donate": {
         "message": "Contribuir"
@@ -226,16 +238,16 @@
         "message": "Años"
     }, 
     "editThis_seconds": {
-        "message": "Segundos"
+        "message": "segundos"
     }, 
     "editThis_ContextMenu": {
         "message": "Modifica Cookies"
     }, 
     "editThis_name": {
-        "message": "Nombre"
+        "message": "nombre"
     }, 
     "editThis_domain": {
-        "message": "Dominio"
+        "message": "dominio"
     }, 
     "editThis_path": {
         "message": "camino"
@@ -253,7 +265,7 @@
         "message": "Recargar la página después de guardar los cambios"
     }, 
     "editThis_expiration": {
-        "message": "Caducidad"
+        "message": "caducidad"
     }, 
     "editThis_donations": {
         "message": "Donaciones"
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "Eliminar esta regla"
     }, 
+    "editThis_Amount": {
+        "message": "Importe"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies Exportadas"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "Horas"
     }, 
+    "editThis_Source_Code": {
+        "message": "Código fuente"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Codificar el valor de las cookies (por persistencia <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recomendado)"
     }, 
@@ -295,8 +313,15 @@
         "message": "Quiero donar", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Dinero recaudado hasta ahora"
+    }, 
     "editThis_cancel": {
         "message": "Cancelar"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Encuentra el código fuente de Edit This Cookie en $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Buscar"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Borrar cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Detalles"
     }
 }

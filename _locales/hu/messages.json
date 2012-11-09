@@ -20,6 +20,9 @@
     "editThis_minutes": {
         "message": "Perc"
     }, 
+    "editThis_Rate_ETC": {
+        "message": "Rate Edit This Cookie"
+    }, 
     "editThis_Blocked_Def": {
         "message": "Ha automatikusan törölni akarsz egy bizonyos sütit, állíts rá egy filtert. Többé nem fog zavarni"
     }, 
@@ -30,10 +33,13 @@
         "message": "Sütik törölve"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Bugot találtál vagy javaslatod van? Írd meg:"
+        "message": "Found a bug or have a suggestion? Tell us!"
     }, 
     "editThis_statsIntro": {
         "message": "Here you can find out how you used this extension. This data has been collected only since July 2012."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donation Date"
     }, 
     "editThis_help": {
         "message": "Súgó"
@@ -46,6 +52,9 @@
     }, 
     "editThis_flagAll": {
         "message": "Flag and delete all"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Csak olvasható sütik védve"
@@ -63,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Segíts lefordítani a kiegészítőt a saját nyelvedre:"
+        "message": "Help us translate the extension you your language"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Gyorsítótár kihagyása frissítésnél"
@@ -204,6 +213,9 @@
     "editThis_Set_ReadOnly": {
         "message": "Csak olvasható"
     }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    }, 
     "editThis_deleteAll": {
         "message": "Összes törlése"
     }, 
@@ -273,6 +285,9 @@
     "editThis_Alert_deleteRule": {
         "message": "Szabály törlése"
     }, 
+    "editThis_Amount": {
+        "message": "Amount"
+    }, 
     "editThis_cookiesExported": {
         "message": "Cookies exported"
     }, 
@@ -285,6 +300,9 @@
     "editThis_hour": {
         "message": "Óra"
     }, 
+    "editThis_Source_Code": {
+        "message": "Source Code"
+    }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Sütik értékének kódolása (<a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a> alapján) (Ajánlott)"
     }, 
@@ -295,8 +313,15 @@
         "message": "Támogatni akarok", 
         "description": "I want to donate X euros"
     }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
     "editThis_cancel": {
         "message": "Mégse"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Keresés"
@@ -309,5 +334,8 @@
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Süti törlése"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
     }
 }
