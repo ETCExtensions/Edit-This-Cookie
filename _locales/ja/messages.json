@@ -1,0 +1,341 @@
+{
+    "editThis_httpOnly": {
+        "message": "HTTPのみ"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "あなたのブラウジングデータを開発者と共有することを許可します。すべての情報は匿名で送信されます。"
+    }, 
+    "editThis_contacts": {
+        "message": "お問い合わせ"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Cookieの変更を適用"
+    }, 
+    "editThis_Options": {
+        "message": "設定"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "ブロックされたCookie"
+    }, 
+    "editThis_minutes": {
+        "message": "分"
+    }, 
+    "editThis_Rate_ETC": {
+        "message": "Edit This Cookieを評価"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Cookieを毎時間削除したいのであれば、フィルターを作ることで自動的に削除できます。"
+    }, 
+    "editThis_translation": {
+        "message": "翻訳"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Cookieが削除されました"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "何かバグを発見したり提案があれば、ご連絡ください！"
+    }, 
+    "editThis_statsIntro": {
+        "message": "このアプリの使用状況が確認できます。この情報は2012年7月から集計されています。"
+    }, 
+    "editThis_Donation_Date": {
+        "message": "寄付日"
+    }, 
+    "editThis_help": {
+        "message": "ヘルプ"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Cookieのインポート"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "保護されたCookie"
+    }, 
+    "editThis_flagAll": {
+        "message": "フラグを立ててすべて削除"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "もしEdit This Cookieを気に入っていただけたなら、Chrome Web Storeでの評価をお願いします。"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "読み取り専用の保護されたCookieです"
+    }, 
+    "editThis_support": {
+        "message": "開発をサポート"
+    }, 
+    "editThis_addNew": {
+        "message": "Cookieを追加"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "開いているページに控えめな広告を表示する"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "この拡張機能の翻訳にご協力ください"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "ページの再読み込み時にキャッシュをスキップ"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "詳細情報と設定"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "正規表現が使用できます"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "バグ報告/機能の要望"
+    }, 
+    "editThis_Save": {
+        "message": "保存"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "ツールバーのアイコン上で右クリックすることで、アイコンを非表示にすることができます！"
+    }, 
+    "editThis_statsSince": {
+        "message": "Cookieの統計の開始日: $1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "Cookieの名前に近いドメインを表示"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Cookieをエクスポートする際に優先して使用するフォーマットを選択します"
+    }, 
+    "editThis_reset": {
+        "message": "リセット"
+    }, 
+    "editThis_addRule": {
+        "message": "このルールを追加"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "インポートするには、ここにCookieを貼り付けます。許可されたフォーマット:"
+    }, 
+    "editThis_description": {
+        "message": "Edit This CookieはCookie管理ソフトです。Cookieを追加、削除、編集、検索、保護、そしてブロックすることができます！"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Cookieが修正されました"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "フラグを立てる"
+    }, 
+    "editThis_time": {
+        "message": "時刻"
+    }, 
+    "editThis_day": {
+        "message": "日"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "フラグを立てたCookieが削除されました"
+    }, 
+    "editThis_stats": {
+        "message": "統計"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "他の言語を選択"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "You will help children in need all over the world, because $1% of the revenues go to"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "Override the maximum age for any cookie"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "We develop high quality open source software and we give it away for free. <br><br> Support us using $1. Move the slider to change the amount", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "月"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Cookieが作成されました"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Cookieがインポートされました"
+    }, 
+    "editThis_secure": {
+        "message": "セキュア"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Cookies' expiration shortened"
+    }, 
+    "editThis_hostOnly": {
+        "message": "ホストのみ"
+    }, 
+    "editThis_Max_Date": {
+        "message": "Set the maximum cookie age to"
+    }, 
+    "editThis_session": {
+        "message": "セッション"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "コンテキストメニューに \"Edit Cookies\" を表示"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "常に確認する"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster"
+    }, 
+    "editThis_timesUsed": {
+        "message": "\"Edit This Cookie\" を$1回使用していますね！"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "You are very generous! If we ever meet I'll get you a few beers (hey, beer is important)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "If we ever meet I'll get you an Italian coffee and a 'Babbà'"
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "You can name a feature you want to be implemented and I'll make it true! (just don't ask for the impossible :P )"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "You can name any bug that annoys you in Edit This Cookie and I'll fix it super-fast!"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "You'll receive an awesome 'Edit This Cookie' Thank You postcard!"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "Your name will be added to the Wall of Fame"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "You will get a thank you email, and a tiny little place in my heart"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "フラグを立てる"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Be the cause of my very first heart stroke. All you have to do is donate now!"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "You will be the new head of my religion and, if you wish, I will send you the following book:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "読み取り専用にする"
+    }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    }, 
+    "editThis_deleteAll": {
+        "message": "すべて削除"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "We garantee no personal data is ever shared!"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "A protected cookie is a cookie which can't be modified by any website or extension"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "保護されたCookieはありません"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "このサイトのCookieをすべて削除しますか？"
+    }, 
+    "editThis_Donate": {
+        "message": "寄付する"
+    }, 
+    "editThis_year": {
+        "message": "年"
+    }, 
+    "editThis_seconds": {
+        "message": "秒"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Cookieを編集"
+    }, 
+    "editThis_name": {
+        "message": "名前"
+    }, 
+    "editThis_domain": {
+        "message": "ドメイン"
+    }, 
+    "editThis_path": {
+        "message": "パス"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "保護されています"
+    }, 
+    "editThis_amountByHand": {
+        "message": "to enter the amount by hand click here"
+    }, 
+    "editThis_backToList": {
+        "message": "一覧に戻る"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Reload the page after submitting the changes"
+    }, 
+    "editThis_expiration": {
+        "message": "有効期限"
+    }, 
+    "editThis_donations": {
+        "message": "寄付"
+    }, 
+    "editThis_storeID": {
+        "message": "ストアID"
+    }, 
+    "editThis_value": {
+        "message": "値"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Eメールを送信"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "ブロック ルールは追加されていません"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "このルールを削除"
+    }, 
+    "editThis_Amount": {
+        "message": "金額"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Cookieをエクスポートしました"
+    }, 
+    "editThis_advertisements": {
+        "message": "広告"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "まだデータがありません :("
+    }, 
+    "editThis_hour": {
+        "message": "時"
+    }, 
+    "editThis_Source_Code": {
+        "message": "ソースコード"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Encode the value of the cookies (as per <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recommended)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Here you will find explanations for some basic functions of this extension"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "ご寄付をお願いします", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    }, 
+    "editThis_cancel": {
+        "message": "キャンセル"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
+    }, 
+    "editThis_search": {
+        "message": "検索"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "クリップボードにCookieをコピーしました"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Cookieのエクスポート"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Cookieを削除"
+    }, 
+    "editThis_Details": {
+        "message": "詳細"
+    }
+}

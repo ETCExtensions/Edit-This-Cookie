@@ -21,7 +21,7 @@
         "message": "分钟"
     }, 
     "editThis_Rate_ETC": {
-        "message": "Rate Edit This Cookie"
+        "message": "为 Edit This Cookie 评分"
     }, 
     "editThis_Blocked_Def": {
         "message": "如果你不想让某个cookie被创建，添加一个过滤规则即可"
@@ -30,16 +30,16 @@
         "message": "翻译"
     }, 
     "editThis_cookiesDeleted": {
-        "message": "已删除的cookies"
+        "message": "已删除 Cookie"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Found a bug or have a suggestion? Tell us!"
+        "message": "发现错误或有新想法？告诉我们吧！"
     }, 
     "editThis_statsIntro": {
         "message": "在这里您可以查看本插件的使用情况。这些信息自2012年7月开始统计。"
     }, 
     "editThis_Donation_Date": {
-        "message": "Donation Date"
+        "message": "捐助日期"
     }, 
     "editThis_help": {
         "message": "帮助"
@@ -51,10 +51,10 @@
         "message": "锁定的Cookies"
     }, 
     "editThis_flagAll": {
-        "message": "Flag and delete all"
+        "message": "全部加入黑名单后清空"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+        "message": "如果你喜欢该插件，请在 Chrome 在线商店留下您的评分。"
     }, 
     "editThis_cookiesProtected": {
         "message": "受保护的只读Cookies"
@@ -72,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Help us translate the extension you your language"
+        "message": "帮助我们翻译该插件到您的语言"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "刷新页面时跳过缓存"
@@ -135,7 +135,7 @@
         "message": "更改语言"
     }, 
     "editThis_Charity_Message": {
-        "message": "You will help children in need all over the world, because $1% of the revenues go to"
+        "message": "你将帮助「需要帮助的小孩 (Children in need)」，因为 $1% 的捐赠将转到"
     }, 
     "editThis_Max_Date_Option": {
         "message": "忽略任何cookies的最大周期"
@@ -151,7 +151,7 @@
         "message": "已创建的Cookies"
     }, 
     "editThis_cookiesImported": {
-        "message": "Cookies imported"
+        "message": "导入的 Cookie"
     }, 
     "editThis_secure": {
         "message": "安全"
@@ -193,7 +193,7 @@
         "message": "你可以提交bug，我会在第一时间将其修复"
     }, 
     "editThis_ppBenefit3": {
-        "message": "感谢您提交的已编辑的Cookies！"
+        "message": "你将收到一张来自「Edit This Cookie」的明信片！"
     }, 
     "editThis_ppBenefit2": {
         "message": "您将留名青史。"
@@ -214,7 +214,7 @@
         "message": "设置为只读"
     }, 
     "editThis_Humanitarian_Program": {
-        "message": "Humanitarian program"
+        "message": "人道主义方案"
     }, 
     "editThis_deleteAll": {
         "message": "删除全部"
@@ -286,10 +286,10 @@
         "message": "删除该规则"
     }, 
     "editThis_Amount": {
-        "message": "Amount"
+        "message": "金额"
     }, 
     "editThis_cookiesExported": {
-        "message": "Cookies exported"
+        "message": "导出的 Cookie"
     }, 
     "editThis_advertisements": {
         "message": "广告"
@@ -301,7 +301,7 @@
         "message": "时"
     }, 
     "editThis_Source_Code": {
-        "message": "Source Code"
+        "message": "源码"
     }, 
     "editThis_Encode_Cookie_Value": {
         "message": "建议依照 <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>编辑cookies的值"
@@ -314,20 +314,20 @@
         "description": "I want to donate X euros"
     }, 
     "editThis_Money_Raised": {
-        "message": "Money raised so far"
+        "message": "已经发放的资金"
     }, 
     "editThis_cancel": {
         "message": "取消"
     }, 
     "editThis_Source_Code_Intro": {
-        "message": "Check Edit This Cookie's source code on $1", 
+        "message": "在 $1 上浏览 Edit This Cookie 的源码", 
         "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "搜索"
     }, 
     "editThis_Copied_clipboard": {
-        "message": "Cookies copied to clipboard"
+        "message": "Cookie 已复制到剪切板"
     }, 
     "editThis_Copy_Cookies": {
         "message": "导出cookies"
@@ -336,6 +336,6 @@
         "message": "删除cookie"
     }, 
     "editThis_Details": {
-        "message": "Details"
+        "message": "详细信息"
     }
 }

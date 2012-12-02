@@ -21,7 +21,7 @@
         "message": "Minuuttia"
     }, 
     "editThis_Rate_ETC": {
-        "message": "Rate Edit This Cookie"
+        "message": "Arvostele Edit This Cookie"
     }, 
     "editThis_Blocked_Def": {
         "message": "Jos haluat automaattisesti poistaa tietyn evästeen aina kun se luodaan, lisää suodatin, jolloin se ei häiritse sinua enää."
@@ -33,13 +33,13 @@
         "message": "Evästeet poistettu"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Found a bug or have a suggestion? Tell us!"
+        "message": "Löysitkö bugin? Onko sinulla idea? Ota meihin yhteyttä! (Englanniksi :P)"
     }, 
     "editThis_statsIntro": {
         "message": "Täällä voit nähdä, miten käytit tätä lisäosaa. Tätä dataa ollaan kerätty vain heinäkuusta 2012 saakka."
     }, 
     "editThis_Donation_Date": {
-        "message": "Donation Date"
+        "message": "Lahjoituspäivämäärä"
     }, 
     "editThis_help": {
         "message": "Tuki"
@@ -54,7 +54,7 @@
         "message": "Merkitse ja poista kaikki"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+        "message": "Jos pidät Edit This Cookiesta, jätä siitä arvostelu Chrome Web Storeen klikkaamalla tästä!"
     }, 
     "editThis_cookiesProtected": {
         "message": "Vain luku-tilassa olevat evästeet suojattu"
@@ -72,7 +72,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Help us translate the extension you your language"
+        "message": " "
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Ohita välimuisti, kun sivu lataa uudelleen"
@@ -214,7 +214,7 @@
         "message": "Aseta vain luku-tilaan"
     }, 
     "editThis_Humanitarian_Program": {
-        "message": "Humanitarian program"
+        "message": "Humanitaarinen ohjelma"
     }, 
     "editThis_deleteAll": {
         "message": "Poista kaikki"
@@ -286,7 +286,7 @@
         "message": "Poista tämä sääntö"
     }, 
     "editThis_Amount": {
-        "message": "Amount"
+        "message": "Summa"
     }, 
     "editThis_cookiesExported": {
         "message": "Evästeet viety!"
@@ -301,7 +301,7 @@
         "message": "Tuntia"
     }, 
     "editThis_Source_Code": {
-        "message": "Source Code"
+        "message": "Lähdekoodi"
     }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Enkoodaa evästeitten arvot (kuten <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">täällä</a> kerrotaan) (Suositeltu)"
@@ -314,13 +314,13 @@
         "description": "I want to donate X euros"
     }, 
     "editThis_Money_Raised": {
-        "message": "Money raised so far"
+        "message": "Rahaa kerätty yhteensä"
     }, 
     "editThis_cancel": {
         "message": "Peruuta"
     }, 
     "editThis_Source_Code_Intro": {
-        "message": "Check Edit This Cookie's source code on $1", 
+        "message": "Tsekkaa Edit This Cookien lähdekoodi $1issa", 
         "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
@@ -336,6 +336,6 @@
         "message": "Poista eväste"
     }, 
     "editThis_Details": {
-        "message": "Details"
+        "message": "Tiedot"
     }
 }
