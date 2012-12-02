@@ -212,14 +212,14 @@ body {
 	display: table;
 	z-index: 10;
     unselectable: on;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .commands-row {
 	display: table-row;
 }
 .commands-row > * {
 	display: table-cell;
-	padding-right: 5px;
+	padding-right: 3px;
 	vertical-align: middle;
 }
 .commands-row > * > * {
