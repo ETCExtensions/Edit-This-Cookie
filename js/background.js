@@ -1,10 +1,15 @@
 var PAUSED = false;
 var showContextMenu = undefined;
+var showChristmasIcon = undefined;
 
 updateCallback = function() {
 	if(showContextMenu != preferences.showContextMenu) {
 		showContextMenu = preferences.showContextMenu;
 		setContextMenu(showContextMenu);
+	}
+	if(showChristmasIcon != preferences.showChristmasIcon) {
+		showChristmasIcon = preferences.showChristmasIcon;
+		setChristmasIcon();
 	}
 };
 
@@ -26,10 +31,7 @@ if(data.lastVersionRun != currentVersion) {
 	data.lastVersionRun = currentVersion;
 }
 
-nowDate = new Date();
-if( (nowDate.getFullYear() == 2012 && nowDate.getMonth() == 11) || (nowDate.getFullYear() == 2013 && nowDate.getMonth() == 0 && nowDate.getDate() <= 10) ) {
-	chrome.browserAction.setIcon({"path":"/img/cookie_xmas_19x19.png"});
-}
+setChristmasIcon();
 
 setContextMenu(preferences.showContextMenu);
 
@@ -158,5 +160,20 @@ function setContextMenu(show) {
 				showPopup(info,tab);
 			}
 		});
+	}
+}
+
+function setChristmasIcon() {
+	console.log(preferences.showChristmasIcon)
+	console.log("updating icon")
+	nowDate = new Date();
+	if (preferences.showChristmasIcon) {
+		console.log("xmas icon")
+		if( (nowDate.getFullYear() == 2012 && nowDate.getMonth() == 11) || (nowDate.getFullYear() == 2013 && nowDate.getMonth() == 0 && nowDate.getDate() <= 10) ) {
+			chrome.browserAction.setIcon({"path":"/img/cookie_xmas_19x19.png"});
+		}
+	} else {
+		console.log("default icon")
+		chrome.browserAction.setIcon({"path":"/img/icon_19x19.png"});
 	}
 }

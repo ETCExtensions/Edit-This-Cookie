@@ -32,6 +32,7 @@ function setOptions() {
     $("#showAlerts").prop('checked', preferences.showAlerts);
     $("#showDomain").prop('checked', preferences.showDomain);
     $("#showContextMenu").prop('checked', preferences.showContextMenu);
+    $("#showChristmasIcon").prop('checked', preferences.showChristmasIcon);
     $("#refreshAfterSubmit").prop('checked', preferences.refreshAfterSubmit);
     $("#skipCacheRefresh").prop('checked', preferences.skipCacheRefresh);
     $("#skipCacheRefresh").prop("disabled", !preferences.refreshAfterSubmit);
@@ -104,6 +105,9 @@ function setEvents() {
     });
     $("#showContextMenu").click(function() {
         preferences.showContextMenu = $('#showContextMenu').prop("checked");
+    });
+    $("#showChristmasIcon").click(function() {
+        preferences.showChristmasIcon = $('#showChristmasIcon').prop("checked");
     });
 
     $("#useMaxDate").click(function() {

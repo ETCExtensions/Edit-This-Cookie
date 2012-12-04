@@ -43,6 +43,9 @@ var preferences_template = {
 	},
 	"useMaxCookieAge":{
 		"default_value": false
+	},
+	"showChristmasIcon":{
+		"default_value": true
 	}
 };
 
