@@ -32,6 +32,13 @@ function setOptions() {
     $("#showAlerts").prop('checked', preferences.showAlerts);
     $("#showDomain").prop('checked', preferences.showDomain);
     $("#showContextMenu").prop('checked', preferences.showContextMenu);
+    
+    nowDate = new Date();
+	if( (nowDate.getFullYear() == 2012 && nowDate.getMonth() == 11) || (nowDate.getFullYear() == 2013 && nowDate.getMonth() == 0 && nowDate.getDate() <= 10) ) {
+    	$("#showChristmasIcon").prop('checked', preferences.showChristmasIcon);
+	} else {
+    	$("#showChristmasIcon").closest(".formLine").hide();
+	}
     $("#refreshAfterSubmit").prop('checked', preferences.refreshAfterSubmit);
     $("#skipCacheRefresh").prop('checked', preferences.skipCacheRefresh);
     $("#skipCacheRefresh").prop("disabled", !preferences.refreshAfterSubmit);
@@ -104,6 +111,9 @@ function setEvents() {
     });
     $("#showContextMenu").click(function() {
         preferences.showContextMenu = $('#showContextMenu').prop("checked");
+    });
+    $("#showChristmasIcon").click(function() {
+        preferences.showChristmasIcon = $('#showChristmasIcon').prop("checked");
     });
 
     $("#useMaxDate").click(function() {
