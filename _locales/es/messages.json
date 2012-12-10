@@ -41,6 +41,9 @@
     "editThis_Donation_Date": {
         "message": "Fecha de la donación"
     }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Mostrar el icono con el sombrero de Santa"
+    }, 
     "editThis_help": {
         "message": "Ayuda"
     }, 
@@ -114,7 +117,7 @@
         "message": "Edit This Cookie es un gestòr de cookie. Puedes añadir, borrar, editar, buscar, proteger y bloquear cookies!"
     }, 
     "editThis_cookiesModified": {
-        "message": "Cookies modicadas"
+        "message": "Cookies modificadas"
     }, 
     "editThis_Flag_Cookie": {
         "message": "Filtrar el Cookie"
@@ -126,7 +129,7 @@
         "message": "Días"
     }, 
     "editThis_cookiesFlagged": {
-        "message": "Cookies marcadas detectadas"
+        "message": "Cookies marcadas eliminadas"
     }, 
     "editThis_stats": {
         "message": "Estadísticas"
@@ -169,7 +172,7 @@
         "message": "sesión"
     }, 
     "editThis_Show_ContextMenu": {
-        "message": "Mostrar 'Modificar Cookies' en el menú contextual"
+        "message": "Visualizar \"Modifica Cookies\" en el menú contextual"
     }, 
     "editThis_Show_Alerts": {
         "message": "Pedir siempre confirmación"

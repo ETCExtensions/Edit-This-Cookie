@@ -41,6 +41,9 @@
     "editThis_Donation_Date": {
         "message": "Dátum prispetia"
     }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Ukázať ikonu Mikulášskej čiapky"
+    }, 
     "editThis_help": {
         "message": "Pomoc"
     }, 
@@ -220,7 +223,7 @@
         "message": "Vymazať všetky"
     }, 
     "editThis_statsSharePolicy": {
-        "message": "Garantujeme Vám, že nikdy nezdieľame žiadne personálne údaje!"
+        "message": "Garantujeme, že nikdy nezdieľame žiadne osobné dáta!"
     }, 
     "editThis_ReadOnly_Def": {
         "message": "Chránený cookie je taký, čo nemôže byť upravený žiadnou stránkou ani rozšírením"

@@ -21,7 +21,7 @@
         "message": "Perc"
     }, 
     "editThis_Rate_ETC": {
-        "message": "Rate Edit This Cookie"
+        "message": "Értékeld az Edit This Cookie-t"
     }, 
     "editThis_Blocked_Def": {
         "message": "Ha automatikusan törölni akarsz egy bizonyos sütit, állíts rá egy filtert. Többé nem fog zavarni"
@@ -33,13 +33,16 @@
         "message": "Sütik törölve"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Found a bug or have a suggestion? Tell us!"
+        "message": "Talált egy hibát vagy van egy javaslata? Küldje el nekünk!"
     }, 
     "editThis_statsIntro": {
         "message": "Here you can find out how you used this extension. This data has been collected only since July 2012."
     }, 
     "editThis_Donation_Date": {
-        "message": "Donation Date"
+        "message": "Támogatás dátuma"
+    }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Show the Santa's hat icon"
     }, 
     "editThis_help": {
         "message": "Súgó"
@@ -51,10 +54,10 @@
         "message": "Védett sütik"
     }, 
     "editThis_flagAll": {
-        "message": "Flag and delete all"
+        "message": "Filter hozzáadása és törlés"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+        "message": "Ha tettszik az Edit This Cookie, akkor értékeld a Chrome Webáruházban"
     }, 
     "editThis_cookiesProtected": {
         "message": "Csak olvasható sütik védve"
@@ -151,7 +154,7 @@
         "message": "Sütik létrehozva"
     }, 
     "editThis_cookiesImported": {
-        "message": "Cookies imported"
+        "message": "Sütik importálva"
     }, 
     "editThis_secure": {
         "message": "Biztonságos"
@@ -280,7 +283,7 @@
         "message": "Küldj emailt"
     }, 
     "editThis_noBlockAdded": {
-        "message": "No block rules added"
+        "message": "Nincsenek tiltó szabályok"
     }, 
     "editThis_Alert_deleteRule": {
         "message": "Szabály törlése"
@@ -289,7 +292,7 @@
         "message": "Amount"
     }, 
     "editThis_cookiesExported": {
-        "message": "Cookies exported"
+        "message": "Sütik exportálva"
     }, 
     "editThis_advertisements": {
         "message": "Hirdetések"
@@ -301,7 +304,7 @@
         "message": "Óra"
     }, 
     "editThis_Source_Code": {
-        "message": "Source Code"
+        "message": "Forráskód"
     }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Sütik értékének kódolása (<a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a> alapján) (Ajánlott)"
@@ -327,7 +330,7 @@
         "message": "Keresés"
     }, 
     "editThis_Copied_clipboard": {
-        "message": "Cookies copied to clipboard"
+        "message": "Sütik vágólapra másolva"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Süti exportálása"

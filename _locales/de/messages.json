@@ -41,6 +41,9 @@
     "editThis_Donation_Date": {
         "message": "Spendendatum"
     }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Ikone mit Nikolausmütze anzeigen"
+    }, 
     "editThis_help": {
         "message": "Hilfe"
     }, 
@@ -96,7 +99,7 @@
         "message": "Cookie Statistik seit: $1"
     }, 
     "editThis_Show_Domain": {
-        "message": "Domäne in der nähe jedes Cookie Namens anzeigen"
+        "message": "Domain neben jeden Cookie Namen anzeigen"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Wählen Sie das bevorzugte Export-Format für Cookies"
@@ -307,7 +310,7 @@
         "message": "Kodiere den Wert der Cookies (wie in <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Empfohlen)"
     }, 
     "editThis_helpIntro": {
-        "message": "Hier wirst du Erklärungen für ein Paar grundlegende Funktionen dieser Extension finden"
+        "message": "Hier wirst du Erklärungen für ein paar grundlegende Funktionen dieser Erweiterung finden"
     }, 
     "editThis_iWantDonate": {
         "message": "Ich möchte spenden", 

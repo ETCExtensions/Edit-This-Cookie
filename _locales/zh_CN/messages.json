@@ -41,6 +41,9 @@
     "editThis_Donation_Date": {
         "message": "捐助日期"
     }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "图标上显示圣诞帽"
+    }, 
     "editThis_help": {
         "message": "帮助"
     }, 
@@ -57,7 +60,7 @@
         "message": "如果你喜欢该插件，请在 Chrome 在线商店留下您的评分。"
     }, 
     "editThis_cookiesProtected": {
-        "message": "受保护的只读Cookies"
+        "message": "禁止更改的 Cookie"
     }, 
     "editThis_support": {
         "message": "救命！"

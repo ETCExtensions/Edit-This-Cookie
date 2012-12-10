@@ -41,6 +41,9 @@
     "editThis_Donation_Date": {
         "message": "Дата пожертвования"
     }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Показывать шапку Санта-Клауса на иконке?"
+    }, 
     "editThis_help": {
         "message": "Справка"
     }, 
@@ -336,6 +339,6 @@
         "message": "Удалить"
     }, 
     "editThis_Details": {
-        "message": "Детали"
+        "message": "Подробности"
     }
 }

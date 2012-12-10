@@ -41,6 +41,9 @@
     "editThis_Donation_Date": {
         "message": "寄付日"
     }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Show the Santa's hat icon"
+    }, 
     "editThis_help": {
         "message": "ヘルプ"
     }, 
@@ -220,7 +223,7 @@
         "message": "すべて削除"
     }, 
     "editThis_statsSharePolicy": {
-        "message": "We garantee no personal data is ever shared!"
+        "message": "We guarantee no personal data is ever shared!"
     }, 
     "editThis_ReadOnly_Def": {
         "message": "A protected cookie is a cookie which can't be modified by any website or extension"
