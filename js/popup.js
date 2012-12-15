@@ -427,6 +427,8 @@ function setEvents() {
 		$("#cookiesList").slideDown('fast');
 		if(cookieList.length == 0) {
 			$("#submitDiv").hide();
+		} else {
+			$("#submitDiv").show();
 		}
 		newCookie = false;
 		pasteCookie = false;
