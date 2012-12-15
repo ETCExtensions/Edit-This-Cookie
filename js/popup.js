@@ -200,6 +200,7 @@ function createList(filters) {
 					$('#submitDiv').addClass("submitDivSepWindow");
 				}
 				setEvents();
+				//$("#loading").hide();
 			});
 		//}, 0);
 	});
@@ -321,7 +322,7 @@ function setEvents() {
 	if(cookieList.length > 0) {		
 		$("#submitDiv").show();
 	}
-	$("#submitFiltersButton").button().hide();
+	$("#submitFiltersButton").button();
 	
 	$("#submitFiltersDiv").unbind().click(function() {
 		var domainChecked = $(".filterDomain:checked", $(this).parent()).val() != null;

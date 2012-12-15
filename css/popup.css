@@ -67,6 +67,9 @@ body {
     right: 15px;
     top: 10px;
 }
+#submitFiltersButton {
+    display: none;
+}
 #submitDiv {
     display: none;
     position: fixed;
@@ -254,4 +257,28 @@ body {
 	width: auto;
 	top: 10%;
 	left: 50%;
+}
+
+#loading {
+    display: none;
+    z-index: 1000;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align:center;
+    #background-color: #FFF;
+    opacity:1;
+}
+
+#loading img {
+    z-index: 1001;
+    vertical-align: middle;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
 }
