@@ -13,19 +13,12 @@ updateCallback = function() {
 	}
 };
 
-if(AN_status.showADS)
-	_gaq.push(['_setCustomVar', 1, 'Ads Enabled', AN_status.showADS, 2]);
-if(AN_status.collectData)
-	_gaq.push(['_setCustomVar', 2, 'Data OptIn', AN_status.collectData, 2]);
-
 //Every time the browser restarts the first time the user goes to the options he ends up in the default page (support)
 ls.set("option_panel",null);
 
 var currentVersion = chrome.app.getDetails().version;
-_gaq.push(['_setCustomVar', 3, 'Extension version', currentVersion, 2]);
 if(data.lastVersionRun != currentVersion) {
 	if(data.lastVersionRun == undefined) { //Is firstrun
-		//chrome.tabs.create({url:chrome.extension.getURL('options_main_page.html')/*+"?page=ads_info"*/}); // ?page=options
 		chrome.tabs.create({url:chrome.extension.getURL('options_pages/support.html')});
 	}
 	data.lastVersionRun = currentVersion;
@@ -47,7 +40,7 @@ chrome.cookies.onChanged.addListener( function(changeInfo) {
 	if(cause == "expired" || cause == "evicted")
 		return;
 	
-	console.log("Name: " + name + "\t\tDomain: " + domain + "\t\tCause: " + cause + "\t\tRemoved:" + removed);
+	//console.log("Name: " + name + "\t\tDomain: " + domain + "\t\tCause: " + cause + "\t\tRemoved:" + removed);
 
 	if(!PAUSED) {
 		

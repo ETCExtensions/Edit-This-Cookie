@@ -116,27 +116,27 @@ var swapMyCookiesID = "dffhipnliikkblkhpjapbecpmoilcama";
 var forgetMeID = "gekpdemielcmiiiackmeoppdgaggjgda";
 
 var ls = {
-    set : function(name, value) {
-        localStorage.setItem(name, JSON.stringify(value));
-    },
-    get : function(name, default_value) {
-        if(localStorage[name] == undefined) {
-        	if(default_value!=undefined)
-	        	ls.set(name, default_value);
-	        else
-	        	return null;
-        	return default_value;
-        }
-        try {
-            return JSON.parse(localStorage.getItem(name));
-        } catch(e) {
-        	ls.set(name, default_value);
-            return default_value;
-        }
-    },
-    remove : function(name) {
-        return localStorage.removeItem(name);
-    }
+	set : function(name, value) {
+		localStorage.setItem(name, JSON.stringify(value));
+	},
+	get : function(name, default_value) {
+		if(localStorage[name] == undefined) {
+			if(default_value!=undefined)
+				ls.set(name, default_value);
+			else
+				return null;
+			return default_value;
+		}
+		try {
+			return JSON.parse(localStorage.getItem(name));
+		} catch(e) {
+			ls.set(name, default_value);
+			return default_value;
+		}
+	},
+	remove : function(name) {
+		return localStorage.removeItem(name);
+	}
 }
 
 function syncDataToLS() {				//This way we limit the max amount of storage change events to one per second
@@ -254,7 +254,7 @@ firstRun = ls.get("status_firstRun");
 if(firstRun != null) {
 	data.lastVersionRun = chrome.app.getDetails().version;
 }
-	
+
 
 var syncTimeout = setTimeout(syncDataToLS, syncTime);
 $(window).bind("beforeunload", syncDataToLS);
