@@ -211,15 +211,15 @@ body {
 .commands-table {
 	display: table;
 	z-index: 10;
-    unselectable: on;
-    font-size: 1em;
+	unselectable: on;
+	font-size: 5px; /*The text size will be changed dynamically by popup.js/resizeCommandsFontSize() to adapt to different languages*/
 }
 .commands-row {
 	display: table-row;
 }
 .commands-row > * {
 	display: table-cell;
-	padding-right: 3px;
+	padding: 0 2px 0 0;
 	vertical-align: middle;
 }
 .commands-row > * > * {
@@ -229,6 +229,10 @@ body {
 .commands-row > * > * > * {
 	display: table-cell;
 	vertical-align: middle;
+}
+.commands-row .ui-icon {
+	width: 14px;
+	height: 18px;
 }
 
 .error {
