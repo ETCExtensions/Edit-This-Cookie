@@ -2,7 +2,7 @@
 	"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
 
     "name": "Edit This Cookie",
-    "version": "1.1.27",
+    "version": "0.1",
 	
     "description": "__MSG_editThis_description__",
     "icons": {
@@ -20,7 +20,7 @@
     },
     
     "background": {
-    	"scripts" : ["/alternet/alter-network-background.js", "/lib/jquery-1.8.1.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/analytics.js", "/js/utils.js", "/js/data.js", "/js/background.js"]
+    	"scripts" : ["/alternet/alter-network-background.js", "/lib/jquery-1.8.1.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/utils.js", "/js/data.js", "/js/background.js"]
     },
 
     "options_page": "options_main_page.html",
