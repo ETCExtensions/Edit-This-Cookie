@@ -1,6 +1,6 @@
 {
     "editThis_httpOnly": {
-        "message": "httpOnly"
+        "message": "HTTP uniquement"
     }, 
     "editThis_AN_optInDescription": {
         "message": "Autorisez-nous à partager vos informations de navigation. Toutes les informations sont anonymes."
@@ -21,7 +21,7 @@
         "message": "minutes"
     }, 
     "editThis_Rate_ETC": {
-        "message": "Rate Edit This Cookie"
+        "message": "Notez Edit This Cookie"
     }, 
     "editThis_Blocked_Def": {
         "message": "Si vous voulez supprimer automatiquement supprimer un cookie à chaque fois qu'il est créé, ajoutez un filtre et il ne vous embêtera plus"
@@ -33,16 +33,16 @@
         "message": "Cookies supprimés"
     }, 
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Found a bug or have a suggestion? Tell us!"
+        "message": "Vous avez trouvé un bug, une erreur ou vous avez une suggestion ? Dites-le nous !"
     }, 
     "editThis_statsIntro": {
         "message": "Voyez comment vous avez utilisé l'application. Les données collectées sont celle depuis Juillet 2012"
     }, 
     "editThis_Donation_Date": {
-        "message": "Donation Date"
+        "message": "Date du don"
     }, 
     "editThis_Show_Christmas_Icon": {
-        "message": "Show the Santa's hat icon"
+        "message": "Mettre le chapeau du père noël sur l'icône"
     }, 
     "editThis_help": {
         "message": "Aide"
@@ -54,10 +54,10 @@
         "message": "Cookies protégés"
     }, 
     "editThis_flagAll": {
-        "message": "Flag and delete all"
+        "message": "Marquer et supprimer tout"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+        "message": "Si vous aimez Edit This Cookie, notez-le sur le Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Cookies protégés en lecture seule "
@@ -75,7 +75,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Help us translate the extension you your language"
+        "message": "Aidez-nous à traduire Edit This Cookie dans votre langue"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sauter le cache lors du rechargement de la page"
@@ -120,7 +120,7 @@
         "message": "Cookies modifiés"
     }, 
     "editThis_Flag_Cookie": {
-        "message": "Cookie marqué"
+        "message": "Marquer ce cookie"
     }, 
     "editThis_time": {
         "message": "Temps"
@@ -144,7 +144,7 @@
         "message": "Remplacer l'age maximal pour tous les cookies"
     }, 
     "editThis_paypalSupportIntro": {
-        "message": "Nous developpons un logiciel open source de haute qualité et nous le faisons gratuitement. <br><br> Soutenez nous en donnant : $1. Déplacez le curseur pour modifier le montant", 
+        "message": "Nous développons un logiciel open source de haute qualité et nous le faisons gratuitement. <br><br> Soutenez nous en donnant : $1. Déplacez le curseur pour modifier le montant", 
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
     }, 
     "editThis_month": {
@@ -217,7 +217,7 @@
         "message": "Définir en lecture seule"
     }, 
     "editThis_Humanitarian_Program": {
-        "message": "Humanitarian program"
+        "message": "Programme humanitaire"
     }, 
     "editThis_deleteAll": {
         "message": "Supprimer tout"
@@ -289,7 +289,7 @@
         "message": "Supprimer cette règle"
     }, 
     "editThis_Amount": {
-        "message": "Amount"
+        "message": "Montant"
     }, 
     "editThis_cookiesExported": {
         "message": "Cookies exportés"
@@ -304,7 +304,7 @@
         "message": "Heures"
     }, 
     "editThis_Source_Code": {
-        "message": "Source Code"
+        "message": "Code Source"
     }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Encode la valeur du cookie (comme pour <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recommandé)"
@@ -317,20 +317,20 @@
         "description": "I want to donate X euros"
     }, 
     "editThis_Money_Raised": {
-        "message": "Money raised so far"
+        "message": "Montant environ donné régulièrement"
     }, 
     "editThis_cancel": {
         "message": "Annuler"
     }, 
     "editThis_Source_Code_Intro": {
-        "message": "Check Edit This Cookie's source code on $1", 
+        "message": "Consultez le code source d'Edit This Cookie sur $1", 
         "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
         "message": "Rechercher"
     }, 
     "editThis_Copied_clipboard": {
-        "message": "Cookies copied to clipboard"
+        "message": "Cookies copiés dans le presse-papiers"
     }, 
     "editThis_Copy_Cookies": {
         "message": "Exporter des cookies"
@@ -339,6 +339,6 @@
         "message": "Supprimer le cookie"
     }, 
     "editThis_Details": {
-        "message": "Details"
+        "message": "Détails"
     }
 }

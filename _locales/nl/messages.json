@@ -1,0 +1,344 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "Sta ons toe je browser geschiedenis te delen. Alle gegevens zijn anoniem."
+    }, 
+    "editThis_contacts": {
+        "message": "Contacten"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Cookie aanpassingen opslaan"
+    }, 
+    "editThis_Options": {
+        "message": "Opties"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "Geblokkeerde cookies"
+    }, 
+    "editThis_minutes": {
+        "message": "Minuten"
+    }, 
+    "editThis_Rate_ETC": {
+        "message": "Beoordeel Edit This Cookie"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Voeg een filter toe als u een cookie automatisch wilt verwijderen wanneer deze wordt aangemaakt."
+    }, 
+    "editThis_translation": {
+        "message": "Vertaling"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Cookies verwijderd"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Bug gevonden of heb je een suggestie? Vertel het ons!"
+    }, 
+    "editThis_statsIntro": {
+        "message": "Hier zie je hoe je de extensie gebruikt. Het bijhouden van deze data is in juli 2012 begonnen."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donatie datum"
+    }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Laat het Kerstmuts icoon zien"
+    }, 
+    "editThis_help": {
+        "message": "Help"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Importeer Cookies"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "Beveiligde cookies"
+    }, 
+    "editThis_flagAll": {
+        "message": "Selecteer en verwijder alles"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "Zo, nu is het jouw beurt om energie in Edit This Cookie te investeren. Verricht een goede daad en Beoordeel ons in de Chrome Web Store."
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "Alleen-lezen cookies beschermd"
+    }, 
+    "editThis_support": {
+        "message": "Help ons"
+    }, 
+    "editThis_addNew": {
+        "message": "Nieuw cookie toevoegen"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "Toon onopvallende advertenties op sommige pagina die ik bezoek"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "Help ons de extensie te vertalen in jouw taal"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "Sla de cache over bij het herladen van de pagina"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "info en instellingen"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "Regular expressions toegestaan"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "Bugs / Feature verzoeken"
+    }, 
+    "editThis_Save": {
+        "message": "Opslaan"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Indien ingeschakeld, kun je het icoon verbergen door er met rechter-muisknop op te klikken!"
+    }, 
+    "editThis_statsSince": {
+        "message": "Cookie statistieken sinds: $1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "Toon domein bij ieder cookie's naam"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Kies het gewenste cookies exporteer formaat"
+    }, 
+    "editThis_reset": {
+        "message": "Herstellen"
+    }, 
+    "editThis_addRule": {
+        "message": "Regel toevoegen"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "Plak hier de cookies die je wil importeren. Geaccepteerde formaten:"
+    }, 
+    "editThis_description": {
+        "message": "Edit This Cookie is een cookie manager. Je kunt cookies toevoegen, verwijderen, bewerken, zoeken, beschermen en blokkeren."
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Cookies gewijzigd"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "Cookie markeren"
+    }, 
+    "editThis_time": {
+        "message": "Tijd"
+    }, 
+    "editThis_day": {
+        "message": "Dagen"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "Gemarkeerde Cookies Verwijderd"
+    }, 
+    "editThis_stats": {
+        "message": "Stats"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "Kies een andere taal"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "Je helpt kinderen in nood over de hele wereld, want $1% van de inkomsten gaat naar"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "De maximale leeftijd voor een cookie overschrijden"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "We ontwikkelen open source software van hoge kwaliteit en geven deze gratis weg. <br><br>Steun ons met $1. Verschuif de slider om het bedrag aan te passen.", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "Maanden"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Cookies aangemaakt"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Cookies geïmporteerd"
+    }, 
+    "editThis_secure": {
+        "message": "Veilig"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Cookies' verlooptijd verkort"
+    }, 
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    }, 
+    "editThis_Max_Date": {
+        "message": "Stel de maximale leeftijd van de cookie in"
+    }, 
+    "editThis_session": {
+        "message": "Sessie"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "Toon \"Cookies aanpassen\" in contextmenu"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "Altijd om bevestiging vragen"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "Het Evangelie van het Vliegende Deegsliert Monster"
+    }, 
+    "editThis_timesUsed": {
+        "message": "Je hebt 'Edit This Cookie'$1 keer gebruikt"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "Wat ben jij gul zeg! Als we elkaar ooit ontmoeten krijg je van mij een paar goudgele knapen met witte pruiken (hey, bier is belangrijk)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "Als we elkaar ooit ontmoeten krijg je van mij een Italiaanse koffie en een 'Babbà'"
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "Noem een feature die je graag geïmplementeerd zou zien en ik maak het waar! (zolang je niet om het onmogelijke vraagt :P )"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "Noem een bug in Edit This Cookie waar je je mateloos aan irriteert en ik zal hem super-snel repareren!"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "Je ontvangt een ontzagwekkend 'Edit This Cookie' bedank kaartje!"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "Je naam wordt toegevoegd aan de Wall of Fame"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "Je krijgt een bedank-mailtje, en een piepklein plekje in mijn hart"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "Nieuwe cookie markeren"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Ben de oorzaak van mij allereerste hartaanval. Het enige wat je hoeft te doen is nu doneren!"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "Je zal het nieuwe hoofd van mijn religie zijn, en als je wil dan stuur ik je het volgende boek:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "Maak alleen-lezen"
+    }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Filantropische instelling"
+    }, 
+    "editThis_deleteAll": {
+        "message": "Verwijder alles"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "Wij garanderen dat persoonlijke gegevens nooit gedeeld worden!"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "Een beveiligde cookie kan door geen enkele webpagina of browser-uitbreiding aangepast worden"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "Er zijn nog geen cookies beveiligd"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "Alle cookies van de huidige website verwijderen ?"
+    }, 
+    "editThis_Donate": {
+        "message": "Bijdragen"
+    }, 
+    "editThis_year": {
+        "message": "Jaren"
+    }, 
+    "editThis_seconds": {
+        "message": "Seconden"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Cookies bewerken"
+    }, 
+    "editThis_name": {
+        "message": "Naam"
+    }, 
+    "editThis_domain": {
+        "message": "Domein"
+    }, 
+    "editThis_path": {
+        "message": "Pad"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "Beveiligd"
+    }, 
+    "editThis_amountByHand": {
+        "message": "Click hier om de hoeveelheid handmatig aan te passen"
+    }, 
+    "editThis_backToList": {
+        "message": "Terug naar overzicht"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Herlaad pagina nadat de veranderingen zijn toegepast"
+    }, 
+    "editThis_expiration": {
+        "message": "Verlooptijd"
+    }, 
+    "editThis_donations": {
+        "message": "Donaties"
+    }, 
+    "editThis_storeID": {
+        "message": "StoreID"
+    }, 
+    "editThis_value": {
+        "message": "Waarde"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Stuur ons een email"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "Geen blokkade regels toegevoegd"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "Regel verwijderen"
+    }, 
+    "editThis_Amount": {
+        "message": "Bedrag"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Cookies geexporteerd"
+    }, 
+    "editThis_advertisements": {
+        "message": "Advertenties"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "Nog geen gegevens :("
+    }, 
+    "editThis_hour": {
+        "message": "Uren"
+    }, 
+    "editThis_Source_Code": {
+        "message": "Broncode"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Encodeer de waarde van de cookies (zoals <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>)  (Aanbevolen)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Hier kun je wat uitleg vinden over de basis functies van deze browser-uitbreiding"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "Ik wil doneren", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_Money_Raised": {
+        "message": "De opbrengst tot nu toe"
+    }, 
+    "editThis_cancel": {
+        "message": "Annuleren"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Controleer Wijzig This Cookie's bron code op $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
+    }, 
+    "editThis_search": {
+        "message": "Zoeken"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Cookies gekopieerd naar het klembord"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Cookies exporteren"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Verwijder cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Details"
+    }
+}

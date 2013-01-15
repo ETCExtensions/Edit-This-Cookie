@@ -57,16 +57,16 @@
         "message": "フラグを立ててすべて削除"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "もしEdit This Cookieを気に入っていただけたなら、Chrome Web Storeでの評価をお願いします。"
+        "message": "Edit This Cookieを気に入っていただいた場合は、Chrome Web Storeでの評価をお願いします"
     }, 
     "editThis_cookiesProtected": {
-        "message": "読み取り専用の保護されたCookieです"
+        "message": "読み取り専用の保護されたCookie"
     }, 
     "editThis_support": {
-        "message": "開発をサポート"
+        "message": "開発を支援"
     }, 
     "editThis_addNew": {
-        "message": "Cookieを追加"
+        "message": "新規Cookieを追加"
     }, 
     "editThis_AN_adsDescription": {
         "message": "開いているページに控えめな広告を表示する"
@@ -78,13 +78,13 @@
         "message": "この拡張機能の翻訳にご協力ください"
     }, 
     "editThis_skipCacheOnReload": {
-        "message": "ページの再読み込み時にキャッシュをスキップ"
+        "message": "ページの再読み込み時にキャッシュをスキップする"
     }, 
     "editThis_adsInfoAndSettings": {
         "message": "詳細情報と設定"
     }, 
     "editThis_useRegularExpressions": {
-        "message": "正規表現が使用できます"
+        "message": "正規表現を使用できます"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "バグ報告/機能の要望"
@@ -154,7 +154,7 @@
         "message": "Cookieが作成されました"
     }, 
     "editThis_cookiesImported": {
-        "message": "Cookieがインポートされました"
+        "message": "Cookieをインポートしました"
     }, 
     "editThis_secure": {
         "message": "セキュア"

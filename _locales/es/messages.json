@@ -114,7 +114,7 @@
         "message": "Pega aquí las cookies a importar. Formatos aceptados:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie es un gestòr de cookie. Puedes añadir, borrar, editar, buscar, proteger y bloquear cookies!"
+        "message": "Edit This Cookie es un gestor de cookies. ¡Puedes añadir, eliminar, editar, buscar, proteger y bloquear cookies!"
     }, 
     "editThis_cookiesModified": {
         "message": "Cookies modificadas"
@@ -172,7 +172,7 @@
         "message": "sesión"
     }, 
     "editThis_Show_ContextMenu": {
-        "message": "Visualizar \"Modifica Cookies\" en el menú contextual"
+        "message": "Mostrar \"Modificar Cookies\" en el menú contextual"
     }, 
     "editThis_Show_Alerts": {
         "message": "Pedir siempre confirmación"

@@ -57,7 +57,7 @@
         "message": "Sinalizar e excluir tudo"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "Se você gosta do Edit This Cookie, deixe um voto no Chrome Web Store"
+        "message": "Se você gosta do Edit This Cookie, deixe um voto na Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Cookies Protegidos como Apenas Ler"
@@ -105,7 +105,7 @@
         "message": "Escolha o formato preferido para exportar os cookies"
     }, 
     "editThis_reset": {
-        "message": "Redefinir"
+        "message": "Resetar"
     }, 
     "editThis_addRule": {
         "message": "Adicionar esta regra"
@@ -274,7 +274,7 @@
         "message": "Doações"
     }, 
     "editThis_storeID": {
-        "message": "storeID"
+        "message": "StoreID"
     }, 
     "editThis_value": {
         "message": "Valor"
@@ -286,7 +286,7 @@
         "message": "Nenhuma regra de bloqueio adicionada"
     }, 
     "editThis_Alert_deleteRule": {
-        "message": "Deletar regra"
+        "message": "Excluir essa regra"
     }, 
     "editThis_Amount": {
         "message": "Valor"
@@ -323,7 +323,7 @@
         "message": "Cancelar"
     }, 
     "editThis_Source_Code_Intro": {
-        "message": "Verifique o código fonte do Edit This Cookie em $1", 
+        "message": "Verifique o código fonte do Edit This Cookie no $1", 
         "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {
@@ -336,7 +336,7 @@
         "message": "Exportar cookies"
     }, 
     "editThis_Alert_deleteCookie": {
-        "message": "Deletar cookie"
+        "message": "Excluir cookie"
     }, 
     "editThis_Details": {
         "message": "Detalhes"

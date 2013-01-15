@@ -223,7 +223,7 @@
         "message": "모두 지우기"
     }, 
     "editThis_statsSharePolicy": {
-        "message": "어떠한 개인 정보도 공유되지 않는다는 것을 보장드립니다!"
+        "message": "어떠한 개인 정보도 절대로 공유되지 않는다는 것을 보장합니다!"
     }, 
     "editThis_ReadOnly_Def": {
         "message": "보호된 쿠키는 어떠한 웹 사이트나 확장기능도 편집할 수 없는 쿠키입니다"

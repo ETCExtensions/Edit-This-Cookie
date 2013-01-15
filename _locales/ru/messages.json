@@ -274,7 +274,7 @@
         "message": "Пожертвования"
     }, 
     "editThis_storeID": {
-        "message": "IDзаписи"
+        "message": "Запись ID"
     }, 
     "editThis_value": {
         "message": "Значение"
@@ -339,6 +339,6 @@
         "message": "Удалить"
     }, 
     "editThis_Details": {
-        "message": "Подробности"
+        "message": "Детали"
     }
 }
