@@ -412,6 +412,7 @@ function setEvents() {
 		$("#pasteCookie").slideUp('fast');
 		$("#newCookie").slideDown('fast');
 		$("#submitDiv").show();
+		$('#newCookie input.name').focus();
 		newCookie = true;
 		pasteCookie = false;
 	});
