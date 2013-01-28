@@ -147,7 +147,6 @@ var cookiesToString = {
 		string += "// Example: http://www.tutorialspoint.com/javascript/javascript_cookies.htm\n"
 		if(url != undefined)
 			string += "// URL: " + url + "\n";
-		string += "[";
 		for(var i=0; i<cookies.length; i++) {
 			cookie = cookies[i];
 			string += 	cookie.name + "=" + cookie.value + ";";
