@@ -12,7 +12,7 @@
         "message": "Cookie Änderungen speichern"
     }, 
     "editThis_Options": {
-        "message": "Optionen"
+        "message": "Einstellungen"
     }, 
     "editThis_Blocked_Cookies": {
         "message": "Geblockte Cookies"
@@ -42,7 +42,7 @@
         "message": "Spendendatum"
     }, 
     "editThis_Show_Christmas_Icon": {
-        "message": "Ikone mit Nikolausmütze anzeigen"
+        "message": "Icon mit Weihnachtsmütze anzeigen"
     }, 
     "editThis_help": {
         "message": "Hilfe"
@@ -117,7 +117,7 @@
         "message": "Edit This Cookie ist ein Cookie-Manager mit dem man Cookies hinzufügen, löschen, bearbeiten, suchen, schützen und blockieren kann."
     }, 
     "editThis_cookiesModified": {
-        "message": "Cookies verändert"
+        "message": "Veränderte Cookies"
     }, 
     "editThis_Flag_Cookie": {
         "message": "Markieren Sie dies Cookie"
