@@ -186,9 +186,10 @@ function fetchData() {
 		  	}
 		);
 	}
-	
+
+var alterWeb = chrome.extension.getBackgroundPage().back_alterweb;
 //	alterWeb.addToBlacklist("wikipedia");
-	alterWeb.removeFromBlacklist("wikipedia");
+//	alterWeb.removeFromBlacklist("wikipedia");
 	
 	AN_status.showADS = alterWeb.getShowADSStatus();
 	AN_status.watch("showADS",
@@ -210,6 +211,7 @@ function fetchData() {
 	  		AN_status_template.collectData.used = true;
 	  	}
 	);
+
 }
 
 window.addEventListener("storage", function(event) {
