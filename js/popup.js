@@ -210,7 +210,11 @@ function createAccordionList(cks, callback, callbackArguments) {
 	createAccordionCallback = callback;
 	createAccordionCallbackArguments = callbackArguments;
 	
-	$("#cookiesList").accordion("destroy");
+	try {
+		$("#cookiesList").accordion("destroy");
+	} catch(e) {
+		console.warn(e.message)
+	}
 	$("#cookiesList").empty();
 	if(cks == null)
 		cks = cookieList;
@@ -514,7 +518,7 @@ function setEvents() {
 function setCookieEvents() {
 	$(".hostOnly").click(function() {
 		var cookie = $(this).closest(".cookie");
-		var checked = $(this).attr("checked");
+		var checked = $(this).prop("checked");
 		if(!!checked)
 			$(".domain", cookie).attr("disabled", "disabled");
 		else
@@ -523,7 +527,7 @@ function setCookieEvents() {
 	
 	$(".session").click(function() {
 		var cookie = $(this).closest(".cookie");
-		var checked = $(this).attr("checked");
+		var checked = $(this).prop("checked");
 		if(!!checked)
 			$(".expiration", cookie).attr("disabled", "disabled");
 		else
