@@ -75,6 +75,8 @@ function setOptions() {
 	$("#maxDateType").buttonset("refresh");
 	
 	$("option[value='"+preferences.copyCookiesType+"']").prop("selected", true);
+
+    $("#sortCookiesAlpha").prop('checked', preferences.sortCookiesAlpha);
     
 	$.uniform.update();
 }
@@ -166,6 +168,10 @@ function setEvents() {
     
     $("#copyCookiesType").change(function() {
     	preferences.copyCookiesType = $("#copyCookiesType").val();
+    });
+
+    $("#sortCookiesAlpha").click(function() {
+        preferences.sortCookiesAlpha = $('#sortCookiesAlpha').prop("checked");
     });
 }
 
