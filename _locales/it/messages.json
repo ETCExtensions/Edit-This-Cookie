@@ -18,7 +18,7 @@
         "message": "Cookie Bloccati"
     }, 
     "editThis_minutes": {
-        "message": "minuti"
+        "message": "Minuti"
     }, 
     "editThis_Rate_ETC": {
         "message": "Vota Edit This Cookie"
@@ -66,7 +66,7 @@
         "message": "Sostienici"
     }, 
     "editThis_addNew": {
-        "message": "Aggiungi cookie"
+        "message": "Aggiungi nuovo cookie"
     }, 
     "editThis_AN_adsDescription": {
         "message": "Mostra pubblicità non invasive in alcune delle pagine che visito"
@@ -157,19 +157,19 @@
         "message": "Cookie importati"
     }, 
     "editThis_secure": {
-        "message": "sicuro"
+        "message": "Sicuro"
     }, 
     "editThis_cookiesShortened": {
         "message": "Scadenza dei cookie accorciate"
     }, 
     "editThis_hostOnly": {
-        "message": "hostOnly"
+        "message": "Solo Host"
     }, 
     "editThis_Max_Date": {
         "message": "Imposta la scadenza massima a"
     }, 
     "editThis_session": {
-        "message": "sessione"
+        "message": "Sessione"
     }, 
     "editThis_Show_ContextMenu": {
         "message": "Mostra \"Modifica Cookie\" nel menu contestuale"
@@ -247,13 +247,13 @@
         "message": "Modifica Cookie"
     }, 
     "editThis_name": {
-        "message": "nome"
+        "message": "Nome"
     }, 
     "editThis_domain": {
-        "message": "dominio"
+        "message": "Dominio"
     }, 
     "editThis_path": {
-        "message": "percorso"
+        "message": "Percorso"
     }, 
     "editThis_Is_ReadOnly": {
         "message": "Protetto"
@@ -268,7 +268,7 @@
         "message": "Ricarica la pagina dopo aver effettuato delle modifiche"
     }, 
     "editThis_expiration": {
-        "message": "scadenza"
+        "message": "Scadenza"
     }, 
     "editThis_donations": {
         "message": "Donazioni"

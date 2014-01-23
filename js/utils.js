@@ -1,4 +1,4 @@
-var alterWeb = chrome.extension.getBackgroundPage().back_alterweb;
+
 
 var escapeVar=$("<i></i>");
 function escapeJQ(string){

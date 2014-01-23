@@ -7,10 +7,12 @@ updateCallback = function() {
 		showContextMenu = preferences.showContextMenu;
 		setContextMenu(showContextMenu);
 	}
+	/*
 	if(showChristmasIcon != preferences.showChristmasIcon) {
 		showChristmasIcon = preferences.showChristmasIcon;
 		setChristmasIcon();
 	}
+	*/
 };
 
 //Every time the browser restarts the first time the user goes to the options he ends up in the default page (support)
@@ -24,7 +26,7 @@ if(data.lastVersionRun != currentVersion) {
 	data.lastVersionRun = currentVersion;
 }
 
-setChristmasIcon();
+//setChristmasIcon();
 
 setContextMenu(preferences.showContextMenu);
 

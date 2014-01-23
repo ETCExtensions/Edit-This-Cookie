@@ -48,7 +48,7 @@
         "message": "Help"
     }, 
     "editThis_Paste_Cookies": {
-        "message": "Importeer Cookies"
+        "message": "Cookies importeren"
     }, 
     "editThis_Protected_Cookies": {
         "message": "Beveiligde cookies"
@@ -57,7 +57,7 @@
         "message": "Selecteer en verwijder alles"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "Zo, nu is het jouw beurt om energie in Edit This Cookie te investeren. Verricht een goede daad en Beoordeel ons in de Chrome Web Store."
+        "message": "Als je leuk Edit This Cookie, laat een reactie achter op de Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Alleen-lezen cookies beschermd"
@@ -75,7 +75,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Help ons de extensie te vertalen in jouw taal"
+        "message": "Help ons deze extensie te vertalen in jou taal"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sla de cache over bij het herladen van de pagina"
@@ -132,7 +132,7 @@
         "message": "Gemarkeerde Cookies Verwijderd"
     }, 
     "editThis_stats": {
-        "message": "Stats"
+        "message": "Statestieken"
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Kies een andere taal"
@@ -208,7 +208,7 @@
         "message": "Nieuwe cookie markeren"
     }, 
     "editThis_ppBenefit9": {
-        "message": "Ben de oorzaak van mij allereerste hartaanval. Het enige wat je hoeft te doen is nu doneren!"
+        "message": "Wees de oorzaak van mij allereerste hartaanval. Het enige wat je hoeft te doen is nu doneren!"
     }, 
     "editThis_ppBenefit8": {
         "message": "Je zal het nieuwe hoofd van mijn religie zijn, en als je wil dan stuur ik je het volgende boek:"

@@ -114,7 +114,7 @@
         "message": "Paste here the cookies to import. Accepted formats:"
     }, 
     "editThis_description": {
-        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir, silebilir, düzeltebilir, arayabilir, koruyabilir ve engelleyebilirsin"
+        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir,silebilir,düzeltebilir,arayabilir,koruyabilir ve engelleyebilirsin"
     }, 
     "editThis_cookiesModified": {
         "message": "Çerezler Düzenlendi"

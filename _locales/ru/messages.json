@@ -66,7 +66,7 @@
         "message": "Помочь нам"
     }, 
     "editThis_addNew": {
-        "message": "Добавить новое"
+        "message": "Добавить cookie"
     }, 
     "editThis_AN_adsDescription": {
         "message": "Показывать ненавязчивую рекламу на некоторых страницах"
@@ -274,7 +274,7 @@
         "message": "Пожертвования"
     }, 
     "editThis_storeID": {
-        "message": "Запись ID"
+        "message": "IDзаписи"
     }, 
     "editThis_value": {
         "message": "Значение"
@@ -304,7 +304,7 @@
         "message": "Часы"
     }, 
     "editThis_Source_Code": {
-        "message": "Исходник"
+        "message": "Исходный код"
     }, 
     "editThis_Encode_Cookie_Value": {
         "message": "Кодировать значения cookie (в соответствии с <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (рекомендуется)"
@@ -339,6 +339,6 @@
         "message": "Удалить"
     }, 
     "editThis_Details": {
-        "message": "Детали"
+        "message": "Подробности"
     }
 }
