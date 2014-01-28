@@ -8,7 +8,7 @@ function deleteAll(cookieList, url) {
 }
 
 function deleteCookie(url,name,store){
-    console.log("Delete URL: "+url+" | NAME: "+name+" |");
+    //console.log("Delete URL: "+url+" | NAME: "+name+" |");
     chrome.cookies.remove({
         'url':url,
         'name':name,

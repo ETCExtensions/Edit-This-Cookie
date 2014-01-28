@@ -75,7 +75,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": " "
+        "message": "Auta meitä kääntämään laajennos omalle kielellesi"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Ohita välimuisti, kun sivu lataa uudelleen"
@@ -226,7 +226,7 @@
         "message": "Vannomme, että mitään henkilökohtaista dataa ei jaeta IKINÄ!"
     }, 
     "editThis_ReadOnly_Def": {
-        "message": "Suojattu eväste on eväste, jota ei voi muokata mikään verkkosivu tai laajennus."
+        "message": "Suojattu eväste on eväste, jota mikään verkkosivu tai laajennus ei voi muokata ."
     }, 
     "editThis_noReadOnlyAdded": {
         "message": "Ei suojattuja evästeitä"
@@ -247,7 +247,7 @@
         "message": "Muokkaa evästeitä"
     }, 
     "editThis_name": {
-        "message": "Arvo"
+        "message": "Nimi"
     }, 
     "editThis_domain": {
         "message": "Domain"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "Vanhentuminen"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Järjestä keksit aakkosjärjestyksellisesti"
     }, 
     "editThis_donations": {
         "message": "Lahjoitukset"
@@ -298,7 +301,7 @@
         "message": "Mainokset"
     }, 
     "editThis_noStatsNotice": {
-        "message": "Ei sisältöä (vielä) :("
+        "message": "Ei sisältöä vielä :("
     }, 
     "editThis_hour": {
         "message": "Tuntia"
@@ -323,7 +326,7 @@
         "message": "Peruuta"
     }, 
     "editThis_Source_Code_Intro": {
-        "message": "Tsekkaa Edit This Cookien lähdekoodi $1issa", 
+        "message": "Tutustu Edit This Cookien lähdekoodiin: $1", 
         "description": "It will read: Check Edit This Cookie's source code on GitHub"
     }, 
     "editThis_search": {

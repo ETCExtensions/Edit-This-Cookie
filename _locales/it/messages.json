@@ -270,6 +270,9 @@
     "editThis_expiration": {
         "message": "Scadenza"
     }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
+    }, 
     "editThis_donations": {
         "message": "Donazioni"
     }, 
@@ -277,7 +280,7 @@
         "message": "storeID"
     }, 
     "editThis_value": {
-        "message": "valore"
+        "message": "Valore"
     }, 
     "editThis_contactsIntro": {
         "message": "Inviaci una mail"

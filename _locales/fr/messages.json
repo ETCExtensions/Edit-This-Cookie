@@ -114,7 +114,7 @@
         "message": "Collez ici les cookies à importer. Les formats acceptés sont:"
     }, 
     "editThis_description": {
-        "message": "Edit This Cookie est un gestionnaire de cookies. Vous pouvez ajouter,supprimer,modifier,rechercher,protéger et bloquer les cookies!"
+        "message": "Edit This Cookie est un gestionnaire de cookies. Vous pouvez ajouter, supprimer, modifier, rechercher, protéger et bloquer les cookies!"
     }, 
     "editThis_cookiesModified": {
         "message": "Cookies modifiés"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "expiration"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
     }, 
     "editThis_donations": {
         "message": "Donations"

@@ -154,7 +154,7 @@
         "message": "Cookie vytvořena"
     }, 
     "editThis_cookiesImported": {
-        "message": "Cookies imported"
+        "message": "Cookies byly naimportovány"
     }, 
     "editThis_secure": {
         "message": "Bezpečnost"
@@ -166,7 +166,7 @@
         "message": "HostOnly"
     }, 
     "editThis_Max_Date": {
-        "message": "Set the maximum cookie age to"
+        "message": "Nastavte maximální platnost cookie"
     }, 
     "editThis_session": {
         "message": "Relace"
@@ -184,7 +184,7 @@
         "message": "'Editovat tuto cookie' použito $1 krát"
     }, 
     "editThis_ppBenefit7": {
-        "message": "You are very generous! If we ever meet I'll get you a few beers (hey, beer is important)"
+        "message": "Jste velmi štědrý. Pokud se někdy potkáme, dáme si spolu pár piv (hej, pivo je důležité)"
     }, 
     "editThis_ppBenefit6": {
         "message": "Pokud se někdy potkáme, koupím vám italskou kávu a 'Babbà'"
@@ -193,7 +193,7 @@
         "message": "Můžete si říct jakoukoliv funkci kterou chcete implementovat a já ji udělám! (jen nežádejte nemožné :P )"
     }, 
     "editThis_ppBenefit4": {
-        "message": "You can name any bug that annoys you in Edit This Cookie and I'll fix it super-fast!"
+        "message": "Můžete vyjmenovat chyby pro Edit This Cookie a já jej velmi rychle opravím"
     }, 
     "editThis_ppBenefit3": {
         "message": "You'll receive an awesome 'Edit This Cookie' Thank You postcard!"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "Expirace"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
     }, 
     "editThis_donations": {
         "message": "Příspěvky"

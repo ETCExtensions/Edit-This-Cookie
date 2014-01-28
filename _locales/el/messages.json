@@ -1,0 +1,347 @@
+{
+    "editThis_httpOnly": {
+        "message": "Χρήση μόνο Http "
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "Επίτρεψέ μας να μοιραστούμε τα δεδομένα πλοήγησής σου. Όλα τα δεδομένα είναι ανώνυμα."
+    }, 
+    "editThis_contacts": {
+        "message": "Εποικοινωνία"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Υποβολή αλλαγών cookie"
+    }, 
+    "editThis_Options": {
+        "message": "Επιλογές"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "Αποκλεισμένα cookies"
+    }, 
+    "editThis_minutes": {
+        "message": "Λεπτά"
+    }, 
+    "editThis_Rate_ETC": {
+        "message": "Βαθμολόγησε το Edit This Cookie"
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Εάν θέλεις να διαγράψεις προγραμματιστικά ένα cookie κάθε φορά που δημιουργείται, πρόσθεσε ένα φίλτρο και δε θα σε ενοχλήσει ξανά"
+    }, 
+    "editThis_translation": {
+        "message": "Μετάφραση"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Τα cookies έχουν διαγραφεί"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Βρήκες πρόβλημα ή έχεις κάποια πρόταση; Πες το μας!"
+    }, 
+    "editThis_statsIntro": {
+        "message": "Εδώ μπορείςε να δείς πώς χρησιμοποίησες αυτή την επέκταση. Τα στοιχεία έχουν συγκεντρωθεί  από τις 12 Ιουλίου μέχρι σήμερα."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Ημερομηνία δωρεάς"
+    }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Δείξε το εικονίδιο με το καπέλο του Άη Βασίλη"
+    }, 
+    "editThis_help": {
+        "message": "Βοήθεια"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Εισαγωγή cookies"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "Προστατευόμενα cookies"
+    }, 
+    "editThis_flagAll": {
+        "message": "Σημείωση και διαγραφή όλων."
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "Εάν σου αρέσει το Edit This Cookie, δώσε τη βαθμολογία σου στο Chrome Web Store"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "Τα read-only cookies είναι προστατευμένα"
+    }, 
+    "editThis_support": {
+        "message": "Υποστήριξέ μας"
+    }, 
+    "editThis_addNew": {
+        "message": "Πρόσθεσε ένα νέο cookie"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "Δείχνε μη ενοχλητικές διαφημίσεις σε κάποιες από τις σελίδες που επισκέπτομαι"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "Βοήθησέ μας να μεταφράσουμε την επέκταση στη δική σου γλώσσα"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "Skip the cache when page reloads"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "Πληροφορίες και Επιλογές"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "You can use regular expressions"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "Προβλήματα / Προτάσεις νέων δυνατοτήτων"
+    }, 
+    "editThis_Save": {
+        "message": "Αποθήκευση "
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Εάν ενεργοποιηθεί θα μπορείς να κρύψεις το εικονίδιο στο μενού, κάνοντας δεξί κλικ επάνω του!"
+    }, 
+    "editThis_statsSince": {
+        "message": "Στατιστικά των cookies από τις: $1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "Show the domain near each cookie's name"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Choose the preferred export format for cookies"
+    }, 
+    "editThis_reset": {
+        "message": "Επαναφορά"
+    }, 
+    "editThis_addRule": {
+        "message": "Add this rule"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "Paste here the cookies to import. Accepted formats:"
+    }, 
+    "editThis_description": {
+        "message": "Το Edit this Cookie είναι ένα πρόγραμμα διαχείρισης Cookies. Μπορείς να προσθέσεις, να διαγράψεις, να επεξεργαστείς, να αναζητήσεις, να προστατέψεις και να αποκλείσεις Cookies!"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Τα Cookies επεξεργάστηκαν"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "Επισήμανε το cookie"
+    }, 
+    "editThis_time": {
+        "message": "Ώρα"
+    }, 
+    "editThis_day": {
+        "message": "Μέρες"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "Τα επισημασμένα cookies έχουν διαγραφεί"
+    }, 
+    "editThis_stats": {
+        "message": "Στατιστικά"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "Επιλέξτε άλλη γλώσσα."
+    }, 
+    "editThis_Charity_Message": {
+        "message": "Θα βοηθήσεις παιδιά που έχουν ανάγκη σε όλο τον κόσμο, γιατί $1% των εσόδων πηγαίνει στο"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "Override the maximum age for any cookie"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "Δημιουργούμε υψηλής ποιότητας λογισμικό και το προσφέρουμε δωρεάν.<br>\\n<br> Βοηθήστε μας μόνο με 1$. Κινήστε την μπάρα για να αλλάξετε το ποσό.", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "Μήνες"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Τα Cookies δημιουργήθηκαν."
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Τα cookies έχουν εισαχθεί"
+    }, 
+    "editThis_secure": {
+        "message": "Ασφαλές"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Cookies' expiration shortened"
+    }, 
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    }, 
+    "editThis_Max_Date": {
+        "message": "Set the maximum cookie age to"
+    }, 
+    "editThis_session": {
+        "message": "Συνεδρία"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "Show \"Edit Cookies\" in contextual menu"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "Να ζητείται πάντα επιβεβαίωση"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster"
+    }, 
+    "editThis_timesUsed": {
+        "message": "Έχεις χρησιμοποιήσει το Edit this Cookie $1 φορές"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "Είσαι πολύ γενναιόδωρος! Αν συναντηθούμε ποτέ θα σε κεράσω μερικές μπύρες (έι, η μπύρα είναι σημαντική)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "Αν συναντηθούμε ποτέ θα σε κεράσω Ιταλικό καφέ και έναν Μπαμπά."
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "Μπορείς να ζητήσεις μια καινούρια δυνατότητα που θα ήθελες να συμπεριλάβουμε και εγώ θα την κάνω! (μόνο μη ζητήσεις κάτι αδύνατο :P)"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "Μπορείς να αναφέρεις ένα πρόβλημα που σε ενοχλεί στο Edit This Cookie και θα το διορθώσω έξτρα γρήγορα!"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "Θα λάβεις μια καταπληκτική ευχαριστήρια κάρτα \"Edit This Cookie\"!"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "Το όνομά σου θα προστεθεί στον Τοίχο της Δόξας"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "Θα λάβεις ένα ευχαριστήριο email και μια μικρή θέση στην καρδιά μου"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "Επισήμανε καινούριο cookie"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Γίνε η αιτία για την πρώτη μου καρδιακή προσβολή. Το μόνο που έχεις να κάνεις είναι να κάνεις μια δωρεά τώρα!"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "Θα είσαι ο καινούριος αρχηγός της θρησκείας μου και, αν θέλεις, θα σου στείλω το παρακάτω βιβλίο:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "Ρύθμιση ως ''μόνο για ανάγνωση''"
+    }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Ανθρωπιστικό πρόγραμμα"
+    }, 
+    "editThis_deleteAll": {
+        "message": "Διαγραφή όλων"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "Εγγυώμαστε πως δεν μοιραζόμαστε ποτέ τα προσωπικά σας δεδομένα!"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "Προστατευμένο cookie είναι ένα cookie που δε μπορεί να μεταβληθεί από κανέναν ιστότοπο ή καμία επέκταση"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "Δεν υπάρχουν προστατευμένα cookies ακόμα"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "Διαγραφή όλων των Cookies για αυτήν την σελίδα?"
+    }, 
+    "editThis_Donate": {
+        "message": "Συνεισφορά"
+    }, 
+    "editThis_year": {
+        "message": "Έτη"
+    }, 
+    "editThis_seconds": {
+        "message": "Δευτερόλεπτα"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Επεξεργασία Cookies"
+    }, 
+    "editThis_name": {
+        "message": "Όνομα"
+    }, 
+    "editThis_domain": {
+        "message": "Domain"
+    }, 
+    "editThis_path": {
+        "message": "Path"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "Προστατευμένο"
+    }, 
+    "editThis_amountByHand": {
+        "message": "to enter the amount by hand click here"
+    }, 
+    "editThis_backToList": {
+        "message": "Επιστροφή στη λίστα"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Reload the page after submitting the changes"
+    }, 
+    "editThis_expiration": {
+        "message": "Λήξη"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
+    }, 
+    "editThis_donations": {
+        "message": "Δωρεά"
+    }, 
+    "editThis_storeID": {
+        "message": "StoreID"
+    }, 
+    "editThis_value": {
+        "message": "Τιμή"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Στείλτε μας ένα Email"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "No block rules added"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "Delete this rule"
+    }, 
+    "editThis_Amount": {
+        "message": "Ποσό"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Τα cookies έχουν εξαχθεί"
+    }, 
+    "editThis_advertisements": {
+        "message": "Διαφημίσεις"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "Δεν υπάρχουν δεδομένα :("
+    }, 
+    "editThis_hour": {
+        "message": "Ώρες"
+    }, 
+    "editThis_Source_Code": {
+        "message": "Πηγαίος Κώδικας"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Κωδικοποίησε την τιμή του cookie (όπως στο <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Προτεινόμενο)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Εδώ μπορείς να βρεις εξηγήσεις για μερικές βασικές λειτουργίες αυτής της επέκτασης"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "Θέλω να δωρίσω", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_Money_Raised": {
+        "message": "Χρήματα που έχουν μαζευτεί μέχρι τώρα"
+    }, 
+    "editThis_cancel": {
+        "message": "Ακύρωση"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Check Edit This Cookie's source code on $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
+    }, 
+    "editThis_search": {
+        "message": "Αναζήτηση"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Τα cookies αντιγράφηκαν στο clipboard"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Εξαγωγή των cookies"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Διέγραψε το cookie"
+    }, 
+    "editThis_Details": {
+        "message": "Λεπτομέρειες"
+    }
+}

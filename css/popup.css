@@ -1,18 +1,14 @@
 html {
-    width: 450px;
-    height: 200px;
-    margin: 0 auto 0 auto;
-    padding: 0;
 }
 body {
 	background-color: #ededed;
-    width: 100%;
-    height: 200px;
-    margin: 0;
+    width: 450px;
+    min-height: 200px;
+    margin: 0 auto 0 auto;
     padding: 0;
     overflow-x: hidden !important;
     overflow-y: scroll !important;
-    font-size: .65em;
+    font-size: .7em;
 }
 #wrapper {
     width: 100%;
@@ -45,9 +41,10 @@ body {
 
 .input {
    width: 99%;
+   padding: 2px;
 }
 .checkbox {
-   margin-left:0;
+   vertical-align: middle;
 }
 #searchBox {
     float: right;
@@ -109,22 +106,24 @@ body {
 }
 #alert_wrapper {
     position: absolute;
-    background-color: #FFF;
     display: none;
-    opacity: .8;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 450px;
     height: 100%;
-    text-align: center;
     z-index: 1000;
 }
-#alert_box {
-	display: inline;
+#alert_background {
     position: absolute;
-    opacity: 10;
-    width: 100px;
-    font-size: 1.25em;
+    background-color: #FFF;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+}
+#alert_box {
+    position: absolute;
+    width: 300px;
+    margin: 10% 75px 0 75px;
+    font-size: 1.4em;
+    text-align: center;
     padding: 10px 20px 10px 20px;
     background-color: #000;
     color: #FFF;
@@ -164,10 +163,6 @@ body {
     color: #b10000!important;
     cursor: help;
     font-weight: bold;
-}
-.ui-accordion-content {
-    padding-left: 0!important;
-    padding-right: 0!important;
 }
 
 #cookieFilter .cookie-row > div {
@@ -241,7 +236,7 @@ body {
 .error {
 	width: 100%;
 	color: red;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: left !important;
 }
 
@@ -259,26 +254,34 @@ body {
 	left: 50%;
 }
 
-#loading {
-    display: none;
+#loader-container {
     z-index: 1000;
     position:absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align:center;
-    #background-color: #FFF;
-    opacity:1;
+    vertical-align: middle;
+    background-image:url('/img/transparent_white_60.png');
 }
 
-#loading img {
+#loader-container img {
     z-index: 1001;
     vertical-align: middle;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#noCookies {
+	display:none;
+	width: 100%;
+	margin-top: 50px;
+	text-align:center;
+	font-size: 1.6em;
+	font-weight: bold;
 }

@@ -54,13 +54,13 @@
         "message": "锁定的Cookies"
     }, 
     "editThis_flagAll": {
-        "message": "全部加入黑名单后清空"
+        "message": "标记全部并清空"
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "如果你喜欢该插件，请在 Chrome 在线商店留下您的评分。"
     }, 
     "editThis_cookiesProtected": {
-        "message": "禁止更改的 Cookie"
+        "message": "受保护的只读Cookies"
     }, 
     "editThis_support": {
         "message": "赞助开发者"
@@ -102,10 +102,10 @@
         "message": "在每个cookie名称旁边显示域名"
     }, 
     "editThis_Copy_Cookies_Type": {
-        "message": "选择cookies的输出格式"
+        "message": "选择cookies的导出格式"
     }, 
     "editThis_reset": {
-        "message": "清空"
+        "message": "重置"
     }, 
     "editThis_addRule": {
         "message": "添加规则"
@@ -138,7 +138,7 @@
         "message": "更改语言"
     }, 
     "editThis_Charity_Message": {
-        "message": "你将帮助「需要帮助的小孩 (Children in need)」，因为 $1% 的捐赠将转到"
+        "message": "你将帮助那些需要帮助的小孩，因为 $1% 的捐赠将转到"
     }, 
     "editThis_Max_Date_Option": {
         "message": "忽略任何cookies的最大周期"
@@ -175,7 +175,7 @@
         "message": "添加“编辑Cookies”到右键菜单"
     }, 
     "editThis_Show_Alerts": {
-        "message": "总是请求确认"
+        "message": "总是在操作前确认"
     }, 
     "editThis_gospelBookTitle": {
         "message": "飞面大神的福音"
@@ -235,7 +235,7 @@
         "message": "你确定删除此站点的所有cookies吗？"
     }, 
     "editThis_Donate": {
-        "message": "捐献"
+        "message": "贡献"
     }, 
     "editThis_year": {
         "message": "年"
@@ -256,7 +256,7 @@
         "message": "路径"
     }, 
     "editThis_Is_ReadOnly": {
-        "message": "锁定的"
+        "message": "受保护的"
     }, 
     "editThis_amountByHand": {
         "message": "点击这里输入一个金额"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "过期时间"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
     }, 
     "editThis_donations": {
         "message": "捐赠"

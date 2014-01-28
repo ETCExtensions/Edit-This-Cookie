@@ -1,0 +1,13 @@
+#cookiesList .ui-accordion-header {
+	background-image: linear-gradient(to bottom,  #eee 0%,#eee 100%);
+}
+.ui-accordion-header {
+	background-color: #ccc;
+	margin: 0 !important;
+	border-radius: 0 !important;
+}
+.ui-accordion-content {
+	border-radius: 0 !important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}

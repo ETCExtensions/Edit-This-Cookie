@@ -8,6 +8,9 @@
    "editThis_flagAll": {
       "message": "Flag and delete all"
    },
+   "editThis_Show_Flag_And_Delete_All": {
+      "message": "Show \"Flag and delete all\" button"
+   },
    "editThis_addNew": {
       "message": "Add a new cookie"
    },
@@ -71,6 +74,10 @@
    "editThis_seconds": {
       "message": "Seconds"
    },
+   "editThis_no_cookies": {
+      "message": "No cookies here!"
+   },
+   
    "editThis_Alert_deleteAll": {
       "message": "Delete all cookies for current website?"
    },
@@ -125,6 +132,15 @@
    "editThis_Donate": {
       "message": "Contribute"
    },
+   "editThis_Contribute_PayPal": {
+      "message": "Contribute with PayPal"
+   },
+   "editThis_Contribute_Bitcoins": {
+      "message": "Contribute in Bitcoins"
+   },
+   "editThis_Send_Donations_To": {
+      "message": "You can send donations to:"
+   },
    "editThis_help": {
       "message": "Help"
    },
@@ -148,6 +164,9 @@
    },
    "editThis_support": {
       "message": "Support us"
+   },
+   "editThis_support_etc": {
+      "message": "Support Edit This Cookie"
    },
    "editThis_noBlockAdded": {
       "message": "No block rules added"
@@ -224,13 +243,13 @@
       "message": "to enter the amount by hand click here"
    },
    "editThis_ppBenefit1": {
-      "message": "You will get a thank you email, and a tiny little place in my heart"
+      "message": "You will get a tiny little place in my heart"
    },
    "editThis_ppBenefit2": {
       "message": "Your name will be added to the Wall of Fame"
    },
    "editThis_ppBenefit3": {
-      "message": "You'll receive an awesome 'Edit This Cookie' Thank You postcard!"
+      "message": "You'll receive a tank you email"
    },
    "editThis_ppBenefit4": {
       "message": "You can name any bug that annoys you in Edit This Cookie and I'll fix it super-fast!"
@@ -245,7 +264,7 @@
       "message": "You are very generous! If we ever meet I'll get you a few beers (hey, beer is important)"
    },
    "editThis_ppBenefit8": {
-      "message": "You will be the new head of my religion and, if you wish, I will send you the following book:"
+      "message": "And an Italian pizza!"
    },
    "editThis_gospelBookTitle": {
       "message": "The Gospel of the Flying Spaghetti Monster"
@@ -296,7 +315,7 @@
       "message": "Cookies copied to clipboard"
    },
    "editThis_Paste_Cookies": {
-      "message": "Import Cookies"
+      "message": "Import cookies"
    },
    "editThis_Paste_Cookie_Here": {
       "message": "Paste here the cookies to import. Accepted formats:"
@@ -337,6 +356,18 @@
    },
    "editThis_Show_Christmas_Icon": {
       "message": "Show the Santa's hat icon"
+   },
+   "editThis_Show_Domain_Before_Name": {
+      "message": "Show the domain before the cookie's name"
+   },
+   "editThis_Sort_Cookies": {
+      "message": "Sort cookies"
+   },
+   "editThis_Sort_Cookies_Alpha": {
+      "message": "by name"
+   },
+   "editThis_Sort_Cookies_Domain_Alpha": {
+      "message": "by domain and name"
    },
    
    "editThis_": {

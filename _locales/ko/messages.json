@@ -9,7 +9,7 @@
         "message": "연락처"
     }, 
     "editThis_Alert_submitAll": {
-        "message": "쿠키 변경 사항 적용하기"
+        "message": "쿠키 변경 사항 적용"
     }, 
     "editThis_Options": {
         "message": "옵션"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "기한"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "쿠키를 알파벳 순서로 정렬"
     }, 
     "editThis_donations": {
         "message": "기부"

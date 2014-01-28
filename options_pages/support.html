@@ -17,7 +17,7 @@
 		<script src="options_page_chooser.js" type="text/javascript"></script>
 		<script src="support.js" type="text/javascript"></script>
 
-	<title i18n="support"></title>
+	<title i18n="support_etc"></title>
 	</head>
 	<body>
 	
@@ -27,7 +27,7 @@
 				<li class="chooser selected"	id="support"  				favicon="heart.png"><img src="/img/16/heart.png" width="15px" style="vertical-align: -15%;" /><span i18n="support"></span></li>
 				<li class="chooser" 			id="stats" 	 			favicon="graph_nodes.png"	i18n="stats"></li>
 				<li class="chooser" 			id="help" 	 				favicon="help.png"			i18n="help"></li>
-				<li class="chooser"			id="user_preferences"		favicon="tools.png"			i18n="Options"></li>
+				<li class="chooser"				id="user_preferences"		favicon="tools.png"			i18n="Options"></li>
 				<li class="chooser" 			id="block_rules"			favicon="trash.png"			i18n="Blocked_Cookies"></li>
 				<li class="chooser" 			id="readonly_rules"		favicon="lock.png"			i18n="Protected_Cookies"></li>
 			</ul>
@@ -35,63 +35,8 @@
 	
 		
 		<div id="support-box" class="box">
-			<h1 i18n="support"></h1>
+			<h1 i18n="support_etc"></h1>
 			<hr>
-			
-			<div class="section-title" i18n="advertisements"></div>
-			<div class="formLine">
-				<input type="checkbox" id="AN_showADSStatus" class="checkbox"/>
-				<b><label class="formLabel" i18n="AN_adsDescription"></label></b>
-			</div>
-			
-			<div class="formLine" style="margin: -20px 0 10px 0px;">
-				<img id="donation_heart" src="/img/16/heart.png" style="height:16px; width:16px; margin:-8px 9px 0 1px; vertical-align:bottom;"/>
-				<img id="donation_heart_broken" src="/img/16/broken_heart.png" style="display:none; height:16px; width:18px; margin:-8px 7px 0 1px; vertical-align:bottom;"/>
-				<b><span class="formLabel charityMessage" i18n="Charity_Message" i18n_argument="50"></span> </b>
-				<a href="http://www.unicef.org/" alt="Unicef" target="_blank"><img id="unicefImage" src="/img/unicef-logo.png" style="height: 30px; vertical-align: bottom; margin-bottom: -3px;"/></a>
-				&nbsp;&nbsp;&nbsp;&nbsp;
-				<span class="" id="donationsMadeTitle" style="font-size:1.2em;"><span i18n="Money_Raised"></span>: <b style="color: green; font-size:1.2em;">430&euro; &#8776; 582$</b>&nbsp;&nbsp;&nbsp;<a class="helper" href="#" i18n="Details"></a></span>
-			</div>
-			<div id="donationsMadeDetails" class="table" style="display:none;">
-				<div class="table_row header">
-					<div i18n="Donation_Date"></div>
-					<div i18n="Humanitarian_Program"></div>
-					<div i18n="Amount"></div>
-				</div>
-				<div class="table_row table_data">
-					<div>20/09/2013</div>
-					<div><a target="_blank" href="http://www.supportunicef.org">Where it's needed the most</a></div>
-					<div>100&euro;</div>
-				</div>
-				<div class="table_row table_data">
-					<div>23/04/2013</div>
-					<div><a target="_blank" href="http://www.supportunicef.org">Where it's needed the most</a></div>
-					<div>80&euro;</div>
-				</div>
-				<div class="table_row table_data">
-					<div>15/01/2013</div>
-					<div><a target="_blank" href="http://www.supportunicef.org">Where it's needed the most</a></div>
-					<div>48&euro;</div>
-				</div>
-				<div class="table_row table_data">
-					<div>10/12/2012</div>
-					<div><a target="_blank" href="http://www.supportunicef.org">Fight malnutrition</a></div>
-					<div>57&euro;</div>
-				</div>
-				<div class="table_row table_data">
-					<div>09/11/2012</div>
-					<div><a target="_blank" href="http://www.supportunicef.org/site/c.dvKUI9OWInJ6H/b.8310889/k.6269/Support_UNICEF__Crisis_in_Syria.htm">Crysis in Syria</a></div>
-					<div>90&euro;</div>
-				</div>
-				<div class="table_row table_data">
-					<div>11/10/2012</div>
-					<div><a target="_blank" href="http://www.supportunicef.org/site/c.dvKUI9OWInJ6H/b.8008351/k.24B9/Support_UNICEF__Nutrition_crisis_in_Sahel.htm">Nutrition crysis in Sahel</a></div>
-					<div>56&euro;</div>
-				</div>
-			</div>
-			
-			<hr>
-			
 			<div class="section-title" i18n="donations"></div>
 			<div i18n="paypalSupportIntro" i18n_argument='<img style="height: 20px; width:70px; vertical-align: -40%;" src="/img/paypal-logo-res.png"/>'></div>
 			<div style="margin-top: 10px;">
@@ -116,7 +61,7 @@
 					<li i18n="ppBenefit5"></li>
 					<li i18n="ppBenefit6"></li>
 					<li i18n="ppBenefit7"></li>
-					<li><span i18n="ppBenefit8"></span>&nbsp;<a i18n="gospelBookTitle" target="_blank" href="http://en.wikipedia.org/wiki/The_Gospel_of_the_Flying_Spaghetti_Monster"></a></li>
+					<li i18n="ppBenefit8"></li>
 					<li><b i18n="ppBenefit9"></b></li>
 				</ul>
 			</div>
@@ -132,7 +77,9 @@
 				<input type="image" src="https://www.paypalobjects.com/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 				<img alt="" border="0" src="https://www.paypalobjects.com/i/scr/pixel.gif" width="1" height="1">
 			</form>
-			<div id="paypal-donate-button" i18n="Donate"></div>
+			<div id="flattr-donate-button" class="donate-button" style=""><a style="position:absolute; bottom:0;" href="https://flattr.com/submit/auto?user_id=fcapano&url=https%3A%2F%2Fgithub.com%2Ffcapano%2FEdit-This-Cookie" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a></div>
+			<div id="bitcoins-donate-button" class="donate-button" i18n="Contribute_Bitcoins"></div>
+			<div id="paypal-donate-button" class="donate-button" i18n="Contribute_PayPal"></div>
 			<hr>
 			<div class="linkify" lnk="https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg/reviews">
 				<div class="section-title" i18n="Rate_ETC"></div>

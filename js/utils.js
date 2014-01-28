@@ -150,8 +150,9 @@ function getUrlVars(){
 function showPopup(info,tab){
     var tabUrl=encodeURI(tab.url);
     var tabID=encodeURI(tab.id);
+    var tabIncognito=encodeURI(tab.incognito);
     
-    var urlToOpen=chrome.extension.getURL("popup.html")+"?url="+tabUrl+"&id="+tabID;
+    var urlToOpen=chrome.extension.getURL("popup.html")+"?url="+tabUrl+"&id="+tabID+"&incognito="+tabIncognito;
     
     chrome.tabs.query({'windowId':chrome.windows.WINDOW_ID_CURRENT}, function(tabList){
 //    chrome.tabs.getAllInWindow(null,function(tabList){
@@ -193,4 +194,45 @@ function getDomain(url) {
   parts = server.split(".");
   domain = parts[parts.length - 2] + "." + parts[parts.length -1];
   return domain;
+}
+
+function isChristmasPeriod(){
+	var nowDate = new Date();
+	var isEndNovember = (nowDate.getMonth() == 10 && nowDate.getDate() >= 28);
+	var isDecember = (nowDate.getMonth() == 11);
+	var isStartJanuary = (nowDate.getMonth() == 0 && nowDate.getDate() <= 8);
+	var isChristmasDate = (isEndNovember || isDecember || isStartJanuary);
+	return isChristmasDate;
+}
+
+var canvasLoader;
+function setLoaderVisible(visible) {
+	if(visible) {
+		$("#loader-container").show();
+	} else {
+		$("#loader-container").hide();
+	}
+	
+	return;
+	
+	if(visible) {
+		if(canvasLoader == undefined)
+			canvasLoader = new CanvasLoader('loader-container');
+		canvasLoader.setShape('square'); // default is 'oval'
+		canvasLoader.setDiameter(50); // default is 40
+		canvasLoader.setDensity(50); // default is 40
+		canvasLoader.setRange(1); // default is 1.3
+		canvasLoader.show(); // Hidden by default
+	
+		var loaderContainer = document.getElementById("loader-container");
+		var loaderObj = document.getElementById("canvasLoader");
+		loaderObj.style.position = "absolute";
+		loaderObj.style["top"] = (loaderContainer.offsetHeight/2.0) + canvasLoader.getDiameter() * -0.5 + "px";
+		loaderObj.style["left"] = (loaderContainer.offsetWidth/2.0) + canvasLoader.getDiameter() * -0.5 + "px";
+	} else {
+		if(canvasLoader != undefined)
+			canvasLoader.kill();
+		canvasLoader = undefined;
+		$("#loader-container").hide();
+	}
 }

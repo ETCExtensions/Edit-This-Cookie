@@ -270,6 +270,9 @@
     "editThis_expiration": {
         "message": "Expirácia"
     }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
+    }, 
     "editThis_donations": {
         "message": "Príspevky"
     }, 

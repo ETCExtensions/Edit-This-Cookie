@@ -5,6 +5,12 @@ var preferences_template = {
 	"showDomain":{
 		"default_value": true
 	},
+	"showDomainBeforeName":{
+		"default_value": true
+	},
+	"showFlagAndDeleteAll":{
+		"default_value": false
+	},
 	"showContextMenu":{
 		"default_value": true
 	},
@@ -46,7 +52,10 @@ var preferences_template = {
 	},
 	"showChristmasIcon":{
 		"default_value": true
-	}
+	},
+	"sortCookiesType":{
+		"default_value": "domain_alpha"		//Supported: domain_alpha, alpha
+	},
 };
 
 var data_template = {
@@ -94,14 +103,8 @@ var data_template = {
 	}
 };
 
-var AN_status_template  = {
-	"showADS":{},
-	"collectData":{}
-}
-
 var preferences = {};
 var data = {};
-var AN_status  = {};
 var preferences_prefix = "options_";
 var data_prefix = "data_";
 var an_prefix = "AN_";
@@ -154,64 +157,38 @@ function fetchData() {
 		preferences[key] = ls.get(preferences_prefix+key, default_value);
 	
 		preferences.watch(key,
-		  	function (id, oldval, newval) {
+			function (id, oldval, newval) {
 				//ls.set(preferences_prefix+id, newval);
 				//return;
 				dataToSync[preferences_prefix+id] = newval;
 				if(!syncTimeout)
 					syncTimeout = setTimeout(syncDataToLS, syncTime);
 				return newval;
-		  	},
-		  	function (id) {							//This one gets called upon reading a value
+			},
+			function (id) {							//This one gets called upon reading a value
 				preferences_template[id].used = true;
-		  	}
+			}
 		);
 	}
 
 	for(var key in data_template) {
 		default_value = data_template[key].default_value;
 		data[key] = ls.get(data_prefix+key, default_value);
-	
+		
 		data.watch(key,
-		  	function (id, oldval, newval) {
+			function (id, oldval, newval) {
 				//ls.set(data_prefix+id, newval);
 				//return;
 				dataToSync[data_prefix+id] = newval;
 				if(!syncTimeout)
 					syncTimeout = setTimeout(syncDataToLS, syncTime);
 				return newval;
-		  	},
-		  	function (id) {
+			},
+			function (id) {
 				data_template[id].used = true;
-		  	}
+			}
 		);
 	}
-
-var alterWeb = chrome.extension.getBackgroundPage().back_alterweb;
-//	alterWeb.addToBlacklist("wikipedia");
-//	alterWeb.removeFromBlacklist("wikipedia");
-	
-	AN_status.showADS = alterWeb.getShowADSStatus();
-	AN_status.watch("showADS",
-	  	function (id, oldval, newval) {
-	  		alterWeb.setShowADSStatus(!!newval);
-			return newval;
-	  	},
-	  	function (id) {
-			AN_status_template.showADS.used = true;
-	  	}
-	);
-	AN_status.collectData = alterWeb.getDataCollectionStatus();
-	AN_status.watch("collectData",
-		function (id, oldval, newval) {
-	  		alterWeb.setDataCollectionStatus(!!newval);
-			return newval;
-	  	},
-	  	function (id) {
-	  		AN_status_template.collectData.used = true;
-	  	}
-	);
-
 }
 
 window.addEventListener("storage", function(event) {
@@ -238,12 +215,6 @@ window.addEventListener("storage", function(event) {
 		varChanged = data[key] != newValue;
 		data[key] = (newValue == null) ? data_template[key].default_value : newValue;
 		data_template[key].used = varUsed;
-	} else if(event.key.indexOf(an_prefix) == 0) {
-		key = event.key.substring(an_prefix.length);
-		varUsed = !!AN_status_template[key].used;
-		varChanged = AN_status[key] != !!newValue;
-		AN_status[key] = !!newValue;
-		AN_status_template[key].used = varUsed;
 	}
 	if(varUsed && varChanged && updateCallback != undefined) {
 		updateCallback();
@@ -260,4 +231,3 @@ if(firstRun != null) {
 
 var syncTimeout = setTimeout(syncDataToLS, syncTime);
 $(window).bind("beforeunload", syncDataToLS);
-AN_status.collectData = false;

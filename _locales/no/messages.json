@@ -1,0 +1,347 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    }, 
+    "editThis_AN_optInDescription": {
+        "message": "Tillat oss å dele din surfedata. All data er anonym"
+    }, 
+    "editThis_contacts": {
+        "message": "Kontakter"
+    }, 
+    "editThis_Alert_submitAll": {
+        "message": "Lagre endringer i informasjonskapsel"
+    }, 
+    "editThis_Options": {
+        "message": "Alternativer"
+    }, 
+    "editThis_Blocked_Cookies": {
+        "message": "Blokkerte informasjonskapsler"
+    }, 
+    "editThis_minutes": {
+        "message": "Minutter"
+    }, 
+    "editThis_Rate_ETC": {
+        "message": "Vurdér \"Edit This Cookie\""
+    }, 
+    "editThis_Blocked_Def": {
+        "message": "Dersom du ønsker å programmatisk slette en informasjonskapsel hver gang den lages, lag et filter så vil den ikke plage deg gjen"
+    }, 
+    "editThis_translation": {
+        "message": "Oversettelse"
+    }, 
+    "editThis_cookiesDeleted": {
+        "message": "Informasjonskapsel slettet"
+    }, 
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Har du funnet en feil eller har du et forslag? Fortell oss!"
+    }, 
+    "editThis_statsIntro": {
+        "message": "Her kan du finne ut hvordan hvordan du har brukt denne utvidelsen. Denne dataen har blitt samlet siden juli 2012."
+    }, 
+    "editThis_Donation_Date": {
+        "message": "Donasjonsdato"
+    }, 
+    "editThis_Show_Christmas_Icon": {
+        "message": "Vis julenisselueikonet"
+    }, 
+    "editThis_help": {
+        "message": "Hjelp"
+    }, 
+    "editThis_Paste_Cookies": {
+        "message": "Importér informasjonskapsler"
+    }, 
+    "editThis_Protected_Cookies": {
+        "message": "Beskyttede informasjonskapsler"
+    }, 
+    "editThis_flagAll": {
+        "message": "Flagg og slett alle"
+    }, 
+    "editThis_Rate_Us_Intro": {
+        "message": "Dersom du liker \"Edit This Cookie\", legg igjen en vurdering i Chrome Web Store"
+    }, 
+    "editThis_cookiesProtected": {
+        "message": "Skrivebeskyttede informasjonskapsler er beskyttet"
+    }, 
+    "editThis_support": {
+        "message": "Støtt oss"
+    }, 
+    "editThis_addNew": {
+        "message": "Legg til en ny informasjonskapsel"
+    }, 
+    "editThis_AN_adsDescription": {
+        "message": "Vis diskré annonser på noen av siden jeg besøker"
+    }, 
+    "editThis_": {
+        "message": ""
+    }, 
+    "editThis_translationIntro": {
+        "message": "Hjelp oss med å oversette utvidelsen til ditt språk"
+    }, 
+    "editThis_skipCacheOnReload": {
+        "message": "Hopp over hurtigminnet når en side lastes inn på nytt"
+    }, 
+    "editThis_adsInfoAndSettings": {
+        "message": "Informasjon og instillinger"
+    }, 
+    "editThis_useRegularExpressions": {
+        "message": "Du kan bruke regulære uttrykk"
+    }, 
+    "editThis_bugsFeatureRequest": {
+        "message": "Feil / funksjonsforlag"
+    }, 
+    "editThis_Save": {
+        "message": "Lagre"
+    }, 
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Dersom aktivert vil du kunne gjemme ikonet i verktøylinjen ved å høyreklikke på det."
+    }, 
+    "editThis_statsSince": {
+        "message": "Informasjonskapselstatistikk siden: $1"
+    }, 
+    "editThis_Show_Domain": {
+        "message": "Vis domenenavnet ved siden av hver informasjonskapsels navn"
+    }, 
+    "editThis_Copy_Cookies_Type": {
+        "message": "Velg ønsket eksportformat for informasjonskapsler"
+    }, 
+    "editThis_reset": {
+        "message": "Tilbakestill"
+    }, 
+    "editThis_addRule": {
+        "message": "Legg til denne reglen"
+    }, 
+    "editThis_Paste_Cookie_Here": {
+        "message": "Lim informasjonskapslene som skal importeres inn her. Aksepterte formater:"
+    }, 
+    "editThis_description": {
+        "message": "Edit This Cookie er en informasjonskapselbehandler. Du kan legge til, slette, redigere, søke, beskytte og blokkere informasjonskapsler!"
+    }, 
+    "editThis_cookiesModified": {
+        "message": "Informasjonskaplser endret"
+    }, 
+    "editThis_Flag_Cookie": {
+        "message": "Flagg informasjonskapsel"
+    }, 
+    "editThis_time": {
+        "message": "Tid"
+    }, 
+    "editThis_day": {
+        "message": "Dager"
+    }, 
+    "editThis_cookiesFlagged": {
+        "message": "Flaggede informasjonskapsler slettet"
+    }, 
+    "editThis_stats": {
+        "message": "Statistikk"
+    }, 
+    "editThis_Use_Custom_Locale": {
+        "message": "Velg et annet språk"
+    }, 
+    "editThis_Charity_Message": {
+        "message": "Du vil hjelpe barn i nød over hele verden, fordi $1 % av inntekten går til"
+    }, 
+    "editThis_Max_Date_Option": {
+        "message": "Overstyr maksimumsalder for alle informasjonskapsler"
+    }, 
+    "editThis_paypalSupportIntro": {
+        "message": "Vi utvikler åpen programvare med høy kvalitet og gir den vekk gratis. <br><br> Støtt oss ved å bruke $1. Beveg slideren for å endre beløp", 
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    }, 
+    "editThis_month": {
+        "message": "Måneder"
+    }, 
+    "editThis_cookiesCreated": {
+        "message": "Informasjonskapsler opprettet"
+    }, 
+    "editThis_cookiesImported": {
+        "message": "Informasjonskapsler importert"
+    }, 
+    "editThis_secure": {
+        "message": "Sikker"
+    }, 
+    "editThis_cookiesShortened": {
+        "message": "Informasjonskapslenes utløpstid forkortet"
+    }, 
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    }, 
+    "editThis_Max_Date": {
+        "message": "Sett informasjonskapselens maksimaltid til"
+    }, 
+    "editThis_session": {
+        "message": "Økt"
+    }, 
+    "editThis_Show_ContextMenu": {
+        "message": "Vis \"Rediger informasjonskapsler\" i kontekstmenyen"
+    }, 
+    "editThis_Show_Alerts": {
+        "message": "Alltid spør om bekreftelse"
+    }, 
+    "editThis_gospelBookTitle": {
+        "message": "Det flygende spaghettimonsters evangelium"
+    }, 
+    "editThis_timesUsed": {
+        "message": "Du har brukt \"Edit This Cookie\" $1 ganger"
+    }, 
+    "editThis_ppBenefit7": {
+        "message": "Du er veldig generøs! Dersom vi noen gang møtes skal jeg spandere et par øl (hey, øl er viktig)"
+    }, 
+    "editThis_ppBenefit6": {
+        "message": "Dersom vi noen gang møtes skal jeg spandere en italiensk kaffe og en \"Babbà\""
+    }, 
+    "editThis_ppBenefit5": {
+        "message": "Du kan nevne en funksjon du ønsker implementert, og jeg skal oppfylle det! (Bare ikke spør om det umulige :P)"
+    }, 
+    "editThis_ppBenefit4": {
+        "message": "Du kan nevne hvilken feil som irriterer deg i \"Edit This Cookie\" og jeg skal fikse det superfort!"
+    }, 
+    "editThis_ppBenefit3": {
+        "message": "Du vil motta et kult \"Edit This Cookie\"-takkekort i posten!"
+    }, 
+    "editThis_ppBenefit2": {
+        "message": "Ditt navn vil bli liagt til på the Wall of Fame"
+    }, 
+    "editThis_ppBenefit1": {
+        "message": "Du vil motta en takke-epost, og en liten plass i mitt hjerte!"
+    }, 
+    "editThis_Flag_New_Cookie": {
+        "message": "Flagg en ny informasjonskapsel"
+    }, 
+    "editThis_ppBenefit9": {
+        "message": "Bli årsaken til mit første hjerteatrakk. Alt du behøver å gjøre er å donere nå!"
+    }, 
+    "editThis_ppBenefit8": {
+        "message": "Du vil bli det nye overhodet i min religion, og hvis du vil kan jeg sende deg følgende bok:"
+    }, 
+    "editThis_Set_ReadOnly": {
+        "message": "Skrivebeskytt"
+    }, 
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitært program"
+    }, 
+    "editThis_deleteAll": {
+        "message": "Slett alle"
+    }, 
+    "editThis_statsSharePolicy": {
+        "message": "Vi garanterer at ingen personlig data noen sinne blir delt!"
+    }, 
+    "editThis_ReadOnly_Def": {
+        "message": "En beskyttet informasjonskapsel er en informasjonskapsel som ikke kan endres av noen nettside eller utvidelse"
+    }, 
+    "editThis_noReadOnlyAdded": {
+        "message": "Ingen informasjonskapsler er beskyttet enda"
+    }, 
+    "editThis_Alert_deleteAll": {
+        "message": "Slett alle informasjonskapsler for denne nettsiden?"
+    }, 
+    "editThis_Donate": {
+        "message": "Bidra"
+    }, 
+    "editThis_year": {
+        "message": "År"
+    }, 
+    "editThis_seconds": {
+        "message": "Sekunder"
+    }, 
+    "editThis_ContextMenu": {
+        "message": "Rediger informasjonskapsler"
+    }, 
+    "editThis_name": {
+        "message": "Navn"
+    }, 
+    "editThis_domain": {
+        "message": "Domene"
+    }, 
+    "editThis_path": {
+        "message": "Sti"
+    }, 
+    "editThis_Is_ReadOnly": {
+        "message": "Beskyttet"
+    }, 
+    "editThis_amountByHand": {
+        "message": "for a skrive inn beløpet for hånd, trykk her"
+    }, 
+    "editThis_backToList": {
+        "message": "Tilbake til listen"
+    }, 
+    "editThis_reloadAfterChanges": {
+        "message": "Last inn siden på nytt etter å ha lagret endringene"
+    }, 
+    "editThis_expiration": {
+        "message": "Utløp"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
+    }, 
+    "editThis_donations": {
+        "message": "Donasjoner"
+    }, 
+    "editThis_storeID": {
+        "message": "Butikk ID"
+    }, 
+    "editThis_value": {
+        "message": "Verdi"
+    }, 
+    "editThis_contactsIntro": {
+        "message": "Send oss en epost"
+    }, 
+    "editThis_noBlockAdded": {
+        "message": "Ingen blokkeringsregler er lagt til"
+    }, 
+    "editThis_Alert_deleteRule": {
+        "message": "Slett denne reglen"
+    }, 
+    "editThis_Amount": {
+        "message": "Antall"
+    }, 
+    "editThis_cookiesExported": {
+        "message": "Informasjonskapsler eksportert"
+    }, 
+    "editThis_advertisements": {
+        "message": "Annonser"
+    }, 
+    "editThis_noStatsNotice": {
+        "message": "Ingen data enda :("
+    }, 
+    "editThis_hour": {
+        "message": "Timer"
+    }, 
+    "editThis_Source_Code": {
+        "message": "Kildekode"
+    }, 
+    "editThis_Encode_Cookie_Value": {
+        "message": "Tegnkode informasjonskapslenes verdier (slik som <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Anbefalt)"
+    }, 
+    "editThis_helpIntro": {
+        "message": "Her vil du finne forklaringer for noen grunnleggende funksjoner denne utvidelsen har"
+    }, 
+    "editThis_iWantDonate": {
+        "message": "Jeg vil donere", 
+        "description": "I want to donate X euros"
+    }, 
+    "editThis_Money_Raised": {
+        "message": "Penger samlet inn så langt"
+    }, 
+    "editThis_cancel": {
+        "message": "Avbryt"
+    }, 
+    "editThis_Source_Code_Intro": {
+        "message": "Sjekk ut \"Edit This Cookie\" sin kildekode på $1", 
+        "description": "It will read: Check Edit This Cookie's source code on GitHub"
+    }, 
+    "editThis_search": {
+        "message": "Søk"
+    }, 
+    "editThis_Copied_clipboard": {
+        "message": "Informasjonskapslene er kopiert til utklippstavlen"
+    }, 
+    "editThis_Copy_Cookies": {
+        "message": "Eksporter informasjonskapsler"
+    }, 
+    "editThis_Alert_deleteCookie": {
+        "message": "Slett informasjonskapsel"
+    }, 
+    "editThis_Details": {
+        "message": "Detaljer"
+    }
+}

@@ -9,7 +9,7 @@
         "message": "Contacten"
     }, 
     "editThis_Alert_submitAll": {
-        "message": "Cookie aanpassingen opslaan"
+        "message": "Cookie-aanpassingen opslaan"
     }, 
     "editThis_Options": {
         "message": "Opties"
@@ -39,10 +39,10 @@
         "message": "Hier zie je hoe je de extensie gebruikt. Het bijhouden van deze data is in juli 2012 begonnen."
     }, 
     "editThis_Donation_Date": {
-        "message": "Donatie datum"
+        "message": "Donatiedatum"
     }, 
     "editThis_Show_Christmas_Icon": {
-        "message": "Laat het Kerstmuts icoon zien"
+        "message": "Laat het Kerstmutsicoon zien"
     }, 
     "editThis_help": {
         "message": "Help"
@@ -54,10 +54,10 @@
         "message": "Beveiligde cookies"
     }, 
     "editThis_flagAll": {
-        "message": "Selecteer en verwijder alles"
+        "message": "Markeer en verwijder alles"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "Als je leuk Edit This Cookie, laat een reactie achter op de Chrome Web Store"
+        "message": "Als je Edit This Cookie leuk vindt, laat een reactie achter op de Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Alleen-lezen cookies beschermd"
@@ -66,7 +66,7 @@
         "message": "Help ons"
     }, 
     "editThis_addNew": {
-        "message": "Nieuw cookie toevoegen"
+        "message": "Nieuwe cookie toevoegen"
     }, 
     "editThis_AN_adsDescription": {
         "message": "Toon onopvallende advertenties op sommige pagina die ik bezoek"
@@ -75,7 +75,7 @@
         "message": ""
     }, 
     "editThis_translationIntro": {
-        "message": "Help ons deze extensie te vertalen in jou taal"
+        "message": "Help ons de extensie te vertalen in jouw taal"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sla de cache over bij het herladen van de pagina"
@@ -93,22 +93,22 @@
         "message": "Opslaan"
     }, 
     "editThis_Show_ContextMenu_helper": {
-        "message": "Indien ingeschakeld, kun je het icoon verbergen door er met rechter-muisknop op te klikken!"
+        "message": "Indien ingeschakeld kun je het icoon verbergen door er met rechtermuisknop op te klikken"
     }, 
     "editThis_statsSince": {
         "message": "Cookie statistieken sinds: $1"
     }, 
     "editThis_Show_Domain": {
-        "message": "Toon domein bij ieder cookie's naam"
+        "message": "Toon domein bij iedere cookie naam"
     }, 
     "editThis_Copy_Cookies_Type": {
-        "message": "Kies het gewenste cookies exporteer formaat"
+        "message": "Kies het gewenste formaat om de cookies te exporteren"
     }, 
     "editThis_reset": {
         "message": "Herstellen"
     }, 
     "editThis_addRule": {
-        "message": "Regel toevoegen"
+        "message": "Voeg deze regel toe"
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Plak hier de cookies die je wil importeren. Geaccepteerde formaten:"
@@ -129,7 +129,7 @@
         "message": "Dagen"
     }, 
     "editThis_cookiesFlagged": {
-        "message": "Gemarkeerde Cookies Verwijderd"
+        "message": "Gemarkeerde Cookies verwijderd"
     }, 
     "editThis_stats": {
         "message": "Statestieken"
@@ -141,7 +141,7 @@
         "message": "Je helpt kinderen in nood over de hele wereld, want $1% van de inkomsten gaat naar"
     }, 
     "editThis_Max_Date_Option": {
-        "message": "De maximale leeftijd voor een cookie overschrijden"
+        "message": "De maximale leeftijd voor een cookie veranderen"
     }, 
     "editThis_paypalSupportIntro": {
         "message": "We ontwikkelen open source software van hoge kwaliteit en geven deze gratis weg. <br><br>Steun ons met $1. Verschuif de slider om het bedrag aan te passen.", 
@@ -178,7 +178,7 @@
         "message": "Altijd om bevestiging vragen"
     }, 
     "editThis_gospelBookTitle": {
-        "message": "Het Evangelie van het Vliegende Deegsliert Monster"
+        "message": "Het Evangelie van het Vliegende Spaghettimonster"
     }, 
     "editThis_timesUsed": {
         "message": "Je hebt 'Edit This Cookie'$1 keer gebruikt"
@@ -193,10 +193,10 @@
         "message": "Noem een feature die je graag geïmplementeerd zou zien en ik maak het waar! (zolang je niet om het onmogelijke vraagt :P )"
     }, 
     "editThis_ppBenefit4": {
-        "message": "Noem een bug in Edit This Cookie waar je je mateloos aan irriteert en ik zal hem super-snel repareren!"
+        "message": "Noem een bug in 'Edit This Cookie' waar je je mateloos aan irriteert en ik zal hem super-snel repareren!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Je ontvangt een ontzagwekkend 'Edit This Cookie' bedank kaartje!"
+        "message": "Je ontvangt een indrukwekkend 'Edit This Cookie' bedank kaartje!"
     }, 
     "editThis_ppBenefit2": {
         "message": "Je naam wordt toegevoegd aan de Wall of Fame"
@@ -214,7 +214,7 @@
         "message": "Je zal het nieuwe hoofd van mijn religie zijn, en als je wil dan stuur ik je het volgende boek:"
     }, 
     "editThis_Set_ReadOnly": {
-        "message": "Maak alleen-lezen"
+        "message": "Instellen als alleen-lezen"
     }, 
     "editThis_Humanitarian_Program": {
         "message": "Filantropische instelling"
@@ -229,10 +229,10 @@
         "message": "Een beveiligde cookie kan door geen enkele webpagina of browser-uitbreiding aangepast worden"
     }, 
     "editThis_noReadOnlyAdded": {
-        "message": "Er zijn nog geen cookies beveiligd"
+        "message": "Er zijn nog geen beveiligde cookies"
     }, 
     "editThis_Alert_deleteAll": {
-        "message": "Alle cookies van de huidige website verwijderen ?"
+        "message": "Alle cookies van de huidige website verwijderen?"
     }, 
     "editThis_Donate": {
         "message": "Bijdragen"
@@ -270,6 +270,9 @@
     "editThis_expiration": {
         "message": "Verlooptijd"
     }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
+    }, 
     "editThis_donations": {
         "message": "Donaties"
     }, 
@@ -286,7 +289,7 @@
         "message": "Geen blokkade regels toegevoegd"
     }, 
     "editThis_Alert_deleteRule": {
-        "message": "Regel verwijderen"
+        "message": "Deze regel verwijderen"
     }, 
     "editThis_Amount": {
         "message": "Bedrag"

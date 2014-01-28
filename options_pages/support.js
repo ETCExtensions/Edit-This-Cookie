@@ -11,32 +11,10 @@ updateCallback = function() {
 
 function setAdsOption() {
 	$(':checkbox').removeAttr('checked');
-	
-	$("#donationsMadeDetails").hide();
-	
-	$("#AN_showADSStatus").prop('checked', AN_status.showADS);
-	if(AN_status.showADS) {
-		$("#donation_heart").show();
-		$("#donation_heart_broken").hide();
-		$(".charityMessage").removeClass("benefit-unmatched");
-		$("#unicefImage").css("opacity","1");
-	} else {
-		$("#donation_heart").hide();
-		$("#donation_heart_broken").show();
-		$(".charityMessage").addClass("benefit-unmatched");
-		$("#unicefImage").css("opacity","0.5");
-	}
 	$.uniform.update();
 }
 
 function setEvents() {
-	$("#AN_showADSStatus").click(function() {
-		AN_status.showADS = $('#AN_showADSStatus').prop('checked');
-		setAdsOption();
-	});
-	$("#donationsMadeTitle").click(function() {
-		$("#donationsMadeDetails").toggle("slide", {"direction": "left"});
-	});
 	$(".linkify").click(function(){
 		var urlToOpen = $(this).attr("lnk");
 		if(urlToOpen == undefined)
@@ -58,7 +36,7 @@ function setDonation() {
 		animate: false,
 		value: 10,
 		min: 1,
-		max: 60,
+		max: 100,
 		step: 1,
 		slide: function( event, ui ) {
 			$( "#amount-show" ).html( ui.value );
@@ -76,6 +54,12 @@ function setDonation() {
 		submitPayPalForm();
 	});
 	
+	$( "#bitcoins-donate-button" ).button();
+	$( "#bitcoins-donate-button" ).click(function() {
+		//window.open("bitcoin:1MXCm8FcBDYu83mhtJ988D9ku8Z1Lti9kN?amount=0.1&label=Chrome%20Extensions%20Developer&message=Edit%20This%20Cookie%20Bitcoin%20Donation")
+		location.href = "/options_pages/bitcoins.html";
+	});
+	
 	$("#paypal-custom-amount").click(function() {
 		$("#paypal-form-amount").attr("disabled","disabled");
 		submitPayPalForm();
@@ -84,10 +68,11 @@ function setDonation() {
 
 function submitPayPalForm() {
 	var lang = "US";
-	if(/IT/i.test(window.navigator.language))
+	if(/IT/i.test(window.navigator.language)) {
 		lang = "IT";
-	else if(/ES/i.test(window.navigator.language))
+	} else if(/ES/i.test(window.navigator.language)) {
 		lang = "ES";
+	}
 	//$("#paypal-form-lang").val(lang);
 	var amount = $("#paypal-slider").slider("value");
 	$("#paypal-form-amount").val(amount);
@@ -100,7 +85,7 @@ function setDonationMessage(amount) {
 	var benefitItems = $("#benefits-list > li")
 	$("#benefits-list > li").addClass("benefit-unmatched");
 	
-	if(amount >= 5)
+	if(amount >= 1)
 		$(benefitItems.get(0)).removeClass("benefit-unmatched");
 	else
 		return;

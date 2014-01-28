@@ -39,7 +39,7 @@
         "message": "Burada bu eklentiyi nasıl kullandığınızı görebilirsiniz. Bu veriler sadece Temmuz 2012'den beri tutulmaktadır."
     }, 
     "editThis_Donation_Date": {
-        "message": "Donation Date"
+        "message": "Bağış Tarihi"
     }, 
     "editThis_Show_Christmas_Icon": {
         "message": "Show the Santa's hat icon"
@@ -90,7 +90,7 @@
         "message": "Hatalar / Özellik Talepleri"
     }, 
     "editThis_Save": {
-        "message": "Save"
+        "message": "Kaydet"
     }, 
     "editThis_Show_ContextMenu_helper": {
         "message": "Eğer aktifse, araç çubuğundaki gizle ikon sağ tıklayarak gizleyebilirsin"
@@ -114,7 +114,7 @@
         "message": "Paste here the cookies to import. Accepted formats:"
     }, 
     "editThis_description": {
-        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir,silebilir,düzeltebilir,arayabilir,koruyabilir ve engelleyebilirsin"
+        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir, silebilir, düzeltebilir, arayabilir, koruyabilir ve engelleyebilirsin"
     }, 
     "editThis_cookiesModified": {
         "message": "Çerezler Düzenlendi"
@@ -135,7 +135,7 @@
         "message": "İstatistikler"
     }, 
     "editThis_Use_Custom_Locale": {
-        "message": "Choose another language"
+        "message": "Başka dil seçin"
     }, 
     "editThis_Charity_Message": {
         "message": "You will help children in need all over the world, because $1% of the revenues go to"
@@ -169,7 +169,7 @@
         "message": "Set the maximum cookie age to"
     }, 
     "editThis_session": {
-        "message": "oturum"
+        "message": "Oturum"
     }, 
     "editThis_Show_ContextMenu": {
         "message": "\"Cookieleri Düzenle\" yi içerik menüsünde göster"
@@ -238,7 +238,7 @@
         "message": "Bağışta bulunmak"
     }, 
     "editThis_year": {
-        "message": "Years"
+        "message": "Yıllar"
     }, 
     "editThis_seconds": {
         "message": "saniye"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "geçerlilik"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
     }, 
     "editThis_donations": {
         "message": "Bağışlar"
@@ -301,10 +304,10 @@
         "message": "Henüz veri yok :("
     }, 
     "editThis_hour": {
-        "message": "Hours"
+        "message": "Saatler"
     }, 
     "editThis_Source_Code": {
-        "message": "Source Code"
+        "message": "Kaynak Kodu"
     }, 
     "editThis_Encode_Cookie_Value": {
         "message": "(Çerezleri değeri <her biri için a href=\"http://curl.haxx.se/rfc/cookie_spec.html\"> http://curl.haxx.se/rfc/cookie_spec.html olarak </a> ) olarak kodla (Önerilen)"

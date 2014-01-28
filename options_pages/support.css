@@ -26,12 +26,14 @@ body {
 	margin-top: -1px;
 }
 
-#paypal-donate-button {
+.donate-button {
+	position:relative;
 	float: right;
 	border-bottom-width: 0 !important;
 	width:110px;
-	height: 28px;
-	margin-top: -22px;
+	height: 40px;
+	margin-top: -30px;
+	margin-left: 10px;
 }
 
 #paypal-benefits {

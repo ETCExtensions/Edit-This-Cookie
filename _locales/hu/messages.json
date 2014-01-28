@@ -253,7 +253,7 @@
         "message": "Domain"
     }, 
     "editThis_path": {
-        "message": "Elérési út"
+        "message": "Path"
     }, 
     "editThis_Is_ReadOnly": {
         "message": "Védett"
@@ -269,6 +269,9 @@
     }, 
     "editThis_expiration": {
         "message": "Lejárati dátum"
+    }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Sort cookies in alphabetical order"
     }, 
     "editThis_donations": {
         "message": "Támogatás"

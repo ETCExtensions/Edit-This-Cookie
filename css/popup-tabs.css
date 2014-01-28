@@ -1,0 +1,50 @@
+#tabs {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#tabs ul {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+#tabs li {
+  float: left;
+  margin: 0 -15px 0 0;
+}
+
+#tabs a {
+  float: left;
+  position: relative;
+  padding: 0 40px;
+  height: 0; 
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #3D3D3D;
+  border-bottom-color: #777\9;
+  opacity: .3;
+  filter: alpha(opacity=30);	  
+}
+
+#tabs a:hover,
+#tabs a:focus {
+  border-bottom-color: #2ac7e1;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+#tabs a:focus {
+  outline: 0;
+}
+
+#tabs #current {
+  z-index: 3;
+  border-bottom-color: #3d3d3d;
+  opacity: 1;
+  filter: alpha(opacity=100);	  
+}

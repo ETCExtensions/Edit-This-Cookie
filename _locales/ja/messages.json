@@ -270,6 +270,9 @@
     "editThis_expiration": {
         "message": "有効期限"
     }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Cookie をアルファベット順に並べ替え"
+    }, 
     "editThis_donations": {
         "message": "寄付"
     }, 

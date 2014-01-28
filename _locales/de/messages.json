@@ -270,6 +270,9 @@
     "editThis_expiration": {
         "message": "Fälligkeitsdatum"
     }, 
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "Cookies alphabetisch sortieren"
+    }, 
     "editThis_donations": {
         "message": "Spenden"
     }, 
