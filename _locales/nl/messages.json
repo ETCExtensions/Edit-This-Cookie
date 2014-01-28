@@ -9,7 +9,7 @@
         "message": "Contacten"
     }, 
     "editThis_Alert_submitAll": {
-        "message": "Cookie aanpassingen opslaan"
+        "message": "Cookie-aanpassingen opslaan"
     }, 
     "editThis_Options": {
         "message": "Opties"
@@ -39,10 +39,10 @@
         "message": "Hier zie je hoe je de extensie gebruikt. Het bijhouden van deze data is in juli 2012 begonnen."
     }, 
     "editThis_Donation_Date": {
-        "message": "Donatie datum"
+        "message": "Donatiedatum"
     }, 
     "editThis_Show_Christmas_Icon": {
-        "message": "Laat het Kerstmuts icoon zien"
+        "message": "Laat het Kerstmutsicoon zien"
     }, 
     "editThis_help": {
         "message": "Help"
@@ -57,7 +57,7 @@
         "message": "Selecteer en verwijder alles"
     }, 
     "editThis_Rate_Us_Intro": {
-        "message": "Als je leuk Edit This Cookie, laat een reactie achter op de Chrome Web Store"
+        "message": "Als je Edit This Cookie leuk vindt, laat een reactie achter op de Chrome Web Store"
     }, 
     "editThis_cookiesProtected": {
         "message": "Alleen-lezen cookies beschermd"
@@ -87,13 +87,13 @@
         "message": "Regular expressions toegestaan"
     }, 
     "editThis_bugsFeatureRequest": {
-        "message": "Bugs / Feature verzoeken"
+        "message": "Bugs rapporteren/Suggestie voor een nieuwe functie"
     }, 
     "editThis_Save": {
         "message": "Opslaan"
     }, 
     "editThis_Show_ContextMenu_helper": {
-        "message": "Indien ingeschakeld, kun je het icoon verbergen door er met rechter-muisknop op te klikken!"
+        "message": "Indien ingeschakeld kun je het icoon verbergen door er met rechtermuisknop op te klikken!"
     }, 
     "editThis_statsSince": {
         "message": "Cookie statistieken sinds: $1"
@@ -102,7 +102,7 @@
         "message": "Toon domein bij ieder cookie's naam"
     }, 
     "editThis_Copy_Cookies_Type": {
-        "message": "Kies het gewenste cookies exporteer formaat"
+        "message": "Kies het gewenste formaat om de cookies te exporteren"
     }, 
     "editThis_reset": {
         "message": "Herstellen"
@@ -129,7 +129,7 @@
         "message": "Dagen"
     }, 
     "editThis_cookiesFlagged": {
-        "message": "Gemarkeerde Cookies Verwijderd"
+        "message": "Gemarkeerde Cookies verwijderd"
     }, 
     "editThis_stats": {
         "message": "Statestieken"
@@ -178,7 +178,7 @@
         "message": "Altijd om bevestiging vragen"
     }, 
     "editThis_gospelBookTitle": {
-        "message": "Het Evangelie van het Vliegende Deegsliert Monster"
+        "message": "Het Evangelie van het Vliegende Spaghettimonster"
     }, 
     "editThis_timesUsed": {
         "message": "Je hebt 'Edit This Cookie'$1 keer gebruikt"
@@ -193,16 +193,16 @@
         "message": "Noem een feature die je graag geïmplementeerd zou zien en ik maak het waar! (zolang je niet om het onmogelijke vraagt :P )"
     }, 
     "editThis_ppBenefit4": {
-        "message": "Noem een bug in Edit This Cookie waar je je mateloos aan irriteert en ik zal hem super-snel repareren!"
+        "message": "Noem een bug in Edit This Cookie waar je je mateloos aan irriteert en ik zal hem supersnel repareren!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Je ontvangt een ontzagwekkend 'Edit This Cookie' bedank kaartje!"
+        "message": "Je ontvangt een ontzagwekkend 'Edit This Cookie' bedankkaartje!"
     }, 
     "editThis_ppBenefit2": {
         "message": "Je naam wordt toegevoegd aan de Wall of Fame"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Je krijgt een bedank-mailtje, en een piepklein plekje in mijn hart"
+        "message": "Je krijgt een bedankmailtje, en een piepklein plekje in mijn hart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Nieuwe cookie markeren"
@@ -211,7 +211,7 @@
         "message": "Wees de oorzaak van mij allereerste hartaanval. Het enige wat je hoeft te doen is nu doneren!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Je zal het nieuwe hoofd van mijn religie zijn, en als je wil dan stuur ik je het volgende boek:"
+        "message": "Je zal het nieuwe hoofd van mijn geloof zijn, en als je wil dan stuur ik je het volgende boek:"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Maak alleen-lezen"
@@ -232,7 +232,7 @@
         "message": "Er zijn nog geen cookies beveiligd"
     }, 
     "editThis_Alert_deleteAll": {
-        "message": "Alle cookies van de huidige website verwijderen ?"
+        "message": "Alle cookies van de huidige website verwijderen?"
     }, 
     "editThis_Donate": {
         "message": "Bijdragen"
@@ -310,11 +310,11 @@
         "message": "Encodeer de waarde van de cookies (zoals <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>)  (Aanbevolen)"
     }, 
     "editThis_helpIntro": {
-        "message": "Hier kun je wat uitleg vinden over de basis functies van deze browser-uitbreiding"
+        "message": "Hier kun je wat uitleg vinden over de basisfuncties van deze browseruitbreiding"
     }, 
     "editThis_iWantDonate": {
         "message": "Ik wil doneren", 
-        "description": "I want to donate X euros"
+        "description": "I want to donate €X"
     }, 
     "editThis_Money_Raised": {
         "message": "De opbrengst tot nu toe"
