@@ -46,7 +46,10 @@ var preferences_template = {
 	},
 	"showChristmasIcon":{
 		"default_value": true
-	}
+	},
+    "sortCookiesAlpha":{
+        "default_value": false
+    }
 };
 
 var data_template = {

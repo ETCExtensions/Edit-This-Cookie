@@ -338,7 +338,10 @@
    "editThis_Show_Christmas_Icon": {
       "message": "Show the Santa's hat icon"
    },
-   
+   "editThis_Sort_Cookies_Alpha": {
+      "message": "Sort cookies in alphabetical order"
+   },
+
    "editThis_": {
       "message": ""
    }

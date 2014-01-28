@@ -33,7 +33,7 @@ function start() {
 			var filter = new Filter();
 			filter.setUrl(url);
 			//filter.setDomain(getDomain(url));
-			createList(filter.getFilter());
+			createList(filter.getFilter(), preferences.sortCookiesAlpha);
 			document.title = document.title + "-" + url;
 		});
 	} else {
@@ -43,7 +43,7 @@ function start() {
 		var filter = new Filter();
 		filter.setUrl(url);
 		//filter.setDomain(getDomain(url));
-		createList(filter.getFilter());
+		createList(filter.getFilter(), preferences.sortCookiesAlpha);
 		document.title = document.title + "-" + url;
 	}
 }
@@ -149,7 +149,7 @@ function submitNew() {
 	location.reload(true);
 }
 
-function createList(filters) {
+function createList(filters, sortCookiesAlpha) {
 	var filteredCookies = [];	
 	
 	if(filters == null)
@@ -189,6 +189,16 @@ function createList(filters) {
 			filteredCookies.push(currentC);
 		}
 		cookieList = filteredCookies;
+
+        // Allow sorting if configuration option is enabled.
+        if (sortCookiesAlpha)
+        {
+            cookieList = cookieList.sort(function(a, b) {
+                if(a.name < b.name) return -1;
+                if(a.name > b.name) return 1;
+                return 0;
+            });
+        }
 		
 		//setTimeout(function(){								//Testing if it fixes a weird bug with jQuery's accordion //Apparently does
 			createAccordionList(cookieList, function(){
