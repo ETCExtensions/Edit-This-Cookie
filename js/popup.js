@@ -35,7 +35,6 @@ function start() {
 		chrome.tabs.getSelected(null, function(tab) {
 			url = tab.url;
 			currentTabID = tab.id;
-			isTabIncognito = tab.incognito;
 			var filter = new Filter();
 			filter.setUrl(url);
 			//filter.setDomain(getDomain(url));
