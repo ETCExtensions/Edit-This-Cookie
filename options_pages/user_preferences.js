@@ -61,6 +61,11 @@ function setOptions() {
 	$("option[value='"+preferences.copyCookiesType+"']").prop("selected", true);
 	
 	$("#showDomainBeforeName").prop('checked', preferences.showDomainBeforeName);
+	$("#showDomainBeforeName").prop("disabled", !preferences.showDomain);
+	if(!preferences.showDomain)
+		$("#showDomainBeforeNameLabel").addClass("disabled");
+	else
+		$("#showDomainBeforeNameLabel").removeClass("disabled");
 	
 	$("option[value='"+preferences.sortCookiesType+"']").prop("selected", true);
 	
@@ -74,6 +79,13 @@ function setEvents() {
 	});
 	$("#showDomain").click(function() {
 		preferences.showDomain = $('#showDomain').prop("checked");
+		$("#showDomainBeforeName").prop("disabled", !preferences.showDomain);
+		if(!preferences.showDomain) {
+			$("#showDomainBeforeNameLabel").addClass("disabled");
+		} else {
+			$("#showDomainBeforeNameLabel").removeClass("disabled");
+		}
+		$.uniform.update();
 	});
 	$("#refreshAfterSubmit").click(function() {
 		preferences.refreshAfterSubmit = $('#refreshAfterSubmit').prop("checked");
