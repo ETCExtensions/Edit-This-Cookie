@@ -168,8 +168,9 @@ function createList(filters) {
 		filterURL.domain = filters.domain;
 		
 	chrome.cookies.getAll(filterURL, function(cks) {
+		var currentC;
 		for(var i=0; i<cks.length; i++) {
-			var currentC = cks[i];
+			currentC = cks[i];
 			
 			if(filters.name != undefined && currentC.name.toLowerCase().indexOf(filters.name.toLowerCase()) == -1)
 				continue;
@@ -454,6 +455,7 @@ function setEvents() {
 		$("#addCookieButton").fadeOut('fast', function(){
 			$("#backToList").fadeIn('fast');
 		});
+		$("#noCookies").slideUp();
 		$("#cookieFilter").slideUp();
 		$("#submitFiltersButton").slideUp();
 		$("#cookiesList").slideUp('fast');
@@ -469,6 +471,7 @@ function setEvents() {
 		$("#backToList").fadeOut('fast', function(){
 			$("#addCookieButton").fadeIn('fast');
 		});
+		$("#noCookies").slideDown();
 		$("#cookieFilter").slideUp();
 		$("#submitFiltersButton").slideUp();
 		$("#newCookie").slideUp('fast');
