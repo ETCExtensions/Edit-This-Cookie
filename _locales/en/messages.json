@@ -12,7 +12,7 @@
       "message": "Show \"Flag and delete all\" button"
    },
    "editThis_addNew": {
-      "message": "Add a new cookie"
+      "message": "New cookie"
    },
    "editThis_backToList": {
       "message": "Back to list"
@@ -249,7 +249,7 @@
       "message": "Your name will be added to the Wall of Fame"
    },
    "editThis_ppBenefit3": {
-      "message": "You'll receive a tank you email"
+      "message": "You'll receive a thank you email"
    },
    "editThis_ppBenefit4": {
       "message": "You can name any bug that annoys you in Edit This Cookie and I'll fix it super-fast!"
