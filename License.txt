@@ -1,6 +1,5 @@
-Edit This Cookie is a program by Francesco Capano
-If you want to use my code, or you want the full original source code send me an email at: fcapano@gmail.com
-You can fing it here: https://chrome.google.com/extensions/detail/fngmhnnpilhplaeedifhccceomclgfbg#
+Edit This Cookie is a Chrome extension made by Francesco Capano
+https://chrome.google.com/extensions/detail/fngmhnnpilhplaeedifhccceomclgfbg
 
 
 This file is part of "Edit This Cookie".
@@ -10,10 +9,10 @@ This file is part of "Edit This Cookie".
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Foobar is distributed in the hope that it will be useful,
+    "Edit This Cookie" is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    along with "Edit This Cookie". If not, see <http://www.gnu.org/licenses/>.
