@@ -68,12 +68,10 @@ body {
     display: none;
 }
 #submitDiv {
-    display: none;
-    position: fixed;
-    height: 30px;
-    right: 3px;
-    bottom: 0;
-    overflow: visible;
+    display:none;
+    height:30px;
+    float:right;
+    margin:15px;
 }
 .submitDivSepWindow {
 	position: relative !important;
