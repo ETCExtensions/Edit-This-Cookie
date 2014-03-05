@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Позволить нам делиться Вашей информацией о посещаемых сайтах. Анонимно."
     }, 
-    "editThis_contacts": {
-        "message": "Контакты"
+    "editThis_no_cookies": {
+        "message": "Здесь нету cookies!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Сохранить изменения"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Импорт Cookies"
     }, 
+    "editThis_contacts": {
+        "message": "Контакты"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Защищенные"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Если Вам нравится Edit This Cookie, поставьте оценку на Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Показывать домен перед названием cookie"
     }, 
     "editThis_cookiesProtected": {
         "message": "Данный cookie только для чтения"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Помогите перевести расширение на Ваш язык"
+    "editThis_Show_Domain": {
+        "message": "Показывать имя домена возле каждого имени cookie"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Пропускать кэш при обновлении страницы"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Вы можете использовать регулярные выражения"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Contribute with PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Баги / предложения по улучшению функционала"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Статистика cookie начиная с: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Показывать имя домена возле каждого имени cookie"
+    "editThis_translationIntro": {
+        "message": "Помогите перевести расширение на Ваш язык"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Выберите нужный формат экспорта для Cookies"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Скопируйте сюда Cookies для импорта. Допустимые форматы:"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "You can send donations to:"
     }, 
     "editThis_description": {
         "message": "Edit This Cookie - это менеджер cookie. Вы можете добавлять, удалять, изменять, искать, защищать и блокировать cookie!"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Выбрать другой язык"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "по домену и имени"
     }, 
     "editThis_Charity_Message": {
         "message": "Вы будете помогать нуждающимся детям во всем мире, потому что $1% от доходов перечислится "
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Установить максимальный срок для Сookie"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Contribute in Bitcoins"
+    }, 
     "editThis_session": {
         "message": "Сессия"
     }, 
@@ -196,13 +214,13 @@
         "message": "Назовите баг, который вас раздражает в Edit This Cookie, и я его исправлю супер-быстро!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Вы получите удивительную открытку 'Edit This Cookie'. Спасибо!"
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "Ваше имя будет добавлено на Доску Почета"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Вы получите мое \"спасибо\" на почту и скромный уголок в моем сердце"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Пометить новый Cookie"
@@ -211,7 +229,7 @@
         "message": "У меня может случится инфаркт. Все, что вам нужно сделать, это пожертвовать прямо сейчас!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Вы станете моим новым идолом, и, если хотите, я пошлю вам эту книгу:"
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Только для чтения"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Имя"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Show \"Flag and delete all\" button"
+    }, 
     "editThis_domain": {
         "message": "Домен"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Сортировать cookies"
     }, 
     "editThis_path": {
         "message": "Путь"
@@ -271,7 +295,7 @@
         "message": "Истекает"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "по имени"
     }, 
     "editThis_donations": {
         "message": "Пожертвования"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Реклама"
+    }, 
+    "editThis_support_etc": {
+        "message": "Поддержать Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "Нет записей :("

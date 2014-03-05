@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "允许我们使用您的浏览信息，所有的信息都是匿名的。"
     }, 
-    "editThis_contacts": {
-        "message": "联系方式"
+    "editThis_no_cookies": {
+        "message": "没有cookie记录！"
     }, 
     "editThis_Alert_submitAll": {
         "message": "提交更改"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "导入cookie"
     }, 
+    "editThis_contacts": {
+        "message": "联系方式"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "锁定的Cookies"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "如果你喜欢该插件，请在 Chrome 在线商店留下您的评分。"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "在cookie名称前显示域名"
     }, 
     "editThis_cookiesProtected": {
         "message": "受保护的只读Cookies"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "帮助我们翻译该插件到您的语言"
+    "editThis_Show_Domain": {
+        "message": "在每个cookie名称旁边显示域名"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "刷新页面时跳过缓存"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "你可以使用正则表达式"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "通过 PayPal 支持我们"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "问题反馈"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Cookie统计自 : $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "在每个cookie名称旁边显示域名"
+    "editThis_translationIntro": {
+        "message": "帮助我们翻译该插件到您的语言"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "选择cookies的导出格式"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "请将欲导入的cookies粘贴在这里"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "您可以将捐助发送到："
     }, 
     "editThis_description": {
         "message": "Edit This Cookie是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "更改语言"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "by domain and name"
     }, 
     "editThis_Charity_Message": {
         "message": "你将帮助那些需要帮助的小孩，因为 $1% 的捐赠将转到"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "设置cookie的周期为"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "使用比特币支持我们"
+    }, 
     "editThis_session": {
         "message": "session"
     }, 
@@ -196,13 +214,13 @@
         "message": "你可以提交那些让你感到不爽的功能，然后我会在第一时间将其改到您满意！"
     }, 
     "editThis_ppBenefit3": {
-        "message": "你将收到一张来自「Edit This Cookie」的明信片！"
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "您将留名青史。"
     }, 
     "editThis_ppBenefit1": {
-        "message": "您会收到一封感谢信，您的大恩大德我们铭记于心。"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "标记新cookies"
@@ -211,7 +229,7 @@
         "message": "您的捐助是我们的动力。"
     }, 
     "editThis_ppBenefit8": {
-        "message": "您是我们的动力之源。如果你愿意，我将寄书以表感谢："
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "设置为只读"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "名称"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Show \"Flag and delete all\" button"
+    }, 
     "editThis_domain": {
         "message": "域名"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Sort cookies"
     }, 
     "editThis_path": {
         "message": "路径"
@@ -271,7 +295,7 @@
         "message": "过期时间"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "by name"
     }, 
     "editThis_donations": {
         "message": "捐赠"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "广告"
+    }, 
+    "editThis_support_etc": {
+        "message": "Support Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "暂无数据:("

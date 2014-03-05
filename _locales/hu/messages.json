@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Böngészési statisztika kiadása harmadik félnek. Minden adat anonim."
     }, 
-    "editThis_contacts": {
-        "message": "Kapcsolatok"
+    "editThis_no_cookies": {
+        "message": "No cookies here!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Változtatások véglegesítése"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Sütik importálása"
     }, 
+    "editThis_contacts": {
+        "message": "Kapcsolatok"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Védett sütik"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Ha tettszik az Edit This Cookie, akkor értékeld a Chrome Webáruházban"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Show the domain before the cookie's name"
     }, 
     "editThis_cookiesProtected": {
         "message": "Csak olvasható sütik védve"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Help us translate the extension to your language"
+    "editThis_Show_Domain": {
+        "message": "A domain jelzése a sütik neve mellett"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Gyorsítótár kihagyása frissítésnél"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Használhatsz regex-et"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Contribute with PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Bug jelentés / Javaslatok"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Süti statisztikák $1 óta"
     }, 
-    "editThis_Show_Domain": {
-        "message": "A domain jelzése a sütik neve mellett"
+    "editThis_translationIntro": {
+        "message": "Help us translate the extension to your language"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Válaszd ki a kívánt exportálási formátumot"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Másold ide az importálni kívánt sütiket. Elfogadott formátumok:"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "You can send donations to:"
     }, 
     "editThis_description": {
         "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Más nyelv választása"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "by domain and name"
     }, 
     "editThis_Charity_Message": {
         "message": "You will help children in need all over the world, because $1% of the revenues go to"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "A maximális lejárati dátum állítása:"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Contribute in Bitcoins"
+    }, 
     "editThis_session": {
         "message": "Munkamenet"
     }, 
@@ -196,13 +214,13 @@
         "message": "Mondj egy bugot, ami idegesít a kiegészítőben, és szuper gyorsan kijavítom neked!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Kapni fogsz egy király \"Edit This Cookie\" köszönő képeslapot!"
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "A neved ott lesz a Dicsőségfalon."
     }, 
     "editThis_ppBenefit1": {
-        "message": "Kapni fogsz egy köszönő emailt, és egy ici-pici helyet a szívemben"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Új süti megjelölése"
@@ -211,7 +229,7 @@
         "message": "Be the cause of my very first heart stroke. All you have to do is donate now!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Te lehetsz a vezetője az új vallásomnak, és ha szeretnéd, küldök neked egy példányt a következő könyvből:"
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Csak olvasható"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Név"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Show \"Flag and delete all\" button"
+    }, 
     "editThis_domain": {
         "message": "Domain"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Sort cookies"
     }, 
     "editThis_path": {
         "message": "Path"
@@ -271,7 +295,7 @@
         "message": "Lejárati dátum"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "by name"
     }, 
     "editThis_donations": {
         "message": "Támogatás"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Hirdetések"
+    }, 
+    "editThis_support_etc": {
+        "message": "Support Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "Még nincs adat :("

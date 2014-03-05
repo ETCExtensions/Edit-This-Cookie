@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Tillat oss å dele din surfedata. All data er anonym"
     }, 
-    "editThis_contacts": {
-        "message": "Kontakter"
+    "editThis_no_cookies": {
+        "message": "Ingen informasjonskapsler her!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Lagre endringer i informasjonskapsel"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Importér informasjonskapsler"
     }, 
+    "editThis_contacts": {
+        "message": "Kontakter"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Beskyttede informasjonskapsler"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Dersom du liker \"Edit This Cookie\", legg igjen en vurdering i Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Vis domenet før informasjonskapslens navn"
     }, 
     "editThis_cookiesProtected": {
         "message": "Skrivebeskyttede informasjonskapsler er beskyttet"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Hjelp oss med å oversette utvidelsen til ditt språk"
+    "editThis_Show_Domain": {
+        "message": "Vis domenenavnet ved siden av hver informasjonskapsels navn"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Hopp over hurtigminnet når en side lastes inn på nytt"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Du kan bruke regulære uttrykk"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Bidra med PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Feil / funksjonsforlag"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Informasjonskapselstatistikk siden: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Vis domenenavnet ved siden av hver informasjonskapsels navn"
+    "editThis_translationIntro": {
+        "message": "Hjelp oss med å oversette utvidelsen til ditt språk"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Velg ønsket eksportformat for informasjonskapsler"
@@ -113,8 +122,11 @@
     "editThis_Paste_Cookie_Here": {
         "message": "Lim informasjonskapslene som skal importeres inn her. Aksepterte formater:"
     }, 
+    "editThis_Send_Donations_To": {
+        "message": "Du kan sende donasjoner til:"
+    }, 
     "editThis_description": {
-        "message": "Edit This Cookie er en informasjonskapselbehandler. Du kan legge til, slette, redigere, søke, beskytte og blokkere informasjonskapsler!"
+        "message": "Edit This Cookie er en informasjonskapselbehandler.Du kan legge til,slette,redigere,søke,beskytte og blokkere informasjonskapsler!"
     }, 
     "editThis_cookiesModified": {
         "message": "Informasjonskaplser endret"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Velg et annet språk"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "etter domene og navn"
     }, 
     "editThis_Charity_Message": {
         "message": "Du vil hjelpe barn i nød over hele verden, fordi $1 % av inntekten går til"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Sett informasjonskapselens maksimaltid til"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Bidra med Bitcoin"
+    }, 
     "editThis_session": {
         "message": "Økt"
     }, 
@@ -196,13 +214,13 @@
         "message": "Du kan nevne hvilken feil som irriterer deg i \"Edit This Cookie\" og jeg skal fikse det superfort!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Du vil motta et kult \"Edit This Cookie\"-takkekort i posten!"
+        "message": "Du vil motta en takke-epost"
     }, 
     "editThis_ppBenefit2": {
         "message": "Ditt navn vil bli liagt til på the Wall of Fame"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Du vil motta en takke-epost, og en liten plass i mitt hjerte!"
+        "message": "Du vil ha et lite sted i mitt hjerte"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Flagg en ny informasjonskapsel"
@@ -211,7 +229,7 @@
         "message": "Bli årsaken til mit første hjerteatrakk. Alt du behøver å gjøre er å donere nå!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Du vil bli det nye overhodet i min religion, og hvis du vil kan jeg sende deg følgende bok:"
+        "message": "Og en italiensk pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Skrivebeskytt"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Navn"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Vis \"Flagg og slett alle\" knappen"
+    }, 
     "editThis_domain": {
         "message": "Domene"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Sorter informasjonskapsler"
     }, 
     "editThis_path": {
         "message": "Sti"
@@ -271,7 +295,7 @@
         "message": "Utløp"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "etter navn"
     }, 
     "editThis_donations": {
         "message": "Donasjoner"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Annonser"
+    }, 
+    "editThis_support_etc": {
+        "message": "Støtt \"Edit This Cookie\""
     }, 
     "editThis_noStatsNotice": {
         "message": "Ingen data enda :("

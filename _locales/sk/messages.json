@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Dovoľte nám zdieľať Vašu históriu prehliadania. Všetky dáta sú anonymné."
     }, 
-    "editThis_contacts": {
-        "message": "Kontakty"
+    "editThis_no_cookies": {
+        "message": "No cookies here!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Uložiť zmeny v cookie"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Importovať cookies"
     }, 
+    "editThis_contacts": {
+        "message": "Kontakty"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Chránené cookies"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Ak sa Vám páči Edit This Cookie, ohodnoťte ho na Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Show the domain before the cookie's name"
     }, 
     "editThis_cookiesProtected": {
         "message": "Tento cookie je iba na čítanie"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Pomôžte nám preložiť rozšírenie do Vášho jazyka"
+    "editThis_Show_Domain": {
+        "message": "Ukázať doménu vedľa názvu cookie"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Preskočiť cache pri obnovení stránky"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Môžete používať regulárne výrazy"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Contribute with PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Chyby / Vylepšenia"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Štatistika cookies od: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Ukázať doménu vedľa názvu cookie"
+    "editThis_translationIntro": {
+        "message": "Pomôžte nám preložiť rozšírenie do Vášho jazyka"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Vybrať preferovaný formát exportu cookies"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Sem vložte cookies na import. Akceptované formáty:"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "You can send donations to:"
     }, 
     "editThis_description": {
         "message": "Edit This Cookie je manažovací systém pre cookies. Môžete pridávať, vymazávať, upravovať, vyhľadávať, chrániť a blokovať cookies!"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Vybrať iný jazyk"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "by domain and name"
     }, 
     "editThis_Charity_Message": {
         "message": "Pomôžete deťom v núdzi po celom svete, pretože $1% z príjmov pôjde na"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Nastaviť maximálnu životnosť cookie"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Contribute in Bitcoins"
+    }, 
     "editThis_session": {
         "message": "Session"
     }, 
@@ -196,13 +214,13 @@
         "message": "Možete si vybrať akúkoľvek chybu v 'Edit This Cookie', ktorá Vás otravuje a ja ju okamžite opravím!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Dostanete úžasnú 'Edit This Cookie' ďakovnú pohľadnicu!"
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "Vaše meno bude pridané do Siene Slávy"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Dostanete ďakovný email a malé miesto v mojom srdci"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Nahlásiť nový cookie"
@@ -211,7 +229,7 @@
         "message": "Spôsobte mi môj prvý infarkt. Všetko čo musíte teraz urobiť, je prispieť!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Stanete  sa novým vedúcim môjho náboženstva, a na želanie Vám zašlem nasledujúcu knihu:"
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Nastaviť iba na čítanie"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Meno"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Show \"Flag and delete all\" button"
+    }, 
     "editThis_domain": {
         "message": "Doména"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Sort cookies"
     }, 
     "editThis_path": {
         "message": "Cesta"
@@ -271,7 +295,7 @@
         "message": "Expirácia"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "by name"
     }, 
     "editThis_donations": {
         "message": "Príspevky"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Reklama"
+    }, 
+    "editThis_support_etc": {
+        "message": "Support Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "Zatiaľ žiadne dáta :("

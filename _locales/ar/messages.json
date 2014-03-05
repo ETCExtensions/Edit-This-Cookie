@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "اسمح لنا بمشاركة بيانات تصفحك . جميع البيانات مجهولة"
     }, 
-    "editThis_contacts": {
-        "message": "جهات الإتصال"
+    "editThis_no_cookies": {
+        "message": "No cookies here!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "تفعيل التغييرات"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "استيراد الكعكات"
     }, 
+    "editThis_contacts": {
+        "message": "جهات الإتصال"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "كوكيز محمية"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "اذا احببت هذه الأداة، اترك تقييمك في Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Show the domain before the cookie's name"
     }, 
     "editThis_cookiesProtected": {
         "message": "كوكيز ( وضع القراءة فقط ) محمية"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "ساعدنا في ترجمة هذه الأداة الى لغتك.."
+    "editThis_Show_Domain": {
+        "message": "اظهار النطاق بجانب اسم كل كوكي"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "تخطي ذاكرة التخزين المؤقت عند اعادة تحميل الصفحة.."
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "تستطيع استخدام عبارات عادية"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Contribute with PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "طلبات الأخطاء/المميزات"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "احصائيات الكوكي من : $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "اظهار النطاق بجانب اسم كل كوكي"
+    "editThis_translationIntro": {
+        "message": "ساعدنا في ترجمة هذه الأداة الى لغتك.."
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "اختيار تنسيق التصدير المفضل لملفات تعريف الارتباط"
@@ -113,8 +122,11 @@
     "editThis_Paste_Cookie_Here": {
         "message": "أالصق ملفات تعريف الارتباط هنا لإستيرادها، بتنسيق مقبول:"
     }, 
+    "editThis_Send_Donations_To": {
+        "message": "You can send donations to:"
+    }, 
     "editThis_description": {
-        "message": "تعديل سجل التتبع"
+        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
     }, 
     "editThis_cookiesModified": {
         "message": "الكوكيز المعدلة"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "اختر لغة اخرى"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "by domain and name"
     }, 
     "editThis_Charity_Message": {
         "message": "سوف تساعد الأطفال المحتاجين في جميع أنحاء العالم، لأن $1٪ من الإيرادات تذهب إلى"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "تحديد العمر الأفصى لل cookie إلى"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Contribute in Bitcoins"
+    }, 
     "editThis_session": {
         "message": "جلسة"
     }, 
@@ -196,13 +214,13 @@
         "message": "إذا وجدت إى اخطاء في البرنامج قل لي و سوف اصلحاً سريعاً جداً"
     }, 
     "editThis_ppBenefit3": {
-        "message": "سوف تحصل على كارت \"Edit this cookie\" شكر لك رائع "
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "سوف يتم إضافة اسمك إلى حائط المشاهير"
     }, 
     "editThis_ppBenefit1": {
-        "message": "سوف يصلك e-mail شكر و على مكان صغنن (صغير جداً) في قلبي"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "علم كوكي جديد"
@@ -211,7 +229,7 @@
         "message": "كن أول من يتسبب لي في سكتة قلبية. كل ما عليك فعله هو التبرع الآن"
     }, 
     "editThis_ppBenefit8": {
-        "message": "You will be the new head of my religion and, if you wish, I will send you the following book:"
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "تعيين للقراءة فقط"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "الاسم"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Show \"Flag and delete all\" button"
+    }, 
     "editThis_domain": {
         "message": "النطاق"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Sort cookies"
     }, 
     "editThis_path": {
         "message": "مسار"
@@ -271,7 +295,7 @@
         "message": "انتهاء الصلاحية"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "by name"
     }, 
     "editThis_donations": {
         "message": "Donations"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Advertisements"
+    }, 
+    "editThis_support_etc": {
+        "message": "Support Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "No data yet :("

@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Tarama verinizi paylaşmamıza izin verin. Tüm verileriniz kişisel bilgilerinizi içermeyecek şekilde paylaşılır."
     }, 
-    "editThis_contacts": {
-        "message": "Bağlantılar"
+    "editThis_no_cookies": {
+        "message": "Burada çerez yok!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Cookie değişikliklerini kaydet"
@@ -42,13 +42,16 @@
         "message": "Bağış Tarihi"
     }, 
     "editThis_Show_Christmas_Icon": {
-        "message": "Show the Santa's hat icon"
+        "message": "Santa'nın şapka ikonunu göster"
     }, 
     "editThis_help": {
         "message": "Yardım"
     }, 
     "editThis_Paste_Cookies": {
-        "message": "Import Cookies"
+        "message": "Cookie al"
+    }, 
+    "editThis_contacts": {
+        "message": "Bağlantılar"
     }, 
     "editThis_Protected_Cookies": {
         "message": "Korunan Çerezler"
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Site adını cookieden önce göster"
     }, 
     "editThis_cookiesProtected": {
         "message": "Sadece-okunan çerezler korunuyor"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Help us translate the extension to your language"
+    "editThis_Show_Domain": {
+        "message": "Her cookie ismini domain'in yanında göster"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sayfa yeniden yüklendiğinde önbelleği atla"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Düzenli ifadeler kullanabilirsiniz"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "PayPal ile bağışta bulun"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Hatalar / Özellik Talepleri"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "$1 tarihinden itibaren çerez istatistikleri"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Her cookie ismini domain'in yanında göster"
+    "editThis_translationIntro": {
+        "message": "Bu uzantıyı senin diline tercüme etmemize yardımcı ol"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Choose the preferred export format for cookies"
@@ -113,8 +122,11 @@
     "editThis_Paste_Cookie_Here": {
         "message": "Paste here the cookies to import. Accepted formats:"
     }, 
+    "editThis_Send_Donations_To": {
+        "message": "Bağışları buraya gönder"
+    }, 
     "editThis_description": {
-        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir, silebilir, düzeltebilir, arayabilir, koruyabilir ve engelleyebilirsin"
+        "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir,silebilir,düzeltebilir,arayabilir,koruyabilir ve engelleyebilirsin"
     }, 
     "editThis_cookiesModified": {
         "message": "Çerezler Düzenlendi"
@@ -137,6 +149,9 @@
     "editThis_Use_Custom_Locale": {
         "message": "Başka dil seçin"
     }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "domain ve isme göre"
+    }, 
     "editThis_Charity_Message": {
         "message": "You will help children in need all over the world, because $1% of the revenues go to"
     }, 
@@ -154,7 +169,7 @@
         "message": "Çerezler Yaratıldı"
     }, 
     "editThis_cookiesImported": {
-        "message": "Cookies imported"
+        "message": "Cookieler alındı"
     }, 
     "editThis_secure": {
         "message": "güvenlik"
@@ -167,6 +182,9 @@
     }, 
     "editThis_Max_Date": {
         "message": "Set the maximum cookie age to"
+    }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Bitcoins'e katkıda bulun"
     }, 
     "editThis_session": {
         "message": "Oturum"
@@ -196,13 +214,13 @@
         "message": "Edit This Cookie'deki rahatsız edici dediğiniz her türlü hatayı belirtebileceksiniz ve ben onu süper hızlı şekilde düzelteceğim!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Muheşem bir 'Edit This Cookie' Teşekkürler posta kartı alacaksınız!"
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "İsminiz Über İnsanlar listesine eklenecek"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Bir teşekkürler mail'i alacaksınız ve kalbimde küçük bir yere sahip olacaksınız"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Yeni cookieyi etiketle"
@@ -211,7 +229,7 @@
         "message": "Kalbimin atma sebebi ol! Tek yapman gereken hemen şimdi bağışta bulunmak!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Dinimin yeni başkanı olacaksın ve eğer istersen, sana bu kitabı göndereceğim:"
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Sadece okunan yap"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "isim"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "\"İşaretle ve hepsini sil\" butonunu göster"
+    }, 
     "editThis_domain": {
         "message": "alanadı"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "çerezleri sırala"
     }, 
     "editThis_path": {
         "message": "adres"
@@ -271,7 +295,7 @@
         "message": "geçerlilik"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "isme göre"
     }, 
     "editThis_donations": {
         "message": "Bağışlar"
@@ -295,10 +319,13 @@
         "message": "Amount"
     }, 
     "editThis_cookiesExported": {
-        "message": "Cookies exported"
+        "message": "Cookieler verildi"
     }, 
     "editThis_advertisements": {
         "message": "Reklamlar"
+    }, 
+    "editThis_support_etc": {
+        "message": "Bu çerezi düzenlemeye destek ol"
     }, 
     "editThis_noStatsNotice": {
         "message": "Henüz veri yok :("
@@ -336,7 +363,7 @@
         "message": "Cookies copied to clipboard"
     }, 
     "editThis_Copy_Cookies": {
-        "message": "Export cookies"
+        "message": "Cookie ver"
     }, 
     "editThis_Alert_deleteCookie": {
         "message": "Cookieyi sil"

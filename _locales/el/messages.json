@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Επίτρεψέ μας να μοιραστούμε τα δεδομένα πλοήγησής σου. Όλα τα δεδομένα είναι ανώνυμα."
     }, 
-    "editThis_contacts": {
-        "message": "Εποικοινωνία"
+    "editThis_no_cookies": {
+        "message": "Δεν υπάρχουν cookies εδώ!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Υποβολή αλλαγών cookie"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Εισαγωγή cookies"
     }, 
+    "editThis_contacts": {
+        "message": "Εποικοινωνία"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Προστατευόμενα cookies"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Εάν σου αρέσει το Edit This Cookie, δώσε τη βαθμολογία σου στο Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Δείξε το domain πριν από το όνομα του cookie"
     }, 
     "editThis_cookiesProtected": {
         "message": "Τα read-only cookies είναι προστατευμένα"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Βοήθησέ μας να μεταφράσουμε την επέκταση στη δική σου γλώσσα"
+    "editThis_Show_Domain": {
+        "message": "Show the domain near each cookie's name"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Skip the cache when page reloads"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "You can use regular expressions"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Συνεισφορά με το PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Προβλήματα / Προτάσεις νέων δυνατοτήτων"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Στατιστικά των cookies από τις: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Show the domain near each cookie's name"
+    "editThis_translationIntro": {
+        "message": "Βοήθησέ μας να μεταφράσουμε την επέκταση στη δική σου γλώσσα"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Choose the preferred export format for cookies"
@@ -113,8 +122,11 @@
     "editThis_Paste_Cookie_Here": {
         "message": "Paste here the cookies to import. Accepted formats:"
     }, 
+    "editThis_Send_Donations_To": {
+        "message": "Μπορείτε να στείλετε συνεισφορές προς:"
+    }, 
     "editThis_description": {
-        "message": "Το Edit this Cookie είναι ένα πρόγραμμα διαχείρισης Cookies. Μπορείς να προσθέσεις, να διαγράψεις, να επεξεργαστείς, να αναζητήσεις, να προστατέψεις και να αποκλείσεις Cookies!"
+        "message": "Με το Edit this Cookie μπορείς να προσθέσεις, διαγράψεις, επεξεργαστείς, αναζητήσεις,  προστατέψεις και αποκλείσεις Cookies!"
     }, 
     "editThis_cookiesModified": {
         "message": "Τα Cookies επεξεργάστηκαν"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Επιλέξτε άλλη γλώσσα."
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "ανά domain και όνομα"
     }, 
     "editThis_Charity_Message": {
         "message": "Θα βοηθήσεις παιδιά που έχουν ανάγκη σε όλο τον κόσμο, γιατί $1% των εσόδων πηγαίνει στο"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Set the maximum cookie age to"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Συνεισφορά με Bitcoins"
+    }, 
     "editThis_session": {
         "message": "Συνεδρία"
     }, 
@@ -196,13 +214,13 @@
         "message": "Μπορείς να αναφέρεις ένα πρόβλημα που σε ενοχλεί στο Edit This Cookie και θα το διορθώσω έξτρα γρήγορα!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Θα λάβεις μια καταπληκτική ευχαριστήρια κάρτα \"Edit This Cookie\"!"
+        "message": "Θα λάβεις ένα ευχαριστήριο email"
     }, 
     "editThis_ppBenefit2": {
         "message": "Το όνομά σου θα προστεθεί στον Τοίχο της Δόξας"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Θα λάβεις ένα ευχαριστήριο email και μια μικρή θέση στην καρδιά μου"
+        "message": "Θα έχεις μια μικρούλα θέση στην καρδιά μου"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Επισήμανε καινούριο cookie"
@@ -211,7 +229,7 @@
         "message": "Γίνε η αιτία για την πρώτη μου καρδιακή προσβολή. Το μόνο που έχεις να κάνεις είναι να κάνεις μια δωρεά τώρα!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Θα είσαι ο καινούριος αρχηγός της θρησκείας μου και, αν θέλεις, θα σου στείλω το παρακάτω βιβλίο:"
+        "message": "Και μια Ιταλική πίτσα!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Ρύθμιση ως ''μόνο για ανάγνωση''"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Όνομα"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Mostra bottone \"Seleziona ed elimina tutto\""
+    }, 
     "editThis_domain": {
         "message": "Domain"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Ordina cookie"
     }, 
     "editThis_path": {
         "message": "Path"
@@ -271,7 +295,7 @@
         "message": "Λήξη"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "per nome"
     }, 
     "editThis_donations": {
         "message": "Δωρεά"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Διαφημίσεις"
+    }, 
+    "editThis_support_etc": {
+        "message": "Supporta Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "Δεν υπάρχουν δεδομένα :("

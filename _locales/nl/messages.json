@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Sta ons toe je browser geschiedenis te delen. Alle gegevens zijn anoniem."
     }, 
-    "editThis_contacts": {
-        "message": "Contacten"
+    "editThis_no_cookies": {
+        "message": "Geen cookies hier!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Cookie-aanpassingen opslaan"
@@ -48,7 +48,10 @@
         "message": "Help"
     }, 
     "editThis_Paste_Cookies": {
-        "message": "Cookies importeren"
+        "message": "Importeer Cookies"
+    }, 
+    "editThis_contacts": {
+        "message": "Contacten"
     }, 
     "editThis_Protected_Cookies": {
         "message": "Beveiligde cookies"
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Als je Edit This Cookie leuk vindt, laat een reactie achter op de Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Het domeinnaam voor de cookies weergeven"
     }, 
     "editThis_cookiesProtected": {
         "message": "Alleen-lezen cookies beschermd"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Help ons de extensie te vertalen in jouw taal"
+    "editThis_Show_Domain": {
+        "message": "Toon domein bij iedere cookie naam"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Sla de cache over bij het herladen van de pagina"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Regular expressions toegestaan"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Via PayPal bijdragen"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Bugs / Feature verzoeken"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Cookie statistieken sinds: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Toon domein bij iedere cookie naam"
+    "editThis_translationIntro": {
+        "message": "Help ons de extensie te vertalen in jouw taal"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Kies het gewenste formaat om de cookies te exporteren"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Plak hier de cookies die je wil importeren. Geaccepteerde formaten:"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "U kunt uw donatie sturen naar:"
     }, 
     "editThis_description": {
         "message": "Edit This Cookie is een cookie manager. Je kunt cookies toevoegen, verwijderen, bewerken, zoeken, beschermen en blokkeren."
@@ -132,10 +144,13 @@
         "message": "Gemarkeerde Cookies verwijderd"
     }, 
     "editThis_stats": {
-        "message": "Statestieken"
+        "message": "Statistieken"
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Kies een andere taal"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "op domein en naam"
     }, 
     "editThis_Charity_Message": {
         "message": "Je helpt kinderen in nood over de hele wereld, want $1% van de inkomsten gaat naar"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Stel de maximale leeftijd van de cookie in"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Via Bitcoins bijdragen"
+    }, 
     "editThis_session": {
         "message": "Sessie"
     }, 
@@ -196,13 +214,13 @@
         "message": "Noem een bug in 'Edit This Cookie' waar je je mateloos aan irriteert en ik zal hem super-snel repareren!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Je ontvangt een indrukwekkend 'Edit This Cookie' bedank kaartje!"
+        "message": "U ontvangt een dankmail."
     }, 
     "editThis_ppBenefit2": {
         "message": "Je naam wordt toegevoegd aan de Wall of Fame"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Je krijgt een bedank-mailtje, en een piepklein plekje in mijn hart"
+        "message": "Je krijgt een heel klein plaatsje in mijn hart!"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Nieuwe cookie markeren"
@@ -211,7 +229,7 @@
         "message": "Wees de oorzaak van mij allereerste hartaanval. Het enige wat je hoeft te doen is nu doneren!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Je zal het nieuwe hoofd van mijn religie zijn, en als je wil dan stuur ik je het volgende boek:"
+        "message": "En een Italiaanse pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Instellen als alleen-lezen"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Naam"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "\"Markeer en verwijder alles\"-knop weergeven"
+    }, 
     "editThis_domain": {
         "message": "Domein"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Cookies sorteren"
     }, 
     "editThis_path": {
         "message": "Pad"
@@ -271,7 +295,7 @@
         "message": "Verlooptijd"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "op naam"
     }, 
     "editThis_donations": {
         "message": "Donaties"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Advertenties"
+    }, 
+    "editThis_support_etc": {
+        "message": "Edit This Cookie ondersteunen"
     }, 
     "editThis_noStatsNotice": {
         "message": "Nog geen gegevens :("

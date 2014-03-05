@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Permitir-nos a compartilhar seu histórico. Todos dados são anônimos."
     }, 
-    "editThis_contacts": {
-        "message": "Contatos"
+    "editThis_no_cookies": {
+        "message": "Sem cookies aqui!"
     }, 
     "editThis_Alert_submitAll": {
         "message": "Enviar alterações no cookie"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Importar Cookies"
     }, 
+    "editThis_contacts": {
+        "message": "Contatos"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Cookies Protegidos"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Se você gosta do Edit This Cookie, deixe um voto na Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Exibir domínio antes do nome do cookie"
     }, 
     "editThis_cookiesProtected": {
         "message": "Cookies Protegidos como Somente leitura"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Ajude-nos a traduzir a extensão ao seu idioma"
+    "editThis_Show_Domain": {
+        "message": "Mostrar o domínio perto de cada nome de cookie"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Pular o cache quando a página for recarregada"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Você pode usar expressões regulares"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Contribua com o PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Erros / Solicitações de Recursos"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Estatísticas de Cookie desde: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Mostrar o domínio perto de cada nome de cookie"
+    "editThis_translationIntro": {
+        "message": "Ajude-nos a traduzir a extensão ao seu idioma"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Escolha o formato preferido para exportar os cookies"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Cole aqui os cookies para importar. Formatos aceitos:"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "You can send donations to:"
     }, 
     "editThis_description": {
         "message": "Edit This Cookie é um gerenciador de cookies. Você pode adicionar, excluir, editar, procurar, proteger e bloquear cookies!"
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Escolher outro idioma"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "by domain and name"
     }, 
     "editThis_Charity_Message": {
         "message": "Você vai ajudar as crianças necessitadas em todo o mundo, porque $1% das receitas vão para a "
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Definir a idade máxima do cookie para"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Contribute in Bitcoins"
+    }, 
     "editThis_session": {
         "message": "Sessão"
     }, 
@@ -196,13 +214,13 @@
         "message": "Você pode citar qualquer erro que te incomoda no Edit This Cookie e eu vou corrigí-lo super rápido!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Você vai receber uma impressionante Carta do 'Edit This Cookie'!"
+        "message": "You'll receive a thank you email"
     }, 
     "editThis_ppBenefit2": {
         "message": "Seu nome vai ser adicionado à Parede da Fama"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Você vai receber um email de agradecimento e um pequeno lugar no meu coração"
+        "message": "You will get a tiny little place in my heart"
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Sinalizar novo cookie"
@@ -211,7 +229,7 @@
         "message": "Seja a causa do meu primeiro ataque cardíaco. Tudo o que você tem que fazer agora é doar!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Você vai ser o novo chefe da minha religião e, se você quiser, vou lhe enviar o seguinte livro:"
+        "message": "And an Italian pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Marcar como apenas leitura"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Nome"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Show \"Flag and delete all\" button"
+    }, 
     "editThis_domain": {
         "message": "Domínio"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Sort cookies"
     }, 
     "editThis_path": {
         "message": "Caminho"
@@ -271,7 +295,7 @@
         "message": "Expiração"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Sort cookies in alphabetical order"
+        "message": "by name"
     }, 
     "editThis_donations": {
         "message": "Doações"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Anúncios"
+    }, 
+    "editThis_support_etc": {
+        "message": "Support Edit This Cookie"
     }, 
     "editThis_noStatsNotice": {
         "message": "Nenhum dado até agora :("

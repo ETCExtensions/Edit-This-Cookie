@@ -5,8 +5,8 @@
     "editThis_AN_optInDescription": {
         "message": "Erlauben Sie uns Ihre Browser Daten freizugeben. Alle Daten sind anonym"
     }, 
-    "editThis_contacts": {
-        "message": "Kontakte"
+    "editThis_no_cookies": {
+        "message": "Keine Cookies vorhanden."
     }, 
     "editThis_Alert_submitAll": {
         "message": "Cookie Änderungen speichern"
@@ -50,6 +50,9 @@
     "editThis_Paste_Cookies": {
         "message": "Cookies importieren"
     }, 
+    "editThis_contacts": {
+        "message": "Kontakte"
+    }, 
     "editThis_Protected_Cookies": {
         "message": "Geschützter Cookie"
     }, 
@@ -58,6 +61,9 @@
     }, 
     "editThis_Rate_Us_Intro": {
         "message": "Wenn Sie Edit This Cookie mögen, bewerten Sie es im Chrome Web Store"
+    }, 
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Domäne vor dem Namen des Cookies anzeigen"
     }, 
     "editThis_cookiesProtected": {
         "message": "Schreibgeschützte Cookies"
@@ -74,8 +80,8 @@
     "editThis_": {
         "message": ""
     }, 
-    "editThis_translationIntro": {
-        "message": "Helfen Sie uns diese Erweiterung in Ihre Sprache zu übersetzen"
+    "editThis_Show_Domain": {
+        "message": "Domain neben jeden Cookie Namen anzeigen"
     }, 
     "editThis_skipCacheOnReload": {
         "message": "Beim Neuladen der Seite den Cache übergehen"
@@ -85,6 +91,9 @@
     }, 
     "editThis_useRegularExpressions": {
         "message": "Sie können reguläre Ausdrücke benutzen"
+    }, 
+    "editThis_Contribute_PayPal": {
+        "message": "Spenden per PayPal"
     }, 
     "editThis_bugsFeatureRequest": {
         "message": "Fehler / Funktionsvorschläge"
@@ -98,8 +107,8 @@
     "editThis_statsSince": {
         "message": "Cookie Statistik seit: $1"
     }, 
-    "editThis_Show_Domain": {
-        "message": "Domain neben jeden Cookie Namen anzeigen"
+    "editThis_translationIntro": {
+        "message": "Helfen Sie uns diese Erweiterung in Ihre Sprache zu übersetzen"
     }, 
     "editThis_Copy_Cookies_Type": {
         "message": "Wählen Sie das bevorzugte Export-Format für Cookies"
@@ -112,6 +121,9 @@
     }, 
     "editThis_Paste_Cookie_Here": {
         "message": "Füge hier die Cookies ein, die du importieren willst. Akzeptierte Formate:"
+    }, 
+    "editThis_Send_Donations_To": {
+        "message": "Sie können Spenden schicken an:"
     }, 
     "editThis_description": {
         "message": "Edit This Cookie ist ein Cookie-Manager mit dem man Cookies hinzufügen, löschen, bearbeiten, suchen, schützen und blockieren kann."
@@ -136,6 +148,9 @@
     }, 
     "editThis_Use_Custom_Locale": {
         "message": "Wähle eine andere Sprache"
+    }, 
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "nach Domäne und Name"
     }, 
     "editThis_Charity_Message": {
         "message": "Sie helfen Kinder in Not überall in der Welt, weil $1% der Einnahmen an diese Organisation gehen"
@@ -168,6 +183,9 @@
     "editThis_Max_Date": {
         "message": "Setze das maximale Alter des Cookies auf"
     }, 
+    "editThis_Contribute_Bitcoins": {
+        "message": "Spenden in Bitcoins"
+    }, 
     "editThis_session": {
         "message": "Session"
     }, 
@@ -196,13 +214,13 @@
         "message": "Du kannst einen beliebigen Bug nennen, der dich in Edit This Cookie stört, und ich werde ihn superschnell beheben!"
     }, 
     "editThis_ppBenefit3": {
-        "message": "Du erhältst eine fantastische \"Edit This Cookie\"-Dankeskarte!"
+        "message": "Sie erhalten eine Dankes-E-Mail."
     }, 
     "editThis_ppBenefit2": {
         "message": "Dein Name wird zur Wall of Fame hinzugefügt"
     }, 
     "editThis_ppBenefit1": {
-        "message": "Du erhältst eine Dankes-Email sowie einen kleinen Platz in meinem Herzen."
+        "message": "Sie bekommen einen kleinen Platz in meinem Herzen."
     }, 
     "editThis_Flag_New_Cookie": {
         "message": "Markieren Sie ein neues Cookie"
@@ -211,7 +229,7 @@
         "message": "Sei der Grund meines allerersten Herzinfarktes. Alles was du jetzt noch tun musst, ist zu spenden!"
     }, 
     "editThis_ppBenefit8": {
-        "message": "Du wirst das neue Oberhaupt meiner Religion sein, und wenn du willst, schicke ich dir folgendes Buch:"
+        "message": "Und eine italienische Pizza!"
     }, 
     "editThis_Set_ReadOnly": {
         "message": "Als Schreibgeschützt festlegen"
@@ -249,8 +267,14 @@
     "editThis_name": {
         "message": "Name"
     }, 
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "\"Alle markieren und löschen\"-Knopf anzeigen"
+    }, 
     "editThis_domain": {
         "message": "Domain"
+    }, 
+    "editThis_Sort_Cookies": {
+        "message": "Cookies sortieren"
     }, 
     "editThis_path": {
         "message": "Pfad"
@@ -271,7 +295,7 @@
         "message": "Fälligkeitsdatum"
     }, 
     "editThis_Sort_Cookies_Alpha": {
-        "message": "Cookies alphabetisch sortieren"
+        "message": "nach Name"
     }, 
     "editThis_donations": {
         "message": "Spenden"
@@ -299,6 +323,9 @@
     }, 
     "editThis_advertisements": {
         "message": "Anzeigen"
+    }, 
+    "editThis_support_etc": {
+        "message": "Edit This Cookie unterstützen"
     }, 
     "editThis_noStatsNotice": {
         "message": "Bislang keine Daten :("

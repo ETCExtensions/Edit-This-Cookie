@@ -6,10 +6,10 @@
       "message": "Delete all"
    },
    "editThis_flagAll": {
-      "message": "Flag and delete all"
+      "message": "Block and delete all"
    },
    "editThis_Show_Flag_And_Delete_All": {
-      "message": "Show \"Flag and delete all\" button"
+      "message": "Show \"Block and delete all\" button"
    },
    "editThis_addNew": {
       "message": "New cookie"
@@ -91,10 +91,10 @@
       "message": "Set as readonly"
    },
    "editThis_Flag_Cookie": {
-      "message": "Flag cookie"
+      "message": "Block cookie"
    },
    "editThis_Flag_New_Cookie": {
-      "message": "Flag new cookie"
+      "message": "Block new cookie"
    },
    "editThis_Show_Alerts": {
       "message": "Always ask for confirmation"
@@ -124,7 +124,7 @@
       "message": "Blocked cookies"
    },
    "editThis_Protected_Cookies": {
-      "message": "Protected Cookies"
+      "message": "Protected cookies"
    },
    "editThis_Options": {
       "message": "Options"
@@ -143,6 +143,9 @@
    },
    "editThis_help": {
       "message": "Help"
+   },
+   "editThis_getting_started": {
+      "message": "Getting started"
    },
    "editThis_ReadOnly_Def": {
       "message": "A protected cookie is a cookie which can't be modified by any website or extension"
@@ -211,7 +214,7 @@
       "message": "Read-Only Cookies Protected"
    },
    "editThis_cookiesFlagged": {
-      "message": "Flagged Cookies Deleted"
+      "message": "Blocked Cookies Deleted"
    },
    "editThis_cookiesShortened": {
       "message": "Cookies' expiration shortened"
