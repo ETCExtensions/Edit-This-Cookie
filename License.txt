@@ -1,5 +1,5 @@
 Edit This Cookie is a Chrome extension made by Francesco Capano
-https://chrome.google.com/extensions/detail/fngmhnnpilhplaeedifhccceomclgfbg
+http://editthiscookie.com/
 
 
 This file is part of "Edit This Cookie".
