@@ -24,11 +24,15 @@ setInterval(setChristmasIcon, 60 * 60 * 1000); //Every hour
 localStorage.setItem("option_panel", "null");
 
 var currentVersion = chrome.app.getDetails().version;
-if(data.lastVersionRun != currentVersion) {
-	if(data.lastVersionRun == undefined) { //Is firstrun
-		chrome.tabs.create({url:chrome.extension.getURL('options_pages/support.html')});
+var oldVersion = data.lastVersionRun;
+data.lastVersionRun = currentVersion;
+if(oldVersion != currentVersion) {
+	if(oldVersion == undefined) { //Is firstrun
+		//chrome.tabs.create({url:chrome.extension.getURL('options_pages/support.html')});
+		chrome.tabs.create({url:'http://www.editthiscookie.com/start/'});
+	} else if(currentVersion == "1.3") {
+		chrome.tabs.create({url:'http://www.editthiscookie.com/changelog/'});
 	}
-	data.lastVersionRun = currentVersion;
 }
 
 setContextMenu(preferences.showContextMenu);
@@ -118,7 +122,7 @@ function setContextMenu(show) {
 	chrome.contextMenus.removeAll();
 	if(show) {
 		chrome.contextMenus.create({
-			"title":_getMessage("ContextMenu"),
+			"title": "Edit This Cookie", //_getMessage("ContextMenu"),
 			"contexts":["all"],
 			"onclick":function(info,tab){
 				showPopup(info,tab);

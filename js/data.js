@@ -92,6 +92,9 @@ var data_template = {
 	"nPopupClicked":{
 		"default_value": 0
 	},
+	"nPanelClicked":{
+		"default_value": 0
+	},
 	"nCookiesImported":{
 		"default_value": 0
 	},
@@ -192,32 +195,35 @@ function fetchData() {
 }
 
 window.addEventListener("storage", function(event) {
-	//event.key | event.oldValue | event.newValue
-	//console.log("Storage event key:" + event.key);
-	var varUsed = false;
-	var varChanged = false;
-	var oldValue = (event.oldValue != null) ? JSON.parse(event.oldValue) : null;
-	var newValue = (event.newValue != null) ? JSON.parse(event.newValue) : null;
+	try {
+		//event.key | event.oldValue | event.newValue
+		//console.log("Storage event key:" + event.key);
+		var varUsed = false;
+		var varChanged = false;
+		var oldValue = (event.oldValue != null) ? JSON.parse(event.oldValue) : null;
+		var newValue = (event.newValue != null) ? JSON.parse(event.newValue) : null;
+		
+		if(oldValue == newValue)
+			return;
 	
-	if(oldValue == newValue)
-		return;
-
-	var key;
-	if(event.key.indexOf(preferences_prefix) == 0) {
-		key = event.key.substring(preferences_prefix.length);
-		varUsed = !!preferences_template[key].used;
-		varChanged = preferences[key] != newValue;
-		preferences[key] = (newValue == null) ? preferences_template[key].default_value : newValue;
-		preferences_template[key].used = varUsed;
-	} else if(event.key.indexOf(data_prefix) == 0) {
-		key = event.key.substring(data_prefix.length);
-		varUsed = (data_template[key].used!=undefined && data_template[key].used);
-		varChanged = data[key] != newValue;
-		data[key] = (newValue == null) ? data_template[key].default_value : newValue;
-		data_template[key].used = varUsed;
-	}
-	if(varUsed && varChanged && updateCallback != undefined) {
-		updateCallback();
+		var key;
+		if(event.key.indexOf(preferences_prefix) == 0) {
+			key = event.key.substring(preferences_prefix.length);
+			varUsed = !!preferences_template[key].used;
+			varChanged = preferences[key] != newValue;
+			preferences[key] = (newValue == null) ? preferences_template[key].default_value : newValue;
+			preferences_template[key].used = varUsed;
+		} else if(event.key.indexOf(data_prefix) == 0) {
+			key = event.key.substring(data_prefix.length);
+			varUsed = (data_template[key].used!=undefined && data_template[key].used);
+			varChanged = data[key] != newValue;
+			data[key] = (newValue == null) ? data_template[key].default_value : newValue;
+			data_template[key].used = varUsed;
+		}
+		if(varUsed && varChanged && updateCallback != undefined) {
+			updateCallback();
+		}
+	} catch(e) {
 	}
 }, false);
 
