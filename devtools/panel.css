@@ -126,11 +126,21 @@ textarea {
 
 #beta_alter {
 	position: fixed;
+	display: table;
+	vertical-align: middle;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	width: 100%;
 	height: 30px;
-	background-color: #FF9C9C;
+	background-color: #FFC2C2;
 	text-align: center;
 	font-color: #000;
+}
+#beta_alter > div{
+	display: table-cell;
+	vertical-align: middle;
+}
+#beta_alter a {
+	color: red;
 }
