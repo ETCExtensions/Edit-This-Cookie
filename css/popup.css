@@ -205,7 +205,6 @@ body {
 	width: 80px;
 }
 
-
 .commands-table {
 	display: table;
 	z-index: 10;
@@ -232,6 +231,39 @@ body {
 	width: 14px;
 	height: 18px;
 }
+
+.floating-commands-row {
+	display: table;
+	vertical-align: middle;
+	margin-top: -13px;
+	margin-bottom: -80px;
+	width: 30px;
+	padding: 0;
+	border-right: 1px solid #5C5C5C;
+	border-bottom: 1px solid #5C5C5C;
+}
+.floating-commands-row > *{
+	height: 2.3em;
+	width: 30px;
+	display: table-row;
+	text-align: left;
+	cursor: pointer;
+}
+.floating-commands-row > * > * {
+	padding: 5px;
+	width: 30px;
+	font-size: 1.8em;
+}
+
+
+.fa {
+	padding-right: 1px;
+	padding-left: 5px;
+	width: 14px;
+	height: 18px;
+}
+
+
 
 .error {
 	width: 100%;
