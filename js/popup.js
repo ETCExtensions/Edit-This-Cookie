@@ -471,7 +471,7 @@ function setEvents() {
 		$("#backToList").fadeOut('fast', function(){
 			$("#addCookieButton").fadeIn('fast');
 		});
-		$("#noCookies").slideDown();
+		$("#noCookies").slideUp();
 		$("#cookieFilter").slideUp();
 		$("#submitFiltersButton").slideUp();
 		$("#newCookie").slideUp('fast');
@@ -527,6 +527,7 @@ function setEvents() {
 		$("#addCookieButton").fadeOut('fast', function(){
 			$("#backToList").fadeIn('fast');
 		});
+		$("#noCookies").slideUp();
 		$("#cookieFilter").slideUp();
 		$("#submitFiltersButton").slideUp();
 		$("#cookiesList").slideUp('fast');
@@ -606,6 +607,7 @@ function setCookieEvents() {
 			$("#backToList").fadeIn('fast');
 		});
 		
+		$("#noCookies").hide();
 		$("#newCookie").hide();
 		$("#submitDiv").hide();
 		$("#pasteCookie").hide();
