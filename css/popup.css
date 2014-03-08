@@ -1,5 +1,3 @@
-html {
-}
 body {
 	background-color: #ededed;
     width: 450px;
@@ -184,16 +182,25 @@ body {
 }
 
 
-.cookie-table, .cookie-row {
-	width: 100%;
-}
 .cookie-table {
 	display: table;
 	z-index: 10;
-    unselectable: on;
+	margin-left: 35px;
+	width: 410px;
+	unselectable: on;
 }
-.cookie-row {
+.cookie-table > * {
 	display: table-row;
+}
+.cookie-table > label {
+	font-size: 1em;
+	color: #383838;
+}
+
+.cookie-row {
+	display: table;
+	margin-left: 35px;
+	width: 410px;
 }
 .cookie-row > * {
 	display: table-cell;
@@ -201,8 +208,6 @@ body {
 	vertical-align: middle;
 }
 .cookie-row > label {
-	text-align: right;
-	width: 80px;
 }
 
 .commands-table {
@@ -232,7 +237,7 @@ body {
 	height: 18px;
 }
 
-.floating-commands-row {
+.vertical-commands-row {
 	display: table;
 	vertical-align: middle;
 	margin-top: -13px;
@@ -242,14 +247,14 @@ body {
 	border-right: 1px solid #5C5C5C;
 	border-bottom: 1px solid #5C5C5C;
 }
-.floating-commands-row > *{
+.vertical-commands-row > *{
 	height: 2.3em;
 	width: 30px;
 	display: table-row;
 	text-align: left;
 	cursor: pointer;
 }
-.floating-commands-row > * > * {
+.vertical-commands-row > * > * {
 	padding: 5px;
 	width: 30px;
 	font-size: 1.8em;

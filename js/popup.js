@@ -225,6 +225,7 @@ function createList(filters) {
 			}
 			setEvents();
 			$("input:checkbox").uniform();
+			//$("input").uniform();
 			setLoaderVisible(false);
 		});
 	});
@@ -310,9 +311,13 @@ function createAccordionList(cks, callback, callbackArguments) {
 		$("#cookiesList").append(titleElement);
 		$("#cookiesList").append(cookie);
 	}
-
+	
+	$('textarea', '#cookiesList').autosize();
+	$('textarea', '#pasteCookie').autosize();
+	
 	$("#cookiesList").accordion({
 		autoHeight: false,
+		heightStyle: "content",
 		collapsible: true,
 		active: cks.length-1,
 		create: function(event, ui) {
