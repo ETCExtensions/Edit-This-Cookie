@@ -69,6 +69,8 @@ function setOptions() {
 	
 	$("option[value='"+preferences.sortCookiesType+"']").prop("selected", true);
 	
+	$("#showDevToolsPanel").prop('checked', preferences.showDevToolsPanel);
+	
 	$.uniform.update();
 }
 
@@ -170,6 +172,10 @@ function setEvents() {
 	
 	$("#sortCookiesType").change(function() {
 		preferences.sortCookiesType = $("#sortCookiesType").val();
+	});
+	
+	$("#showDevToolsPanel").change(function() {
+		preferences.showDevToolsPanel = $('#showDevToolsPanel').prop("checked");
 	});
 }
 

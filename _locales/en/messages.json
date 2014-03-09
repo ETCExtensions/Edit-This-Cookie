@@ -100,10 +100,10 @@
       "message": "Block with domain"
    },
    "editThis_Flag_CookieWithName": {
-      "message": "Block witn name"
+      "message": "Block with name"
    },
    "editThis_Flag_CookieWithValue": {
-      "message": "Block wth value"
+      "message": "Block with value"
    },
    "editThis_Flag_New_Cookie": {
       "message": "Block new cookie"
@@ -334,6 +334,9 @@
    },
    "editThis_Paste_Cookie_Here": {
       "message": "Paste here the cookies to import. Accepted formats:"
+   },
+   "editThis_Show_DevTools_Panel": {
+      "message": "Show the DevTools panel"
    },
    "editThis_Save": {
       "message": "Save"

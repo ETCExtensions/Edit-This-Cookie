@@ -56,6 +56,9 @@ var preferences_template = {
 	"sortCookiesType":{
 		"default_value": "domain_alpha"		//Supported: domain_alpha, alpha
 	},
+	"showDevToolsPanel":{
+		"default_value": true
+	},
 };
 
 var data_template = {
