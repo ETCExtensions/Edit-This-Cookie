@@ -7,13 +7,21 @@ function deleteAll(cookieList, url) {
     cookieList = new Array();
 }
 
-function deleteCookie(url,name,store){
-    //console.log("Delete URL: "+url+" | NAME: "+name+" |");
-    chrome.cookies.remove({
-        'url':url,
-        'name':name,
-        'storeId':store
-    })
+function deleteCookie(url,name,store, callback){
+	//console.log("Delete URL: "+url+" | NAME: "+name+" |");
+	chrome.cookies.remove({
+		'url':url,
+		'name':name,
+		'storeId':store
+	}, function(details) {
+		if(typeof callback === "undefined")
+			return;
+		if(details=="null" || details===undefined || details==="undefined") {
+			callback(false);
+		} else {
+			callback(true);
+		}
+	})
 }
 
 function Filter() {
@@ -102,7 +110,7 @@ var cookiesToString = {
 		else
 			return undefined;
 	},
-
+	
 	"netscape" : function(cookies, url) {
 		var string = "";
 		string += "# Netscape HTTP Cookie File\n";

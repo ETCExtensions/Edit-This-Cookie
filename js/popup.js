@@ -312,8 +312,8 @@ function createAccordionList(cks, callback, callbackArguments) {
 		$("#cookiesList").append(cookie);
 	}
 	
-	$('textarea', '#cookiesList').autosize();
-	$('textarea', '#pasteCookie').autosize();
+	//$('textarea', '#cookiesList').autosize({append: "\n"});
+	//$('textarea', '#pasteCookie').autosize({append: "\n"});
 	
 	$("#cookiesList").accordion({
 		autoHeight: false,
@@ -592,9 +592,27 @@ function setCookieEvents() {
 		var name 	= $(".name", cookie).val();
 		var storeId = $(".storeId", cookie).val();
 		var okFunction = function() {
-			deleteCookie(url, name, storeId);
+			deleteCookie(url, name, storeId, function(success) {
+				if(success === true) {
+					var head = cookie.prev('h3');
+					cookie.add(head).slideUp('slow',function(){
+						$(this).remove();
+						if(!$("h3", "#cookiesList").length) {
+							$("#noCookies").slideDown();
+							$("#newCookie").hide();
+							$("#submitDiv").hide();
+							$("#pasteCookie").hide();
+							$("#cookiesList").hide();
+							$("#cookieFilter").hide();
+							$("#submitFiltersButton").hide();
+						}
+					});
+					
+				} else {
+					location.reload(true);
+				}
+			});
 			++data.nCookiesDeleted;
-			location.reload(true);
 		}
 		startAlertDialog(_getMessage("Alert_deleteCookie") + ": \"" + name + "\"?", okFunction, function(){})
 	});
