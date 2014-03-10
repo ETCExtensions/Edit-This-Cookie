@@ -97,13 +97,13 @@
       "message": "Block cookie"
    },
    "editThis_Flag_CookieWithDomain": {
-      "message": "Block with domain"
+      "message": "Block by domain"
    },
    "editThis_Flag_CookieWithName": {
-      "message": "Block with name"
+      "message": "Block by name"
    },
    "editThis_Flag_CookieWithValue": {
-      "message": "Block with value"
+      "message": "Block by value"
    },
    "editThis_Flag_New_Cookie": {
       "message": "Block new cookie"
@@ -214,19 +214,19 @@
       "message": "No data yet :("
    },
    "editThis_cookiesCreated": {
-      "message": "Cookies Created"
+      "message": "Cookies created"
    },
    "editThis_cookiesModified": {
-      "message": "Cookies Modified"
+      "message": "Cookies modified"
    },
    "editThis_cookiesDeleted": {
-      "message": "Cookies Deleted"
+      "message": "Cookies deleted"
    },
    "editThis_cookiesProtected": {
-      "message": "Read-Only Cookies Protected"
+      "message": "Read-only cookies protected"
    },
    "editThis_cookiesFlagged": {
-      "message": "Blocked Cookies Deleted"
+      "message": "Blocked cookies deleted"
    },
    "editThis_cookiesShortened": {
       "message": "Cookies' expiration shortened"
@@ -351,7 +351,7 @@
       "message": "Money raised so far"
    },
    "editThis_Donation_Date": {
-      "message": "Donation Date"
+      "message": "Donation date"
    },
    "editThis_Amount": {
       "message": "Amount"
@@ -360,7 +360,7 @@
       "message": "Humanitarian program"
    },
    "editThis_Source_Code": {
-      "message": "Source Code"
+      "message": "Source code"
    },
    "editThis_Source_Code_Intro": {
       "message": "Check Edit This Cookie's source code on $1",
