@@ -4,7 +4,7 @@ Default Theme
 /* overall */
 .tablesorter-default {
 	width: 100%;
-	font: 12px/18px Arial, Sans-serif;
+	font: 12px/18px 'Open Sans', sans-serif;
 	color: #333;
 	background-color: #fff;
 	border-spacing: 0;
@@ -15,7 +15,7 @@ Default Theme
 /* header */
 .tablesorter-default th,
 .tablesorter-default thead td {
-	font: bold 12px/18px Arial, Sans-serif;
+	font: bold 12px/18px 'Open Sans', sans-serif;
 	color: #000;
 	background-color: #fff;
 	border-collapse: collapse;
