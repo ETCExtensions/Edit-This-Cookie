@@ -17,6 +17,7 @@ function setOptions() {
 	$("#showDomain").prop('checked', preferences.showDomain);
 	$("#showContextMenu").prop('checked', preferences.showContextMenu);
 	$("#showFlagAndDeleteAll").prop('checked', preferences.showFlagAndDeleteAll);
+	$("#showCommandsLabels").prop('checked', preferences.showCommandsLabels);
 	
 	if(isChristmasPeriod()) {
 		$("#showChristmasIcon").prop('checked', preferences.showChristmasIcon);
@@ -110,6 +111,9 @@ function setEvents() {
 	});
 	$("#showFlagAndDeleteAll").click(function() {
 		preferences.showFlagAndDeleteAll = $('#showFlagAndDeleteAll').prop("checked");
+	});
+	$("#showCommandsLabels").click(function() {
+		preferences.showCommandsLabels = $('#showCommandsLabels').prop("checked");
 	});
 	$("#showChristmasIcon").click(function() {
 		preferences.showChristmasIcon = $('#showChristmasIcon').prop("checked");

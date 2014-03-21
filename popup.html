@@ -1,33 +1,34 @@
 <html>
 	<head>
 		<title>ETC</title>
-		<link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.10.4.custom.min.css"/>
 		<link rel="stylesheet" type="text/css" href="/lib/uniform/uniform.default.css" />
-		<link href="/lib/mobiscroll/dev/css/mobiscroll.core-2.0.2.css" rel="stylesheet" type="text/css" />
-		<link href="/lib/mobiscroll/dev/css/mobiscroll.android-ics-2.0.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/lib/mobiscroll/dev/css/mobiscroll.core-2.0.2.css"/>
+		<link rel="stylesheet" type="text/css"href="/lib/mobiscroll/dev/css/mobiscroll.android-ics-2.0.css" />
 		<link rel="stylesheet" type="text/css" href="/css/popup-mobiscroll-datepicker-fixes.css">
+		<link rel="stylesheet" type="text/css" href="/css/opensans/opensans.css" >
 		<link rel="stylesheet" type="text/css" href="/css/font-awesome-4.0.3/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="/css/popup.css">
 		<link rel="stylesheet" type="text/css" href="/css/popup-accordion.css">
 		
-		<script src="/lib/jquery-2.0.3.min.js" type="text/javascript"></script>
-		<script src="/lib/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
-		<script src="/lib/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-		<script src="/lib/custom_i18n.js" type="text/javascript"></script>
-		<script src="/lib/i18n_translator.js" type="text/javascript"></script>
-		<script src="/lib/object-watch.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/lib/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="/lib/jquery-ui-1.10.4.custom.min.js"></script>
+		<script type="text/javascript" src="/lib/uniform/jquery.uniform.min.js"></script>
+		<script type="text/javascript" src="/lib/custom_i18n.js"></script>
+		<script type="text/javascript" src="/lib/i18n_translator.js"></script>
+		<script type="text/javascript" src="/lib/object-watch.js"></script>
 		
-		<script src="/lib/mobiscroll/dev/js/mobiscroll.core-2.0.2.js" type="text/javascript" ></script>
-		<script src="/lib/mobiscroll/dev/js/mobiscroll.android-ics-2.0.js" type="text/javascript"></script>
-		<script src="/lib/mobiscroll/dev/js/mobiscroll.datetime-2.0.2.js" type="text/javascript"></script>
-		<script src="/lib/mobiscroll/dev/js/mobiscroll.select-2.0.2.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/lib/mobiscroll/dev/js/mobiscroll.core-2.0.2.js"></script>
+		<script type="text/javascript" src="/lib/mobiscroll/dev/js/mobiscroll.android-ics-2.0.js"></script>
+		<script type="text/javascript" src="/lib/mobiscroll/dev/js/mobiscroll.datetime-2.0.2.js"></script>
+		<script type="text/javascript" src="/lib/mobiscroll/dev/js/mobiscroll.select-2.0.2.js"></script>
 		
-		<script src="/js/cookie_helpers.js" type="text/javascript"></script>
-		<script src="/js/utils.js" type="text/javascript"></script>
-		<script src="/js/data.js" type="text/javascript"></script>
-		<script src="js/popup.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/js/cookie_helpers.js"></script>
+		<script type="text/javascript" src="/js/utils.js"></script>
+		<script type="text/javascript" src="/js/data.js"></script>
+		<script type="text/javascript" src="js/popup.js"></script>
 	</head>
-	<body>
+	<body class="unselectable">
 		<div id="loader-container1"></div>
 		
 		<div id="loader-container">
@@ -41,49 +42,64 @@
 					<p id="alert_title_p"></p>
 				</div>
 				<div id="alert_buttons">
-					<div id="alert_ok" class="alert_button">
-						OK
+					<div id="alert_ok" class="alert_button" i18n="yes">
 					</div>
-					<div id="alert_cancel" class="alert_button">
-						NO
+					<div id="alert_cancel" class="alert_button" i18n="no">
 					</div>
 				</div>
 			</div>
 		</div>
 		
 		<div id="wrapper">
+			<div id="labelChooserBanner">
+				<div class="labelChooserText">
+					<span>Welcome to the new layout of EditThisCookie!</span>
+					<br/>
+					If you want the labels next to the icons back, click <a href="#" class="enableLabelsButton">here</a> or go to the <a href="/options_pages/user_preferences.html" target="_blank">options</a>. Otherwise just <a href="#" class="labelChooserClose">close this message</a>.
+				</div>
+				<i class="fa fa-times labelChooserClose"></i>
+			</div>
 			<div id="searchBox" class="ui-corner-all">
 				<input type="text" id="searchField" value="" />
 			</div>
 			
 			<div class="commands-table" style="opacity: 0;">
 				<div class="commands-row">
+					<a id="backToList" i18n_title="backToList" style="display: none;">
+						<i class="fa fa-arrow-left"></i>
+						<span i18n="backToList"></span>
+					</a>
 					<a id="deleteAllButton" class="notOnEmpty" i18n_title="deleteAll">
 						<i class="fa fa-trash-o"></i>
+						<span i18n="deleteAll"></span>
 					</a>
 					<a id="flagAllButton" class="notOnEmpty" i18n_title="flagAll" style="display: none;">
-						<i class="fa fa-ban"></i>
+						<i class="fa fa-ban" style="color: red;"></i>
+						<span i18n="flagAll"></span>
+					</a>
+					<a id="refreshButton" i18n_title="reset">
+						<i class="fa fa-undo"></i>
+						<span i18n="reset"></span>
 					</a>
 					<a id="addCookieButton" i18n_title="addNew">
 						<i class="fa fa-plus"></i>
-					</a>
-					<a id="backToList" i18n_title="backToList" style="display: none;">
-						<i class="fa fa-arrow-left"></i>
-					</a>
-					<a id="copyButton" class="notOnEmpty" i18n_title="Copy_Cookies">
-						<i class="fa fa-upload"></i>
+						<span i18n="addNew"></span>
 					</a>
 					<a id="pasteButton" i18n_title="Paste_Cookies">
-						<i class="fa fa-download"></i>
+						<i class="fa fa-sign-in"></i>
+						<span i18n="Paste_Cookies"></span>
 					</a>
-					<a id="refreshButton" i18n_title="reset">
-						<i class="fa fa-refresh"></i>
-					</a>
-					<a id="optionsButton" i18n_title="Options">
-						<i class="fa fa-wrench"></i>
+					<a id="copyButton" class="notOnEmpty" i18n_title="Copy_Cookies">
+						<i class="fa fa-sign-out"></i>
+						<span i18n="Copy_Cookies"></span>
 					</a>
 					<a id="searchButton" class="notOnEmpty" i18n_title="search">
 						<i class="fa fa-search"></i>
+						<span i18n="search"></span>
+					</a>
+					<a id="optionsButton" i18n_title="Options">
+						<i class="fa fa-wrench"></i>
+						<span i18n="Options"></span>
 					</a>
 				</div>
 			</div>
@@ -136,9 +152,6 @@
 			
 			<div class="cookie cookie_details_template">
 				<div class="vertical-commands-row">
-					<a class="flagOne" i18n_title="Flag_Cookie">
-						<i class="fa fa-ban" style="color:#E60000;"></i>
-					</a>
 					<a class="deleteOne" i18n_title="Alert_deleteCookie">
 						<i class="fa fa-trash-o" style="color:#363636;"></i>
 					</a>
@@ -147,6 +160,9 @@
 					</a>
 					<a class="protectOne protected" i18n_title="Is_ReadOnly">
 						<i class="fa fa-lock" style="color:green;"></i>
+					</a>
+					<a class="flagOne" i18n_title="Flag_Cookie">
+						<i class="fa fa-ban" style="color:#E60000; padding-top: 25px !important;"></i>
 					</a>
 				</div>
 				<input type="hidden" class="index" value="" disabled="disabled">
@@ -163,7 +179,7 @@
 						<label class="formLabel" i18n="expiration"></label>
 						<input class="expiration input" type="text">
 				</div>
-				<div class="cookie-row">
+				<div class="cookie-row" style="margin-top: 5px;">
 					<div>
 						<label class="formLabel" i18n="hostOnly"></label>
 						<input class="hostOnly checkbox" type="checkbox">
@@ -196,7 +212,7 @@
 							<i class="fa fa-undo" style="color:#363636;"></i>
 						</a>
 					</div>
-					<div class="cookie-table" style="margin-left: 10px; width: 430px;">
+					<div class="cookie-table" style="margin-left: 10px; width: 97%;">
 						<label class="formLabel" i18n="name"></label>
 						<input class="name input" type="text">
 						<label class="formLabel" i18n="value"></label>
@@ -206,7 +222,7 @@
 						<label class="formLabel" i18n="expiration"></label>
 						<input class="expiration input" type="text">
 					</div>
-					<div class="cookie-row">
+					<div class="cookie-row" style="width: 97%;">
 						<div>
 							<label class="formLabel" i18n="hostOnly"></label>
 							<input class="hostOnly checkbox" type="checkbox">
@@ -234,8 +250,8 @@
 					<a href="#" i18n="Paste_Cookies"></a>
 				</h3>
 				<div class="cookie ui-widget-content ui-corner-bottom">
-					<div class="" style="margin-left: 10px; width: 430px;">
-						<textarea rows="30" class="value input" type="textarea" spellcheck="false" i18n_placeholder="Paste_Cookie_Here" placeholder="JSON" style=""></textarea>
+					<div class="" style="margin-left: 10px; width: 97%; padding: 5px 0;">
+						<textarea rows="20" class="value input" type="textarea" spellcheck="false" i18n_placeholder="Paste_Cookie_Here" placeholder=" JSON"></textarea>
 						<div class="formLabel error"></div>
 					</div>
 				</div>

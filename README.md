@@ -1,10 +1,10 @@
-Edit This Cookie
+EditThisCookie
 ========================
 
 Description
 --------------
 
-Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!
+EditThisCookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!
 Inspired by the lack of a good cookie manager in google chrome i developed this small simple and extremely useful extension, that let's you perform anything you might actually need to do with cookies
 
 * Delete any cookie
