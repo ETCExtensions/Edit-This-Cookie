@@ -2,6 +2,9 @@ var preferences_template = {
 	"showAlerts":{
 		"default_value": false
 	},
+	"showCommandsLabels":{
+		"default_value": false
+	},
 	"showDomain":{
 		"default_value": true
 	},
@@ -57,6 +60,9 @@ var preferences_template = {
 		"default_value": "domain_alpha"		//Supported: domain_alpha, alpha
 	},
 	"showDevToolsPanel":{
+		"default_value": true
+	},
+	"showLabelChooserBanner":{
 		"default_value": true
 	},
 };

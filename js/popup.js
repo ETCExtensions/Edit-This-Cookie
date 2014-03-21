@@ -55,9 +55,10 @@ function submitAll(currentTabID) {
 	var nCookiesChangedThisTime = 0;
 	cookies.each(function() {
 		
-		var index = $(".index", 		$(this) ).val();
+		var index = $(".index", 			$(this) ).val();
 		
 		var name 		=  $(".name", 		$(this) ).val();
+		console.log(name);
 		var value 		=  $(".value", 		$(this) ).val();
 		var domain 		=  $(".domain", 	$(this) ).val();
 		var hostOnly 	=  $(".hostOnly",	$(this) ).prop("checked");
@@ -67,10 +68,10 @@ function submitAll(currentTabID) {
 		var session 	=  $(".session", 	$(this) ).prop("checked");
 		var storeId 	=  $(".storeId", 	$(this) ).val();
 		 
-		var expiration	=  $(".expiration", $(this)).scroller('getDate');	//$(".expiration",	$(this) ).val();
+		var expiration	=  $(".expiration", $(this) ).scroller('getDate');	//$(".expiration",	$(this) ).val();
 		var expirationDate = (expiration != null) ? expiration.getTime() / 1000.0 : (new Date().getTime()) / 1000.0;
 		
-		newCookie = {};
+		var newCookie = {};
 		newCookie.url = url;
 		newCookie.name = name.replace(";", "").replace(",", "");
 		value = value.replace(";","");
@@ -250,10 +251,9 @@ function createAccordionList(cks, callback, callbackArguments) {
 	 		titleText = $("<p/>").append($("<b/>").text(currentC.name)).append($("<span/>").text(domainText));
 	 	}
 	 	
-	 	var titleElement = $("<h3/>").addClass(currentC.name).append($("<a/>").html(titleText.html()).attr("href", "#"));
+	 	var titleElement = $("<h3/>").append($("<a/>").html(titleText.html()).attr("href", "#"));
 	 	
 		var cookie = $(".cookie_details_template").clone().removeClass("cookie_details_template");
-		cookie.addClass(currentC.name);
 		
 		$(".index", cookie).val(i);
 		$(".name", cookie).val(currentC.name);
@@ -351,7 +351,23 @@ function importCookies() {
 }
 
 function setEvents() {
-
+	if(preferences.showLabelChooserBanner)
+		$("#labelChooserBanner").show();
+	
+	$(".enableLabelsButton").unbind().click(function(){
+		preferences.showCommandsLabels = true;
+		preferences.showLabelChooserBanner = false;
+		$("#labelChooserBanner").slideUp();
+		$(".commands-table").first().animate({opacity: 0}, function() {
+			$(".commands-row", ".commands-table").addClass("commands-row-texy");
+			$(".commands-table").first().animate({opacity: 1});
+		});
+	});
+	$(".labelChooserClose").unbind().click(function(){
+		$("#labelChooserBanner").slideUp();
+		preferences.showLabelChooserBanner = false;
+	});
+	
 	$("#submitButton:first-child").unbind().click(function(){
 		submit(currentTabID);
 	});
@@ -410,6 +426,10 @@ function setEvents() {
 		startAlertDialog(_getMessage("Alert_deleteAll"), okFunction, function(){});
 	});
 	
+	if(preferences.showCommandsLabels) {
+		$(".commands-row", ".commands-table").addClass("commands-row-texy");
+	}
+	
 	if(preferences.showFlagAndDeleteAll) {
 		$("#flagAllButton").show();
 		$("#flagAllButton").unbind().click(function() {
@@ -444,15 +464,15 @@ function setEvents() {
 	});
 	
 	$("#addCookieButton").unbind().click(function() {
-		swithLayout("new");
 		newCookie = true;
 		pasteCookie = false;
+		swithLayout("new");
 	});
 	
 	$("#backToList").unbind().click(function() {
-		swithLayout();
 		newCookie = false;
 		pasteCookie = false;
+		swithLayout();
 	});
 	
 	$("#clearNew").unbind().click(function() {
@@ -493,9 +513,9 @@ function setEvents() {
 	});
 	
 	$("#pasteButton").unbind().click(function() {
-		swithLayout("paste");
 		newCookie = false;
 		pasteCookie = true;
+		swithLayout("paste");
 	});
 	
 	$("#searchButton").unbind().click(function() {
@@ -577,6 +597,7 @@ function setCookieEvents() {
 	
 	$(".protectOne").click(function() {
 		var cookie = $(this).closest(".cookie");
+		var titleName = $("b", cookie.prev()).first();
 		var index = $(".index", cookie).val();
 		isProtected = switchReadOnlyRule(cookieList[index]);
 		
@@ -585,10 +606,12 @@ function setCookieEvents() {
 			$(".unprotected", cookie).fadeOut('fast',function(){
 				$(".protected", cookie).fadeIn('fast');
 			});
+			titleName.css("color","green");
 		} else {
 			$(".protected", cookie).fadeOut('fast',function(){
 				$(".unprotected", cookie).fadeIn('fast');
 			});
+			titleName.css("color","#000");
 		}
 	});
 	
@@ -609,7 +632,7 @@ function setCookieEvents() {
 	$('#show').click(function(){
 		var cookie = $(this).closest(".cookie");
 		scrollsave = $('body').scrollTop();
-		$("html").scrollTop(0);		
+		$("html").scrollTop(0);
 		$('.expiration', cookie).scroller('show'); 
 		return false;
 	});
@@ -640,15 +663,14 @@ function startAlertDialog(title, ok_callback, cancel_callback) {
 	if(cancel_callback != undefined) {
 		$("#alert_cancel").show();
 		$("#alert_cancel").unbind().click(function() {
-			$("#alert_wrapper").hide();
+			$("#alert_wrapper").hide('fade');
 			cancel_callback();
 		});
 	} else {
 		$("#alert_cancel").hide();
 	}
 	$("#alert_title_p").empty().text(title);
-	$("#alert_wrapper").show(100, function(){
-	});
+	$("#alert_wrapper").show('fade');
 }
 
 function clearNewCookieData() {
@@ -682,6 +704,7 @@ function find(pattern) {
 	$("#cookiesList").accordion( "option" , "active" , cookieList.length );
 }
 
+/*
 function resizeCommandsFontSize() {				//http://stackoverflow.com/questions/4165836/javascript-scale-text-to-fit-in-fixed-div
 	var largestCommandWidth = 0;
 	var size = 0;
@@ -708,6 +731,7 @@ function resizeCommandsFontSize() {				//http://stackoverflow.com/questions/4165
 	$(".commands-table").css("font-size", size);
 	$(resizer).detach()
 }
+*/
 
 /*
 	LAYOUTS = [
