@@ -110,7 +110,10 @@
    },
    "editThis_Show_Alerts": {
       "message": "Always ask for confirmation"
-   },   
+   },
+   "editThis_ShowCommandsLabels": {
+      "message": "Show labels next to icons"
+   },
    "editThis_Is_ReadOnly": {
       "message": "Protected"
    },
@@ -194,6 +197,12 @@
    },
    "editThis_cancel": {
       "message": "Cancel"
+   },
+   "editThis_yes": {
+      "message": "Yes"
+   },
+   "editThis_no": {
+      "message": "No"
    },
    "editThis_noReadOnlyAdded": {
       "message": "No cookies protected yet"
@@ -324,13 +333,13 @@
       "message": "Choose the preferred export format for cookies"
    },
    "editThis_Copy_Cookies": {
-      "message": "Export cookies"
+      "message": "Export"
    },
    "editThis_Copied_clipboard": {
       "message": "Cookies copied to clipboard"
    },
    "editThis_Paste_Cookies": {
-      "message": "Import cookies"
+      "message": "Import"
    },
    "editThis_Paste_Cookie_Here": {
       "message": "Paste here the cookies to import. Accepted formats:"
