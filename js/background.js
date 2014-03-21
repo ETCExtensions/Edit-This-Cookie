@@ -122,7 +122,7 @@ function setContextMenu(show) {
 	chrome.contextMenus.removeAll();
 	if(show) {
 		chrome.contextMenus.create({
-			"title": "Edit This Cookie", //_getMessage("ContextMenu"),
+			"title": "EditThisCookie", //_getMessage("ContextMenu"),
 			"contexts":["all"],
 			"onclick":function(info,tab){
 				showPopup(info,tab);
