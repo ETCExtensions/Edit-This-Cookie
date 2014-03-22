@@ -347,14 +347,12 @@ body {
 }
 
 
-.fa {
+.fa:not(.fa-spin) {
 	padding-right: 1px;
 	padding-left: 5px;
 	width: 14px;
 	height: 18px;
 }
-
-
 
 .error {
 	width: 100%;
@@ -385,19 +383,13 @@ body {
     left: 0;
     right: 0;
     text-align:center;
-    vertical-align: middle;
+    padding-top: 50px;
     background-image:url('/img/transparent_white_60.png');
 }
 
-#loader-container img {
+#loader-container i {
     z-index: 1001;
-    vertical-align: middle;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+	color: #222;
 }
 
 #noCookies {

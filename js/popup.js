@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
 
 function start() {
 	setLoaderVisible(true);
-
+	
 	var arguments = getUrlVars();
 	if(arguments.url == undefined) {
 		chrome.tabs.getSelected(null, function(tab) {

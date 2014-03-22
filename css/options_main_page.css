@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	background-color: #FFF;
 	font-size: 0.9em;
-	font-family: 'DejaVu Sans', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 75%;
 	cursor: default;
 	-webkit-user-select: none;
@@ -156,4 +156,13 @@ hr {
 	display: table-cell;
 	text-align:left;
 	vertical-align:middle;
+}
+
+.fa {
+	font-size: 1.2em;
+	line-height:20px;
+}
+
+.fa-heart {
+	color: #ED0400;
 }

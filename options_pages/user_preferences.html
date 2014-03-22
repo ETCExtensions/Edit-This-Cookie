@@ -2,6 +2,8 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="/css/smoothness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="/lib/uniform/uniform.default.css" />
+		<link rel="stylesheet" type="text/css" href="/css/opensans/opensans.css" >
+		<link rel="stylesheet" type="text/css" href="/css/font-awesome-4.0.3/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="/css/options_main_page.css" />
 		<link rel="stylesheet" type="text/css" href="user_preferences.css" />
 		
@@ -24,7 +26,7 @@
 		<div id="navigation">
 			<h1>EditThisCookie</h1>
 			<ul>
-				<li class="chooser"				id="support"><img src="/img/16/heart.png" width="15px" style="vertical-align: -15%;" /><span i18n="support"></span></li>
+				<li class="chooser"				id="support"><i class="fa fa-heart"></i> <span i18n="support"></span></li>
 				<li class="chooser"				id="stats"				i18n="stats"></li>
 				<li class="chooser"				id="getting_started"	i18n="getting_started"></li>
 				<li class="chooser"				id="help"				i18n="help"></li>
@@ -102,7 +104,7 @@
 				</div>
 				<div id="saveMaxDateButton" i18n="Save"></div>
 				<div id="shortenProgress" style="display:none;">
-					<img src="/img/spinner.gif" id="shortenSpinner"/>
+					<i id="shortenSpinner" class="fa fa-refresh fa-spin"></i>
 					<span>...</span>
 				</div>
 			</div>
