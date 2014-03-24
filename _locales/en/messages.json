@@ -1,6 +1,6 @@
 {
    "editThis_description": {
-      "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+      "message": "EditThisCookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
    },
    "editThis_deleteAll": {
       "message": "Delete all"
@@ -181,10 +181,10 @@
       "message": "Stats"
    },
    "editThis_support": {
-      "message": "Support us"
+      "message": "Support me"
    },
    "editThis_support_etc": {
-      "message": "Support Edit This Cookie"
+      "message": "Support EditThisCookie"
    },
    "editThis_noBlockAdded": {
       "message": "No block rules added"
@@ -214,7 +214,7 @@
       "message": "We guarantee no personal data is ever shared!"
    },
    "editThis_timesUsed": {
-      "message": "You used 'Edit This Cookie' $1 times"
+      "message": "You used 'EditThisCookie' $1 times"
    },
    "editThis_statsSince": {
       "message": "Cookie statistics since: $1"
@@ -276,7 +276,7 @@
       "message": "You'll receive a thank you email"
    },
    "editThis_ppBenefit4": {
-      "message": "You can name any bug that annoys you in Edit This Cookie and I'll fix it super-fast!"
+      "message": "You can name any bug that annoys you in EditThisCookie and I'll fix it super-fast!"
    },
    "editThis_ppBenefit5": {
       "message": "You can name a feature you want to be implemented and I'll make it true! (just don't ask for the impossible :P )"
@@ -372,14 +372,14 @@
       "message": "Source code"
    },
    "editThis_Source_Code_Intro": {
-      "message": "Check Edit This Cookie's source code on $1",
-      "description": "It will read: Check Edit This Cookie's source code on GitHub"
+      "message": "Check EditThisCookie's source code on $1",
+      "description": "It will read: Check EditThisCookie's source code on GitHub"
    },
    "editThis_Rate_ETC": {
-      "message": "Rate Edit This Cookie"
+      "message": "Rate EditThisCookie"
    },
    "editThis_Rate_Us_Intro": {
-      "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
+      "message": "If you like EditThisCookie, leave a rating on the Chrome Web Store"
    },
    "editThis_Show_Christmas_Icon": {
       "message": "Show the Santa's hat icon"
