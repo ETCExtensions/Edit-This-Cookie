@@ -30,7 +30,7 @@ var preferences_template = {
 		"default_value": -1
 	},
 	"maxCookieAge":{
-		"default_value": 10
+		"default_value": 1
 	},
 	"useCustomLocale":{
 		"default_value": false
