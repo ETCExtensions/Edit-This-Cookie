@@ -30,7 +30,7 @@ if(oldVersion != currentVersion) {
 	if(oldVersion == undefined) { //Is firstrun
 		//chrome.tabs.create({url:chrome.extension.getURL('options_pages/support.html')});
 		chrome.tabs.create({url:'http://www.editthiscookie.com/start/'});
-	} else if(currentVersion == "1.3") {
+	} else if(currentVersion == "1.4") {
 		chrome.tabs.create({url:'http://www.editthiscookie.com/changelog/'});
 	}
 }
