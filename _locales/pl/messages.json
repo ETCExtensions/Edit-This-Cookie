@@ -1,373 +1,400 @@
 {
     "editThis_httpOnly": {
         "message": "Tylko HTTP"
-    }, 
+    },
     "editThis_AN_optInDescription": {
-        "message": "Pozwól nam na zbieranie i dzielenie się twoimi danymi przeglądania. Wszystkie dane są anonimowe"
-    }, 
+        "message": "Pozwól nam na dzielenie się twoimi danymi przeglądania. Wszystkie dane są anonimowe."
+    },
     "editThis_no_cookies": {
         "message": "Brak ciasteczek!"
-    }, 
+    },
     "editThis_Alert_submitAll": {
-        "message": "Zatwierdź wszystkie zmiany w ciasteczkach"
-    }, 
+        "message": "Zatwierdź zmiany w ciasteczkach"
+    },
     "editThis_Options": {
         "message": "Opcje"
-    }, 
+    },
     "editThis_Blocked_Cookies": {
         "message": "Zablokowane ciasteczka"
-    }, 
+    },
     "editThis_minutes": {
         "message": "Minuty"
-    }, 
+    },
     "editThis_Rate_ETC": {
-        "message": "Oceń \"Edytor ciasteczek\""
-    }, 
+        "message": "Oceń EditThisCookie"
+    },
     "editThis_Blocked_Def": {
         "message": "Jeżeli chcesz automatycznie usuwać to ciasteczko za każdym razem, dodaj filtr a już nie będzie zawracało Ci więcej głowy."
-    }, 
+    },
     "editThis_translation": {
         "message": "Tłumaczenie"
-    }, 
+    },
     "editThis_cookiesDeleted": {
         "message": "Ciasteczka usunięte"
-    }, 
+    },
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Znalazłeś błąd lub masz jakieś sugestie? Powiedz nam!"
-    }, 
+        "message": "Znalazłeś błąd lub masz jakieś sugestie? Powiedz nam o tym!"
+    },
     "editThis_statsIntro": {
-        "message": "Tutaj możesz znaleźć informacje o tym, jak używałeś te rozszerzenie. Dane zostały zebrane dopiero od Lipca 2012."
-    }, 
+        "message": "Tutaj możesz znaleźć informacje o tym, jak używałeś to rozszerzenie. Dane zostały zebrane dopiero od lipca 2012 roku."
+    },
     "editThis_Donation_Date": {
         "message": "Data przekazania darowizny"
-    }, 
+    },
     "editThis_Show_Christmas_Icon": {
         "message": "Pokaż ikonę z czapką Świętego Mikołaja"
-    }, 
+    },
     "editThis_help": {
         "message": "Pomoc"
-    }, 
+    },
     "editThis_Paste_Cookies": {
         "message": "Importuj ciasteczka"
-    }, 
+    },
     "editThis_contacts": {
         "message": "Kontakty"
-    }, 
+    },
     "editThis_Protected_Cookies": {
         "message": "Chronione ciasteczka"
-    }, 
+    },
     "editThis_flagAll": {
         "message": "Zaznacz i usuń wszystkie ciasteczka"
-    }, 
+    },
     "editThis_Rate_Us_Intro": {
-        "message": "Jeżeli lubisz \"Edytor ciasteczek\", umieść rekomendację w Chrome Web Store"
-    }, 
+        "message": "Jeżeli lubisz EditThisCookie, proszę umieść rekomendację w Chrome Web Store."
+    },
     "editThis_Show_Domain_Before_Name": {
         "message": "Pokaż domenę przed nazwą ciasteczka"
-    }, 
+    },
     "editThis_cookiesProtected": {
         "message": "Chronione ciasteczka tylko do odczytu"
-    }, 
+    },
     "editThis_support": {
-        "message": "Wspomóż nas"
-    }, 
+        "message": "Wsparcie"
+    },
     "editThis_addNew": {
         "message": "Dodaj nowe ciasteczko"
-    }, 
+    },
     "editThis_AN_adsDescription": {
         "message": "Pokaż dyskretne reklamy na niektórych stronach które odwiedziłem"
-    }, 
+    },
     "editThis_": {
         "message": ""
-    }, 
+    },
     "editThis_Show_Domain": {
         "message": "Pokaż nazwę domeny obok każdej nazwy ciasteczka"
-    }, 
+    },
     "editThis_skipCacheOnReload": {
         "message": "Pomiń pamięć podręczną podczas przeładowania strony"
-    }, 
+    },
     "editThis_adsInfoAndSettings": {
         "message": "Informacje i ustawienia"
-    }, 
+    },
     "editThis_useRegularExpressions": {
         "message": "Możesz używać wyrażeń regularnych"
-    }, 
+    },
     "editThis_Contribute_PayPal": {
         "message": "Wnieś wkład z PayPalem"
-    }, 
+    },
     "editThis_bugsFeatureRequest": {
         "message": "Błędy / Sugestie dot. funkcji rozszerzenia"
-    }, 
+    },
     "editThis_Save": {
         "message": "Zapisz"
-    }, 
+    },
     "editThis_Show_ContextMenu_helper": {
         "message": "Jeżeli zaznaczone, możesz schować ikonę na pasku przez kliknięcie prawym przyciskiem myszy!"
-    }, 
+    },
     "editThis_statsSince": {
         "message": "Statystyki ciasteczka od: $1"
-    }, 
+    },
     "editThis_translationIntro": {
         "message": "Pomóż w tłumaczeniu tego rozszerzenia na twój język"
-    }, 
+    },
     "editThis_Copy_Cookies_Type": {
         "message": "Wybierz preferowany format eksportu ciasteczka"
-    }, 
+    },
     "editThis_reset": {
         "message": "Zresetuj"
-    }, 
+    },
+    "editThis_no": {
+        "message": "Nie"
+    },
     "editThis_addRule": {
         "message": "Dodaj tę regułę"
-    }, 
+    },
     "editThis_Paste_Cookie_Here": {
         "message": "Wklej tutaj ciasteczka do zaimportowania. Akceptowane formaty:"
-    }, 
+    },
     "editThis_Send_Donations_To": {
         "message": "Możesz wysłać dotacje do:"
-    }, 
+    },
     "editThis_description": {
-        "message": "\"Edytor ciasteczek\" to menadżer ciasteczek. Możesz dodawać, usuwać, edytować, wyszukiwać, chronić oraz blokować ciastka!"
-    }, 
+        "message": "EditThisCookie to menadżer ciasteczek. Możesz dodawać, usuwać, edytować, wyszukiwać, chronić oraz blokować ciasteczka!"
+    },
     "editThis_cookiesModified": {
         "message": "Zmodyfikowane ciasteczka"
-    }, 
+    },
     "editThis_Flag_Cookie": {
         "message": "Oznacz to ciasteczko"
-    }, 
+    },
     "editThis_time": {
         "message": "Czas"
-    }, 
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Pokazuj etykiety obok ikon"
+    },
     "editThis_day": {
         "message": "Dni"
-    }, 
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Zablokuj poprzez domenę"
+    },
     "editThis_cookiesFlagged": {
-        "message": "Usunięte zaznaczone ciasteczka"
-    }, 
+        "message": "Usunięte zablokowane ciasteczka"
+    },
     "editThis_stats": {
         "message": "Statystyki"
-    }, 
+    },
     "editThis_Use_Custom_Locale": {
         "message": "Wybierz inny język"
-    }, 
+    },
     "editThis_Sort_Cookies_Domain_Alpha": {
         "message": "według domeny i nazwy"
-    }, 
+    },
     "editThis_Charity_Message": {
         "message": "Pomożesz dzieciom w potrzebie na całym świecie, ponieważ $1% przychodów przechodzi do"
-    }, 
+    },
     "editThis_Max_Date_Option": {
         "message": "Ustaw maksymalny wiek dla każdego ciasteczka"
-    }, 
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Zablokuj poprzez wartość"
+    },
     "editThis_paypalSupportIntro": {
-        "message": "Tworzymy wysokiej jakości oprogramowanie open source, które rozdajemy za darmo. <br><br> Wspomóż nas $1. Przesuń suwak tak, aby zmienić ilość", 
+        "message": "Tworzymy wysokiej jakości oprogramowanie open source, które rozdajemy za darmo. <br><br> Wspomóż nas $1. Przesuń suwak tak, aby zmienić ilość",
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
-    }, 
+    },
     "editThis_month": {
         "message": "Miesiące"
-    }, 
+    },
     "editThis_cookiesCreated": {
         "message": "Stworzone ciasteczka"
-    }, 
+    },
     "editThis_cookiesImported": {
         "message": "Zaimportowane ciasteczka"
-    }, 
+    },
     "editThis_secure": {
         "message": "Zabezpiecz"
-    }, 
+    },
     "editThis_cookiesShortened": {
         "message": "Ważność ciasteczek została skrócona"
-    }, 
+    },
     "editThis_hostOnly": {
         "message": "Tylko Host"
-    }, 
+    },
     "editThis_Max_Date": {
         "message": "Ustaw maksymalny wiek ciasteczka"
-    }, 
+    },
     "editThis_Contribute_Bitcoins": {
         "message": "Wnieś wkład w Bitcoinach"
-    }, 
+    },
     "editThis_session": {
         "message": "Sesja"
-    }, 
+    },
     "editThis_Show_ContextMenu": {
         "message": "Pokaż \"Edytuj ciasteczka\" w menu kontekstowym"
-    }, 
+    },
     "editThis_Show_Alerts": {
         "message": "Zawsze żądaj potwierdzenia"
-    }, 
+    },
     "editThis_gospelBookTitle": {
         "message": "Ewangelia Latającego Potwora Spaghetti"
-    }, 
+    },
     "editThis_timesUsed": {
-        "message": "Użyłeś \"Edytora ciasteczek\" $1 razy"
-    }, 
+        "message": "Użyłeś EditThisCookie $1 razy."
+    },
     "editThis_ppBenefit7": {
         "message": "Jesteś bardzo hojny! Jeśli kiedykolwiek się spotkamy, to kupię Ci kilka piw (hej, piwo jest ważne)"
-    }, 
+    },
     "editThis_ppBenefit6": {
         "message": "Jeśli kiedykolwiek się spotkamy, to kupię Ci Włoską Kawę oraz 'Babbà'"
-    }, 
+    },
     "editThis_ppBenefit5": {
         "message": "Możesz nazwać nową funkcję rozszerzenia, którą chcesz by była dodana, a ja ją wprowadzę! (tylko nie pytaj mnie, czy to niemożliwe :P )"
-    }, 
+    },
     "editThis_ppBenefit4": {
-        "message": "Możesz nazwać błędy rozszerzenia, które Cię irytują w \"Edytorze ciasteczek\", a ja je bardzo szybko naprawię!"
-    }, 
+        "message": "Możesz nazwać błędy rozszerzenia, które Cię irytują w EditThisCookie, a ja bardzo szybko je naprawię!"
+    },
     "editThis_ppBenefit3": {
         "message": "Otrzymasz e-mail z podziękowaniami"
-    }, 
+    },
     "editThis_ppBenefit2": {
         "message": "Twoje imię zostanie dodane w Sali Chwały"
-    }, 
+    },
     "editThis_ppBenefit1": {
         "message": "Otrzymasz malutkie miejsce w moim sercu"
-    }, 
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Pokaż panel \"Narzędzia dla deweloperów\""
+    },
     "editThis_Flag_New_Cookie": {
         "message": "Oznacz nowe ciasteczko"
-    }, 
+    },
     "editThis_ppBenefit9": {
         "message": "Bądź moja pierwszą przyczyną ataku serca. Wszystko co musisz zrobić, to tylko przekazać mi darowiznę!"
-    }, 
+    },
     "editThis_ppBenefit8": {
         "message": "I pizzę włoską!"
-    }, 
+    },
     "editThis_Set_ReadOnly": {
         "message": "Ustaw jako tylko do odczytu"
-    }, 
+    },
     "editThis_Humanitarian_Program": {
         "message": "Program humanitarny"
-    }, 
+    },
     "editThis_deleteAll": {
         "message": "Usuń wszystkie ciasteczka"
-    }, 
+    },
     "editThis_statsSharePolicy": {
         "message": "Gwarantujemy, że nie udostępniamy żadnych danych osobowych osobom trzecim!"
-    }, 
+    },
     "editThis_ReadOnly_Def": {
         "message": "Chronione ciasteczka są takimi ciasteczkami, które nie mogą być modyfikowane przez żadną stronę lub rozszerzenie"
-    }, 
+    },
     "editThis_noReadOnlyAdded": {
         "message": "Brak chronionych ciasteczek"
-    }, 
+    },
     "editThis_Alert_deleteAll": {
         "message": "Usunąć wszystkie ciasteczka z tej witryny?"
-    }, 
+    },
     "editThis_Donate": {
         "message": "Wnieś wkład"
-    }, 
+    },
     "editThis_year": {
         "message": "Lata"
-    }, 
+    },
     "editThis_seconds": {
         "message": "Sekundy"
-    }, 
+    },
     "editThis_ContextMenu": {
         "message": "Edytuj ciasteczka"
-    }, 
+    },
     "editThis_name": {
         "message": "Nazwa"
-    }, 
+    },
     "editThis_Show_Flag_And_Delete_All": {
         "message": "Pokaż przycisk \"Zaznacz i usuń wszystkie ciasteczka\""
-    }, 
+    },
     "editThis_domain": {
         "message": "Domena"
-    }, 
+    },
     "editThis_Sort_Cookies": {
         "message": "Sortuj ciasteczka"
-    }, 
+    },
     "editThis_path": {
         "message": "Ścieżka"
-    }, 
+    },
     "editThis_Is_ReadOnly": {
         "message": "Chronione"
-    }, 
+    },
     "editThis_amountByHand": {
         "message": "aby wprowadzić kwotę ręcznie, kliknij tutaj"
-    }, 
+    },
+    "editThis_yes": {
+        "message": "Tak"
+    },
     "editThis_backToList": {
         "message": "Wróć do listy"
-    }, 
+    },
     "editThis_reloadAfterChanges": {
         "message": "Odśwież stronę po zatwierdzeniu zmian"
-    }, 
+    },
     "editThis_expiration": {
         "message": "Wygaśnięcie"
-    }, 
+    },
     "editThis_Sort_Cookies_Alpha": {
         "message": "według nazwy"
-    }, 
+    },
     "editThis_donations": {
         "message": "Darowizny"
-    }, 
+    },
     "editThis_storeID": {
         "message": "StoreID"
-    }, 
+    },
     "editThis_value": {
         "message": "Wartość"
-    }, 
+    },
     "editThis_contactsIntro": {
         "message": "Wyślij nam e-mail"
-    }, 
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Zablokuj poprzez nazwę"
+    },
     "editThis_noBlockAdded": {
         "message": "Brak dodanych zasad"
-    }, 
+    },
     "editThis_Alert_deleteRule": {
         "message": "Usuń tę regułę"
-    }, 
+    },
     "editThis_Amount": {
         "message": "Ilość"
-    }, 
+    },
     "editThis_cookiesExported": {
         "message": "Ciasteczka zostały wyeksportowane"
-    }, 
+    },
     "editThis_advertisements": {
         "message": "Reklamy"
-    }, 
+    },
     "editThis_support_etc": {
-        "message": "Wspomóż \"Edytor ciasteczek\""
-    }, 
+        "message": "Wspomóż EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Pierwsze kroki"
+    },
     "editThis_noStatsNotice": {
         "message": "Brak danych :("
-    }, 
+    },
+    "editThis_newFilter": {
+        "message": "Nowy filtr"
+    },
     "editThis_hour": {
         "message": "Godziny"
-    }, 
+    },
     "editThis_Source_Code": {
         "message": "Kod zródłowy"
-    }, 
+    },
     "editThis_Encode_Cookie_Value": {
         "message": "Zakoduj wartość ciasteczka (każda jako <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Zalecane)"
-    }, 
+    },
     "editThis_helpIntro": {
         "message": "Tutaj możesz znaleźć wyjaśnienia pewnych podstawowych funkcji tego rozszerzenia"
-    }, 
+    },
     "editThis_iWantDonate": {
-        "message": "Chcę przekazać darowiznę", 
+        "message": "Chcę przekazać darowiznę",
         "description": "I want to donate X euros"
-    }, 
+    },
     "editThis_Money_Raised": {
         "message": "Dochód"
-    }, 
+    },
     "editThis_cancel": {
         "message": "Anuluj"
-    }, 
+    },
     "editThis_Source_Code_Intro": {
-        "message": "Sprawdź kod źródłowy \"Edytora ciasteczek\" za $1", 
-        "description": "It will read: Check Edit This Cookie's source code on GitHub"
-    }, 
+        "message": "Sprawdź kod źródłowy EditThisCookie za $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
     "editThis_search": {
         "message": "Szukaj"
-    }, 
+    },
     "editThis_Copied_clipboard": {
         "message": "Ciasteczka zostały skopiowane do schowka"
-    }, 
+    },
     "editThis_Copy_Cookies": {
         "message": "Eksportuj ciasteczka"
-    }, 
+    },
     "editThis_Alert_deleteCookie": {
         "message": "Usuń ciasteczko"
-    }, 
+    },
     "editThis_Details": {
         "message": "Szczegóły"
     }

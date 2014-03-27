@@ -396,6 +396,9 @@
    "editThis_Sort_Cookies_Domain_Alpha": {
       "message": "by domain and name"
    },
+   "editThis_updated": {
+      "message": "has been updated. Click here to check what's new."
+   },
    
    "editThis_": {
       "message": ""

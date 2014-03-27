@@ -1,374 +1,401 @@
 {
     "editThis_httpOnly": {
         "message": "httpOnly"
-    }, 
+    },
     "editThis_AN_optInDescription": {
         "message": "Tarama verinizi paylaşmamıza izin verin. Tüm verileriniz kişisel bilgilerinizi içermeyecek şekilde paylaşılır."
-    }, 
+    },
     "editThis_no_cookies": {
         "message": "Burada çerez yok!"
-    }, 
+    },
     "editThis_Alert_submitAll": {
         "message": "Cookie değişikliklerini kaydet"
-    }, 
+    },
     "editThis_Options": {
         "message": "Seçenekler"
-    }, 
+    },
     "editThis_Blocked_Cookies": {
         "message": "Cookieleri engelle"
-    }, 
+    },
     "editThis_minutes": {
         "message": "dakika"
-    }, 
+    },
     "editThis_Rate_ETC": {
-        "message": "Rate Edit This Cookie"
-    }, 
+        "message": "EditThisCookie'yi oylayın"
+    },
     "editThis_Blocked_Def": {
         "message": "Eğer programlı olarak bir cookienin silinmesini istiyorsan o bir filtre yaratacak ve daha fazla seni rahatsız etmeyecek"
-    }, 
+    },
     "editThis_translation": {
         "message": "Diğer diller"
-    }, 
+    },
     "editThis_cookiesDeleted": {
         "message": "Çerezler Silindi"
-    }, 
+    },
     "editThis_bugsFeatureRequestIntro": {
-        "message": "Found a bug or have a suggestion? Tell us!"
-    }, 
+        "message": "Bir hata buldunuz veya öneriniz mi var? İletişime geçin!"
+    },
     "editThis_statsIntro": {
         "message": "Burada bu eklentiyi nasıl kullandığınızı görebilirsiniz. Bu veriler sadece Temmuz 2012'den beri tutulmaktadır."
-    }, 
+    },
     "editThis_Donation_Date": {
         "message": "Bağış Tarihi"
-    }, 
+    },
     "editThis_Show_Christmas_Icon": {
         "message": "Santa'nın şapka ikonunu göster"
-    }, 
+    },
     "editThis_help": {
         "message": "Yardım"
-    }, 
+    },
     "editThis_Paste_Cookies": {
         "message": "Cookie al"
-    }, 
+    },
     "editThis_contacts": {
         "message": "Bağlantılar"
-    }, 
+    },
     "editThis_Protected_Cookies": {
         "message": "Korunan Çerezler"
-    }, 
+    },
     "editThis_flagAll": {
-        "message": "Flag and delete all"
-    }, 
+        "message": "Hepsini blokla ve Sil"
+    },
     "editThis_Rate_Us_Intro": {
-        "message": "If you like Edit This Cookie, leave a rating on the Chrome Web Store"
-    }, 
+        "message": "EditThisCookie eklentisini sevdiyseniz, bizi Chrome Web Store'da oylayın"
+    },
     "editThis_Show_Domain_Before_Name": {
         "message": "Site adını cookieden önce göster"
-    }, 
+    },
     "editThis_cookiesProtected": {
         "message": "Sadece-okunan çerezler korunuyor"
-    }, 
+    },
     "editThis_support": {
         "message": "Destek Olun"
-    }, 
+    },
     "editThis_addNew": {
         "message": "Yeni bir cookie ekle"
-    }, 
+    },
     "editThis_AN_adsDescription": {
         "message": "Bazı ziyaret ettiğim sayfalarda mütevazi reklamların gösterilmesine izin ver"
-    }, 
+    },
     "editThis_": {
         "message": ""
-    }, 
+    },
     "editThis_Show_Domain": {
         "message": "Her cookie ismini domain'in yanında göster"
-    }, 
+    },
     "editThis_skipCacheOnReload": {
         "message": "Sayfa yeniden yüklendiğinde önbelleği atla"
-    }, 
+    },
     "editThis_adsInfoAndSettings": {
         "message": "bilgi ve ayarlar"
-    }, 
+    },
     "editThis_useRegularExpressions": {
         "message": "Düzenli ifadeler kullanabilirsiniz"
-    }, 
+    },
     "editThis_Contribute_PayPal": {
         "message": "PayPal ile bağışta bulun"
-    }, 
+    },
     "editThis_bugsFeatureRequest": {
         "message": "Hatalar / Özellik Talepleri"
-    }, 
+    },
     "editThis_Save": {
         "message": "Kaydet"
-    }, 
+    },
     "editThis_Show_ContextMenu_helper": {
         "message": "Eğer aktifse, araç çubuğundaki gizle ikon sağ tıklayarak gizleyebilirsin"
-    }, 
+    },
     "editThis_statsSince": {
         "message": "$1 tarihinden itibaren çerez istatistikleri"
-    }, 
+    },
     "editThis_translationIntro": {
         "message": "Bu uzantıyı senin diline tercüme etmemize yardımcı ol"
-    }, 
+    },
     "editThis_Copy_Cookies_Type": {
-        "message": "Choose the preferred export format for cookies"
-    }, 
+        "message": "Çerezleri dışarı aktarmak için tercih ettiğiniz formatı seçin"
+    },
     "editThis_reset": {
         "message": "Sıfırla"
-    }, 
+    },
+    "editThis_no": {
+        "message": "No"
+    },
     "editThis_addRule": {
         "message": "Bu kuralı ekle"
-    }, 
+    },
     "editThis_Paste_Cookie_Here": {
-        "message": "Paste here the cookies to import. Accepted formats:"
-    }, 
+        "message": "Çerezleri içeri aktarmak için, buraya yapıştırın. Kabul edilen formatlar:"
+    },
     "editThis_Send_Donations_To": {
         "message": "Bağışları buraya gönder"
-    }, 
+    },
     "editThis_description": {
         "message": "Bu cookiyi düzenle bir cookie yönetimidir. Cookileri ekleyebilir,silebilir,düzeltebilir,arayabilir,koruyabilir ve engelleyebilirsin"
-    }, 
+    },
     "editThis_cookiesModified": {
         "message": "Çerezler Düzenlendi"
-    }, 
+    },
     "editThis_Flag_Cookie": {
         "message": "Cookie'yi etiketle"
-    }, 
+    },
     "editThis_time": {
         "message": "Zaman"
-    }, 
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Show labels next to icons"
+    },
     "editThis_day": {
         "message": "Günler"
-    }, 
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Block by domain"
+    },
     "editThis_cookiesFlagged": {
         "message": "İşaretlenen Çerezler Silindi"
-    }, 
+    },
     "editThis_stats": {
         "message": "İstatistikler"
-    }, 
+    },
     "editThis_Use_Custom_Locale": {
         "message": "Başka dil seçin"
-    }, 
+    },
     "editThis_Sort_Cookies_Domain_Alpha": {
         "message": "domain ve isme göre"
-    }, 
+    },
     "editThis_Charity_Message": {
-        "message": "You will help children in need all over the world, because $1% of the revenues go to"
-    }, 
+        "message": "Dünyanın her yerindeki çocuklara yardım etmiş olacaksınız çünkü bağışların $1%'i buraya gdiyor"
+    },
     "editThis_Max_Date_Option": {
-        "message": "Override the maximum age for any cookie"
-    }, 
+        "message": "Her çerez için sınır süresini değiştir"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Block by value"
+    },
     "editThis_paypalSupportIntro": {
-        "message": "Yüksek kalitede açık kaynak yazılım üretiyoruz ve ücretsiz olarak kullanıma sunuyoruz. <br><br> $1 kullanarak bize destek olun. Tutarı değiştirmek için slider'ı kullanın", 
+        "message": "Yüksek kalitede açık kaynak yazılım üretiyoruz ve ücretsiz olarak kullanıma sunuyoruz. <br><br> $1 kullanarak bize destek olun. Tutarı değiştirmek için slider'ı kullanın",
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
-    }, 
+    },
     "editThis_month": {
         "message": "Aylar"
-    }, 
+    },
     "editThis_cookiesCreated": {
         "message": "Çerezler Yaratıldı"
-    }, 
+    },
     "editThis_cookiesImported": {
         "message": "Cookieler alındı"
-    }, 
+    },
     "editThis_secure": {
         "message": "güvenlik"
-    }, 
+    },
     "editThis_cookiesShortened": {
-        "message": "Cookies' expiration shortened"
-    }, 
+        "message": "Çerez'in süresi azaltıldı"
+    },
     "editThis_hostOnly": {
         "message": "hostOnly"
-    }, 
+    },
     "editThis_Max_Date": {
-        "message": "Set the maximum cookie age to"
-    }, 
+        "message": "Çerez sınır süresi"
+    },
     "editThis_Contribute_Bitcoins": {
         "message": "Bitcoins'e katkıda bulun"
-    }, 
+    },
     "editThis_session": {
         "message": "Oturum"
-    }, 
+    },
     "editThis_Show_ContextMenu": {
         "message": "\"Cookieleri Düzenle\" yi içerik menüsünde göster"
-    }, 
+    },
     "editThis_Show_Alerts": {
         "message": "Her zaman doğrulama sor"
-    }, 
+    },
     "editThis_gospelBookTitle": {
         "message": "Uçan Spagetti Canavarı'nın Kutsal Kitabı"
-    }, 
+    },
     "editThis_timesUsed": {
-        "message": "Edit This Cookie'yi $1 kere kullandınız"
-    }, 
+        "message": "EditThisCookie'yi $1 kere kullandınız"
+    },
     "editThis_ppBenefit7": {
         "message": "Oldukça cömertsin! Eğer bir şekilde bir araya gelirsek sana bir kaç bira ısmarlayacağım (hey, bira önemlidir)"
-    }, 
+    },
     "editThis_ppBenefit6": {
         "message": "Eğer bir şekilde bir araya gelirsek Babbà'da bir İtalyan kahvesi ısmarlayacağım!"
-    }, 
+    },
     "editThis_ppBenefit5": {
         "message": "Eklenmesini istediğiniz bir özelliği belirtebileceksiniz ve ben gerçekleştireceğim! (imkansızı istemediğiniz sürece :P )"
-    }, 
+    },
     "editThis_ppBenefit4": {
-        "message": "Edit This Cookie'deki rahatsız edici dediğiniz her türlü hatayı belirtebileceksiniz ve ben onu süper hızlı şekilde düzelteceğim!"
-    }, 
+        "message": "EditThisCookie'deki rahatsız edici dediğiniz her türlü hatayı belirtebileceksiniz ve ben onu süper hızlı şekilde düzelteceğim!"
+    },
     "editThis_ppBenefit3": {
-        "message": "You'll receive a thank you email"
-    }, 
+        "message": "Bir teşekkür emaili alacaksınız"
+    },
     "editThis_ppBenefit2": {
         "message": "İsminiz Über İnsanlar listesine eklenecek"
-    }, 
+    },
     "editThis_ppBenefit1": {
-        "message": "You will get a tiny little place in my heart"
-    }, 
+        "message": "Kalbimde küçük bir yer edineceksiniz"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Show the DevTools panel"
+    },
     "editThis_Flag_New_Cookie": {
         "message": "Yeni cookieyi etiketle"
-    }, 
+    },
     "editThis_ppBenefit9": {
         "message": "Kalbimin atma sebebi ol! Tek yapman gereken hemen şimdi bağışta bulunmak!"
-    }, 
+    },
     "editThis_ppBenefit8": {
-        "message": "And an Italian pizza!"
-    }, 
+        "message": "Ve bir İtalyan pizzası!"
+    },
     "editThis_Set_ReadOnly": {
         "message": "Sadece okunan yap"
-    }, 
+    },
     "editThis_Humanitarian_Program": {
-        "message": "Humanitarian program"
-    }, 
+        "message": "Arkadaş canlısı program"
+    },
     "editThis_deleteAll": {
         "message": "Hepsini sil"
-    }, 
+    },
     "editThis_statsSharePolicy": {
         "message": "Kişisel bilgilerinizin kesinlikle kimseyle paylaşılmayacağını garanti ederiz"
-    }, 
+    },
     "editThis_ReadOnly_Def": {
         "message": "'Korunan çerez' hiçbir site veya eklenti tarafından değiştirilemeyen çerezdir."
-    }, 
+    },
     "editThis_noReadOnlyAdded": {
         "message": "Korunan çerez yok"
-    }, 
+    },
     "editThis_Alert_deleteAll": {
         "message": "Mevcut websitesi için olan tüm cookieleri sil"
-    }, 
+    },
     "editThis_Donate": {
         "message": "Bağışta bulunmak"
-    }, 
+    },
     "editThis_year": {
         "message": "Yıllar"
-    }, 
+    },
     "editThis_seconds": {
         "message": "saniye"
-    }, 
+    },
     "editThis_ContextMenu": {
         "message": "Cookieleri düzenle"
-    }, 
+    },
     "editThis_name": {
         "message": "isim"
-    }, 
+    },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "\"İşaretle ve hepsini sil\" butonunu göster"
-    }, 
+        "message": "\"Hepsini blokla ve Sil\" butonunu göster"
+    },
     "editThis_domain": {
         "message": "alanadı"
-    }, 
+    },
     "editThis_Sort_Cookies": {
         "message": "çerezleri sırala"
-    }, 
+    },
     "editThis_path": {
         "message": "adres"
-    }, 
+    },
     "editThis_Is_ReadOnly": {
         "message": "Korumalı"
-    }, 
+    },
     "editThis_amountByHand": {
         "message": "tutarı elle girmek için burayı tıklayın"
-    }, 
+    },
+    "editThis_yes": {
+        "message": "Yes"
+    },
     "editThis_backToList": {
         "message": "Listeye geri dön"
-    }, 
+    },
     "editThis_reloadAfterChanges": {
         "message": "Değişiklikleri yaptıktan sonra sayfayı yeniden yükle"
-    }, 
+    },
     "editThis_expiration": {
         "message": "geçerlilik"
-    }, 
+    },
     "editThis_Sort_Cookies_Alpha": {
         "message": "isme göre"
-    }, 
+    },
     "editThis_donations": {
         "message": "Bağışlar"
-    }, 
+    },
     "editThis_storeID": {
         "message": "kayıt id"
-    }, 
+    },
     "editThis_value": {
         "message": "değer"
-    }, 
+    },
     "editThis_contactsIntro": {
         "message": "Bize mail atın"
-    }, 
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Block by name"
+    },
     "editThis_noBlockAdded": {
         "message": "Hiç engelleme kuralı eklenmedi"
-    }, 
+    },
     "editThis_Alert_deleteRule": {
         "message": "Bu kuralı sil"
-    }, 
+    },
     "editThis_Amount": {
-        "message": "Amount"
-    }, 
+        "message": "Miktar"
+    },
     "editThis_cookiesExported": {
         "message": "Cookieler verildi"
-    }, 
+    },
     "editThis_advertisements": {
         "message": "Reklamlar"
-    }, 
+    },
     "editThis_support_etc": {
-        "message": "Bu çerezi düzenlemeye destek ol"
-    }, 
+        "message": "EditThisCookie destek ol"
+    },
+    "editThis_getting_started": {
+        "message": "Buradan başlayın"
+    },
     "editThis_noStatsNotice": {
         "message": "Henüz veri yok :("
-    }, 
+    },
+    "editThis_newFilter": {
+        "message": "New filter"
+    },
     "editThis_hour": {
         "message": "Saatler"
-    }, 
+    },
     "editThis_Source_Code": {
         "message": "Kaynak Kodu"
-    }, 
+    },
     "editThis_Encode_Cookie_Value": {
         "message": "(Çerezleri değeri <her biri için a href=\"http://curl.haxx.se/rfc/cookie_spec.html\"> http://curl.haxx.se/rfc/cookie_spec.html olarak </a> ) olarak kodla (Önerilen)"
-    }, 
+    },
     "editThis_helpIntro": {
         "message": "Burada bu eklentinin bazı temel fonksiyonları hakkında açıklamalar bulacaksınız"
-    }, 
+    },
     "editThis_iWantDonate": {
-        "message": "Bağış yapmak istiyorum", 
+        "message": "Bağış yapmak istiyorum",
         "description": "I want to donate X euros"
-    }, 
+    },
     "editThis_Money_Raised": {
-        "message": "Money raised so far"
-    }, 
+        "message": "Şuana kadar toplanan para"
+    },
     "editThis_cancel": {
         "message": "İptal"
-    }, 
+    },
     "editThis_Source_Code_Intro": {
-        "message": "Check Edit This Cookie's source code on $1", 
-        "description": "It will read: Check Edit This Cookie's source code on GitHub"
-    }, 
+        "message": "EditThisCookie kaynak koduna $1 adresinden ulaşabilirsiniz.",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
     "editThis_search": {
         "message": "Arama"
-    }, 
+    },
     "editThis_Copied_clipboard": {
-        "message": "Cookies copied to clipboard"
-    }, 
+        "message": "Çerezler kopyalandı."
+    },
     "editThis_Copy_Cookies": {
         "message": "Cookie ver"
-    }, 
+    },
     "editThis_Alert_deleteCookie": {
         "message": "Cookieyi sil"
-    }, 
+    },
     "editThis_Details": {
-        "message": "Details"
+        "message": "Detaylar"
     }
 }

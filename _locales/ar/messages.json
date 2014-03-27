@@ -1,373 +1,400 @@
 {
     "editThis_httpOnly": {
         "message": "Http فقط"
-    }, 
+    },
     "editThis_AN_optInDescription": {
         "message": "اسمح لنا بمشاركة بيانات تصفحك . جميع البيانات مجهولة"
-    }, 
+    },
     "editThis_no_cookies": {
-        "message": "No cookies here!"
-    }, 
+        "message": "لا توجد كوكيز هنا !"
+    },
     "editThis_Alert_submitAll": {
         "message": "تفعيل التغييرات"
-    }, 
+    },
     "editThis_Options": {
         "message": "خيارات"
-    }, 
+    },
     "editThis_Blocked_Cookies": {
         "message": "الكوكيز المحظورة"
-    }, 
+    },
     "editThis_minutes": {
         "message": "دقائق"
-    }, 
+    },
     "editThis_Rate_ETC": {
-        "message": "معدل تعديل هذه كوكي"
-    }, 
+        "message": "قيّم ُEditThisCookie"
+    },
     "editThis_Blocked_Def": {
         "message": "إذا كنت تريد حذف أوتوماتيكيا كوكي في كل مرة يتم إنشاؤه أضف فيلتر و لن تزعجك بعد الآن\\n"
-    }, 
+    },
     "editThis_translation": {
         "message": "ترجمة"
-    }, 
+    },
     "editThis_cookiesDeleted": {
         "message": "تم حذف الكوكيز"
-    }, 
+    },
     "editThis_bugsFeatureRequestIntro": {
         "message": "وجدت خطأ أو لديك اقتراح؟"
-    }, 
+    },
     "editThis_statsIntro": {
         "message": "هنا يمكنك أن تكتشف كيف استخدمت هذه الإضافة. هذه البيانات تم جمعها من شهر يوليو 2012 فقط"
-    }, 
+    },
     "editThis_Donation_Date": {
         "message": "التبرع التسجيل"
-    }, 
+    },
     "editThis_Show_Christmas_Icon": {
-        "message": "Show the Santa's hat icon"
-    }, 
+        "message": "أظهر ايقونة قبعة سانتا كلوز"
+    },
     "editThis_help": {
         "message": "مساعدة"
-    }, 
+    },
     "editThis_Paste_Cookies": {
         "message": "استيراد الكعكات"
-    }, 
+    },
     "editThis_contacts": {
         "message": "جهات الإتصال"
-    }, 
+    },
     "editThis_Protected_Cookies": {
         "message": "كوكيز محمية"
-    }, 
+    },
     "editThis_flagAll": {
         "message": "علّم واحذف الكل"
-    }, 
+    },
     "editThis_Rate_Us_Intro": {
         "message": "اذا احببت هذه الأداة، اترك تقييمك في Chrome Web Store"
-    }, 
+    },
     "editThis_Show_Domain_Before_Name": {
-        "message": "Show the domain before the cookie's name"
-    }, 
+        "message": "أظهر الDomain قبل اسم الكوكيز"
+    },
     "editThis_cookiesProtected": {
         "message": "كوكيز ( وضع القراءة فقط ) محمية"
-    }, 
+    },
     "editThis_support": {
         "message": "ادعمنا"
-    }, 
+    },
     "editThis_addNew": {
         "message": "أضف كوكي جديد"
-    }, 
+    },
     "editThis_AN_adsDescription": {
         "message": "اظهار الإعلانات الغير مزعجة في بعض الصفحات اللتي أزورها"
-    }, 
+    },
     "editThis_": {
         "message": ""
-    }, 
+    },
     "editThis_Show_Domain": {
         "message": "اظهار النطاق بجانب اسم كل كوكي"
-    }, 
+    },
     "editThis_skipCacheOnReload": {
         "message": "تخطي ذاكرة التخزين المؤقت عند اعادة تحميل الصفحة.."
-    }, 
+    },
     "editThis_adsInfoAndSettings": {
         "message": "المعلومات و الإعدادات"
-    }, 
+    },
     "editThis_useRegularExpressions": {
         "message": "تستطيع استخدام عبارات عادية"
-    }, 
+    },
     "editThis_Contribute_PayPal": {
-        "message": "Contribute with PayPal"
-    }, 
+        "message": "ساهم بPayPal"
+    },
     "editThis_bugsFeatureRequest": {
         "message": "طلبات الأخطاء/المميزات"
-    }, 
+    },
     "editThis_Save": {
         "message": "حفظ"
-    }, 
+    },
     "editThis_Show_ContextMenu_helper": {
         "message": "في حالت التشغيل، سوف تكون قادر على إخفاء الرمز من شريط الأدوات بالنقر بزر الماوس الأيمن عليه!"
-    }, 
+    },
     "editThis_statsSince": {
         "message": "احصائيات الكوكي من : $1"
-    }, 
+    },
     "editThis_translationIntro": {
         "message": "ساعدنا في ترجمة هذه الأداة الى لغتك.."
-    }, 
+    },
     "editThis_Copy_Cookies_Type": {
         "message": "اختيار تنسيق التصدير المفضل لملفات تعريف الارتباط"
-    }, 
+    },
     "editThis_reset": {
         "message": "اعادة"
-    }, 
+    },
+    "editThis_no": {
+        "message": "لا"
+    },
     "editThis_addRule": {
         "message": "أضف هذه القاعدة"
-    }, 
+    },
     "editThis_Paste_Cookie_Here": {
         "message": "أالصق ملفات تعريف الارتباط هنا لإستيرادها، بتنسيق مقبول:"
-    }, 
+    },
     "editThis_Send_Donations_To": {
-        "message": "You can send donations to:"
-    }, 
+        "message": "يمكنك إرسال التبرعات إلى"
+    },
     "editThis_description": {
-        "message": "Edit This Cookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
-    }, 
+        "message": "EditThisCookie هو برنامج للتحكم في الكوكيز. يمكنك إضافة, مسح, إعداد, بحث, حماية و منع الكوكيز"
+    },
     "editThis_cookiesModified": {
         "message": "الكوكيز المعدلة"
-    }, 
+    },
     "editThis_Flag_Cookie": {
         "message": "علم كوكي"
-    }, 
+    },
     "editThis_time": {
         "message": "الوقت"
-    }, 
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "أظهر الأسماء بجانب الأيقونة"
+    },
     "editThis_day": {
         "message": "أيام"
-    }, 
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Block by domain"
+    },
     "editThis_cookiesFlagged": {
         "message": "الكوكيز المعلمة و اللتي تم حذفها"
-    }, 
+    },
     "editThis_stats": {
         "message": "احصائيات"
-    }, 
+    },
     "editThis_Use_Custom_Locale": {
         "message": "اختر لغة اخرى"
-    }, 
+    },
     "editThis_Sort_Cookies_Domain_Alpha": {
         "message": "by domain and name"
-    }, 
+    },
     "editThis_Charity_Message": {
         "message": "سوف تساعد الأطفال المحتاجين في جميع أنحاء العالم، لأن $1٪ من الإيرادات تذهب إلى"
-    }, 
+    },
     "editThis_Max_Date_Option": {
         "message": "تجاوز العمر الأقصى لأي ملف تعريف الارتباط"
-    }, 
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "منع عن طريق القيمة"
+    },
     "editThis_paypalSupportIntro": {
-        "message": "نحن نطور برنامجاً مفتوح المصدر ذو جودة عالية و نقدمه مجاناً . <br><br> ادعمنا باستخدام $1 . حرك المؤشر لتغيير القيمة", 
+        "message": "نحن نطور برنامجاً مفتوح المصدر ذو جودة عالية و نقدمه مجاناً . <br><br> ادعمنا باستخدام $1 . حرك المؤشر لتغيير القيمة",
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
-    }, 
+    },
     "editThis_month": {
         "message": "شهور"
-    }, 
+    },
     "editThis_cookiesCreated": {
         "message": "الكوكيز المنشأة"
-    }, 
+    },
     "editThis_cookiesImported": {
         "message": "تم استيرد ملفات تعريف الارتباط"
-    }, 
+    },
     "editThis_secure": {
         "message": "محمي"
-    }, 
+    },
     "editThis_cookiesShortened": {
         "message": "Cookies' expiration shortened"
-    }, 
+    },
     "editThis_hostOnly": {
         "message": "مستضيف فقط"
-    }, 
+    },
     "editThis_Max_Date": {
         "message": "تحديد العمر الأفصى لل cookie إلى"
-    }, 
+    },
     "editThis_Contribute_Bitcoins": {
-        "message": "Contribute in Bitcoins"
-    }, 
+        "message": "ساهم بإستخدام عملات الBitCoin"
+    },
     "editThis_session": {
         "message": "جلسة"
-    }, 
+    },
     "editThis_Show_ContextMenu": {
         "message": "اظهار \" تحرير الكوكيز \" في قائمة جانبية أو سياقية"
-    }, 
+    },
     "editThis_Show_Alerts": {
         "message": "دائماً اسأل عن الموافقة"
-    }, 
+    },
     "editThis_gospelBookTitle": {
         "message": "إنجيل شبح الأسباجتي الطائر"
-    }, 
+    },
     "editThis_timesUsed": {
         "message": "لقد استخدمت \" إعداد الcookie هذا \" $1 مرة"
-    }, 
+    },
     "editThis_ppBenefit7": {
         "message": "انت كريم جداً ! إذا تقابلنا في يوم ما سوف اشتري لك بعضاً من الجعة ( مهلاً, الجعة مهمة )"
-    }, 
+    },
     "editThis_ppBenefit6": {
         "message": "If we ever meet I'll get you an Italian coffee and a 'Babbà'"
-    }, 
+    },
     "editThis_ppBenefit5": {
         "message": "يمكنك تسمية اية ميزة تريدها ان توجد في البرنامج و انا سوف احققها (فقط لا تطلب المستحيل :P)"
-    }, 
+    },
     "editThis_ppBenefit4": {
         "message": "إذا وجدت إى اخطاء في البرنامج قل لي و سوف اصلحاً سريعاً جداً"
-    }, 
+    },
     "editThis_ppBenefit3": {
         "message": "You'll receive a thank you email"
-    }, 
+    },
     "editThis_ppBenefit2": {
         "message": "سوف يتم إضافة اسمك إلى حائط المشاهير"
-    }, 
+    },
     "editThis_ppBenefit1": {
-        "message": "You will get a tiny little place in my heart"
-    }, 
+        "message": "سوف تحصل على مكان صغير في قلبي"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Show the DevTools panel"
+    },
     "editThis_Flag_New_Cookie": {
         "message": "علم كوكي جديد"
-    }, 
+    },
     "editThis_ppBenefit9": {
         "message": "كن أول من يتسبب لي في سكتة قلبية. كل ما عليك فعله هو التبرع الآن"
-    }, 
+    },
     "editThis_ppBenefit8": {
-        "message": "And an Italian pizza!"
-    }, 
+        "message": "و بيتزا إيطالية"
+    },
     "editThis_Set_ReadOnly": {
-        "message": "تعيين للقراءة فقط"
-    }, 
+        "message": "ضبط كوضع قراءة فقط"
+    },
     "editThis_Humanitarian_Program": {
         "message": "Humanitarian program"
-    }, 
+    },
     "editThis_deleteAll": {
         "message": "حذف الكل"
-    }, 
+    },
     "editThis_statsSharePolicy": {
-        "message": "We guarantee no personal data is ever shared!"
-    }, 
+        "message": "نضمن انه لن يتم مشاركة أي معلوملت شخصية"
+    },
     "editThis_ReadOnly_Def": {
         "message": "A protected cookie is a cookie which can't be modified by any website or extension"
-    }, 
+    },
     "editThis_noReadOnlyAdded": {
         "message": "No cookies protected yet"
-    }, 
+    },
     "editThis_Alert_deleteAll": {
         "message": "حذف جميع الكوكيز للموقع الحالي ؟"
-    }, 
+    },
     "editThis_Donate": {
         "message": "Contribute"
-    }, 
+    },
     "editThis_year": {
         "message": "سنوات"
-    }, 
+    },
     "editThis_seconds": {
         "message": "ثواني"
-    }, 
+    },
     "editThis_ContextMenu": {
         "message": "تعديل الكوكيز"
-    }, 
+    },
     "editThis_name": {
         "message": "الاسم"
-    }, 
+    },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "Show \"Flag and delete all\" button"
-    }, 
+        "message": "أظهر زر \"منع و مسح الكل\""
+    },
     "editThis_domain": {
         "message": "النطاق"
-    }, 
+    },
     "editThis_Sort_Cookies": {
-        "message": "Sort cookies"
-    }, 
+        "message": "ترتيب الكوكيز"
+    },
     "editThis_path": {
         "message": "مسار"
-    }, 
+    },
     "editThis_Is_ReadOnly": {
         "message": "محمي"
-    }, 
+    },
     "editThis_amountByHand": {
         "message": "to enter the amount by hand click here"
-    }, 
+    },
+    "editThis_yes": {
+        "message": "نعم"
+    },
     "editThis_backToList": {
         "message": "العودة إلى قائمة"
-    }, 
+    },
     "editThis_reloadAfterChanges": {
         "message": "Reload the page after submitting the changes"
-    }, 
+    },
     "editThis_expiration": {
         "message": "انتهاء الصلاحية"
-    }, 
+    },
     "editThis_Sort_Cookies_Alpha": {
-        "message": "by name"
-    }, 
+        "message": "بواسطة الأسم"
+    },
     "editThis_donations": {
         "message": "Donations"
-    }, 
+    },
     "editThis_storeID": {
         "message": "storeID"
-    }, 
+    },
     "editThis_value": {
         "message": "قيمة"
-    }, 
+    },
     "editThis_contactsIntro": {
         "message": "أرسل لنا رسالة"
-    }, 
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Block by name"
+    },
     "editThis_noBlockAdded": {
         "message": "No block rules added"
-    }, 
+    },
     "editThis_Alert_deleteRule": {
         "message": "حذف هذه القاعدة"
-    }, 
+    },
     "editThis_Amount": {
         "message": "كمية"
-    }, 
+    },
     "editThis_cookiesExported": {
         "message": "تم تصدير ملفات تعريف الارتباط"
-    }, 
+    },
     "editThis_advertisements": {
         "message": "Advertisements"
-    }, 
+    },
     "editThis_support_etc": {
-        "message": "Support Edit This Cookie"
-    }, 
+        "message": "دعم EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "الأستعداد"
+    },
     "editThis_noStatsNotice": {
         "message": "No data yet :("
-    }, 
+    },
+    "editThis_newFilter": {
+        "message": "New filter"
+    },
     "editThis_hour": {
         "message": "ساعات"
-    }, 
+    },
     "editThis_Source_Code": {
         "message": "كود المصدر"
-    }, 
+    },
     "editThis_Encode_Cookie_Value": {
         "message": "ترميز قيمة الكوكيز ( as per <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a> ) ( مستحسن )"
-    }, 
+    },
     "editThis_helpIntro": {
         "message": "Here you will find explanations for some basic functions of this extension"
-    }, 
+    },
     "editThis_iWantDonate": {
-        "message": "اريد التبرع", 
+        "message": "اريد التبرع",
         "description": "I want to donate X euros"
-    }, 
+    },
     "editThis_Money_Raised": {
         "message": "Money raised so far"
-    }, 
+    },
     "editThis_cancel": {
         "message": "الغاء"
-    }, 
+    },
     "editThis_Source_Code_Intro": {
-        "message": "Check Edit This Cookie's source code on $1", 
-        "description": "It will read: Check Edit This Cookie's source code on GitHub"
-    }, 
+        "message": "Check EditThisCookie's source code on $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
     "editThis_search": {
         "message": "البحث"
-    }, 
+    },
     "editThis_Copied_clipboard": {
         "message": "Cookies copied to clipboard"
-    }, 
+    },
     "editThis_Copy_Cookies": {
         "message": "تصدير ملفات تعريف الارتباط"
-    }, 
+    },
     "editThis_Alert_deleteCookie": {
         "message": "حذف الكوكي"
-    }, 
+    },
     "editThis_Details": {
         "message": "Details"
     }

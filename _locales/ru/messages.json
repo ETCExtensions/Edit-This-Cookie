@@ -1,373 +1,400 @@
 {
     "editThis_httpOnly": {
         "message": "Только HTTP"
-    }, 
+    },
     "editThis_AN_optInDescription": {
         "message": "Позволить нам делиться Вашей информацией о посещаемых сайтах. Анонимно."
-    }, 
+    },
     "editThis_no_cookies": {
         "message": "Здесь нету cookies!"
-    }, 
+    },
     "editThis_Alert_submitAll": {
         "message": "Сохранить изменения"
-    }, 
+    },
     "editThis_Options": {
         "message": "Опции"
-    }, 
+    },
     "editThis_Blocked_Cookies": {
         "message": "Блокированные"
-    }, 
+    },
     "editThis_minutes": {
         "message": "Минуты"
-    }, 
+    },
     "editThis_Rate_ETC": {
-        "message": "Оцените Edit This Cookie"
-    }, 
+        "message": "Оцените EditThisCookie"
+    },
     "editThis_Blocked_Def": {
         "message": "Если Вы хотите автоматически удалять определённый Cookie каждый раз, когда он создаётся, добавьте фильтр - и этот Cookie больше не будет беспокоить Вас."
-    }, 
+    },
     "editThis_translation": {
         "message": "Перевод от:"
-    }, 
+    },
     "editThis_cookiesDeleted": {
         "message": "Cookies удалены"
-    }, 
+    },
     "editThis_bugsFeatureRequestIntro": {
         "message": "Нашли ошибку или есть предложение? Сообщите нам!"
-    }, 
+    },
     "editThis_statsIntro": {
         "message": "Здесь вы можете просмотреть информацию о том, как вы используете это расширение. Информация собирается только с июля 2012."
-    }, 
+    },
     "editThis_Donation_Date": {
         "message": "Дата пожертвования"
-    }, 
+    },
     "editThis_Show_Christmas_Icon": {
         "message": "Показывать шапку Санта-Клауса на иконке?"
-    }, 
+    },
     "editThis_help": {
         "message": "Справка"
-    }, 
+    },
     "editThis_Paste_Cookies": {
         "message": "Импорт Cookies"
-    }, 
+    },
     "editThis_contacts": {
         "message": "Контакты"
-    }, 
+    },
     "editThis_Protected_Cookies": {
         "message": "Защищенные"
-    }, 
+    },
     "editThis_flagAll": {
         "message": "Пометить и удалить все"
-    }, 
+    },
     "editThis_Rate_Us_Intro": {
-        "message": "Если Вам нравится Edit This Cookie, поставьте оценку на Chrome Web Store"
-    }, 
+        "message": "Если Вам нравится EditThisCookie, поставьте оценку на Chrome Web Store"
+    },
     "editThis_Show_Domain_Before_Name": {
         "message": "Показывать домен перед названием cookie"
-    }, 
+    },
     "editThis_cookiesProtected": {
         "message": "Данный cookie только для чтения"
-    }, 
+    },
     "editThis_support": {
         "message": "Помочь нам"
-    }, 
+    },
     "editThis_addNew": {
         "message": "Добавить cookie"
-    }, 
+    },
     "editThis_AN_adsDescription": {
         "message": "Показывать ненавязчивую рекламу на некоторых страницах"
-    }, 
+    },
     "editThis_": {
         "message": ""
-    }, 
+    },
     "editThis_Show_Domain": {
         "message": "Показывать имя домена возле каждого имени cookie"
-    }, 
+    },
     "editThis_skipCacheOnReload": {
         "message": "Пропускать кэш при обновлении страницы"
-    }, 
+    },
     "editThis_adsInfoAndSettings": {
         "message": "Информация и настройки"
-    }, 
+    },
     "editThis_useRegularExpressions": {
         "message": "Вы можете использовать регулярные выражения"
-    }, 
+    },
     "editThis_Contribute_PayPal": {
         "message": "Contribute with PayPal"
-    }, 
+    },
     "editThis_bugsFeatureRequest": {
         "message": "Баги / предложения по улучшению функционала"
-    }, 
+    },
     "editThis_Save": {
         "message": "Сохранить"
-    }, 
+    },
     "editThis_Show_ContextMenu_helper": {
         "message": "Если отмечено, вы сможете скрывать иконку на тулбаре с помощью правого щелчка мышью!"
-    }, 
+    },
     "editThis_statsSince": {
         "message": "Статистика cookie начиная с: $1"
-    }, 
+    },
     "editThis_translationIntro": {
         "message": "Помогите перевести расширение на Ваш язык"
-    }, 
+    },
     "editThis_Copy_Cookies_Type": {
         "message": "Выберите нужный формат экспорта для Cookies"
-    }, 
+    },
     "editThis_reset": {
         "message": "Сброс"
-    }, 
+    },
+    "editThis_no": {
+        "message": "No"
+    },
     "editThis_addRule": {
         "message": "Добавить правило"
-    }, 
+    },
     "editThis_Paste_Cookie_Here": {
         "message": "Скопируйте сюда Cookies для импорта. Допустимые форматы:"
-    }, 
+    },
     "editThis_Send_Donations_To": {
         "message": "You can send donations to:"
-    }, 
+    },
     "editThis_description": {
-        "message": "Edit This Cookie - это менеджер cookie. Вы можете добавлять, удалять, изменять, искать, защищать и блокировать cookie!"
-    }, 
+        "message": "EditThisCookie - это менеджер cookie. Вы можете добавлять, удалять, изменять, искать, защищать и блокировать cookie!"
+    },
     "editThis_cookiesModified": {
         "message": "Cookie отредактированы"
-    }, 
+    },
     "editThis_Flag_Cookie": {
-        "message": "Пометить cookie"
-    }, 
+        "message": "Заблокировать cookie"
+    },
     "editThis_time": {
         "message": "Время"
-    }, 
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Show labels next to icons"
+    },
     "editThis_day": {
         "message": "Дни"
-    }, 
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Block by domain"
+    },
     "editThis_cookiesFlagged": {
         "message": "Отмеченные сookie удалены"
-    }, 
+    },
     "editThis_stats": {
         "message": "Статистика"
-    }, 
+    },
     "editThis_Use_Custom_Locale": {
         "message": "Выбрать другой язык"
-    }, 
+    },
     "editThis_Sort_Cookies_Domain_Alpha": {
         "message": "по домену и имени"
-    }, 
+    },
     "editThis_Charity_Message": {
         "message": "Вы будете помогать нуждающимся детям во всем мире, потому что $1% от доходов перечислится "
-    }, 
+    },
     "editThis_Max_Date_Option": {
         "message": "Обновить максимальный срок для любого Cookie"
-    }, 
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Block by value"
+    },
     "editThis_paypalSupportIntro": {
-        "message": "Мы разрабатываем приложения с открытым исходным кодом высокого качества бесплатно. <br><br> Поддержите нас пожертвовав всего $1. Переместите ползунок, чтобы изменить сумму", 
+        "message": "Мы разрабатываем приложения с открытым исходным кодом высокого качества бесплатно. <br><br> Поддержите нас пожертвовав всего $1. Переместите ползунок, чтобы изменить сумму",
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
-    }, 
+    },
     "editThis_month": {
         "message": "Месяцы"
-    }, 
+    },
     "editThis_cookiesCreated": {
         "message": "Cookie созданы"
-    }, 
+    },
     "editThis_cookiesImported": {
         "message": "Cookies импортировано"
-    }, 
+    },
     "editThis_secure": {
         "message": "Безопасность"
-    }, 
+    },
     "editThis_cookiesShortened": {
         "message": "Срок годности сокращен"
-    }, 
+    },
     "editThis_hostOnly": {
         "message": "ТолькоДомен"
-    }, 
+    },
     "editThis_Max_Date": {
         "message": "Установить максимальный срок для Сookie"
-    }, 
+    },
     "editThis_Contribute_Bitcoins": {
         "message": "Contribute in Bitcoins"
-    }, 
+    },
     "editThis_session": {
         "message": "Сессия"
-    }, 
+    },
     "editThis_Show_ContextMenu": {
         "message": "Показывать в контексном меню пункт \"Изменить Cookies\""
-    }, 
+    },
     "editThis_Show_Alerts": {
         "message": "Всегда спрашивать подтверждения"
-    }, 
+    },
     "editThis_gospelBookTitle": {
         "message": "The Gospel of the Flying Spaghetti Monster"
-    }, 
+    },
     "editThis_timesUsed": {
-        "message": "Вы использовали \"Edit This Cookie\" $1 раз(а)"
-    }, 
+        "message": "Вы использовали EditThisCookie $1 раз(а)"
+    },
     "editThis_ppBenefit7": {
         "message": "Вы очень щедры! Если мы когда-нибудь встретимся, я угощу вас несколькими кружками пива (пиво - это круто)"
-    }, 
+    },
     "editThis_ppBenefit6": {
         "message": "Если мы когда-нибудь встретимся, я угощу Вас кофе c итальянской 'Babbà'"
-    }, 
+    },
     "editThis_ppBenefit5": {
         "message": "Назовите функцию, которую вы бы хотели реализовать, и я сделаю это! (невозможного не просить :P)"
-    }, 
+    },
     "editThis_ppBenefit4": {
-        "message": "Назовите баг, который вас раздражает в Edit This Cookie, и я его исправлю супер-быстро!"
-    }, 
+        "message": "Назовите баг, который вас раздражает в EditThisCookie, и я его исправлю супер-быстро!"
+    },
     "editThis_ppBenefit3": {
         "message": "You'll receive a thank you email"
-    }, 
+    },
     "editThis_ppBenefit2": {
         "message": "Ваше имя будет добавлено на Доску Почета"
-    }, 
+    },
     "editThis_ppBenefit1": {
         "message": "You will get a tiny little place in my heart"
-    }, 
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Показать панель DevTools"
+    },
     "editThis_Flag_New_Cookie": {
         "message": "Пометить новый Cookie"
-    }, 
+    },
     "editThis_ppBenefit9": {
         "message": "У меня может случится инфаркт. Все, что вам нужно сделать, это пожертвовать прямо сейчас!"
-    }, 
+    },
     "editThis_ppBenefit8": {
         "message": "And an Italian pizza!"
-    }, 
+    },
     "editThis_Set_ReadOnly": {
         "message": "Только для чтения"
-    }, 
+    },
     "editThis_Humanitarian_Program": {
         "message": "Благотворительная программа"
-    }, 
+    },
     "editThis_deleteAll": {
         "message": "Удалить все"
-    }, 
+    },
     "editThis_statsSharePolicy": {
         "message": "Мы гарантируем, никаких персональных данных не будет раскрыто."
-    }, 
+    },
     "editThis_ReadOnly_Def": {
         "message": "Защищенный cookie - это cookie, который не может быть изменен никаким сайтом или расширением"
-    }, 
+    },
     "editThis_noReadOnlyAdded": {
         "message": "Ни одни cookie еще не защищены"
-    }, 
+    },
     "editThis_Alert_deleteAll": {
         "message": "Удалить все cookie для данного сайта?"
-    }, 
+    },
     "editThis_Donate": {
         "message": "Помочь"
-    }, 
+    },
     "editThis_year": {
         "message": "Годы"
-    }, 
+    },
     "editThis_seconds": {
         "message": "Секунд"
-    }, 
+    },
     "editThis_ContextMenu": {
         "message": "Изменить"
-    }, 
+    },
     "editThis_name": {
         "message": "Имя"
-    }, 
+    },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "Show \"Flag and delete all\" button"
-    }, 
+        "message": "Show \"Block and delete all\" button"
+    },
     "editThis_domain": {
         "message": "Домен"
-    }, 
+    },
     "editThis_Sort_Cookies": {
         "message": "Сортировать cookies"
-    }, 
+    },
     "editThis_path": {
         "message": "Путь"
-    }, 
+    },
     "editThis_Is_ReadOnly": {
         "message": "Защищен"
-    }, 
+    },
     "editThis_amountByHand": {
         "message": "чтобы ввести сумму вручную, нажмите здесь"
-    }, 
+    },
+    "editThis_yes": {
+        "message": "Yes"
+    },
     "editThis_backToList": {
         "message": "Вернуться к списку"
-    }, 
+    },
     "editThis_reloadAfterChanges": {
         "message": "Перегрузить страницу после внесения изменений"
-    }, 
+    },
     "editThis_expiration": {
         "message": "Истекает"
-    }, 
+    },
     "editThis_Sort_Cookies_Alpha": {
         "message": "по имени"
-    }, 
+    },
     "editThis_donations": {
         "message": "Пожертвования"
-    }, 
+    },
     "editThis_storeID": {
         "message": "IDзаписи"
-    }, 
+    },
     "editThis_value": {
         "message": "Значение"
-    }, 
+    },
     "editThis_contactsIntro": {
         "message": "Отправить нам e-mail"
-    }, 
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Block by name"
+    },
     "editThis_noBlockAdded": {
         "message": "Ни одного правила блокировки"
-    }, 
+    },
     "editThis_Alert_deleteRule": {
         "message": "Удалить правило"
-    }, 
+    },
     "editThis_Amount": {
         "message": "Итого"
-    }, 
+    },
     "editThis_cookiesExported": {
         "message": "Cookies экспортировано"
-    }, 
+    },
     "editThis_advertisements": {
         "message": "Реклама"
-    }, 
+    },
     "editThis_support_etc": {
-        "message": "Поддержать Edit This Cookie"
-    }, 
+        "message": "Поддержать EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Getting started"
+    },
     "editThis_noStatsNotice": {
         "message": "Нет записей :("
-    }, 
+    },
+    "editThis_newFilter": {
+        "message": "Новый фильтр"
+    },
     "editThis_hour": {
         "message": "Часы"
-    }, 
+    },
     "editThis_Source_Code": {
         "message": "Исходный код"
-    }, 
+    },
     "editThis_Encode_Cookie_Value": {
         "message": "Кодировать значения cookie (в соответствии с <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (рекомендуется)"
-    }, 
+    },
     "editThis_helpIntro": {
         "message": "Тут объяснения некоторых основных функций этого расширения"
-    }, 
+    },
     "editThis_iWantDonate": {
-        "message": "Я хочу пожертвовать", 
+        "message": "Я хочу пожертвовать",
         "description": "I want to donate X euros"
-    }, 
+    },
     "editThis_Money_Raised": {
         "message": "Вырученные деньги, до сих пор"
-    }, 
+    },
     "editThis_cancel": {
         "message": "Отмена"
-    }, 
+    },
     "editThis_Source_Code_Intro": {
-        "message": "Получить исходный код Edit This Cookie's на $1", 
-        "description": "It will read: Check Edit This Cookie's source code on GitHub"
-    }, 
+        "message": "Получить исходный код EditThisCookie's на $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
     "editThis_search": {
         "message": "Поиск"
-    }, 
+    },
     "editThis_Copied_clipboard": {
         "message": "Cookies скопирован в буфер обмена"
-    }, 
+    },
     "editThis_Copy_Cookies": {
         "message": "Экспорт Cookies"
-    }, 
+    },
     "editThis_Alert_deleteCookie": {
         "message": "Удалить"
-    }, 
+    },
     "editThis_Details": {
         "message": "Подробности"
     }
