@@ -25,13 +25,34 @@ localStorage.setItem("option_panel", "null");
 
 var currentVersion = chrome.app.getDetails().version;
 var oldVersion = data.lastVersionRun;
+oldVersion = "1.3"
 data.lastVersionRun = currentVersion;
 if(oldVersion != currentVersion) {
 	if(oldVersion == undefined) { //Is firstrun
 		//chrome.tabs.create({url:chrome.extension.getURL('options_pages/support.html')});
 		chrome.tabs.create({url:'http://www.editthiscookie.com/start/'});
-	} else if(currentVersion == "1.4") {
-		chrome.tabs.create({url:'http://www.editthiscookie.com/changelog/'});
+	} else {
+		chrome.notifications.onClicked.addListener(function(notificationId) {
+			chrome.tabs.create({
+				url: 'http://www.editthiscookie.com/changelog/'
+			});
+			chrome.notifications.clear(notificationId, function(wasCleared){});
+			/*
+			chrome.notifications.getAll(function(notifications) {
+				for(n in notifications)
+					chrome.notifications.clear(n, function(wasCleared){});
+			});
+			*/
+		});
+		var opt = {
+			type: "basic",
+			title: "EditThisCookie",
+			message: _getMessage("updated"),
+			iconUrl: "/img/icon_128x128.png",
+			isClickable: true
+		}
+		chrome.notifications.create("", opt, function(notificationId){
+		});
 	}
 }
 
