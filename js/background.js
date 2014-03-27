@@ -25,7 +25,6 @@ localStorage.setItem("option_panel", "null");
 
 var currentVersion = chrome.app.getDetails().version;
 var oldVersion = data.lastVersionRun;
-oldVersion = "1.3"
 data.lastVersionRun = currentVersion;
 if(oldVersion != currentVersion) {
 	if(oldVersion == undefined) { //Is firstrun
