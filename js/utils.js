@@ -111,13 +111,15 @@ function _getMessage(string, args){
 
 function filterMatchesCookie(rule, name, domain, value){
 	var ruleDomainReg = new RegExp(rule.domain);
+	var ruleNameReg = new RegExp(rule.name);
+	var ruleValueReg = new RegExp(rule.value);
     if(rule.domain!=undefined && domain.match(ruleDomainReg) == null){
         return false
     }
-    if(rule.name!=undefined && name!=rule.name){
+    if(rule.name!=undefined && name.match(ruleNameReg) == null){
         return false
     }
-    if(rule.value!=undefined && value!=rule.value){
+    if(rule.value!=undefined && value.match(ruleValueReg) == null){
         return false
     }
     return true
