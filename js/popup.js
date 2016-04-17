@@ -538,7 +538,16 @@ function setEvents() {
 		$(this).css("margin-top", "-" + ( $(this).height()/2 ) + "px" );
 		$(this).css("margin-left", "-" + ( $(this).width()/2 ) + "px" );
 	});
-	
+
+	$('textarea.value, input.domain, input.path').keydown(function (event) {
+	if (event.ctrlKey && event.keyCode == 13) {
+		submit(currentTabID);
+		console.log('trigger save (submit)');
+		event.preventDefault();
+		event.stopPropagation();
+	}
+});
+
 	setCookieEvents();
 }
 
