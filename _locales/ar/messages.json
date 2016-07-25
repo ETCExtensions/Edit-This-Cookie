@@ -24,7 +24,7 @@
         "message": "قيّم ُEditThisCookie"
     },
     "editThis_Blocked_Def": {
-        "message": "إذا كنت تريد حذف أوتوماتيكيا كوكي في كل مرة يتم إنشاؤه أضف فيلتر و لن تزعجك بعد الآن\\n"
+        "message": "إذا كنت تريد حذف أوتوماتيكيا كوكي في كل مرة يتم إنشاؤه أضف فيلتر و لن تزعجك بعد الآن\n"
     },
     "editThis_translation": {
         "message": "ترجمة"
@@ -147,7 +147,7 @@
         "message": "أيام"
     },
     "editThis_Flag_CookieWithDomain": {
-        "message": "Block by domain"
+        "message": "محظور من النطاق"
     },
     "editThis_cookiesFlagged": {
         "message": "الكوكيز المعلمة و اللتي تم حذفها"
@@ -159,7 +159,7 @@
         "message": "اختر لغة اخرى"
     },
     "editThis_Sort_Cookies_Domain_Alpha": {
-        "message": "by domain and name"
+        "message": "المجال واسم"
     },
     "editThis_Charity_Message": {
         "message": "سوف تساعد الأطفال المحتاجين في جميع أنحاء العالم، لأن $1٪ من الإيرادات تذهب إلى"
@@ -187,13 +187,13 @@
         "message": "محمي"
     },
     "editThis_cookiesShortened": {
-        "message": "Cookies' expiration shortened"
+        "message": "تقصير وقت انتهاء الكوكيز"
     },
     "editThis_hostOnly": {
         "message": "مستضيف فقط"
     },
     "editThis_Max_Date": {
-        "message": "تحديد العمر الأفصى لل cookie إلى"
+        "message": "حدد اقصى عمر افتراضي للكوكي"
     },
     "editThis_Contribute_Bitcoins": {
         "message": "ساهم بإستخدام عملات الBitCoin"
@@ -217,7 +217,7 @@
         "message": "انت كريم جداً ! إذا تقابلنا في يوم ما سوف اشتري لك بعضاً من الجعة ( مهلاً, الجعة مهمة )"
     },
     "editThis_ppBenefit6": {
-        "message": "If we ever meet I'll get you an Italian coffee and a 'Babbà'"
+        "message": "إذا سنحت الفرصة لنتقابل، سأشتري لك قهوة إيطالية مع فطيرة 'Babbà' "
     },
     "editThis_ppBenefit5": {
         "message": "يمكنك تسمية اية ميزة تريدها ان توجد في البرنامج و انا سوف احققها (فقط لا تطلب المستحيل :P)"
@@ -226,7 +226,7 @@
         "message": "إذا وجدت إى اخطاء في البرنامج قل لي و سوف اصلحاً سريعاً جداً"
     },
     "editThis_ppBenefit3": {
-        "message": "You'll receive a thank you email"
+        "message": "سوف نرسل إليك رسالة شكر إلى بريدك الإلكتروني"
     },
     "editThis_ppBenefit2": {
         "message": "سوف يتم إضافة اسمك إلى حائط المشاهير"
@@ -235,7 +235,7 @@
         "message": "سوف تحصل على مكان صغير في قلبي"
     },
     "editThis_Show_DevTools_Panel": {
-        "message": "Show the DevTools panel"
+        "message": "إظهار لوحة ديفتولس"
     },
     "editThis_Flag_New_Cookie": {
         "message": "علم كوكي جديد"
@@ -250,7 +250,7 @@
         "message": "ضبط كوضع قراءة فقط"
     },
     "editThis_Humanitarian_Program": {
-        "message": "Humanitarian program"
+        "message": "البرنامج الإنساني"
     },
     "editThis_deleteAll": {
         "message": "حذف الكل"
@@ -259,16 +259,16 @@
         "message": "نضمن انه لن يتم مشاركة أي معلوملت شخصية"
     },
     "editThis_ReadOnly_Def": {
-        "message": "A protected cookie is a cookie which can't be modified by any website or extension"
+        "message": "الكوكي المحمية هي كوكي غير قابلة للتعديل سواء بإستخدام مواقع او إضافات برمجية"
     },
     "editThis_noReadOnlyAdded": {
-        "message": "No cookies protected yet"
+        "message": "لا يوجد كوكيز محمية"
     },
     "editThis_Alert_deleteAll": {
         "message": "حذف جميع الكوكيز للموقع الحالي ؟"
     },
     "editThis_Donate": {
-        "message": "Contribute"
+        "message": "مساهمة"
     },
     "editThis_year": {
         "message": "سنوات"
@@ -298,7 +298,7 @@
         "message": "محمي"
     },
     "editThis_amountByHand": {
-        "message": "to enter the amount by hand click here"
+        "message": "لإدخال القيمة يدويًا انقر هنا"
     },
     "editThis_yes": {
         "message": "نعم"
@@ -307,7 +307,7 @@
         "message": "العودة إلى قائمة"
     },
     "editThis_reloadAfterChanges": {
-        "message": "Reload the page after submitting the changes"
+        "message": "حدث الصفحة بعد تفعيل التغييرات"
     },
     "editThis_expiration": {
         "message": "انتهاء الصلاحية"
@@ -316,7 +316,10 @@
         "message": "بواسطة الأسم"
     },
     "editThis_donations": {
-        "message": "Donations"
+        "message": "التبرعات"
+    },
+    "editThis_updated": {
+        "message": "تم التحديث، انقر هنا لتعرف ما الجديد."
     },
     "editThis_storeID": {
         "message": "storeID"
@@ -328,10 +331,10 @@
         "message": "أرسل لنا رسالة"
     },
     "editThis_Flag_CookieWithName": {
-        "message": "Block by name"
+        "message": "محظور من الإسم"
     },
     "editThis_noBlockAdded": {
-        "message": "No block rules added"
+        "message": "لا يوجد شروط ايقاف او منع"
     },
     "editThis_Alert_deleteRule": {
         "message": "حذف هذه القاعدة"
@@ -343,7 +346,7 @@
         "message": "تم تصدير ملفات تعريف الارتباط"
     },
     "editThis_advertisements": {
-        "message": "Advertisements"
+        "message": "الإعلانات"
     },
     "editThis_support_etc": {
         "message": "دعم EditThisCookie"
@@ -352,10 +355,10 @@
         "message": "الأستعداد"
     },
     "editThis_noStatsNotice": {
-        "message": "No data yet :("
+        "message": "لا يوجد بيانات"
     },
     "editThis_newFilter": {
-        "message": "New filter"
+        "message": "فلتر جديد"
     },
     "editThis_hour": {
         "message": "ساعات"
@@ -367,27 +370,27 @@
         "message": "ترميز قيمة الكوكيز ( as per <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a> ) ( مستحسن )"
     },
     "editThis_helpIntro": {
-        "message": "Here you will find explanations for some basic functions of this extension"
+        "message": "ستجد هنا بعض التعليمات عن كيفية استخدام الوظائف الأساسية للإضافة"
     },
     "editThis_iWantDonate": {
         "message": "اريد التبرع",
         "description": "I want to donate X euros"
     },
     "editThis_Money_Raised": {
-        "message": "Money raised so far"
+        "message": "الأموال التي جمعت حتى الآن"
     },
     "editThis_cancel": {
         "message": "الغاء"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Check EditThisCookie's source code on $1",
+        "message": "تحقق من التعليمات البرمجية المصدر في EditThisCookie عند  $1",
         "description": "It will read: Check EditThisCookie's source code on GitHub"
     },
     "editThis_search": {
         "message": "البحث"
     },
     "editThis_Copied_clipboard": {
-        "message": "Cookies copied to clipboard"
+        "message": "تم نسخ الكوكيز إلى الحافظة"
     },
     "editThis_Copy_Cookies": {
         "message": "تصدير ملفات تعريف الارتباط"
@@ -396,6 +399,6 @@
         "message": "حذف الكوكي"
     },
     "editThis_Details": {
-        "message": "Details"
+        "message": "تفاصيل"
     }
 }

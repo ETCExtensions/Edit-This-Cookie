@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Ijinkan kami berbagi berkas brosing Anda. Semua berkas bersifat Anonim"
+    },
+    "editThis_no_cookies": {
+        "message": "Tidak ada kuki disini!"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Setujui perubahan kuki"
+    },
+    "editThis_Options": {
+        "message": "Pengaturan"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Kuki yang terblokir"
+    },
+    "editThis_minutes": {
+        "message": "Menit"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Beri peringkat EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Jika Anda ingin pemrograman hapus kuki otomatis, tambahkan filter dan itu tidak akan mengganggu Anda lagi."
+    },
+    "editThis_translation": {
+        "message": "Translasi"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Kuki telah dihapus"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Menemukan bug atau memiliki saran? Beritahu kami!"
+    },
+    "editThis_statsIntro": {
+        "message": "Di sini Anda dapat mengetahui bagaimana cara menggunakan ekstensi ini. Data ini telah dikumpulkan sejak Juli 2012."
+    },
+    "editThis_Donation_Date": {
+        "message": "Tanggal sumbangan"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Tampilkan ikon topi Santa"
+    },
+    "editThis_help": {
+        "message": "Bantuan"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Impor"
+    },
+    "editThis_contacts": {
+        "message": "Kontak"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Kuki terproteksi"
+    },
+    "editThis_flagAll": {
+        "message": "Blokir dan hapus semua"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Jika Anda suka EditThisCookie, tinggalkan penilaian Anda pada Chrome Web Store"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Tampilkan domain sebelum nama kuki"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Kuki yang hanya dibaca-saja terproteksi"
+    },
+    "editThis_support": {
+        "message": "Dukung aku"
+    },
+    "editThis_addNew": {
+        "message": "Kuki baru"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Tampilkan iklan yang tidak mengganggu di beberapa laman yang saya kunjungi"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Tampilkan domain disebelah nama kuki"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Lewati tembolok ketika laman dimuat ulang"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "rincian dan pengaturan"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Anda dapat mengunakan ekspresi reguler"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Berikan sumbangan dengan PayPal"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Bug / saran"
+    },
+    "editThis_Save": {
+        "message": "Simpan"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Jika diaktifkan, Anda dapat menyembunyikan ikon pada bar perkakas dengan cara klik-kanan"
+    },
+    "editThis_statsSince": {
+        "message": "Statistik kuki sejak: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Bantu kami menterjemahkan ekstensi ini ke bahasa kalian"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Pilih format ekspor kuki yang diinginkan"
+    },
+    "editThis_reset": {
+        "message": "Atur ulang"
+    },
+    "editThis_no": {
+        "message": "Tidak"
+    },
+    "editThis_addRule": {
+        "message": "Tambahkan aturan ini"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Tempel disini kuki yang ingin diimpor. Format yang tersedia:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Anda dapat mengirim donasi ke:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie adalah pengelola kuki. Anda dapat menambah, menghapus, mengedit, mencari, melindungi, dan memblokir kuki!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Kuki termodifikasi"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Blokir kuki"
+    },
+    "editThis_time": {
+        "message": "Waktu"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Tampilkan label disebelah ikon"
+    },
+    "editThis_day": {
+        "message": "Hari"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Blokir berdasarkan domain"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Kuki yang diblokir telah dihapus"
+    },
+    "editThis_stats": {
+        "message": "Statistik"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Pilih bahasa lain"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "berdasarkan domain dan nama"
+    },
+    "editThis_Charity_Message": {
+        "message": "Anda akan membantu anak-anak di seluruh dunia yang membutuhkan, karena $1% pendapatan akan diberikan padanya"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Paksa umur maksimal setiap kuki"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Blokir berdasarkan nilai"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Kami mengembangkan perangkat lunak berbasis open source berkualitas tinggi dan kami memberikannya secara gratis. <br><br> Dukung kami hanya dengan $1. Geser slider untuk mengubah jumlah",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Bulan"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Kuki telah dibuat"
+    },
+    "editThis_cookiesImported": {
+        "message": "Kuki telah diimpor"
+    },
+    "editThis_secure": {
+        "message": "Amankan"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Kadaluarsa kuki diperpendek"
+    },
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    },
+    "editThis_Max_Date": {
+        "message": "Rubah usia maksimal kuki ke"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Sumbangan ke Bitcoins"
+    },
+    "editThis_session": {
+        "message": "Sesi"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Tampilkan \"Edit Cookies\" pada menu konteks"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Selalu konfirmasi"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "Monster Spaghetti Injil terbang"
+    },
+    "editThis_timesUsed": {
+        "message": "Kamu telah menggunakan 'EditThisCookie' $1 kali"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Anda sangat murah hati! Jika kita bertemu, Aku akan memberi Anda beberapa gelas bir (hey, bir itu penting)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Jika kita bertemu, Aku akan memberikan Anda kopi Italia dan 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Anda dapat memberi nama fitur yang Anda inginkan untuk diimplementasikan dan aku akan mengabulkannya! (jangan tanyakan hal yang mustahil :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Anda dapat memberi nama pada setiap bug yang mengganggu Anda pada EditThisCookie dan aku akan memperbaikinya dengan segera!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Anda akan menerima surel terima kasih"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Nama Anda akan dituliskan pada Wall of Fame"
+    },
+    "editThis_ppBenefit1": {
+        "message": "Anda akan mendapatkan sedikit tempat kecil di hatiku"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Tampilkan panel DevTools"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Blokir kuki baru"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Kejutkan jantung saya. Yang harus Anda lakukan adalah menyumbang sekarang!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "Dan pizza Italia!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Atur sebagai readonly"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Program kemanusiaan"
+    },
+    "editThis_deleteAll": {
+        "message": "Hapus semua"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Kami menjamin berkas pribadi tidak akan pernah di sebarluaskan!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Kuki terproteksi ialah kuki yang tidak bisa dimodifikasi oleh website ataupun ekstensi manapun"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "TIdak ada kuki yang terproteksi"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Hapus semua kuki untuk website ini?"
+    },
+    "editThis_Donate": {
+        "message": "Sumbangan"
+    },
+    "editThis_year": {
+        "message": "Tahun"
+    },
+    "editThis_seconds": {
+        "message": "Detik"
+    },
+    "editThis_ContextMenu": {
+        "message": "Edit kuki"
+    },
+    "editThis_name": {
+        "message": "Nama"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Tampilkan tombol \"Blokir dan hapus semua\""
+    },
+    "editThis_domain": {
+        "message": "Domain"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Sortir kuki"
+    },
+    "editThis_path": {
+        "message": "Lokasi"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Terproteksi"
+    },
+    "editThis_amountByHand": {
+        "message": "untuk memasukkan jumlah yang diinginkan, klik disini"
+    },
+    "editThis_yes": {
+        "message": "Ya"
+    },
+    "editThis_backToList": {
+        "message": "Kembali ke daftar"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Muat ulang laman setelah menyetujui perubahan"
+    },
+    "editThis_expiration": {
+        "message": "Kadaluarsa"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "berdasarkan nama"
+    },
+    "editThis_donations": {
+        "message": "Donasi"
+    },
+    "editThis_updated": {
+        "message": "telah diperbarui. Klik di sini untuk memeriksa apa yang baru."
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "Nilai"
+    },
+    "editThis_contactsIntro": {
+        "message": "Kirim kami surel"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Blokir berdasarkan nama"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Tidak ada aturan blokir ditambahkan"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Hapus aturan ini"
+    },
+    "editThis_Amount": {
+        "message": "Jumlah"
+    },
+    "editThis_cookiesExported": {
+        "message": "Kuki diekspor"
+    },
+    "editThis_advertisements": {
+        "message": "Iklan"
+    },
+    "editThis_support_etc": {
+        "message": "Dukung EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Persiapan"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Belum ada data :("
+    },
+    "editThis_newFilter": {
+        "message": "Filter baru"
+    },
+    "editThis_hour": {
+        "message": "Jam"
+    },
+    "editThis_Source_Code": {
+        "message": "Sumber kode"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Sandikan nilai kuki (sesuai <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Disarankan)"
+    },
+    "editThis_helpIntro": {
+        "message": "Di sini Anda akan menemukan penjelasan beberapa fungsi dasar dari ekstensi ini"
+    },
+    "editThis_iWantDonate": {
+        "message": "Saya ingin menyumbang",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Sumbangan yang terkumpul sejauh ini"
+    },
+    "editThis_cancel": {
+        "message": "Batal"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Periksa kode sumber EditThisCookie's di $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Pencarian"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Kuki telah disalin ke clipboard"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Ekspor"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Hapus kuki"
+    },
+    "editThis_Details": {
+        "message": "Rincian"
+    }
+}

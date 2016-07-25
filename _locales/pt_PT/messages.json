@@ -162,7 +162,7 @@
         "message": "por domínio e nome"
     },
     "editThis_Charity_Message": {
-        "message": "Vais ajudar crianças de todo o mundo, pois $1% dos lucros vão para"
+        "message": "Vais ajudar crianças carençiadas de todo o mundo, pois $1% dos lucros vão para"
     },
     "editThis_Max_Date_Option": {
         "message": "Passar por cima da idade máxima de qualquer cookie"
@@ -241,7 +241,7 @@
         "message": "Bloquear cookie novo"
     },
     "editThis_ppBenefit9": {
-        "message": "Sê a causa do meu primeiro ataque cardíaco bom. Só tens que doar!"
+        "message": "Sê a causa do meu primeiro ataque cardíaco. Só tens que doar!"
     },
     "editThis_ppBenefit8": {
         "message": "E uma pizza italiana!"
@@ -318,6 +318,9 @@
     "editThis_donations": {
         "message": "Doações"
     },
+    "editThis_updated": {
+        "message": "foi atualizado. Clica aqui para saberes as novidades."
+    },
     "editThis_storeID": {
         "message": "ID da loja"
     },
@@ -367,14 +370,14 @@
         "message": "Codificar o valor dos cookies (conforme <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recomendado)"
     },
     "editThis_helpIntro": {
-        "message": "Aqui podes encontrar explicações para algumas funções básicas desta extensão"
+        "message": "Aqui vais encontrar explicações para algumas funções básicas desta extensão"
     },
     "editThis_iWantDonate": {
         "message": "Eu quero doar",
         "description": "I want to donate X euros"
     },
     "editThis_Money_Raised": {
-        "message": "Montante já ganho"
+        "message": "Montante ganho até agora"
     },
     "editThis_cancel": {
         "message": "Cancelar"

@@ -66,7 +66,7 @@
         "message": "Muestra el dominio antes del nombre del cookie"
     },
     "editThis_cookiesProtected": {
-        "message": "Cookies protegidas de solo lectura"
+        "message": "Cookies de solo lectura"
     },
     "editThis_support": {
         "message": "Ayúdanos"
@@ -141,7 +141,7 @@
         "message": "Tiempo"
     },
     "editThis_ShowCommandsLabels": {
-        "message": "Show labels next to icons"
+        "message": "Mostrar etiquetas junto a los iconos"
     },
     "editThis_day": {
         "message": "Días"
@@ -235,7 +235,7 @@
         "message": "Obtendrás un pequeño lugar en mi corazón"
     },
     "editThis_Show_DevTools_Panel": {
-        "message": "Muestra el panel de las herramientas de desarrollador"
+        "message": "Mostrar el panel de las herramientas de desarollador"
     },
     "editThis_Flag_New_Cookie": {
         "message": "Marcar nueva cookie"
@@ -301,7 +301,7 @@
         "message": "para introducir la cantidad manualmente haz click aquí"
     },
     "editThis_yes": {
-        "message": "Yes"
+        "message": "Sí"
     },
     "editThis_backToList": {
         "message": "Volver a la lista"
@@ -317,6 +317,9 @@
     },
     "editThis_donations": {
         "message": "Donaciones"
+    },
+    "editThis_updated": {
+        "message": "ha sido actualizado.Pulsa aquí para ver los cambios"
     },
     "editThis_storeID": {
         "message": "storeID"

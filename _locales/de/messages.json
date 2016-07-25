@@ -3,7 +3,7 @@
         "message": "httpOnly"
     },
     "editThis_AN_optInDescription": {
-        "message": "Erlauben Sie uns Ihre Browser Daten freizugeben. Alle Daten sind anonym"
+        "message": "Erlauben sie uns ihr Nutzungsverhalten anonym zu erfassen."
     },
     "editThis_no_cookies": {
         "message": "Keine Cookies vorhanden."
@@ -15,7 +15,7 @@
         "message": "Einstellungen"
     },
     "editThis_Blocked_Cookies": {
-        "message": "Geblockte Cookies"
+        "message": "Gesperrtes Cookie"
     },
     "editThis_minutes": {
         "message": "Minuten"
@@ -42,7 +42,7 @@
         "message": "Spendendatum"
     },
     "editThis_Show_Christmas_Icon": {
-        "message": "Icon mit Nikolausmütze anzeigen"
+        "message": "Icon mit Weihnachtsmütze anzeigen"
     },
     "editThis_help": {
         "message": "Hilfe"
@@ -63,7 +63,7 @@
         "message": "Wenn Sie EditThisCookie mögen, bewerten Sie es im Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
-        "message": "Domain vor dem Namen des Cookies anzeigen"
+        "message": "Domäne vor dem Namen des Cookies anzeigen"
     },
     "editThis_cookiesProtected": {
         "message": "Schreibgeschützte Cookies"
@@ -102,7 +102,7 @@
         "message": "Speichern"
     },
     "editThis_Show_ContextMenu_helper": {
-        "message": "Wenn aktiviert, haben Sie die Möglichkeit das Icon in der Toolbar per Rehtsklick zu verbergen"
+        "message": "Wenn aktiviert, haben Sie die Möglichkeit, das Icon in der Toolbar per Rechtsklick zu verbergen."
     },
     "editThis_statsSince": {
         "message": "Cookie Statistik seit: $1"
@@ -126,7 +126,7 @@
         "message": "Füge hier die Cookies ein, die du importieren willst. Akzeptierte Formate:"
     },
     "editThis_Send_Donations_To": {
-        "message": "Du kannst Spenden schicken an:"
+        "message": "Sie können Spenden schicken an:"
     },
     "editThis_description": {
         "message": "EditThisCookie ist ein Cookie-Manager mit dem man Cookies hinzufügen, löschen, bearbeiten, suchen, schützen und blockieren kann."
@@ -141,7 +141,7 @@
         "message": "Zeit"
     },
     "editThis_ShowCommandsLabels": {
-        "message": "Show labels next to icons"
+        "message": "Zeige die Beschreibung neben den Icons"
     },
     "editThis_day": {
         "message": "Tage"
@@ -159,7 +159,7 @@
         "message": "Wähle eine andere Sprache"
     },
     "editThis_Sort_Cookies_Domain_Alpha": {
-        "message": "nach Domain und Name"
+        "message": "nach Domäne und Name"
     },
     "editThis_Charity_Message": {
         "message": "Sie helfen Kinder in Not überall in der Welt, weil $1% der Einnahmen an diese Organisation gehen"
@@ -202,7 +202,7 @@
         "message": "Session"
     },
     "editThis_Show_ContextMenu": {
-        "message": "\"Cookie Ändern\" im Kontext Menü anzeigen"
+        "message": "\"Cookie Ändern\" im Kontextmenü anzeigen"
     },
     "editThis_Show_Alerts": {
         "message": "Immer nach Bestätigung fragen"
@@ -247,7 +247,7 @@
         "message": "Und eine italienische Pizza!"
     },
     "editThis_Set_ReadOnly": {
-        "message": "Als Schreibgeschützt festlegen"
+        "message": "Als schreibgeschützt festlegen"
     },
     "editThis_Humanitarian_Program": {
         "message": "humanitäres Programm"
@@ -283,7 +283,7 @@
         "message": "Name"
     },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "\"Alle markieren und löschen\"-Knopf anzeigen"
+        "message": "\"Alle löschen und blockieren\"-Button anzeigen"
     },
     "editThis_domain": {
         "message": "Domain"
@@ -317,6 +317,9 @@
     },
     "editThis_donations": {
         "message": "Spenden"
+    },
+    "editThis_updated": {
+        "message": "wurde aktualisiert. Klicke hier um die Änderungen zu sehen."
     },
     "editThis_storeID": {
         "message": "storeID"

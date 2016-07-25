@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Membolehkan kami untuk berkongsikan data pelayaran anda. Semua data adalah anonymous"
+    },
+    "editThis_no_cookies": {
+        "message": "Tiada cookie!"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Kemukakan perubahan cookie"
+    },
+    "editThis_Options": {
+        "message": "Pilihan"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Cookie disekat"
+    },
+    "editThis_minutes": {
+        "message": "Minit"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Rate EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Jika anda hendak padam cookie secara programmatik di setiap masa cookie dibuat tambahkan tapisan dan ia tidak akan mengganggun anda lagi"
+    },
+    "editThis_translation": {
+        "message": "Terjemahan"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Cookie dipadam"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Terjumpa ralat atau ada cadangan? Beritahu kami!"
+    },
+    "editThis_statsIntro": {
+        "message": "Disini anda boleh mengetahui cara anda menggunakan extension ini. Data ini telah dikumpul hanya sejak Julai 2012."
+    },
+    "editThis_Donation_Date": {
+        "message": "Tarikh derma"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Tunjukkan ikon topi Santa"
+    },
+    "editThis_help": {
+        "message": "Bantuan"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Import"
+    },
+    "editThis_contacts": {
+        "message": "Hubungi"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Cookie dilindungi"
+    },
+    "editThis_flagAll": {
+        "message": "Sekat dan padam semua"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Jika anda suka EditThisCookie, tinggalkan penarafan anda di Chrome Web Store"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Tunjukkan domain sebelum nama cookie ini"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Baca sahaja cookie dilindungi"
+    },
+    "editThis_support": {
+        "message": "Sokong saya"
+    },
+    "editThis_addNew": {
+        "message": "Cookie baharu"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Tunjukkan iklan yang tidak mengganggu di beberapa halaman yang dilawati"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Tunjukkan domain terdekat di setiap nama cookie"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Langkaui cache apabila halaman disegarkan"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "Tetapan dan maklumat"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Anda boleh menggunakan ungkapan biasa"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Sumbang melalui PayPal"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Ralat / Permintaan Ciri-ciri"
+    },
+    "editThis_Save": {
+        "message": "Simpan"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Jika diaktifkan anda boleh menyembunyikan ikon pada toolbar dengan mengklik kanan pada nya!"
+    },
+    "editThis_statsSince": {
+        "message": "Statistik cookie sejak: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Bantu kami menterjemahkan extension kepada bahasa anda"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Pilih format eksport kesukaan untuk cookie"
+    },
+    "editThis_reset": {
+        "message": "Menetapkan semula"
+    },
+    "editThis_no": {
+        "message": "Tidak"
+    },
+    "editThis_addRule": {
+        "message": "Tambah peraturan ini"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Tampalkan cookie disini untuk diimport. Format yand diterima:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Anda boleh menghantar derma kepada:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie adalah pengurus cookie. Anda boleh tambah, padam, sunting, cari, lindungi dan halang cookie!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Cookie diubahsuai"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Sekat cookie"
+    },
+    "editThis_time": {
+        "message": "Waktu"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Tunjukkan label bersebelahan ikon"
+    },
+    "editThis_day": {
+        "message": "Hari"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Sekat berdasarkan domain"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Cookie yang disekat telah dipadam"
+    },
+    "editThis_stats": {
+        "message": "Statistik"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Pilih bahasa lain"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "berdasarkan domain dan nama"
+    },
+    "editThis_Charity_Message": {
+        "message": "Anda akan membantu kanak-kanak yang memerlukan bantuan di seluruh dunia, dengan hasil pendapat $1% diperlukan"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Tetapkan tempoh cookie kepada maksimum yang mungkin."
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Sekat berdasarkan nilai"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Kami membangunkan ia dengan perisian sumber terbuka yang berkualiti tinggi dan kami bagi ia secara percuma. <br><br> Sumbangkan dana kepada kami sebanyak $1. Gerakkan gelangsar untuk menukarkan jumlah",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Bulan"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Cookie telah dihasilkan"
+    },
+    "editThis_cookiesImported": {
+        "message": "Cookie telah diimport"
+    },
+    "editThis_secure": {
+        "message": "Selamat"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Tempoh cookie telah dipendekkan"
+    },
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    },
+    "editThis_Max_Date": {
+        "message": "Tetapkan had umur maksimum cookie"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Sumbang melalui Bitcoins"
+    },
+    "editThis_session": {
+        "message": "Sesi"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Tunjukkan \"Sunting Cookie\" di konteks menu"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Sentiasa minta pengesahan"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster"
+    },
+    "editThis_timesUsed": {
+        "message": "Anda telah menggunakan 'EditThisCookie' $1 kali"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Anda sangat bermurah hati! Jika kita pernah berjumpa saya akan bawakan anda beberapa bir (hei, bir itu penting)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Jika kita pernah berjumpa saya akan bawakan anda kopi Itali dan 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Anda dialu-alukan menampilkan ciri yang anda mahu dilaksanakan dan saya akan pertimbangkannya! (jangan tanya jika ia mustahil :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Anda boleh memberitahu ralat yang mengganggu anda dalam EditThisCookie dan saya akan perbaiki secepat mungkin!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Anda akan menerima satu emel ucapan terima kasih"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Nama anda akan ditambahkan di \"Wall of Fame\""
+    },
+    "editThis_ppBenefit1": {
+        "message": "Anda akan mendapat tempat di dalam hati saya"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Tunjukkan panel DevTools"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Sekat cookie baharu"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Kerana pertama kali saya mengalami strok hati. Apa yang perlu anda buat adalah dengan menderma sekarang!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "Dan pizza Itali!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Tetapkan sebagai baca-sahaja"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Program kemanusian"
+    },
+    "editThis_deleteAll": {
+        "message": "Padam semua"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Kami jamin data peribadi tidak pernah dikongsi!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Sebuah cookie yang dilindungi adalah cookie dimana ia tidak boleh diubahsuai oleh mana-mana laman sesawang atau extension"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Masih tiada cookie yang dilindungi"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Padam semua cookie yang terdapat dalam laman sesawang ini?"
+    },
+    "editThis_Donate": {
+        "message": "Turut serta"
+    },
+    "editThis_year": {
+        "message": "Tahun"
+    },
+    "editThis_seconds": {
+        "message": "Saat"
+    },
+    "editThis_ContextMenu": {
+        "message": "Sunting Cookie"
+    },
+    "editThis_name": {
+        "message": "Nama"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Tunjukkan butang \"Sekat dan padam semua\""
+    },
+    "editThis_domain": {
+        "message": "Domain"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Susun cookie"
+    },
+    "editThis_path": {
+        "message": "Path"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Dilindungi"
+    },
+    "editThis_amountByHand": {
+        "message": "untuk memasukkan jumlah klik disini"
+    },
+    "editThis_yes": {
+        "message": "Ya"
+    },
+    "editThis_backToList": {
+        "message": "Kembali ke senarai"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Muat semula halaman setelah membuat perubahan"
+    },
+    "editThis_expiration": {
+        "message": "Tempoh"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "berdasarkan nama"
+    },
+    "editThis_donations": {
+        "message": "Derma"
+    },
+    "editThis_updated": {
+        "message": "telah dikemaskini. Klik di sini untuk menyemak apa yang baharu."
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "Nilai"
+    },
+    "editThis_contactsIntro": {
+        "message": "Hantarkan e-mel kepada kami"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Sekat berdasarkan nama"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Tiada perintah sekatan ditambah"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Padam perintah ini"
+    },
+    "editThis_Amount": {
+        "message": "Jumlah"
+    },
+    "editThis_cookiesExported": {
+        "message": "Cookie telah dieskport"
+    },
+    "editThis_advertisements": {
+        "message": "Pengiklanan"
+    },
+    "editThis_support_etc": {
+        "message": "Sokong EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Untuk permulaan"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Masih tiada data :("
+    },
+    "editThis_newFilter": {
+        "message": "Tapisan baru"
+    },
+    "editThis_hour": {
+        "message": "Jam"
+    },
+    "editThis_Source_Code": {
+        "message": "Kod sumber"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Enkod nilai cookie (seperti <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Disyorkan)"
+    },
+    "editThis_helpIntro": {
+        "message": "Disini ada boleh mendapat penjelasan untuk beberapa fungsi asas extension ini"
+    },
+    "editThis_iWantDonate": {
+        "message": "Saya mahu derma",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Wang yang dikumpul setakat ini"
+    },
+    "editThis_cancel": {
+        "message": "Batal"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Semak kod sumber EditThisCookie pada $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Cari"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Cookie telah disalin ke papanklip"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Eksport"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Padam cookie"
+    },
+    "editThis_Details": {
+        "message": "Perincian"
+    }
+}

@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "Само http"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Дозволите нам да делимо ваше податке прегледања. Сви подаци су анонимни."
+    },
+    "editThis_no_cookies": {
+        "message": "Овде нема колачића!"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Пошаљи измене колачића"
+    },
+    "editThis_Options": {
+        "message": "Опције"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Блокирани колачићи"
+    },
+    "editThis_minutes": {
+        "message": "Минути"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Оцените EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Ако желите да аутоматски обришете колачић сваки пут када се направи, додајте филтер и више вам неће сметати."
+    },
+    "editThis_translation": {
+        "message": "Превод"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Колачићи су избрисани"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Пронашли сте грешку или имате предлог? Реците нам!"
+    },
+    "editThis_statsIntro": {
+        "message": "Овде можете сазнати како сте користили ово проширење. Ови подаци се прикупљани од јула 2012. године."
+    },
+    "editThis_Donation_Date": {
+        "message": "Датум донирања"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Прикажи Деда Мразову капу на иконици"
+    },
+    "editThis_help": {
+        "message": "Помоћ"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Увези"
+    },
+    "editThis_contacts": {
+        "message": "Контакт"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Заштићени колачићи"
+    },
+    "editThis_flagAll": {
+        "message": "Блокирај и избриши све"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Ако вам се свиђа EditThisCookie, оставите оцену на Chrome веб-продавници"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Прикажи домен испред назива колачића"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Колачићи само за читање су заштићени"
+    },
+    "editThis_support": {
+        "message": "Подржите ме"
+    },
+    "editThis_addNew": {
+        "message": "Додај нови колачић"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Прикажи ненаметљиве рекламе у појединим страницама које посећујем."
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Прикажи домен поред назива сваког колачића"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Не освежавај кеш када се страница поново учита"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "информације и подешавања"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Можеш користити регуларне изразе"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Допринеси преко PayPal сервиса "
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Грешке/Захтеви за новим могућностима"
+    },
+    "editThis_Save": {
+        "message": "Сачувај"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Ако је омогућено, моћи ћете да сакријете икону са алатне траке користећи десни клик."
+    },
+    "editThis_statsSince": {
+        "message": "Статистика колачића од: $1 "
+    },
+    "editThis_translationIntro": {
+        "message": "Помогните нам у превођењу проширења на ваш језик"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Изабери жељени излазни формат за колачиће"
+    },
+    "editThis_reset": {
+        "message": "Поништи"
+    },
+    "editThis_no": {
+        "message": "Не"
+    },
+    "editThis_addRule": {
+        "message": "Додај ово правило"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Налепи колачиће овде за извоз. Дозвољени формати:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Пошаљи донације на:"
+    },
+    "editThis_description": {
+        "message": "Уреди овај колачић (Edit This Cookie) је управљач колачићима. Можете да додајете, уређујете, тражите, штитите и блокирате колачиће!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Колачићи су измењени"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Означи колачић"
+    },
+    "editThis_time": {
+        "message": "Време"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Прикажи ознаке поред икона"
+    },
+    "editThis_day": {
+        "message": "Дани"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Блокирај по домену"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Блокирани колачићи су избрисани"
+    },
+    "editThis_stats": {
+        "message": "Статистика"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Изабери други језик"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "по домену и називу"
+    },
+    "editThis_Charity_Message": {
+        "message": "Помоћи ћете деци у невољи из целог света, зато што $1% од прихода иде у"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Прекорачи максимални рок за сваки колачић"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Блокирај по вредности"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Развијамо високо квалитетни софтвер отвореног кода и дајемо га бесплатно.<br><br>Подржите нас помоћу $1. Померите клизач за промену износа.",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Месеци"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Колачићи су креирани"
+    },
+    "editThis_cookiesImported": {
+        "message": "колачићи су увезени"
+    },
+    "editThis_secure": {
+        "message": "Безбедно"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Истек колачића јер скраћен"
+    },
+    "editThis_hostOnly": {
+        "message": "Само домаћин"
+    },
+    "editThis_Max_Date": {
+        "message": "Подеси максимално трајање колачића на"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Допринеси помоћу Bitcoin"
+    },
+    "editThis_session": {
+        "message": "Сесија"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Прикажи дугме „Уреди колачиће“ у контекстном менију"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Увек питај за потврду"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster"
+    },
+    "editThis_timesUsed": {
+        "message": "Користили сте 'EditThisCookie' $1 пута"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Веома сте племенити! Ако се икада сретнемо почастићу вас пивом (да, пиво је важно)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Ако се икада сретнемо, понудићу вам италијанску кафу и Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Можете именовати функцију коју желите да реализујемо и ја ћу је остварити! (само немојте тражити немогуће :P)"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Можете именовати грешку која вас нервира у EditThisCookie и ја ћу поправити то супер-брзо!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Примићете поруку захвалности"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Ваше име ће бити додано на Зид славних"
+    },
+    "editThis_ppBenefit1": {
+        "message": "Добићеш месташце у мом срцу"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Прикажи панел развојних алата"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Означи нови колачић"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Будите узрок мог првог срчаног удара. Све што треба да урадите је да донирате сада!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "И италијанску пицу!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Постави само за читање"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Хуманитарни програм"
+    },
+    "editThis_deleteAll": {
+        "message": "Избриши све"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Гарантујемо да се лични подаци никада не деле!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Заштићени колачић је колачић који не може бити промењен нити од једног веб-сајта или проширења"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Ниједан колачић још није заштићен"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Избрисати све колачиће за тренутни сајт?"
+    },
+    "editThis_Donate": {
+        "message": "Допринеси"
+    },
+    "editThis_year": {
+        "message": "Године"
+    },
+    "editThis_seconds": {
+        "message": "Секунде"
+    },
+    "editThis_ContextMenu": {
+        "message": "Уреди колачиће"
+    },
+    "editThis_name": {
+        "message": "Назив"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Прикажи дугме \"Блокирај и избриши све\""
+    },
+    "editThis_domain": {
+        "message": "Домен"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Поређај колачиће"
+    },
+    "editThis_path": {
+        "message": "Путања"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Заштићено"
+    },
+    "editThis_amountByHand": {
+        "message": "да ручно унесете износ, кликните овде"
+    },
+    "editThis_yes": {
+        "message": "Да"
+    },
+    "editThis_backToList": {
+        "message": "Назад на списак"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Освежи страницу након подношења измена"
+    },
+    "editThis_expiration": {
+        "message": "Истек"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "по називу"
+    },
+    "editThis_donations": {
+        "message": "Донације"
+    },
+    "editThis_updated": {
+        "message": "ажуриран.  Кликни овде да видиш шта је ново."
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "Вредност"
+    },
+    "editThis_contactsIntro": {
+        "message": "Пошаљите нам е-пошту"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Блокирај по називу"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Нема додатих правила блокирања"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Избриши ово правило"
+    },
+    "editThis_Amount": {
+        "message": "Износ"
+    },
+    "editThis_cookiesExported": {
+        "message": "Колачићи су извезени"
+    },
+    "editThis_advertisements": {
+        "message": "Рекламе"
+    },
+    "editThis_support_etc": {
+        "message": "Подржи EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Први кораци"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Нема података :("
+    },
+    "editThis_newFilter": {
+        "message": "Нови филтер"
+    },
+    "editThis_hour": {
+        "message": "Сати"
+    },
+    "editThis_Source_Code": {
+        "message": "Изворни код"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Шифруј вредност колачића (по <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (препоручено)"
+    },
+    "editThis_helpIntro": {
+        "message": "Овде ћете пронаћи објашњења за неке основне функције проширења"
+    },
+    "editThis_iWantDonate": {
+        "message": "Желим да донирам",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Новца прикупљено до сада"
+    },
+    "editThis_cancel": {
+        "message": "Откажи"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Прегледај изворни код EditThisCookie на $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Претрага"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Колачићи су копирани у клипборд"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Извези"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Избриши колачић"
+    },
+    "editThis_Details": {
+        "message": "Детаљи"
+    }
+}

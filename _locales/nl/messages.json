@@ -48,7 +48,7 @@
         "message": "Help"
     },
     "editThis_Paste_Cookies": {
-        "message": "Importeer Cookies"
+        "message": "Importeren"
     },
     "editThis_contacts": {
         "message": "Contacten"
@@ -57,7 +57,7 @@
         "message": "Beveiligde cookies"
     },
     "editThis_flagAll": {
-        "message": "Markeer en verwijder alles"
+        "message": "Alles blokkeren en verwijderen"
     },
     "editThis_Rate_Us_Intro": {
         "message": "Als je EditThisCookie leuk vindt, laat een reactie achter op de Chrome Web Store"
@@ -93,7 +93,7 @@
         "message": "Regular expressions toegestaan"
     },
     "editThis_Contribute_PayPal": {
-        "message": "Via PayPal bijdragen"
+        "message": "Bijdragen via PayPal"
     },
     "editThis_bugsFeatureRequest": {
         "message": "Bugs / Feature verzoeken"
@@ -120,7 +120,7 @@
         "message": "Nee"
     },
     "editThis_addRule": {
-        "message": "Voeg deze regel toe"
+        "message": "Regel toevoegen"
     },
     "editThis_Paste_Cookie_Here": {
         "message": "Plak hier de cookies die je wil importeren. Geaccepteerde formaten:"
@@ -135,7 +135,7 @@
         "message": "Cookies gewijzigd"
     },
     "editThis_Flag_Cookie": {
-        "message": "Cookie markeren"
+        "message": "Cookie blokkeren"
     },
     "editThis_time": {
         "message": "Tijd"
@@ -150,7 +150,7 @@
         "message": "Met domein blokkeren"
     },
     "editThis_cookiesFlagged": {
-        "message": "Gemarkeerde Cookies Verwijderd"
+        "message": "Geblokkeerde cookies verwijderd"
     },
     "editThis_stats": {
         "message": "Statistieken"
@@ -196,7 +196,7 @@
         "message": "Stel de maximale leeftijd van de cookie in"
     },
     "editThis_Contribute_Bitcoins": {
-        "message": "Via Bitcoins bijdragen"
+        "message": "Bijdragen via Bitcoins"
     },
     "editThis_session": {
         "message": "Sessie"
@@ -214,7 +214,7 @@
         "message": "Je hebt EditThisCookie $1 keer gebruikt"
     },
     "editThis_ppBenefit7": {
-        "message": "Wat ben jij gul zeg! Als we elkaar ooit ontmoeten krijg je van mij een paar goudgele knapen met witte pruiken (hey, bier is belangrijk)"
+        "message": "Wat ben jij gul zeg! Als we elkaar ooit ontmoeten krijg je van mij een paar biertjes (hey, bier is belangrijk)."
     },
     "editThis_ppBenefit6": {
         "message": "Als we elkaar ooit ontmoeten krijg je van mij een Italiaanse koffie en een 'Babbà'"
@@ -232,13 +232,13 @@
         "message": "Je naam wordt toegevoegd aan de Wall of Fame"
     },
     "editThis_ppBenefit1": {
-        "message": "Je krijgt een heel klein plaatsje in mijn hart!"
+        "message": "Je krijgt een heel klein plaatsje in mijn hart"
     },
     "editThis_Show_DevTools_Panel": {
         "message": "Het DevTools-paneel weergeven"
     },
     "editThis_Flag_New_Cookie": {
-        "message": "Nieuwe cookie markeren"
+        "message": "Nieuwe cookie blokkeren"
     },
     "editThis_ppBenefit9": {
         "message": "Wees de oorzaak van mij allereerste hartaanval. Het enige wat je hoeft te doen is nu doneren!"
@@ -253,7 +253,7 @@
         "message": "Filantropische instelling"
     },
     "editThis_deleteAll": {
-        "message": "Verwijder alles"
+        "message": "Alles verwijderen"
     },
     "editThis_statsSharePolicy": {
         "message": "Wij garanderen dat persoonlijke gegevens nooit gedeeld worden!"
@@ -318,6 +318,9 @@
     "editThis_donations": {
         "message": "Donaties"
     },
+    "editThis_updated": {
+        "message": "is geüpdatet. Klik hier om te zien wat er nieuw is."
+    },
     "editThis_storeID": {
         "message": "StoreID"
     },
@@ -340,7 +343,7 @@
         "message": "Bedrag"
     },
     "editThis_cookiesExported": {
-        "message": "Cookies geexporteerd"
+        "message": "Cookies geëxporteerd"
     },
     "editThis_advertisements": {
         "message": "Advertenties"

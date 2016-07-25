@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "تنها اچ تی تی پی"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "به ما اجازه بدید تا تاریچخه ی جستجوهای شما رو به اشتراک بگذاریم . تمامی داده ها به صورت ناشناس میباشند"
+    },
+    "editThis_no_cookies": {
+        "message": "هیچ کوکی وجود ندارد !"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "تغییرات کوکی را ثبت کن"
+    },
+    "editThis_Options": {
+        "message": "تنظیمات"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "کوکی های بلوکه شده"
+    },
+    "editThis_minutes": {
+        "message": "دقیقه "
+    },
+    "editThis_Rate_ETC": {
+        "message": "به این افزونه رتبه بدهید "
+    },
+    "editThis_Blocked_Def": {
+        "message": "اگر میخواهید به صورت خودکار ، هر وقت یک کوکی جدید ساخته میشود آن را پاک کنید ، یک فیلتر اضافه کنید تا دیگر شما رو اذیت نکند"
+    },
+    "editThis_translation": {
+        "message": "ترجمه"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "کوکی ها حذف شدند"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "پیشنهاد و مشکلات خود را با ما در میاد بگذارید "
+    },
+    "editThis_statsIntro": {
+        "message": "از اینجا شما میتوانید بفهمید چگونه از این افزونه استفاده نموده اید . این اطلاعات از جولای 2012 جمع آوری شده است ."
+    },
+    "editThis_Donation_Date": {
+        "message": "تاریخ اهدا"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "آیکون کلا بابابرفی رو نشون بده "
+    },
+    "editThis_help": {
+        "message": "کمک"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "وارد کردن"
+    },
+    "editThis_contacts": {
+        "message": "تماس"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "کوکی های محافظت شده"
+    },
+    "editThis_flagAll": {
+        "message": "بلوکه کردن و حذف همه"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "اگر این افزونه مورد پسنده شماست در صفحه ی این افزونه در فروشگاه کروم رتبه بدهید"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "دامین سایت را قبل از اسم کوکی نشون بده "
+    },
+    "editThis_cookiesProtected": {
+        "message": "کوکی های فقط خواندنی محافظت شده"
+    },
+    "editThis_support": {
+        "message": "پشتیبانی کنید "
+    },
+    "editThis_addNew": {
+        "message": "کوکی جدید"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "تبلیغات کوچک را در بعضی از صفحاتی که من مشاهده میکنم نشان بده"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "دامنه را در کنار اسم کوکی نشان بده"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "کش را در هنگام رفرش شدن صفحه بیخیال شو"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "اطلاعات و تنظیمات"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "شما میتوانید از عبارات منظم نیز استفاده کنید "
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "از طریق پی پال کمک کنید"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "باگ / درخواست امکانت جدید"
+    },
+    "editThis_Save": {
+        "message": "ذخیره"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "درصورت فعال بودن ،  شما میتونید آیکون موجود بر روی تولبار را با راست کلیک کردن بر روی آن غیر فعال کنید !"
+    },
+    "editThis_statsSince": {
+        "message": "آمار و اطلاعات کوکی ها از : $1"
+    },
+    "editThis_translationIntro": {
+        "message": "به ما در ترجمه ی افزونه به زبان خودتان کمک کنید"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "فرمت دلخواه خود را برای خروجی گرفتن انتخاب کنید"
+    },
+    "editThis_reset": {
+        "message": "ریست کردن"
+    },
+    "editThis_no": {
+        "message": "نه"
+    },
+    "editThis_addRule": {
+        "message": "این قانون را اضافه کن"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "برای وارد کردن کوکی را در اینجا کپی کنید .فرمت های قابل قبول :"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "میتونید اهدایی هایتان را بفرستید به :"
+    },
+    "editThis_description": {
+        "message": "این افزونه یک سیستم مدیریت کوکی میباشید ، شما میتوانید  کوکی اضافه ، حذف ، جستجو ، ویرایش و یا حفاظت و بلاک کردن انجام دهید"
+    },
+    "editThis_cookiesModified": {
+        "message": "کوکی تغییر یافت"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "بلوکه کردن کوکی"
+    },
+    "editThis_time": {
+        "message": "تاریخ"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "برچسب ها رو در کنار آیکون ها نمایش بده"
+    },
+    "editThis_day": {
+        "message": "روز"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "بلوکه کردن از طریق دامنه"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "کوکی های بلوکه شده حذف شدند"
+    },
+    "editThis_stats": {
+        "message": "آمار"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "یک زبان دیگر را انتخاب کنید"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "از طریق دامنه و اسم :"
+    },
+    "editThis_Charity_Message": {
+        "message": "شما به کودکان سرتاسر جهان کمک میکنید ، $1% سود اهدا میشود به "
+    },
+    "editThis_Max_Date_Option": {
+        "message": "بیشترین تاریخ هر کوکی را بازنویسی کن"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "از طریق مقدار بلوکه کن"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "ما نرم افزار های رایگان و باکیفیت منبع باز تولید میکنیم. <br><br>با $1 ما را پشتیبانی کنید. با کشیدن نشانگر مقدار را تغییر دهید",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "ماه"
+    },
+    "editThis_cookiesCreated": {
+        "message": "کوکی ها ساخته شدند"
+    },
+    "editThis_cookiesImported": {
+        "message": "کوکی ها وارد شدند"
+    },
+    "editThis_secure": {
+        "message": "امن"
+    },
+    "editThis_cookiesShortened": {
+        "message": "انقضای کوکی ها کوتاه شدند"
+    },
+    "editThis_hostOnly": {
+        "message": "تنها هاست"
+    },
+    "editThis_Max_Date": {
+        "message": "بیشینه ی عمر کوکی را تغییر بده به "
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "از طریق بیت کوین کمک کنید"
+    },
+    "editThis_session": {
+        "message": "جلسه"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "در منوی کلیک راست کروم \"ویرایش کوکی\" را نمایش بده"
+    },
+    "editThis_Show_Alerts": {
+        "message": "همیشه تقاضای تاییدیه کن"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "مژده ی هیولایی پرنده ی ماکارانی"
+    },
+    "editThis_timesUsed": {
+        "message": "شما $1 بار از این افزونه استفاده کردید"
+    },
+    "editThis_ppBenefit7": {
+        "message": "تو یک فرد بخشنده ای ! اگر دیدم حتما برات آبجو میخرم ( هی ، آبجو حرف نداره )ـ"
+    },
+    "editThis_ppBenefit6": {
+        "message": "اگر هم رو دیدیم برات یک قهوه ی ایتالیایی با کیک مخصوص \"بابا\"ی  فرانسوی میگیرم"
+    },
+    "editThis_ppBenefit5": {
+        "message": "میتونید درخواست امکانات بیشترتون رو به من بگید تا اون رو آماده کنم ! ( فقط کاره حضرته فیل نخواین :P)"
+    },
+    "editThis_ppBenefit4": {
+        "message": "میتونی هر باگی که تو این افزونه اذیتت میکنه رو بهم بگی تا سریعآ برات برطرفش کنم"
+    },
+    "editThis_ppBenefit3": {
+        "message": "شما یک ایمیل تشکر دریافت خواهید کرد"
+    },
+    "editThis_ppBenefit2": {
+        "message": "اسم شما به دیوارشعرت اضافه خواهد شد"
+    },
+    "editThis_ppBenefit1": {
+        "message": "شما در قلب من جا دارید "
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "نمایش ابزار پیشرفته"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "کوکی جدید را بلوکه کن"
+    },
+    "editThis_ppBenefit9": {
+        "message": "میخوای باعث اولین حمله ی قلبیم باشی ؟ . تنها کاری که لازمه بکنی \"اهدا\" کمکه !"
+    },
+    "editThis_ppBenefit8": {
+        "message": "و یک پیتزا ایتالیایی !"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "به عنوان \" فقط خواندنی\" قرار بده"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "برنامه ی بشردوستانه"
+    },
+    "editThis_deleteAll": {
+        "message": "حذف همه"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "به شما ضمانت میدهیم هیچگونه داده ی خصوصی شما به اشتراک گذاشته نمیشود !"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "یک کوکی محافظت شده ، کوکی ای میباشید که امکان ویرایش آن توسط وب سایت یا افزونه امکان پذیر نمیباشد"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "هیچ کوکی ای مورد حفاظت قرار نگرفته است"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "آیا مطمئن به حذف تمامی کوکی های این سایت هستید ؟"
+    },
+    "editThis_Donate": {
+        "message": "کمک کردن"
+    },
+    "editThis_year": {
+        "message": "سال"
+    },
+    "editThis_seconds": {
+        "message": "ثانیه"
+    },
+    "editThis_ContextMenu": {
+        "message": "ویرایش کوکی "
+    },
+    "editThis_name": {
+        "message": "اسم"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": " نمایش دکمه ی \"بلوکه کردن و حذف همه\"ـ"
+    },
+    "editThis_domain": {
+        "message": "دامنه"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "مرتب سازی کوکی ها "
+    },
+    "editThis_path": {
+        "message": "مسیر"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "محافظت شده "
+    },
+    "editThis_amountByHand": {
+        "message": "برای وارد کردن دستی مقدار کلیک کنید"
+    },
+    "editThis_yes": {
+        "message": "بله"
+    },
+    "editThis_backToList": {
+        "message": "برگشت به لیست"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "صفحه را بعد از اعمال تغییرات رفرش کن"
+    },
+    "editThis_expiration": {
+        "message": "انقضا"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "با اسم"
+    },
+    "editThis_donations": {
+        "message": "اهدایـه ها"
+    },
+    "editThis_updated": {
+        "message": "به روزرسانی شده است . برای مشاهده ی  تغییرات جدید کلیک کنید"
+    },
+    "editThis_storeID": {
+        "message": "شناسه ی فروشگاه"
+    },
+    "editThis_value": {
+        "message": "مقدار"
+    },
+    "editThis_contactsIntro": {
+        "message": "به ما یک ایمل بفرستید"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "از طریق اسم بلوکه کن"
+    },
+    "editThis_noBlockAdded": {
+        "message": "هیچ قانون بلوکه ای اضافه نشده است"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "این قانون را حذف کن"
+    },
+    "editThis_Amount": {
+        "message": "مقدار"
+    },
+    "editThis_cookiesExported": {
+        "message": "کوکی ها استخراج شدند"
+    },
+    "editThis_advertisements": {
+        "message": "تبلیغات"
+    },
+    "editThis_support_etc": {
+        "message": "از این افزونه پشتیبانی کنید "
+    },
+    "editThis_getting_started": {
+        "message": "آغاز به کار کنید"
+    },
+    "editThis_noStatsNotice": {
+        "message": "هیچ داده ای موجود نیست :("
+    },
+    "editThis_newFilter": {
+        "message": "فیلتر جدید"
+    },
+    "editThis_hour": {
+        "message": "ساعت"
+    },
+    "editThis_Source_Code": {
+        "message": "منبع"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "مقادیر کوکی ها رو انکود گذاری کن ( همانند <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\"><a href=\"http://curl.haxx.se/rfc/cookie_spec.html\"></a> ) (پیشنهاد شده )"
+    },
+    "editThis_helpIntro": {
+        "message": "اینجا شما توضیحاتی در باره ی کاراییه اولیه ی این افزونه پیدا میکنید"
+    },
+    "editThis_iWantDonate": {
+        "message": "قصد اهدا دارم",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "پول جمع شده تا کنون"
+    },
+    "editThis_cancel": {
+        "message": "کنسل"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "کد های این افزونه را در $1 مشاهده کنید",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "جستجو"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "کوکی ها به حافظه کلیپ بورد کپی شدند"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "خروجی گرفتن"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "حذف کوکی"
+    },
+    "editThis_Details": {
+        "message": "جزییات"
+    }
+}

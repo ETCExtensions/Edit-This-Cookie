@@ -117,10 +117,10 @@
         "message": "Επαναφορά"
     },
     "editThis_no": {
-        "message": "No"
+        "message": "Όχι"
     },
     "editThis_addRule": {
-        "message": "Add this rule"
+        "message": "Πρόσθεσε αυτό τον κανόνα"
     },
     "editThis_Paste_Cookie_Here": {
         "message": "Paste here the cookies to import. Accepted formats:"
@@ -141,13 +141,13 @@
         "message": "Ώρα"
     },
     "editThis_ShowCommandsLabels": {
-        "message": "Show labels next to icons"
+        "message": "Δείξε ετικέτες δίπλα στα εικονίδια"
     },
     "editThis_day": {
         "message": "Μέρες"
     },
     "editThis_Flag_CookieWithDomain": {
-        "message": "Block by domain"
+        "message": "Αποκλεισμός με όνομα χώρου"
     },
     "editThis_cookiesFlagged": {
         "message": "Τα επισημασμένα cookies έχουν διαγραφεί"
@@ -171,7 +171,7 @@
         "message": "Block by value"
     },
     "editThis_paypalSupportIntro": {
-        "message": "Δημιουργούμε υψηλής ποιότητας λογισμικό και το προσφέρουμε δωρεάν.<br>\\n<br> Βοηθήστε μας μόνο με 1$. Κινήστε την μπάρα για να αλλάξετε το ποσό.",
+        "message": "Δημιουργούμε υψηλής ποιότητας λογισμικό και το προσφέρουμε δωρεάν.<br>\n<br> Βοηθήστε μας μόνο με 1$. Κινήστε την μπάρα για να αλλάξετε το ποσό.",
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
     },
     "editThis_month": {
@@ -286,7 +286,7 @@
         "message": "Mostra bottone \"Seleziona ed elimina tutto\""
     },
     "editThis_domain": {
-        "message": "Domain"
+        "message": "Όνομα χώρου"
     },
     "editThis_Sort_Cookies": {
         "message": "Ordina cookie"
@@ -298,16 +298,16 @@
         "message": "Προστατευμένο"
     },
     "editThis_amountByHand": {
-        "message": "to enter the amount by hand click here"
+        "message": "Για να βάλετε το ποσό με το χέρι πατήστε εδώ"
     },
     "editThis_yes": {
-        "message": "Yes"
+        "message": "Ναι"
     },
     "editThis_backToList": {
         "message": "Επιστροφή στη λίστα"
     },
     "editThis_reloadAfterChanges": {
-        "message": "Reload the page after submitting the changes"
+        "message": "Ανανεώστε τη σελίδα αφού υποβάλλετε τις αλλαγές"
     },
     "editThis_expiration": {
         "message": "Λήξη"
@@ -317,6 +317,9 @@
     },
     "editThis_donations": {
         "message": "Δωρεά"
+    },
+    "editThis_updated": {
+        "message": "έχει ανανεωθεί. Πατήστε εδώ να δείτε τι καινούριο υπάρχει."
     },
     "editThis_storeID": {
         "message": "StoreID"
@@ -349,13 +352,13 @@
         "message": "Supporta EditThisCookie"
     },
     "editThis_getting_started": {
-        "message": "Getting started"
+        "message": "Ξεκινώντας"
     },
     "editThis_noStatsNotice": {
         "message": "Δεν υπάρχουν δεδομένα :("
     },
     "editThis_newFilter": {
-        "message": "New filter"
+        "message": "Νέο φίλτρο"
     },
     "editThis_hour": {
         "message": "Ώρες"
@@ -380,7 +383,7 @@
         "message": "Ακύρωση"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Check EditThisCookie's source code on $1",
+        "message": "Δείτε τον πηγαίο κώδικα του EditThisCookie στο $1",
         "description": "It will read: Check EditThisCookie's source code on GitHub"
     },
     "editThis_search": {

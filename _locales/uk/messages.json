@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "Тільки Http"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Дозволити нам розповсюджувати інформацію про користування браузером. Усі дані конфіденційні."
+    },
+    "editThis_no_cookies": {
+        "message": "Тут немає жодних кукі"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Підтвердити зміни в кукі"
+    },
+    "editThis_Options": {
+        "message": "Опції"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Блоковані кукі"
+    },
+    "editThis_minutes": {
+        "message": "Хвилини"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Оцінити EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Якщо ти хочеш програмно видаляти кукі кожного разу, коли він створюється, додай фільтр і це більше не заважатиме тобі"
+    },
+    "editThis_translation": {
+        "message": "Переклад"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Кукі видалені"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Знайшли помилку або маєте поради? Зв'яжіться з нами!"
+    },
+    "editThis_statsIntro": {
+        "message": "Тут Ви знайдете інформацію щодо Вашого користування цим додатком. Дані збирались починаючи з липня 2012 року."
+    },
+    "editThis_Donation_Date": {
+        "message": "Дата пожертви"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Показувати іконку з шапкою Санти"
+    },
+    "editThis_help": {
+        "message": "Допомога"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Імпорт"
+    },
+    "editThis_contacts": {
+        "message": "Контакти"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Захищені кукі"
+    },
+    "editThis_flagAll": {
+        "message": "Заблокувати та видалити всі"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Якщо вам подобається EditThisCookie, залиште оцінку у Веб магазині Хром"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Показувати ім'я домену перед іменем кукі"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Кукі дозволене тільки для читання"
+    },
+    "editThis_support": {
+        "message": "Підтримайте мене"
+    },
+    "editThis_addNew": {
+        "message": "Нове кукі"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Показувати ненав'язливі рекламні оголошення на деяких сторінках, які я відвідую"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Показувати ім'я домену біля кожного імені кукі"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Не оновлювати кеш під час оновлення сторінки"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "Інформація та налаштування"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Ти можеш використовувати регулярні вирази"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Підтримати через PayPal"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Повідомлення про помилку / Побажання"
+    },
+    "editThis_Save": {
+        "message": "Зберегти"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Коли увімкнене, ти зможеш приховувати іконку на тулбарі клацнувши правою кнопкою миші на ній!"
+    },
+    "editThis_statsSince": {
+        "message": "Статистика кукі починаючи з: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Допоможи перекласти це розширення на твою рідну мову"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Вибери необхідний формат для експорту кукі"
+    },
+    "editThis_reset": {
+        "message": "Скинути"
+    },
+    "editThis_no": {
+        "message": "Ні"
+    },
+    "editThis_addRule": {
+        "message": "Додати це правило"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Встав сюди кукі для імпорту. Дозволені формати:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Ти можеш відправити пожертву через:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie це менеджер файлів кукі. Ти можеш додавати, видаляти, редагувати, шукати, захищати та блокувати кукі!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Кукі модифіковано"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Заблокувати кукі"
+    },
+    "editThis_time": {
+        "message": "Час"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Показувати надписи біля іконок"
+    },
+    "editThis_day": {
+        "message": "Дні"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Блокувати по домену"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Блоковані кукі видалено"
+    },
+    "editThis_stats": {
+        "message": "Статистика"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "ВИбрати іншу мову"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "по домену та імені"
+    },
+    "editThis_Charity_Message": {
+        "message": "Ти допоможеш дітям, які зараз у скруті по всьому світу, тому що $1% твоєї пожертви надсилається"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Перевизначити максимальний вік для будь-якого кукі"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Блокувати за значенням"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Ми розробляємо високоякісне програмне забезпечення з відкритим кодом та розповсюджуємо його безкоштовно. <br><br> Підтримай нас за допомогою $1. Пересувай повзунок, щоб змінити суму.",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Місяці"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Кукі створено"
+    },
+    "editThis_cookiesImported": {
+        "message": "Кукі імпортовано"
+    },
+    "editThis_secure": {
+        "message": "Захищене"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Скорочена дата завершення кукі"
+    },
+    "editThis_hostOnly": {
+        "message": "Тільки хост"
+    },
+    "editThis_Max_Date": {
+        "message": "Встановити максимальну тривалість кукі"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Підтримати через Bitcoin"
+    },
+    "editThis_session": {
+        "message": "Сесія"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Показувати \"Редагувати кукі\" в контекстному меню браузера"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Завжди запитувати підтвердження"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "Євангеліє від Літаючого Макаронного Монстра"
+    },
+    "editThis_timesUsed": {
+        "message": "Ти використовував 'EditThisCookie' $1 разів"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Ти надзвичайно щедрий! Якщо ми колись зустрінемось з тобою, з мене пиво (Так, пиво це важливо)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Якщо ми коли-небудь зустрінемося, з мене італійська кава та 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Ти можеш назвати будь-яку функцію для розширення і я обовязково додам її в новій версії! (Тільки не проси неможливого :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Ти можеш вказати на помилку, що заважає тобі у EditThisCookie і я виправлю її супер-швидко!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Ти отримаєш лист із подякою"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Твоє ім'я буде увічнене на \"Стіні Слави\""
+    },
+    "editThis_ppBenefit1": {
+        "message": "Ти отримаєш маленьку часточку місця у моєму серці"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Показувати у панелі розробника"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Блокувати нові кукі"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Будь причиною мого самого першого інсульту. Все що необхідно, це пожертва!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "А також Італійську піцу!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Встановити тільки для читання"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Гуманітарна програма"
+    },
+    "editThis_deleteAll": {
+        "message": "Видалити всі"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Ми гарантуємо, що будь-яка персональна інформація не буде розповсюдженою!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Захищене кукі не може бути модифіковано будь-яким браузером або розширенням"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Немає захищених кукі"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Видалити всі кукі для цього сайту?"
+    },
+    "editThis_Donate": {
+        "message": "Підтримати"
+    },
+    "editThis_year": {
+        "message": "Роки"
+    },
+    "editThis_seconds": {
+        "message": "Секунди"
+    },
+    "editThis_ContextMenu": {
+        "message": "Редагувати кукі"
+    },
+    "editThis_name": {
+        "message": "Ім'я"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Показувати кнопку \"Блокувати і видалити всі\""
+    },
+    "editThis_domain": {
+        "message": "Домен"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Сортувати кукі"
+    },
+    "editThis_path": {
+        "message": "Шлях"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Захищено"
+    },
+    "editThis_amountByHand": {
+        "message": "щоб вказати суму вручну, натисни тут"
+    },
+    "editThis_yes": {
+        "message": "Так"
+    },
+    "editThis_backToList": {
+        "message": "Повернутись до списку"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Оновлювати сторінку після підтвердження змін кукі"
+    },
+    "editThis_expiration": {
+        "message": "Закінчення"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "по імені"
+    },
+    "editThis_donations": {
+        "message": "Пожертви"
+    },
+    "editThis_updated": {
+        "message": "оновлено. Тисни тут щоб довідатись що нового."
+    },
+    "editThis_storeID": {
+        "message": "Номер"
+    },
+    "editThis_value": {
+        "message": "Значення"
+    },
+    "editThis_contactsIntro": {
+        "message": "Надіслати нам листа"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Блокувати за іменем"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Немає жодних правил блокування"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Видалити це правило"
+    },
+    "editThis_Amount": {
+        "message": "Кількість"
+    },
+    "editThis_cookiesExported": {
+        "message": "Кукі експортовано"
+    },
+    "editThis_advertisements": {
+        "message": "Оголошення"
+    },
+    "editThis_support_etc": {
+        "message": "Підтримати EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Приступаючи до роботи"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Немає даних =("
+    },
+    "editThis_newFilter": {
+        "message": "Новий фільтр"
+    },
+    "editThis_hour": {
+        "message": "Години"
+    },
+    "editThis_Source_Code": {
+        "message": "Вихідний код"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Кодувати значення кукі (згідно з <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Рекомендується)"
+    },
+    "editThis_helpIntro": {
+        "message": "Тут ти отримаєш пояснення до деяких функцій цього розширення"
+    },
+    "editThis_iWantDonate": {
+        "message": "Хочу зробити пожетву",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Гроші отримані на цей час"
+    },
+    "editThis_cancel": {
+        "message": "Скасувати"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Перевірити вихідний код EditThisCookie's на $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Шукати"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Кукі скопійовано до буферу"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Експорт"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Видалити кукі"
+    },
+    "editThis_Details": {
+        "message": "Деталі"
+    }
+}

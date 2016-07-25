@@ -24,7 +24,7 @@
         "message": "Vurdér EditThisCookie"
     },
     "editThis_Blocked_Def": {
-        "message": "Dersom du ønsker å programmatisk slette en informasjonskapsel hver gang den lages, lag et filter så vil den ikke plage deg gjen"
+        "message": "Dersom du ønsker å programmatisk slette en informasjonskapsel hver gang den lages, opprett et filter så vil den ikke plage deg mer"
     },
     "editThis_translation": {
         "message": "Oversettelse"
@@ -57,7 +57,7 @@
         "message": "Beskyttede informasjonskapsler"
     },
     "editThis_flagAll": {
-        "message": "Flagg og slett alle"
+        "message": "Blokker og slett alle"
     },
     "editThis_Rate_Us_Intro": {
         "message": "Dersom du liker EditThisCookie, legg igjen en vurdering i Chrome Web Store"
@@ -69,7 +69,7 @@
         "message": "Skrivebeskyttede informasjonskapsler er beskyttet"
     },
     "editThis_support": {
-        "message": "Støtt oss"
+        "message": "Støtt meg"
     },
     "editThis_addNew": {
         "message": "Legg til en ny informasjonskapsel"
@@ -135,7 +135,7 @@
         "message": "Informasjonskaplser endret"
     },
     "editThis_Flag_Cookie": {
-        "message": "Flagg informasjonskapsel"
+        "message": "Blokker informasjonskapsel"
     },
     "editThis_time": {
         "message": "Tid"
@@ -238,7 +238,7 @@
         "message": "Vis panelet for utviklerverktøy"
     },
     "editThis_Flag_New_Cookie": {
-        "message": "Flagg en ny informasjonskapsel"
+        "message": "Blokker en ny informasjonskapsel"
     },
     "editThis_ppBenefit9": {
         "message": "Bli årsaken til mit første hjerteatrakk. Alt du behøver å gjøre er å donere nå!"
@@ -283,7 +283,7 @@
         "message": "Navn"
     },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "Vis \"Flagg og slett alle\" knappen"
+        "message": "Vis \"Blokker og slett alle\" knappen"
     },
     "editThis_domain": {
         "message": "Domene"
@@ -317,6 +317,9 @@
     },
     "editThis_donations": {
         "message": "Donasjoner"
+    },
+    "editThis_updated": {
+        "message": "har blitt oppdatert. Trykk her for å se hva som er nytt."
     },
     "editThis_storeID": {
         "message": "Butikk ID"

@@ -9,7 +9,7 @@
         "message": "Nessun cookie qui!"
     },
     "editThis_Alert_submitAll": {
-        "message": "Salvare le modifiche"
+        "message": "Salva modifiche ai cookie"
     },
     "editThis_Options": {
         "message": "Opzioni"
@@ -141,13 +141,13 @@
         "message": "Tempo"
     },
     "editThis_ShowCommandsLabels": {
-        "message": "Show labels next to icons"
+        "message": "Mostra etichette accanto alle icone"
     },
     "editThis_day": {
         "message": "Giorni"
     },
     "editThis_Flag_CookieWithDomain": {
-        "message": "Block by domain"
+        "message": "Blocca per dominio"
     },
     "editThis_cookiesFlagged": {
         "message": "Cookie Bloccati Cancellati"
@@ -168,7 +168,7 @@
         "message": "Sovrascrivi la scadenza massima dei cookie"
     },
     "editThis_Flag_CookieWithValue": {
-        "message": "Block by value"
+        "message": "Blocca per valore"
     },
     "editThis_paypalSupportIntro": {
         "message": "Sviluppiamo software open source di alta qualità e lo distribuiamo gratuitamente. <br><br> Sostienici usando $1. Sposta lo slider per cambiare la quantità",
@@ -235,7 +235,7 @@
         "message": "Avrai un piccolo posto nel mio cuore"
     },
     "editThis_Show_DevTools_Panel": {
-        "message": "Show the DevTools panel"
+        "message": "Mostra il pannello DevTools"
     },
     "editThis_Flag_New_Cookie": {
         "message": "Filtra nuovo cookie"
@@ -301,7 +301,7 @@
         "message": "per inserire manualmente la quantità clicca qui"
     },
     "editThis_yes": {
-        "message": "Yes"
+        "message": "Si"
     },
     "editThis_backToList": {
         "message": "Torna alla lista"
@@ -318,6 +318,9 @@
     "editThis_donations": {
         "message": "Donazioni"
     },
+    "editThis_updated": {
+        "message": "è stato aggiornato. Clicca qui per vedere le novità."
+    },
     "editThis_storeID": {
         "message": "storeID"
     },
@@ -328,7 +331,7 @@
         "message": "Inviaci una mail"
     },
     "editThis_Flag_CookieWithName": {
-        "message": "Block by name"
+        "message": "Blocca per nome"
     },
     "editThis_noBlockAdded": {
         "message": "Nessun cookie è stato ancora bloccato"

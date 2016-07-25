@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Giv os tilladelse til at dele dine browserdata. Alle data er anonymiseret."
+    },
+    "editThis_no_cookies": {
+        "message": "Ingen cookies her."
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Gem cookie-ændringer"
+    },
+    "editThis_Options": {
+        "message": "Indstillinger"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Blokerede cookies"
+    },
+    "editThis_minutes": {
+        "message": "Minutter"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Rate EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Hvis du ønsker programmatisk at slette en cookie, hver gang den bliver oprettet, så tilføj et filter, og så skal du ikke tænke mere over det"
+    },
+    "editThis_translation": {
+        "message": "Oversættelse"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Cookies er slettet"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Har du fundet en bug eller har du et forslag? Fortæl os om det!"
+    },
+    "editThis_statsIntro": {
+        "message": "Her kan du finde ud af hvordan du brugte denne udvidelse. Dette data er udelukkende blevet indsamlet siden Juli 2012"
+    },
+    "editThis_Donation_Date": {
+        "message": "Dato for donation"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Vis nissehue på ikonet"
+    },
+    "editThis_help": {
+        "message": "Hjælp"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Importér"
+    },
+    "editThis_contacts": {
+        "message": "Kontakter"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Beskyttede Cookies"
+    },
+    "editThis_flagAll": {
+        "message": "Blokér og slet alle"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Hvis du kan lide EditThisCookie, efterlad en rating på Chrome Web Store"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Vis domænenavnet før cookiens navn"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Skrivebeskyttede cookies"
+    },
+    "editThis_support": {
+        "message": "Støt mig"
+    },
+    "editThis_addNew": {
+        "message": "Tilføj en ny Cookie"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Vis diskrete reklamer på nogle af de sider jeg besøger"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Vis domænet ved cookie-navnet"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Brug ikke cache når siden genindlæses"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "info og indstillinger"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Du kan benytte regulære udtryk"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Støt via PayPal"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Fejl eller forbedringsforslag"
+    },
+    "editThis_Save": {
+        "message": "Gem"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Hvis denne er tilvalgt, kan du skjule browser-ikonet ved at højreklikke på det!"
+    },
+    "editThis_statsSince": {
+        "message": "Cookie-statistik siden $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Hjælp os med at oversætte udvidelsen til dit eget sprog"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Vælg det foretrukne format til eksport af cookies"
+    },
+    "editThis_reset": {
+        "message": "Nulstil"
+    },
+    "editThis_no": {
+        "message": "Nej"
+    },
+    "editThis_addRule": {
+        "message": "Tilføj denne regel"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Indsæt den eller de cookies, du ønsker at importere. Følgende formater understøttes:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Du kan sende donationer til: "
+    },
+    "editThis_description": {
+        "message": "EditThisCookie er en cookie-manager. Du kan tilføje, slette, rette, søge, beskytte og blokere cookies!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Ændrede cookies"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Blokér cookie"
+    },
+    "editThis_time": {
+        "message": "Tidspunkt"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Vis forklaring ved siden af ikoner"
+    },
+    "editThis_day": {
+        "message": "Dage"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Blokér efter domæne"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Blokerede cookies er blevet slettet"
+    },
+    "editThis_stats": {
+        "message": "Statistik"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Vælg et andet sprog"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "i forhold til domæne og navn"
+    },
+    "editThis_Charity_Message": {
+        "message": "Du hjælper udsatte børn overalt på jorden, da $1% af omsætningen går til"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Overskriv den maksimale levetid for enhver cookie"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Blokér efter værdi"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Vi udvikler open source software af høj kvalitet, og giver det værk gratis.<br><br>Støt os via $1. Flyt på slideren for at ændre beløbet",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Måneder"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Cookies oprettet"
+    },
+    "editThis_cookiesImported": {
+        "message": "Cookies importeret"
+    },
+    "editThis_secure": {
+        "message": "Sikker"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Cookiens udløbsdato forkortet"
+    },
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    },
+    "editThis_Max_Date": {
+        "message": "Sæt den maksimale cookie-levetid til"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Støt med Bitcoins"
+    },
+    "editThis_session": {
+        "message": "Session"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Vis \"Redigér cookies\" i højrekliksmenuen"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Anmod altid om bekræftelse"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "Det Flyvende Spaghettimonster"
+    },
+    "editThis_timesUsed": {
+        "message": "Du har benyttet 'EditThisCookie' $1 gange"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Du er meget, meget generøs. Hvis vi nogensinde mødes, giver jeg et par øl (hey, øl er vigtigt)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Hvis vi nogensinde mødes, giver jeg en kop italiensk kaffe og en 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Du kan vælge en funktion, du ønsker implementeret i udvidelsen, og jeg vil tilføje den! (Forvent bare ikke lige det umulige :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Du kan vælge en hvilken som helst bug i EditThisCookie, og jeg vil fikse den mega-hurtigt!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Du vil modtage en takke-email"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Dit navn vil blive tilføjet til udvidelsens Wall of Fame"
+    },
+    "editThis_ppBenefit1": {
+        "message": "Du får en lille bitte plads i mit hjerte"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Vis panelet Udviklerværktøjer"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Blokér ny cookie"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Bliv årsagen til min første hjerteanfald. Nu skal du bare donere!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "Og en italiensk pizza!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Skrivebeskyttet"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitært program"
+    },
+    "editThis_deleteAll": {
+        "message": "Slet alle"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Vi garanterer dig, at vi aldrig deler dine personlige data!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "En beskyttet cookie er en cookie, der ikke kan ændres af hverken et website eller en udvidelse"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Ingen cookies er endnu beskyttet"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Slet alle cookies fra dette websted?"
+    },
+    "editThis_Donate": {
+        "message": "Bidrag"
+    },
+    "editThis_year": {
+        "message": "År"
+    },
+    "editThis_seconds": {
+        "message": "Sekunder"
+    },
+    "editThis_ContextMenu": {
+        "message": "Redigér cookies"
+    },
+    "editThis_name": {
+        "message": "Navn"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Vis knappen \"Blokér og slet alle\""
+    },
+    "editThis_domain": {
+        "message": "Domæne"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Sortér cookies"
+    },
+    "editThis_path": {
+        "message": "Sti"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Beskyttet"
+    },
+    "editThis_amountByHand": {
+        "message": "klik her for at indtaste beløbet manuelt"
+    },
+    "editThis_yes": {
+        "message": "Ja"
+    },
+    "editThis_backToList": {
+        "message": "Tilbage til liste"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Opdatér siden efter ændringer er gemt"
+    },
+    "editThis_expiration": {
+        "message": "Udløb"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "i forhold til navn"
+    },
+    "editThis_donations": {
+        "message": "Donationer"
+    },
+    "editThis_updated": {
+        "message": "er blevet opdateret. Klik her for at se, hvad der er nyt."
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "Værdi"
+    },
+    "editThis_contactsIntro": {
+        "message": "Send os en email"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Blokér efter navn"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Ingen blokeringsregler er tilføjet"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Slet denne regel"
+    },
+    "editThis_Amount": {
+        "message": "Beløb"
+    },
+    "editThis_cookiesExported": {
+        "message": "Cookies eksporteret"
+    },
+    "editThis_advertisements": {
+        "message": "Reklamer"
+    },
+    "editThis_support_etc": {
+        "message": "Støt EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Kom i gang"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Ingen data endnu :("
+    },
+    "editThis_newFilter": {
+        "message": "Nyt filter"
+    },
+    "editThis_hour": {
+        "message": "Timer"
+    },
+    "editThis_Source_Code": {
+        "message": "Kildekode"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Indkod værdien af cookies (i henhold til <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Anbefales)"
+    },
+    "editThis_helpIntro": {
+        "message": "Her kan du finde forklaringer af nogle af de fundamentale funktioner i denne udvidelse"
+    },
+    "editThis_iWantDonate": {
+        "message": "Jeg ønsker at donere",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Beløb indsamlet indtil nu"
+    },
+    "editThis_cancel": {
+        "message": "Annullér"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Se EditThisCookie's kildekode på $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Søg"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Cookies kopieret til udklipsholderen"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Eksportér"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Slet cookie"
+    },
+    "editThis_Details": {
+        "message": "Detaljer"
+    }
+}

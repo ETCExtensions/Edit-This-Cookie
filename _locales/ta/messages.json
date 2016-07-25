@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "Http மட்டும்"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "உங்கள் உலாவல் தரவை பகிர்ந்து கொள்ள எங்களை அனுமதியுங்கள். அனைத்து தகவல்களும் பெயர் தெரிவிக்கப்படாதவை."
+    },
+    "editThis_no_cookies": {
+        "message": "இங்கே குக்கீகள்  இல்லை!"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "குக்கீயின் மாற்றங்களை சமர்ப்பிக்கவும்"
+    },
+    "editThis_Options": {
+        "message": "விருப்பங்கள்"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "தடுக்கப்பட்ட குக்கீகள்"
+    },
+    "editThis_minutes": {
+        "message": "நிமிடங்கள்"
+    },
+    "editThis_Rate_ETC": {
+        "message": "எடிட்திஸ்குக்கியை மதிப்பிடவும்"
+    },
+    "editThis_Blocked_Def": {
+        "message": "நீங்கள் நிரலாக்கத்தின்படி ஒரு குக்கீயை ஒவ்வொரு முறையும் நீக்க விரும்பினால் அது ஒரு வடிகட்டியை சேர்க்க உருவாக்கப்பட்டது மற்றும் அது இனி உங்களை தொந்தரவு செய்யாது"
+    },
+    "editThis_translation": {
+        "message": "மொழிபெயர்ப்பு"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "குக்கிகள் நீக்கப்பட்டது"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "ஒரு பிழை கண்டுபிடிக்கப்பட்டதா அல்லது ஒரு யோசனை இருக்கிறதா? சொல்லுங்கள்!"
+    },
+    "editThis_statsIntro": {
+        "message": "இங்கே நீங்கள் இந்த நீட்டிப்பை எப்படி பயன்படுத்தினீர்கள் என்று கண்டுபிடிக்க முடியும். இந்த தரவை ஜூலை 2012 முதல் மட்டும் சேகரிக்கப்பட்டுள்ளன."
+    },
+    "editThis_Donation_Date": {
+        "message": "நன்கொடை தேதி"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "சாண்டாவின் தொப்பி உருவத்தைக் காட்டு"
+    },
+    "editThis_help": {
+        "message": "உதவி"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "இறக்குமதி செய்"
+    },
+    "editThis_contacts": {
+        "message": "தொடர்புகள்"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "பாதுகாக்கப்பட்ட குக்கீகளை"
+    },
+    "editThis_flagAll": {
+        "message": "தடு மற்றும் அனைத்தையும் அழி"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "எடிட்திஸ்குக்கியை உங்களுக்கு பிடித்திருந்தால், க்ரோம் இணைய அங்காடியில் ஒரு மதிப்பீடவும்."
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "டொமைனை குக்கீயின் பெயர் முன்பு  காட்டு"
+    },
+    "editThis_cookiesProtected": {
+        "message": "படிக்க-மட்டும் குக்கிகள் பாதுகாக்கப்பட்டன"
+    },
+    "editThis_support": {
+        "message": "என்னை ஆதரியுங்கள்"
+    },
+    "editThis_addNew": {
+        "message": "New cookie"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "நான் பார்வையிட்ட பக்கங்கள் சிலவற்றில் அனுமதியின்றி நுழையாதபடியுள்ள விளம்பரங்களை காட்டு"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "டொமைனை ஒவ்வொரு குக்கீயின் பெயர் அருகில் காட்டு"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "பக்கம் மீண்டும் ஏற்றப்படும் போது தற்காலிக சேமிப்பை தவிர்"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "தகவல் மற்றும் அமைப்புகள்"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "நீங்கள் வழக்கமான வெளிப்பாடுகளை பயன்படுத்த முடியும்"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "பேபால் மூலம் பங்களியுங்கள்"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "பிழைகள் / வேண்டிய அம்சங்கள்"
+    },
+    "editThis_Save": {
+        "message": "பதிவுச் செய்"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "செயல்படுத்தினால் கருவிப்பட்டியில் சின்னத்தை நீங்கள் அதை வலது கிளிக் செய்வதன் மூலம் மறைக்க முடியும்"
+    },
+    "editThis_statsSince": {
+        "message": "குக்கியின் புள்ளிவிபரம் முதல்: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "எங்களுக்கு நீட்டிப்புக்களை உங்கள் மொழியில் மொழிபெயர்க்க உதவவும்"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "குக்கிகளின் சரியான ஏற்றுமதி வடிவத்தை தேர்வு செய்"
+    },
+    "editThis_reset": {
+        "message": "மீட்டமை"
+    },
+    "editThis_no": {
+        "message": "இல்லை"
+    },
+    "editThis_addRule": {
+        "message": "இந்த விதியை சேர்"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "இறக்குமதி செய்வதற்கான குக்கிகளை இங்கே ஒட்டவும். ஏற்றுக்கொள்ளப்பட்ட படிமம்:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "நீங்கள் நன்கொடைகள் அனுப்ப முடியும்:"
+    },
+    "editThis_description": {
+        "message": "எடிட்திஸ்குக்கி ஒரு குக்கீ மேலாளர். நீங்கள் குக்கீகளை சேர்க்க, நீக்க, திருத்த, தேட, பாதுகாக்க மற்றும் தடு முடியும்!"
+    },
+    "editThis_cookiesModified": {
+        "message": "குக்கிகள் திருத்தப்பட்டன"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "குக்கீயை தடு"
+    },
+    "editThis_time": {
+        "message": "நேரம்"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "அடையாளங்களை சின்னங்களின் அடுத்து காட்டு"
+    },
+    "editThis_day": {
+        "message": "நாட்கள்"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "டொமைன் வாரியாக தடு"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "தடுக்கப்பட்ட குக்கிகள் நீக்கப்பட்டது"
+    },
+    "editThis_stats": {
+        "message": "விபரம்"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "மற்றொரு மொழி தேர்வு செய்"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "டொமைன் மற்றும் பெயரால்"
+    },
+    "editThis_Charity_Message": {
+        "message": "நீங்கள் உலகம் முழுவதும் தேவைப்படும் குழந்தைகளுக்கு உதவுவீர்கள், ஏனெனில் வருவாய்களில் $1% செல்லும்"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "எந்தவொரு குக்கியின் அதிகபட்ச வயதையும் புறக்கணி"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "மதிப்பு மூலம் தடு"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "நாங்கள் உயர் தரமான திறந்த மூல மென்பொருளை உருவாக்கியிருக்கிறோம் மற்றும் நாம் அதை இலவசமாக அளிக்கிறோம். <br><br> $1 பயன்படுத்தி எங்களை ஆதரிக்கவும். தொகையை மாற்ற இழுதியை நகர்த்தவும்",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "மாதங்கள்"
+    },
+    "editThis_cookiesCreated": {
+        "message": "குக்கிகள் உருவாக்கப்பட்டன"
+    },
+    "editThis_cookiesImported": {
+        "message": "குக்கிகள் இறக்குமதி செய்யப்பட்டன"
+    },
+    "editThis_secure": {
+        "message": "பாதுகாப்பான"
+    },
+    "editThis_cookiesShortened": {
+        "message": "குக்கிகள் 'காலாவதி சுருக்கப்பட்டது"
+    },
+    "editThis_hostOnly": {
+        "message": "புரவலன் மட்டும்"
+    },
+    "editThis_Max_Date": {
+        "message": "அதிகபட்ச குக்கி வயதை அமைக்கவும்"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "துண்டு நாணயங்களில் பங்களியுங்கள்"
+    },
+    "editThis_session": {
+        "message": "அமர்வு"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "சூழல் மெனுவில் \"குக்கிகளை திருத்து\" காட்டு"
+    },
+    "editThis_Show_Alerts": {
+        "message": "எப்போதும் உறுதிப்படுத்தவும்"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "சுவிசேஷத்தின் பறக்கும் ஆரவாரமான மான்ஸ்டர்"
+    },
+    "editThis_timesUsed": {
+        "message": "நீங்கள் 'எடிட்திஸ்குக்கி'(யை) $1 முறை பயன்படுத்தினால்"
+    },
+    "editThis_ppBenefit7": {
+        "message": "உங்களுக்கு பெரிய மனது! நாம் எப்போதாவது சந்திக்க நேரிட்டால் நான் உங்களுக்கு ஒரு சில பீர்கள் தருவேன் (ஏய், பீர் முக்கியம்)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "நாம் எப்போதாவது சந்திக்க நேரிட்டால் நான் உங்களுக்கு ஒரு ஒரு இத்தாலிய காபி மற்றும் ஒரு வடை தருவேன்"
+    },
+    "editThis_ppBenefit5": {
+        "message": "You can name a feature you want to be implemented and I'll make it true! (just don't ask for the impossible :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "எடிட்திஸ்குக்கியில் உங்களை வெறுப்படயச் செய்த பிளைகளை கூறலாம் மற்றும் நான் அதிவிரைவில் அதை சரிசெய்து விடுவேன்!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "You'll receive a thank you email"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Your name will be added to the Wall of Fame"
+    },
+    "editThis_ppBenefit1": {
+        "message": "உங்களுக்கு என் இதயத்தில் ஒரு சின்னஞ் சிறிய இடம் கிடைக்கும்"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "டெவ்டூல்ஸ் பலகத்தை காட்டு"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "புதிய குக்கீயை தடு"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Be the cause of my very first heart stroke. All you have to do is donate now!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "மற்றும் ஒரு இத்தாலிய பீஸ்ஸா!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Set as readonly"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    },
+    "editThis_deleteAll": {
+        "message": "Delete all"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "எந்த தனிப்பட்ட தரவுகளையும் எப்போதும் பகிர்ந்து கொள்ளமாட்டோம் என்பதற்க்கு நாங்கள் உத்தரவாதம்!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "A protected cookie is a cookie which can't be modified by any website or extension"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "No cookies protected yet"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Delete all cookies for current website?"
+    },
+    "editThis_Donate": {
+        "message": "Contribute"
+    },
+    "editThis_year": {
+        "message": "Years"
+    },
+    "editThis_seconds": {
+        "message": "Seconds"
+    },
+    "editThis_ContextMenu": {
+        "message": "Edit Cookies"
+    },
+    "editThis_name": {
+        "message": "Name"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "\"தடு மற்றும் அனைத்தையும் அழி\" பட்டனை காட்டவும்"
+    },
+    "editThis_domain": {
+        "message": "Domain"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "குக்கீகளை வரிசைப்படுத்து"
+    },
+    "editThis_path": {
+        "message": "Path"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Protected"
+    },
+    "editThis_amountByHand": {
+        "message": "to enter the amount by hand click here"
+    },
+    "editThis_yes": {
+        "message": "ஆம்"
+    },
+    "editThis_backToList": {
+        "message": "Back to list"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Reload the page after submitting the changes"
+    },
+    "editThis_expiration": {
+        "message": "Expiration"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "பெயரால்"
+    },
+    "editThis_donations": {
+        "message": "Donations"
+    },
+    "editThis_updated": {
+        "message": "மேம்படுத்தப்பட்டுள்ளது. புதியது என்ன என்பதை பார்க்க இங்கே கிளிக் செய்யவும்."
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "Value"
+    },
+    "editThis_contactsIntro": {
+        "message": "Send us an email"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "பெயரால் தடு"
+    },
+    "editThis_noBlockAdded": {
+        "message": "No block rules added"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Delete this rule"
+    },
+    "editThis_Amount": {
+        "message": "Amount"
+    },
+    "editThis_cookiesExported": {
+        "message": "Cookies exported"
+    },
+    "editThis_advertisements": {
+        "message": "Advertisements"
+    },
+    "editThis_support_etc": {
+        "message": "எடிட்திஸ்குக்கி(யை) ஆதரியுங்கள்"
+    },
+    "editThis_getting_started": {
+        "message": "தொடங்குதல்"
+    },
+    "editThis_noStatsNotice": {
+        "message": "No data yet :("
+    },
+    "editThis_newFilter": {
+        "message": "New filter"
+    },
+    "editThis_hour": {
+        "message": "Hours"
+    },
+    "editThis_Source_Code": {
+        "message": "மூல குறியீடு"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Encode the value of the cookies (as per <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recommended)"
+    },
+    "editThis_helpIntro": {
+        "message": "Here you will find explanations for some basic functions of this extension"
+    },
+    "editThis_iWantDonate": {
+        "message": "I want to donate",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    },
+    "editThis_cancel": {
+        "message": "Cancel"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "$1 யில் எடிட்திஸ்குக்கியின் மூல குறியீட்டை பாருங்கள்",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Search"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "ஏற்றுமதி செய்"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Delete cookie"
+    },
+    "editThis_Details": {
+        "message": "Details"
+    }
+}

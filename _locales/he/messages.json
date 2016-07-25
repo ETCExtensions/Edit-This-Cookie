@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "HttpOnly"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "הרשה לנו לשתף את מידע הגלישה שלך. כל המידע הוא אנונימי."
+    },
+    "editThis_no_cookies": {
+        "message": "אין עוגיות פה!"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "שלח שינויי עוגייה"
+    },
+    "editThis_Options": {
+        "message": "הגדרות"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "עוגיות חסומות"
+    },
+    "editThis_minutes": {
+        "message": "דקות"
+    },
+    "editThis_Rate_ETC": {
+        "message": "דרג את EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "אם ברצונך למחוק באמצעות תכנות עוגייה בכל פעם שהיא נוצרת, הוסף סינון ולא נשאל אותך יותר לגבי העוגיה"
+    },
+    "editThis_translation": {
+        "message": "תרגום"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "עוגיות נמחקו"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "מצאת באג או יש לך רעיון? ספר לנו!"
+    },
+    "editThis_statsIntro": {
+        "message": "כאן תוכל לראות איך השתמשת בתוסף. המידע הזה נאסף מיולי 2012."
+    },
+    "editThis_Donation_Date": {
+        "message": "תאריך תרומה"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "הצג אייקון ״הכובע של סנטה״"
+    },
+    "editThis_help": {
+        "message": "עזרה"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "יבוא"
+    },
+    "editThis_contacts": {
+        "message": "צור קשר"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "עוגיות מוגנות"
+    },
+    "editThis_flagAll": {
+        "message": "חסום ומחק הכל"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "אם אתה אוהב את EditThisCookie, השאר רייטינג בחנות האפליקציות של גוגל"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "הצג את שם הדומיין לפני שם העוגיה"
+    },
+    "editThis_cookiesProtected": {
+        "message": "עוגיות מוגנות לקריאה בלבד"
+    },
+    "editThis_support": {
+        "message": "תמוך בי"
+    },
+    "editThis_addNew": {
+        "message": "עוגיה חדשה"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "הצג פרסומות מובלטות בחלק מהדפים שאני מבקר"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "הצג את הדומיין ליד כל עוגיה"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "דלג על הcache כאשר הדף נטען שוב"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "מידע והגדרות"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "אתה יכול להשתמש בregular expressions"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "תרום דרך פיי-פאל"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "בקשות באגים \\ פיצ׳רים"
+    },
+    "editThis_Save": {
+        "message": "שמור"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "אם מודלק, תוכל להסתיר את הסמל בסרגל הכלים על ידי לחיצה ימנית עליו!"
+    },
+    "editThis_statsSince": {
+        "message": "סטטיסטיקת עוגיות מ: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "עזור לנו לתרגם את התוסף לשפה שלך"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "בחר את פורמט היצוא לעוגיות"
+    },
+    "editThis_reset": {
+        "message": "אתחל"
+    },
+    "editThis_no": {
+        "message": "לא"
+    },
+    "editThis_addRule": {
+        "message": "הוסף את הכלל הזה"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "הדבק כאן את העוגיות ליבוא. פורמטים מקובלים:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "אפשר לשלוח תרומות ל:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie הוא מנהל ״עוגיות״ בדפדפן. באפשרותך להוסיף, למחוק, לערוך, לחפש, להגן ולחסום עוגיות!"
+    },
+    "editThis_cookiesModified": {
+        "message": "עוגיות השתנו"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "חסום עוגיה"
+    },
+    "editThis_time": {
+        "message": "זמן"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "הצג תגיות ליד האייקונים"
+    },
+    "editThis_day": {
+        "message": "ימים"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "חסום לפי דומיין"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "עוגיות חסומות נמחקו"
+    },
+    "editThis_stats": {
+        "message": "סטטיסטיקות"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "בחר שפה אחרת"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "לפי דומיין ושם"
+    },
+    "editThis_Charity_Message": {
+        "message": "תוכל לעזור לילדים במצוקה בכל רחבי העולם, כי $1% מההכנסות הולכים ל"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "דרוס את הגיל המקסימלי לכל עוגייה"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "חסום לפי ערך"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "אנו מפתחים תוכנות קוד פתוח באיכות גבוהה ואנחנו נותנים אותו בחינם. <br><br> תמוך בנו באמצעות $1. הזז את המחוון כדי לשנות את הסכום",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "חודשים"
+    },
+    "editThis_cookiesCreated": {
+        "message": "עוגיות נוצרו"
+    },
+    "editThis_cookiesImported": {
+        "message": "עוגיות מיובאות"
+    },
+    "editThis_secure": {
+        "message": "מאובטח"
+    },
+    "editThis_cookiesShortened": {
+        "message": "פקיעת העוגיה התקצרה"
+    },
+    "editThis_hostOnly": {
+        "message": " HostOnly"
+    },
+    "editThis_Max_Date": {
+        "message": "הגדר את זמן העוגיה המקסימלי"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "תרום באמצעות Bitcoins"
+    },
+    "editThis_session": {
+        "message": "Session"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "הצג את \"ערוך עוגיות״ בתפריט"
+    },
+    "editThis_Show_Alerts": {
+        "message": "תמיד תבקש אישור "
+    },
+    "editThis_gospelBookTitle": {
+        "message": "הגוספל של מפלצת הספגטי המעופפת"
+    },
+    "editThis_timesUsed": {
+        "message": "השתמשת ב'EditThisCookie' $1 פעמים"
+    },
+    "editThis_ppBenefit7": {
+        "message": "אתה מאוד נדיב! אם אי פעם נפגש אביא לך כמה בירות (היי, הבירה חשובה)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "אם אי פעם נפגש אביא לך קפה איטלקי ו'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "אתה יכול לתת שם לפי׳צר שאתה רוצה לראות מיושם ואני אעשה את זה! (פשוט לא לבקש את הבלתי אפשרי: P)"
+    },
+    "editThis_ppBenefit4": {
+        "message": "אפשר למנות כל באג אשר מפריע לך בEditThisCookie ואתקן אותו במהירות האפשרית!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "תקבל מכתב תודה בדוא״ל"
+    },
+    "editThis_ppBenefit2": {
+        "message": "השם שלך יתווסף לקיר התהילה"
+    },
+    "editThis_ppBenefit1": {
+        "message": "אתה תקבל מקום קטן ושמור בליבי"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "הצג את הפאנל DevTools"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "חסום עוגיה חדשה"
+    },
+    "editThis_ppBenefit9": {
+        "message": "תיהיה הגורם לשבץ הלב הראשון שלי. כל מה שאתה צריך לעשות זה לתרום עכשיו!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "ופיצה איטלקית!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "הגדר כקריאה בלבד"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "תכנית הומניטרית"
+    },
+    "editThis_deleteAll": {
+        "message": "מחק הכל"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "אנו מבטיחים שהמידע הפרטי שלך לא ישותף לעולם!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "עוגייה מוגנת היא עוגייה שלא ניתן לשנות אותה על ידי כל אתר אינטרנט או תוסף"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "אין עוגיות מוגנות"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "מחק את כל העוגיות לאתר אינטרנט זה?"
+    },
+    "editThis_Donate": {
+        "message": "תרום"
+    },
+    "editThis_year": {
+        "message": "שנים"
+    },
+    "editThis_seconds": {
+        "message": "שניות"
+    },
+    "editThis_ContextMenu": {
+        "message": "ערוך עוגיות"
+    },
+    "editThis_name": {
+        "message": "שם"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "הצג כפתור ״חסום ומחק הכל״"
+    },
+    "editThis_domain": {
+        "message": "דומיין"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "מין עוגיות"
+    },
+    "editThis_path": {
+        "message": "Path"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "מוגן"
+    },
+    "editThis_amountByHand": {
+        "message": "על מנת להזין את הסכום בצורה ידנית לחץ כאן"
+    },
+    "editThis_yes": {
+        "message": "כן"
+    },
+    "editThis_backToList": {
+        "message": "חזרה לרשימה"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "רענן את העמוד לאחר ביצוע השינויים"
+    },
+    "editThis_expiration": {
+        "message": "פקיעה"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "לפי שם"
+    },
+    "editThis_donations": {
+        "message": "תרומות"
+    },
+    "editThis_updated": {
+        "message": "שודרג בהצלחה. לחץ פה לראות מה חדש."
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "ערך"
+    },
+    "editThis_contactsIntro": {
+        "message": "שלח לנו אימייל"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "חסום לפי שם"
+    },
+    "editThis_noBlockAdded": {
+        "message": "כללים לחסימה לא הוספו"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "מחק את הכלל"
+    },
+    "editThis_Amount": {
+        "message": "סכום"
+    },
+    "editThis_cookiesExported": {
+        "message": "עוגיות יוצאו"
+    },
+    "editThis_advertisements": {
+        "message": "פרסומות"
+    },
+    "editThis_support_etc": {
+        "message": "תמוך בEditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "התחל פה"
+    },
+    "editThis_noStatsNotice": {
+        "message": "אין נתונים כרגע ):"
+    },
+    "editThis_newFilter": {
+        "message": "פילטר חדש"
+    },
+    "editThis_hour": {
+        "message": "שעות"
+    },
+    "editThis_Source_Code": {
+        "message": "קוד מקור"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "הצפן את ערך העוגיות (בצורה הבאה: <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (מומלץ)"
+    },
+    "editThis_helpIntro": {
+        "message": "כאן תוכל למצוא הסברים לפונקציות הבסיסיות של הרחבה זו"
+    },
+    "editThis_iWantDonate": {
+        "message": "אני רוצה לתרום",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "כסף שנתרם עד כה"
+    },
+    "editThis_cancel": {
+        "message": "ביטול"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "בדוק את קוד המקור של EditThisCookie ב $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "חיפוש"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "עוגיות הועתקו ללוח"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "יצא"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "מחק עוגיה"
+    },
+    "editThis_Details": {
+        "message": "פרטים"
+    }
+}

@@ -117,7 +117,7 @@
         "message": "Sıfırla"
     },
     "editThis_no": {
-        "message": "No"
+        "message": "Hayir"
     },
     "editThis_addRule": {
         "message": "Bu kuralı ekle"
@@ -141,13 +141,13 @@
         "message": "Zaman"
     },
     "editThis_ShowCommandsLabels": {
-        "message": "Show labels next to icons"
+        "message": "Açıklamayı ikonun sağında göster"
     },
     "editThis_day": {
         "message": "Günler"
     },
     "editThis_Flag_CookieWithDomain": {
-        "message": "Block by domain"
+        "message": "Alanadına göre blokele"
     },
     "editThis_cookiesFlagged": {
         "message": "İşaretlenen Çerezler Silindi"
@@ -168,7 +168,7 @@
         "message": "Her çerez için sınır süresini değiştir"
     },
     "editThis_Flag_CookieWithValue": {
-        "message": "Block by value"
+        "message": "Değere göre blokele"
     },
     "editThis_paypalSupportIntro": {
         "message": "Yüksek kalitede açık kaynak yazılım üretiyoruz ve ücretsiz olarak kullanıma sunuyoruz. <br><br> $1 kullanarak bize destek olun. Tutarı değiştirmek için slider'ı kullanın",
@@ -235,7 +235,7 @@
         "message": "Kalbimde küçük bir yer edineceksiniz"
     },
     "editThis_Show_DevTools_Panel": {
-        "message": "Show the DevTools panel"
+        "message": "DevTool panelini göster"
     },
     "editThis_Flag_New_Cookie": {
         "message": "Yeni cookieyi etiketle"
@@ -301,7 +301,7 @@
         "message": "tutarı elle girmek için burayı tıklayın"
     },
     "editThis_yes": {
-        "message": "Yes"
+        "message": "Evet"
     },
     "editThis_backToList": {
         "message": "Listeye geri dön"
@@ -318,6 +318,9 @@
     "editThis_donations": {
         "message": "Bağışlar"
     },
+    "editThis_updated": {
+        "message": "güncellendi. Yenilikleri görmek için buraya tıklayın."
+    },
     "editThis_storeID": {
         "message": "kayıt id"
     },
@@ -328,7 +331,7 @@
         "message": "Bize mail atın"
     },
     "editThis_Flag_CookieWithName": {
-        "message": "Block by name"
+        "message": "İsme göre blokele"
     },
     "editThis_noBlockAdded": {
         "message": "Hiç engelleme kuralı eklenmedi"
@@ -355,7 +358,7 @@
         "message": "Henüz veri yok :("
     },
     "editThis_newFilter": {
-        "message": "New filter"
+        "message": "Yeni filtre"
     },
     "editThis_hour": {
         "message": "Saatler"

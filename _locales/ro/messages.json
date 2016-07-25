@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "Doar HTTP"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Permite-ne sa facem Publice datele tale de navigare din browser. Publicarea va fii Anonima."
+    },
+    "editThis_no_cookies": {
+        "message": "Nu sunt Cookie-uri pentru acest Site"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Trimite schimbarile cookie-urilor"
+    },
+    "editThis_Options": {
+        "message": "Optiuni"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Cookie-uri blocate"
+    },
+    "editThis_minutes": {
+        "message": "Minute"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Evalueaza EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Daca vrei sa stergi un anumit Cookie de fiecare data cand este creat, adauga un filtru pentru a nu mai primi notificari de fiecare data"
+    },
+    "editThis_translation": {
+        "message": "Traducere"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Cookie-urile au fost sterse"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Ai gasit un bug sau ai o sugestie ?,  Spune-ne !"
+    },
+    "editThis_statsIntro": {
+        "message": "Aici poti vedea cum ai folosit aceasta extensie. Datele au fost adunate incepand cu iulie 2012."
+    },
+    "editThis_Donation_Date": {
+        "message": "Data donatiei"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Arata Iconita cu palaria lui Mos Craciun"
+    },
+    "editThis_help": {
+        "message": "Suport"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Importa"
+    },
+    "editThis_contacts": {
+        "message": "Date de Contact"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Cookie-uri protejate"
+    },
+    "editThis_flagAll": {
+        "message": "Blochează-le şi şterge-le pe toate"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Daca iti place EditThisCookie, da-i un rating pe Chrome Web Store"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Afiseaza Domeniul inaintea Numelui cookie-ului"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Cookie-urile read-only sunt protejate"
+    },
+    "editThis_support": {
+        "message": "Sustine-ne"
+    },
+    "editThis_addNew": {
+        "message": "Creaza Cookie"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Arata reclame neagresive in unele din paginile pe care le accesez."
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Arata Numele Domeniului langa Numele fiecarui Cookie"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Nu folosi cache-ul la reincarcarea paginii"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "Informatii si configuratie"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Poti folosi expresii normale"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Contribuie prin PayPal"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Raportare Bug-uri / Cerere Functii Noi"
+    },
+    "editThis_Save": {
+        "message": "Salveaza"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Cand este Activata, Iconita din bara de unelte va putea fi ascunsa cu un click dreapta pe ea !"
+    },
+    "editThis_statsSince": {
+        "message": "Statistici cookie-uri din data de: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Ajuta-ne să traducem extensia in limba Ta"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Alege formatul preferat pentru a exporta cookie-urile"
+    },
+    "editThis_reset": {
+        "message": "Reseteaza"
+    },
+    "editThis_no": {
+        "message": "NU"
+    },
+    "editThis_addRule": {
+        "message": "Adauga aceasta regula"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Copiaza aici cookie-urile pentru import. Formate acceptate:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Puteti trimite donatii la:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie este un manager de cookie-uri. Poti adauga, sterge, edita, cauta, proteja şi bloca cookie-uri!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Cookie-urile au fost modificate"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Blocheaza Cookie"
+    },
+    "editThis_time": {
+        "message": "Timp"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Afiseaza descrierea langa Iconita"
+    },
+    "editThis_day": {
+        "message": "Zile"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Blocheaza dupa domeniu"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Cookie-urile Blocate au fost Sterse"
+    },
+    "editThis_stats": {
+        "message": "Statistici"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Alege alta limba"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "ordonare dupa domeniu si nume"
+    },
+    "editThis_Charity_Message": {
+        "message": "O sa ajuti copii nevoiasi din toata lumea pentru ca $1% din câştiguri merg la"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Modifica data maxima de Expirare pentru Toate cookie-urile"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Blocheaza dupa Continut"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Dezvoltam software open source de calitate si il distribuim gratuit. <br><br> Sustine-ne cu $1. Misca bara ca să modifici suma",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Luni"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Cookie-urile au fost create"
+    },
+    "editThis_cookiesImported": {
+        "message": "Cookie-urile au fost importate"
+    },
+    "editThis_secure": {
+        "message": "Doar HTTPS"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Timpul de expirare al cookie-ului a fost micsorat"
+    },
+    "editThis_hostOnly": {
+        "message": "Doar Domeniu"
+    },
+    "editThis_Max_Date": {
+        "message": "Seteaza Data de Expirare"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Contribuie cu Bitcoin-uri"
+    },
+    "editThis_session": {
+        "message": "Tip Sesiune"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Afiseaza Iconita \"EditThisCookie\" "
+    },
+    "editThis_Show_Alerts": {
+        "message": "Cere confirmare pentru fiecare modificare"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "Legenda Monstrului Spaghetelor Zburatoare"
+    },
+    "editThis_timesUsed": {
+        "message": "Ai folosit 'EditThisCookie' de $1 de ori"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Eşti tare generos! Dacă ne întâlnim vreodată îţi fac cinste cu câteva beri (hei, berea e importantă - mâncarea-i fudulie / bătura-i temelie)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Dacă ne întâlnim vreodată fac cinste cu o cafea Italiană şi o 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Zi o funcţionalitate pe care o vrei şi o implementez! (numa' nu cere imposibilul :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Poţi să-mi spui un bug care te nacajeşte în EditThisCookie şi îl repar până bei o bere!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "O să primeşti un e-mail de mulţtumire"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Numele tău va fi adăugat în Gazeta de onoare"
+    },
+    "editThis_ppBenefit1": {
+        "message": "Iti fac un loc special in inima mea"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Afiseaza panoul DevTools"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Blocheaza Cookie-urile Noi"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Ai şansa să fii cauza primului meu atac de cord. Tot ce trebuie să faci este să donezi acum!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "Si o pizza Italiana !"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Seteaza ca Protejat ( Read-Only )"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Program umanitar"
+    },
+    "editThis_deleteAll": {
+        "message": "Sterge Toate Cookie-urile"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Garantam că datele personale nu sunt publicate/distribuite nicăieri !"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Un cookie Protejat  nu poate fi modificat de nici un site sau de o alta extensie."
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Nu sunt Cookie-uri Protejate inca"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Sterge toate Cookie-urile pentru Acest website ?"
+    },
+    "editThis_Donate": {
+        "message": "Contribuie"
+    },
+    "editThis_year": {
+        "message": "Ani"
+    },
+    "editThis_seconds": {
+        "message": "Secunde"
+    },
+    "editThis_ContextMenu": {
+        "message": "Editeaza Cookie-urile"
+    },
+    "editThis_name": {
+        "message": "Nume"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Arata butonul \"Blocheaza si Sterge Toate Cookie-urile\""
+    },
+    "editThis_domain": {
+        "message": "Domeniu"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Sorteaza Cookie-urile"
+    },
+    "editThis_path": {
+        "message": "Adresa (path)"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Protejate"
+    },
+    "editThis_amountByHand": {
+        "message": "pentru a introduce suma Manual, fa CLICK AICI"
+    },
+    "editThis_yes": {
+        "message": "DA"
+    },
+    "editThis_backToList": {
+        "message": "Inapoi la Lista"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Reincarca pagina dupa fiecare modificare"
+    },
+    "editThis_expiration": {
+        "message": "Expira la"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "dupa Nume"
+    },
+    "editThis_donations": {
+        "message": "Donatie"
+    },
+    "editThis_updated": {
+        "message": "a fost actualizat. Fa CLICK AICI sa vezi care sunt noutatile."
+    },
+    "editThis_storeID": {
+        "message": "Numar Index"
+    },
+    "editThis_value": {
+        "message": "Continut"
+    },
+    "editThis_contactsIntro": {
+        "message": "Trimite-ne un e-mail"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Blocheaza dupa nume"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Nu au fost adaugate reguli de Blocare"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Sterge aceasta regula"
+    },
+    "editThis_Amount": {
+        "message": "Suma"
+    },
+    "editThis_cookiesExported": {
+        "message": "Cookie-urile au fost Exportate"
+    },
+    "editThis_advertisements": {
+        "message": "Reclame"
+    },
+    "editThis_support_etc": {
+        "message": "Ajută EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Informatii pentru Incepatori"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Nu sunt date încă :("
+    },
+    "editThis_newFilter": {
+        "message": "Filtru nou"
+    },
+    "editThis_hour": {
+        "message": "Ore"
+    },
+    "editThis_Source_Code": {
+        "message": "Codul Sursa"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Exprimă valoarea cookie-urilor (ca în <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recomandat)"
+    },
+    "editThis_helpIntro": {
+        "message": "Aici vei găsi explicaţii pentru funcţiile de bază ale extensiei"
+    },
+    "editThis_iWantDonate": {
+        "message": "Vreau să donez",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Bani adunaţi până acum"
+    },
+    "editThis_cancel": {
+        "message": "Anuleaza"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Ai codul sursă al EditThisCookie pentru $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Cauta"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Cookie-urile au fost copiate in clipboard"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Exporta"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Sterge Cookie"
+    },
+    "editThis_Details": {
+        "message": "Detalii"
+    }
+}

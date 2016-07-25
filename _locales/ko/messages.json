@@ -318,6 +318,9 @@
     "editThis_donations": {
         "message": "기부"
     },
+    "editThis_updated": {
+        "message": "업데이트 되었습니다. 여기를 눌러 무엇이 바뀌었는지 확인하세요."
+    },
     "editThis_storeID": {
         "message": "StoreID"
     },

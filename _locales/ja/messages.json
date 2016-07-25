@@ -141,7 +141,7 @@
         "message": "時刻"
     },
     "editThis_ShowCommandsLabels": {
-        "message": "Show labels next to icons"
+        "message": "アイコンの隣にラベルを表示"
     },
     "editThis_day": {
         "message": "日"
@@ -235,7 +235,7 @@
         "message": "You will get a tiny little place in my heart"
     },
     "editThis_Show_DevTools_Panel": {
-        "message": "Show the DevTools panel"
+        "message": "開発ツール パネルを表示"
     },
     "editThis_Flag_New_Cookie": {
         "message": "フラグを立てる"
@@ -283,7 +283,7 @@
         "message": "名前"
     },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "Show \"Block and delete all\" button"
+        "message": "「ブロックしてすべて削除」ボタンを表示"
     },
     "editThis_domain": {
         "message": "ドメイン"
@@ -318,6 +318,9 @@
     "editThis_donations": {
         "message": "寄付"
     },
+    "editThis_updated": {
+        "message": "を更新しました。新着情報を確認するにはこちらをクリックしてください。"
+    },
     "editThis_storeID": {
         "message": "ストアID"
     },
@@ -346,7 +349,7 @@
         "message": "広告"
     },
     "editThis_support_etc": {
-        "message": "Support EditThisCookie"
+        "message": "EditThisCookie を支援"
     },
     "editThis_getting_started": {
         "message": "はじめに"

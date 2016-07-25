@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "AinultHttp"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Lubage meil jagada Teie sirvimise andmeid. Kõik andmed jäävad anonüümseks."
+    },
+    "editThis_no_cookies": {
+        "message": "Siin küpsiseid pole!"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Kinnita muudatused küpsises"
+    },
+    "editThis_Options": {
+        "message": "Valikud"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Keelatud küpsised"
+    },
+    "editThis_minutes": {
+        "message": "Minutid"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Hinda EditThisCookie-d"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Kui soovite küpsise tekkimisel automaatset kustutamist siis lisage filter ning oletegi küpsisest vaba"
+    },
+    "editThis_translation": {
+        "message": "Tõlge"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Kustutatud küpsised"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Leidsite vea või tahate soovitusi jagada? Öelge meile!"
+    },
+    "editThis_statsIntro": {
+        "message": "Siit näete selle laienduse kasutamist. Neid andmeid on kogutud alates 2012. aasta juulist."
+    },
+    "editThis_Donation_Date": {
+        "message": "Annetuse kuupäev"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Kuva jõuluvana mütsi ikooni"
+    },
+    "editThis_help": {
+        "message": "Abi"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Impordi"
+    },
+    "editThis_contacts": {
+        "message": "Kontaktid"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Kaitstud küpsised"
+    },
+    "editThis_flagAll": {
+        "message": "Keela ja kustuta kõik"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Kui olete EditThisCookiega rahul siis hinnake seda Chrome´i veebipoes"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Kuva küpsise nime ees domeen"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Ainult lugemiseks kaitstud küpsised"
+    },
+    "editThis_support": {
+        "message": "Toetage mind"
+    },
+    "editThis_addNew": {
+        "message": "Uus küpsis"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Kuva mõnedes külastavates portaalides tagasihoidlikke reklaame"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Kuva iga küpsise nime kõrval domeen"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Portaali taaslaadimisel jäta vahemälu vahele"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "info ja seaded"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Võite kasutada tavalisi väljendeid"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Toeta PayPali kaudu"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Vead / Lisavõimaluste tellimine"
+    },
+    "editThis_Save": {
+        "message": "Salvesta"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Kui lubatud sis saate tööriistaribal peita ikooni tehes sellel parem-klõps!"
+    },
+    "editThis_statsSince": {
+        "message": "Küpsiste andmed alates: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Aidake meil laiendust tõlkida oma emakeelde"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Valige küpsiste eelistatud ekspordiformaat"
+    },
+    "editThis_reset": {
+        "message": "Nulli seaded"
+    },
+    "editThis_no": {
+        "message": "Ei"
+    },
+    "editThis_addRule": {
+        "message": "Lisa see reegel"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Importimiseks asetage küpsised siia. Lubatud formaadid:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Saate annetusi saata:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie on virtuaalse küpsise haldur. Saate küpsiseid lisada, kustutada, otsida, kaitsta ja keelata!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Küpsised kohandatud"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Keela küpsis"
+    },
+    "editThis_time": {
+        "message": "Aeg"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Kuva ikoonide kõrval märke"
+    },
+    "editThis_day": {
+        "message": "Päevad"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Keela domeeni järgi"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Keelatud küpsised kustutatud"
+    },
+    "editThis_stats": {
+        "message": "Statistika"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Vali teine keel"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "domeeni ja nimega"
+    },
+    "editThis_Charity_Message": {
+        "message": "Aitate lapsi kogu maailmas, sest $1%  annetusest läheb"
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Kirjuta üle iga küpsise pikim eluaeg"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Keela väärtuse järgi"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Arendame kõrge kvaliteedilist avatud lähtekoodiga tarkvara ning anname selle tasuta ära. <br><br> Toetage meid $1. i kaudu. Summa muutmiseks liigutage liugurit",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Kuud"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Küpsised loodud"
+    },
+    "editThis_cookiesImported": {
+        "message": "Küpsised imporditud"
+    },
+    "editThis_secure": {
+        "message": "Turvaline"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Küpsiste kestvusaeg on lühendatud"
+    },
+    "editThis_hostOnly": {
+        "message": "AinultHost"
+    },
+    "editThis_Max_Date": {
+        "message": "Määra küpsise pikimaks kestvuseaks "
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Toeta Bitcoiniga"
+    },
+    "editThis_session": {
+        "message": "Sessioon"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Kuva kontekstmenüüd \"Muuda küpsiseid\""
+    },
+    "editThis_Show_Alerts": {
+        "message": "Alati küsi kinnitust"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster"
+    },
+    "editThis_timesUsed": {
+        "message": "Olete EditThisCookiet kasutanud $1 korda"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Olete väga lahke! Kui kunagi kohtume siis teen Teile paar õlle välja (õlu on ju tähtis, eks)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Kui kunagi kohtume siis teen Teile välja itaaliapärase kohvi ja väikse pärmseemnetest koogi 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Saate soovitada uusi funktsioone ja ma teen need reaalseks! (ärge ainult küsige teostamatut :P)"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Andke kõikidest häirivatest EditThisCookie vigadest teada ja ma parandan need ülikiirelt!"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Saate meilikasti tänukirja"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Teie nimi lisatakse Kuulsuste seinale"
+    },
+    "editThis_ppBenefit1": {
+        "message": "Saate minu südames omale pisikese õdusa koha"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Kuva arendajatele mõeldud tööriistapaneel"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Keela uus küpsis"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Olge minu esimese südamerabanduse põhjus. Ainus, mida tegema peate on praegu annetama!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "Ja itaalia pitsa!"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Määra ainult lugemiseks"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Inimesesõbralik kava"
+    },
+    "editThis_deleteAll": {
+        "message": "Kustuta kõik"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Kindlustame, et isiklikke andmeid eales ei jagataks!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Kaitstud küpsis on küpsis, mida üksi portaal ega laiendus ei saa muuta"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Ühtki küpsist pole veel kaitstud"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Kustutage selle portaali kõik küpsised?"
+    },
+    "editThis_Donate": {
+        "message": "Toeta"
+    },
+    "editThis_year": {
+        "message": "Aastad"
+    },
+    "editThis_seconds": {
+        "message": "Sekundid"
+    },
+    "editThis_ContextMenu": {
+        "message": "Muuda küpsiseid"
+    },
+    "editThis_name": {
+        "message": "Nimi"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Kuva nupp  \"Keela ja kustuta kõik\" "
+    },
+    "editThis_domain": {
+        "message": "Domeen"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Sorteeri küpsiseid"
+    },
+    "editThis_path": {
+        "message": "Asukoht"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Kaitstud"
+    },
+    "editThis_amountByHand": {
+        "message": "enda valitud summa sisestamiseks vajutage siia"
+    },
+    "editThis_yes": {
+        "message": "Jah"
+    },
+    "editThis_backToList": {
+        "message": "Tagasi loendisse"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Pärast muudatuste tegemist värskendage lehekülge"
+    },
+    "editThis_expiration": {
+        "message": "Aegumine"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "nime järgi"
+    },
+    "editThis_donations": {
+        "message": "Annetused"
+    },
+    "editThis_updated": {
+        "message": "on uuendatud. Vajuta siia, et uurida mida muudeti."
+    },
+    "editThis_storeID": {
+        "message": "PoeID"
+    },
+    "editThis_value": {
+        "message": "Väärtus"
+    },
+    "editThis_contactsIntro": {
+        "message": "Saatke meile meil"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Keela nime järgi"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Keelamisreegleid pole lisatud"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Kustuta see reegel"
+    },
+    "editThis_Amount": {
+        "message": "Summa"
+    },
+    "editThis_cookiesExported": {
+        "message": "Eskporditud küpsised"
+    },
+    "editThis_advertisements": {
+        "message": "Reklaamid"
+    },
+    "editThis_support_etc": {
+        "message": "Toetage EditThisCookiet"
+    },
+    "editThis_getting_started": {
+        "message": "Esmatutvus"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Andmed veel pole :("
+    },
+    "editThis_newFilter": {
+        "message": "Uus filter"
+    },
+    "editThis_hour": {
+        "message": "Tundi"
+    },
+    "editThis_Source_Code": {
+        "message": "Lähtekood"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Kodeeri küpsiste väärtus (näide asub leheküljel <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Soovitatav)"
+    },
+    "editThis_helpIntro": {
+        "message": "Siit leiate laienduse peamiste funktsioonide selgitused"
+    },
+    "editThis_iWantDonate": {
+        "message": "Tahan annetada",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Siiani annetatud summa"
+    },
+    "editThis_cancel": {
+        "message": "Tühista"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "EditThisCookie lähtekoodi leiate siit: $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Otsi"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Lõikelauale kopeeritud küpsised"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Ekspordi"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Kustuta küpsis"
+    },
+    "editThis_Details": {
+        "message": "Detailid"
+    }
+}
