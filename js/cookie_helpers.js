@@ -124,7 +124,7 @@ var cookiesToString = {
 						cookie.hostOnly.toString().toUpperCase() + "\t" + 
 						cookie.path + "\t" + 
 						cookie.secure.toString().toUpperCase() + "\t" + 
-						((cookie.expirationDate != undefined) ? cookie.expirationDate : "") + "\t" + 
+						((cookie.expirationDate != undefined) ? cookie.expirationDate : "0") + "\t" + 
 						cookie.name + "\t" + 
 						cookie.value + ((i==cookies.length-1) ? "" : "\n");
 			
