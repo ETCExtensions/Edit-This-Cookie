@@ -63,7 +63,7 @@ var preferences_template = {
 		"default_value": true
 	},
 	"showLabelChooserBanner":{
-		"default_value": true
+		"default_value": false
 	},
 };
 

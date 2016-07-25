@@ -351,23 +351,6 @@ function importCookies() {
 }
 
 function setEvents() {
-	if(preferences.showLabelChooserBanner)
-		$("#labelChooserBanner").show();
-	
-	$(".enableLabelsButton").unbind().click(function(){
-		preferences.showCommandsLabels = true;
-		preferences.showLabelChooserBanner = false;
-		$("#labelChooserBanner").slideUp();
-		$(".commands-table").first().animate({opacity: 0}, function() {
-			$(".commands-row", ".commands-table").addClass("commands-row-texy");
-			$(".commands-table").first().animate({opacity: 1});
-		});
-	});
-	$(".labelChooserClose").unbind().click(function(){
-		$("#labelChooserBanner").slideUp();
-		preferences.showLabelChooserBanner = false;
-	});
-	
 	$("#submitButton:first-child").unbind().click(function(){
 		submit(currentTabID);
 	});

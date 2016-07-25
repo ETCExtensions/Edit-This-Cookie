@@ -13,16 +13,9 @@ backgroundPageConnection.onMessage.addListener(function(message) {
 	}
 });
 
-jQuery(document).ready(function() {++data.nPanelClicked;
-
+jQuery(document).ready(function() {
+	++data.nPanelClicked;
 	start();
-	/*
-	$("#sidebar").resizable({
-		handles : "e",
-		minWidth : 100,
-		maxWidth : 500,
-	});
-	*/
 });
 
 function start() {
@@ -36,7 +29,6 @@ function start() {
 		action : "getall",
 		tabId : tabId
 	});
-
 }
 
 function createList(url) {
