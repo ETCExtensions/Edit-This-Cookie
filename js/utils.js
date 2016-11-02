@@ -5,7 +5,7 @@ function escapeJQ(string){
     return escapeVar.text(string).html()
 }
 function getHost(url){
-    return(url.match(/:\/\/(.[^/]+)/)[1]).replace("www.","")
+    return(url.match(/:\/\/(.[^:/]+)/)[1]).replace("www.","")
 }
 function addBlockRule(rule){
     var dfilters=data.filters;
