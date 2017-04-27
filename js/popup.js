@@ -20,14 +20,33 @@ function start() {
 	
 	var arguments = getUrlVars();
 	if(arguments.url == undefined) {
-		chrome.tabs.getSelected(null, function(tab) {
-			url = tab.url;
-			currentTabID = tab.id;
-			var filter = new Filter();
-			filter.setUrl(url);
-			createList(filter.getFilter());
-			document.title = document.title + "-" + url;
-		});
+
+		if(isBrowserChrome) {
+			chrome.tabs.query(
+				{active: true},
+				function(tabs) {
+					url = tabs[0].url;
+					currentTabID = tabs[0].id;
+					var filter = new Filter();
+					filter.setUrl(url);
+					createList(filter.getFilter());
+					document.title = document.title + "-" + url;
+				}
+			);
+		} else {
+			var querying = chrome.tabs.query({active: true});
+			querying.then(
+				function(tabs) {
+					url = tabs[0].url;
+					currentTabID = tabs[0].id;
+					var filter = new Filter();
+					filter.setUrl(url);
+					createList(filter.getFilter());
+					document.title = document.title + "-" + url;
+				},
+				null
+			);
+		}
 	} else {
 		isSeparateWindow = true;
 		url = decodeURI(arguments.url);
@@ -463,21 +482,9 @@ function setEvents() {
 	});
 	
 	$("#optionsButton").unbind().click(function() {
-		chrome.tabs.getAllInWindow(null, function tabSearch(tabs) {
-			var urlToOpen = chrome.extension.getURL('options_pages/support.html');
-			var urlToOpen = chrome.extension.getURL('options_main_page.html');
-			for(var i=0; i<tabs.length; i++) {
-				var tab = tabs[i];
-				if(tab.url.indexOf(urlToOpen) == 0) {
-					chrome.tabs.update(tab.id, {
-						selected:true
-					});
-					return;
-				}
-			}
-			chrome.tabs.create({
-				url:urlToOpen//+"?page=user_preferences"
-			});
+		var urlToOpen = chrome.extension.getURL('options_main_page.html');
+		chrome.tabs.create({
+			url:urlToOpen
 		});
 	});
 	

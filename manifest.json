@@ -27,7 +27,7 @@
 	"devtools_page": "/devtools/devtools-page.html",
 	
 	"background": {
-		"scripts" : ["/lib/jquery-2.0.3.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/utils.js", "/js/data.js", "/js/background.js", "/devtools/background-devtools.js", "/js/ga.js"]
+		"scripts" : ["/lib/jquery-2.0.3.min.js", "/lib/object-watch.js", "/js/cross_browser_api.js", "/js/cookie_helpers.js", "/js/utils.js", "/js/data.js", "/js/background.js", "/devtools/background-devtools.js", "/js/ga.js"]
 	},
 	
 	"options_page": "options_main_page.html",
