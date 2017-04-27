@@ -17,18 +17,24 @@
 	height: 30px;
 	padding-top: 5px;
 }
+
 .new_rule_operations > * {
 	cursor: pointer;
 	width: 10px;
 }
 
+.table {
+  position: relative;
+}
+
 .operations {
-	position: fixed;
 	display: none;
+	position: absolute;
+	left: 5px;
 	width: 20px;
 	height: 30px;
-	padding-top: 5px;
 }
+
 .operations > * {
 	cursor: pointer;
 }
@@ -37,13 +43,14 @@
 	padding-left: 30px !important;
 	width: 25%;
 }
+
 .name_field {
 	width: 25%;
 }
+
 .value_field {
 	width: 40%;
 }
-
 
 .popup {
 	position: fixed;
@@ -53,11 +60,13 @@
 	height: 21%;
 	width: 30%;
 }
+
 #submitDiv {
 	float: right;
 	margin-right: 5px;
 	margin-top: 5px;
 }
+
 #submitButton {
 	right: 0;
 	height: 30px;
