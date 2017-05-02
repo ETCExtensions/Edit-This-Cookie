@@ -102,9 +102,6 @@ Array.prototype.toTop=function(a){
     return true
 };
     
-function _writeMessage(string, args){
-    document.write(_getMessage(string, args));
-}
 function _getMessage(string, args){
     return(chrome.i18n.getMessage("editThis_"+string, args))
 }

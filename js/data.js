@@ -240,7 +240,7 @@ fetchData();
 
 firstRun = ls.get("status_firstRun");
 if(firstRun != null) {
-	data.lastVersionRun = chrome.app.getDetails().version;
+    data.lastVersionRun = chrome.runtime.getManifest().version;
 }
 
 

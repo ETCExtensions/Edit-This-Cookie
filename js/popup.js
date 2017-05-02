@@ -20,33 +20,17 @@ function start() {
 	
 	var arguments = getUrlVars();
 	if(arguments.url == undefined) {
-
-		if(isBrowserChrome) {
-			chrome.tabs.query(
-				{active: true},
-				function(tabs) {
-					url = tabs[0].url;
-					currentTabID = tabs[0].id;
-					var filter = new Filter();
-					filter.setUrl(url);
-					createList(filter.getFilter());
-					document.title = document.title + "-" + url;
-				}
-			);
-		} else {
-			var querying = chrome.tabs.query({active: true});
-			querying.then(
-				function(tabs) {
-					url = tabs[0].url;
-					currentTabID = tabs[0].id;
-					var filter = new Filter();
-					filter.setUrl(url);
-					createList(filter.getFilter());
-					document.title = document.title + "-" + url;
-				},
-				null
-			);
-		}
+		chrome.tabs.query(
+			{active: true},
+			function(tabs) {
+				url = tabs[0].url;
+				currentTabID = tabs[0].id;
+				var filter = new Filter();
+				filter.setUrl(url);
+				createList(filter.getFilter());
+				document.title = document.title + "-" + url;
+			}
+		);
 	} else {
 		isSeparateWindow = true;
 		url = decodeURI(arguments.url);

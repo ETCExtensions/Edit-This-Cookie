@@ -23,9 +23,11 @@ setInterval(setChristmasIcon, 60 * 60 * 1000); //Every hour
 //Every time the browser restarts the first time the user goes to the options he ends up in the default page (support)
 localStorage.setItem("option_panel", "null");
 
-var currentVersion = chrome.app.getDetails().version;
+var current_version = chrome.runtime.getManifest().version;
 var oldVersion = data.lastVersionRun;
+
 data.lastVersionRun = currentVersion;
+
 if(oldVersion != currentVersion) {
 	if(oldVersion == undefined) { //Is firstrun
 		//chrome.tabs.create({url:chrome.extension.getURL('options_pages/support.html')});
@@ -97,15 +99,18 @@ chrome.cookies.onChanged.addListener( function(changeInfo) {
 		for(var i=0; i<data.filters.length; i++) {
 			var currentFilter = data.filters[i];
 			if(filterMatchesCookie(currentFilter,name,domain,value)) {
-				chrome.tabs.getSelected(null, function(tab) {
-					var toRemove = {};
-					toRemove.url = tab.url;
-					toRemove.url = "http" + ((cookie.secure) ? "s" : "") + "://" + cookie.domain + cookie.path;
-					toRemove.name = name;
-					chrome.cookies.remove(toRemove);
-					//console.log("Cookie Blocked! Name:" + name + " / Url:" + toRemove.url);
-					++data.nCookiesFlagged;
-					return;
+                chrome.tabs.query(
+                    {active: true},
+                    function(tabs) {
+                        var url = tabs[0].url;
+						var toRemove = {};
+						toRemove.url = url;
+						toRemove.url = "http" + ((cookie.secure) ? "s" : "") + "://" + cookie.domain + cookie.path;
+						toRemove.name = name;
+						chrome.cookies.remove(toRemove);
+						//console.log("Cookie Blocked! Name:" + name + " / Url:" + toRemove.url);
+						++data.nCookiesFlagged;
+						return;
 				});
 			}
 		}
