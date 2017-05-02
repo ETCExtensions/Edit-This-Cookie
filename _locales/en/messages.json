@@ -153,6 +153,9 @@
    "editThis_Contribute_Bitcoins": {
       "message": "Contribute in Bitcoins"
    },
+   "editThis_Contribute_Other": {
+      "message": "Contribute with another method"
+   },
    "editThis_Send_Donations_To": {
       "message": "You can send donations to:"
    },

@@ -57,8 +57,6 @@ function setDonation() {
 	//$( "#other-donate-button" ).button();
 	$( "#other-donate-button" ).click(function() {
 		openExtPage("http://www.editthiscookie.com/contribute/");
-		//window.open("bitcoin:1MXCm8FcBDYu83mhtJ988D9ku8Z1Lti9kN?amount=0.1&label=Chrome%20Extensions%20Developer&message=Edit%20This%20Cookie%20Bitcoin%20Donation")
-		//location.href = "/options_pages/bitcoins.html";
 	});
 	
 	$("#paypal-custom-amount").click(function() {
