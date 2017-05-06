@@ -36,7 +36,7 @@
         "message": "Vous avez trouvé un bug, une erreur ou vous avez une suggestion ? Dites-le nous !"
     },
     "editThis_statsIntro": {
-        "message": "Ici vous pouvez voir comment vous avez utilisé l'extension. Ces données n'ont été collectées que depuis Juillet 2012."
+        "message": "Ici vous pouvez voir comment vous avez utilisé l'extension. Ces données n'ont été collectées que depuis juillet 2012."
     },
     "editThis_Donation_Date": {
         "message": "Date du don"
@@ -102,7 +102,7 @@
         "message": "Enregistrer"
     },
     "editThis_Show_ContextMenu_helper": {
-        "message": "Si cette option est selectionnée, vous aurez la possibilité de masquer l'icône dans la barre d'outils, par un simple clic droit sur cet icône!"
+        "message": "Si cette option est selectionnée, vous aurez la possibilité de masquer l'icône dans la barre d'outils, par un simple clic droit sur cet icône !"
     },
     "editThis_statsSince": {
         "message": "Statistiques du cookie depuis : $1"
@@ -129,7 +129,7 @@
         "message": "Vous pouvez envoyer vos dons à :"
     },
     "editThis_description": {
-        "message": "EditThisCookie est un gestionnaire de cookies. Vous pouvez ajouter,supprimer,modifier,rechercher,protéger et bloquer les cookies!"
+        "message": "EditThisCookie est un gestionnaire de cookies. Vous pouvez ajouter, supprimer, modifier, rechercher, protéger et bloquer les cookies !"
     },
     "editThis_cookiesModified": {
         "message": "Cookies modifiés"
@@ -196,7 +196,7 @@
         "message": "Définir l'âge maximum d'un cookie à "
     },
     "editThis_Contribute_Bitcoins": {
-        "message": "Contribuer en Bitcoins"
+        "message": "Contribuer en bitcoins"
     },
     "editThis_session": {
         "message": "session"
