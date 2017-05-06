@@ -4,7 +4,7 @@ Default Theme
 /* overall */
 .tablesorter-default {
 	width: 100%;
-	font: 12px/18px 'Open Sans', sans-serif;
+	font: 12px/18px Arial, Sans-serif;
 	color: #333;
 	background-color: #fff;
 	border-spacing: 0;
@@ -15,7 +15,7 @@ Default Theme
 /* header */
 .tablesorter-default th,
 .tablesorter-default thead td {
-	font: bold 12px/18px 'Open Sans', sans-serif;
+	font: bold 12px/18px Arial, Sans-serif;
 	color: #000;
 	background-color: #fff;
 	border-collapse: collapse;
@@ -176,9 +176,14 @@ caption {
 	-o-transition: height 0.1s ease;
 	transition: height 0.1s ease;
 }
+/* rows hidden by filtering (needed for child rows) */
+.tablesorter .filtered {
+	display: none;
+}
 
 /* ajax error row */
 .tablesorter .tablesorter-errorRow td {
+	text-align: center;
 	cursor: pointer;
 	background-color: #e6bf99;
 }
