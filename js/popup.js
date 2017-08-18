@@ -43,6 +43,8 @@ function start() {
 
 function doSearch(){
 	var txt = $('input', '#cookieSearchCondition').val();
+	if(txt.length < 3)
+		return;
 	var filter = new Filter();
 	if(/^https?:\/\/.+$/.test(txt)){
 		url = txt;
@@ -205,7 +207,9 @@ function createList(filters) {
 			filteredCookies.push(currentC);
 		}
 		cookieList = filteredCookies;
-		
+
+		$("#cookiesList").empty();
+
 		if(cookieList.length == 0) {
 			swithLayout();
 			setEvents();
@@ -241,7 +245,7 @@ function createAccordionList(cks, callback, callbackArguments) {
 	} catch(e) {
 		console.warn(e.message)
 	}
-	$("#cookiesList").empty();
+
 	if(cks == null)
 		cks = cookieList;
 	for(var i=0; i<cks.length; i++) {
