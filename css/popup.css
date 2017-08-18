@@ -74,6 +74,9 @@ body {
 .checkbox {
    vertical-align: middle;
 }
+.searchCondition {
+   width: 100%;
+}
 #searchBox {
     float: right;
     z-index: 1000;

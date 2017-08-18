@@ -25,9 +25,8 @@ function start() {
 			function(tabs) {
 				url = tabs[0].url;
 				currentTabID = tabs[0].id;
-				var filter = new Filter();
-				filter.setUrl(url);
-				createList(filter.getFilter());
+				$('input', '#cookieSearchCondition').val(url);
+				doSearch();
 				document.title = document.title + "-" + url;
 			}
 		);
@@ -36,11 +35,23 @@ function start() {
 		url = decodeURI(arguments.url);
 		currentTabID = parseInt(decodeURI(arguments.id));
 		isTabIncognito = decodeURI(arguments.incognito) == "true";
-		var filter = new Filter();
-		filter.setUrl(url);
-		createList(filter.getFilter());
+		$('input', '#cookieSearchCondition').val(url);
+		doSearch();
 		document.title = document.title + "-" + url;
 	}
+}
+
+function doSearch(){
+	var txt = $('input', '#cookieSearchCondition').val();
+	var filter = new Filter();
+	if(/^https?:\/\/.+$/.test(txt)){
+		url = txt;
+		filter.setUrl(txt);
+	}else{
+		url = 'http://' + txt;
+		filter.setDomain(txt);
+	}
+	createList(filter.getFilter());
 }
 
 function submit(currentTabID) {
@@ -75,7 +86,7 @@ function submitAll(currentTabID) {
 		var expirationDate = (expiration != null) ? expiration.getTime() / 1000.0 : (new Date().getTime()) / 1000.0;
 		
 		var newCookie = {};
-		newCookie.url = url;
+		newCookie.url = buildUrl(secure, domain, path);
 		newCookie.name = name.replace(";", "").replace(",", "");
 		value = value.replace(";","");
 		newCookie.value = value;
@@ -102,7 +113,7 @@ function submitAll(currentTabID) {
 		chrome.tabs.reload(currentTabID, {'bypassCache': preferences.skipCacheRefresh});
 	}
 	
-	location.reload(true);
+	doSearch();
 }
 
 function submitNew() {
@@ -110,6 +121,7 @@ function submitNew() {
 	
 	var name 		=  $(".name", 		newCookie ).val();
 	var domain 		=  $(".domain",		newCookie ).val();
+	var path		=  "/";
 	var hostOnly 	=  $(".hostOnly",	newCookie ).prop("checked");
 	var value 		=  $(".value", 		newCookie ).val();
 	var secure 		=  $(".secure", 	newCookie ).prop("checked");
@@ -120,11 +132,11 @@ function submitNew() {
 	var expirationDate = (expiration != null) ? expiration.getTime() / 1000.0 : (new Date().getTime()) / 1000.0;
 	
 	newCookie = {};
-	newCookie.url = url;
+	newCookie.url = buildUrl(secure, domain, path);
 	newCookie.name = name.replace(";", "").replace(",", "");
 	value = value.replace(";","");
 	newCookie.value = value;
-	newCookie.path = "/"
+	newCookie.path = path;
 	if(!hostOnly)
 		newCookie.domain = domain;
 	if(!session)
@@ -141,7 +153,7 @@ function submitNew() {
 		chrome.tabs.reload(currentTabID, {'bypassCache': skipCacheRefresh});
 	}*/
 	
-	location.reload(true);
+	doSearch();
 }
 
 function createList(filters) {
@@ -349,7 +361,7 @@ function importCookies() {
 		return;
 	}
 	data.nCookiesImported += nCookiesImportedThisTime
-	location.reload(true);
+	doSearch();
 	return;
 }
 
@@ -386,8 +398,8 @@ function setEvents() {
 			
 			if(!filterMatchesCookie(newRule,currentCookie.name,currentCookie.domain,currentCookie.value))
 					continue;
-			
-			deleteCookie(url, currentCookie.name, currentCookie.storeId);
+			var tmpUrl = buildUrl(currentCookie.secure, currentCookie.domain, currentCookie.path);
+			deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
 			nCookiesFlaggedThisTime++;
 			cookieList.splice(i,1);
 			i--;
@@ -396,18 +408,19 @@ function setEvents() {
 		var exists = addBlockRule(newRule);
 		//if(exists != undefined && exists >= 0)
 			//deleteBlockRule(exists);
-		location.reload(true);
+		doSearch();
 		return;
 	});
 	
 	$("#deleteAllButton").unbind().click(function() {
 		if(cookieList.length == 0)
 			return false;
+
 		var okFunction = function() {
 			nCookiesDeletedThisTime = cookieList.length;
-			deleteAll(cookieList, url);
+			deleteAll(cookieList);
 			data.nCookiesDeleted += nCookiesDeletedThisTime;
-			location.reload(true);
+			doSearch();
 		}
 		startAlertDialog(_getMessage("Alert_deleteAll"), okFunction, function(){});
 	});
@@ -431,10 +444,11 @@ function setEvents() {
 					newRule.domain = currentCookie.domain;
 					newRule.name = currentCookie.name;
 					addBlockRule(newRule);
-					deleteCookie(url, currentCookie.name, currentCookie.storeId);
+					var tmpUrl = buildUrl(currentCookie.secure, currentCookie.domain, currentCookie.path);
+					deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
 				}
 				data.nCookiesFlagged += nCookiesFlaggedThisTime;
-				location.reload(true);
+				doSearch();
 				return;
 			}
 			startAlertDialog(_getMessage("flagAll"), okFunction, function(){});
@@ -473,7 +487,8 @@ function setEvents() {
 	});
 	
 	$("#copyButton").unbind().click(function() {
-		copyToClipboard(cookiesToString.get(cookieList, url));
+		var tmpUrl = $('input', '#cookieSearchCondition').val();
+		copyToClipboard(cookiesToString.get(cookieList, tmpUrl));
 		data.nCookiesExported += cookieList.length;
 		$("#copiedToast").fadeIn(function(){
 			setTimeout(function(){
@@ -505,6 +520,7 @@ function setEvents() {
 	$("#searchField").unbind().keyup(function() {
 		find($(this).val());
 	});
+	$('input', '#cookieSearchCondition').unbind().keyup(doSearch);
 	clearNewCookieData();
 	
 	$(".toast").each(function(){
@@ -547,9 +563,13 @@ function setCookieEvents() {
 	$(".deleteOne").click(function() {
 		var cookie = $(this).closest(".cookie");
 		var name 	= $(".name", cookie).val();
+		var domain	= $(".domain", cookie).val();
+		var path	= $(".path", cookie).val();
+		var secure	= $(".secure", cookie).prop("checked");
 		var storeId = $(".storeId", cookie).val();
 		var okFunction = function() {
-			deleteCookie(url, name, storeId, function(success) {
+			var tmpUrl = buildUrl(secure, domain, path);
+			deleteCookie(tmpUrl, name, storeId, function(success) {
 				if(success === true) {
 					var head = cookie.prev('h3');
 					cookie.add(head).slideUp(function(){
@@ -758,6 +778,7 @@ function swithLayout(newLayout) {
 			$("#pasteButton").show();
 			$("#searchButton").show();
 			$(".commands-table").first().animate({opacity: 1});
+			$("#cookieSearchCondition").show();
 		});
 		$("#noCookies").slideUp();
 		$("#cookiesList").slideDown();
@@ -772,6 +793,7 @@ function swithLayout(newLayout) {
 			$("#pasteButton").show();
 			$("#searchButton").hide();
 			$(".commands-table").first().animate({opacity: 1});
+			$("#cookieSearchCondition").show();
 		});
 		$(".notOnEmpty").hide();
 		$("#noCookies").slideDown();
@@ -787,6 +809,7 @@ function swithLayout(newLayout) {
 			$("#pasteButton").hide();
 			$("#searchButton").hide();
 			$(".commands-table").first().animate({opacity: 1});
+			$("#cookieSearchCondition").hide();
 		});
 		$("#noCookies").slideUp();
 		$("#cookiesList").slideUp();
