@@ -69,7 +69,7 @@
         "message": "Cookies somente-leitura protegidos"
     },
     "editThis_support": {
-        "message": "Apóie-nos"
+        "message": "Nos ajude"
     },
     "editThis_addNew": {
         "message": "Adicionar um novo cookie"
@@ -108,7 +108,7 @@
         "message": "Estatísticas de Cookie a partir de: $1"
     },
     "editThis_translationIntro": {
-        "message": "Ajude-nos a traduzir a extensão para sua linguagem"
+        "message": "Ajude-nos a traduzir a extensão para seu idioma"
     },
     "editThis_Copy_Cookies_Type": {
         "message": "Escolha o formato preferido para exportação dos cookies"

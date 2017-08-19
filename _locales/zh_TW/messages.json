@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "HTTP Only"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "允許我們分享您的瀏覽數據。這些數據都是匿名的。"
+    },
+    "editThis_no_cookies": {
+        "message": "這裡並沒有 cookies！"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "提交 cookie 更改"
+    },
+    "editThis_Options": {
+        "message": "選項"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "已封鎖的 cookies"
+    },
+    "editThis_minutes": {
+        "message": "分鐘"
+    },
+    "editThis_Rate_ETC": {
+        "message": "為 EditThisCookie 評分"
+    },
+    "editThis_Blocked_Def": {
+        "message": "如果您想在 cookie 建立時就刪除掉，建立一個篩選器。它將不再打擾您。"
+    },
+    "editThis_translation": {
+        "message": "翻譯"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "已刪除的 cookies"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "發現錯誤或是有任何提議？告訴我們吧！"
+    },
+    "editThis_statsIntro": {
+        "message": "這裡可以看到您使用此擴充功能的方式。此數據在 2012 年 7 月才開始收集。"
+    },
+    "editThis_Donation_Date": {
+        "message": "捐獻日期"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "顯示聖誕老人帽子圖示"
+    },
+    "editThis_help": {
+        "message": "幫助"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "匯入"
+    },
+    "editThis_contacts": {
+        "message": "聯絡我們"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "已保護的 cookies"
+    },
+    "editThis_flagAll": {
+        "message": "全部封鎖並刪除"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "如果您喜歡 EditThisCookie，請在 Chrome 線上應用程式商店留下評分"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "在 cookie 名稱前顯示網域名稱"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Read-only cookies protected"
+    },
+    "editThis_support": {
+        "message": "支持我們"
+    },
+    "editThis_addNew": {
+        "message": "新 cookie"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "在某些我瀏覽的頁面上顯示非阻擋性的廣告"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "在 cookie 名稱附近顯示網域名稱"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "頁面重新載入時略過快取"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "資訊及設定"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "您可以使用正規表示式"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "使用 PayPal 捐獻"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "程式錯誤/要求增加功能"
+    },
+    "editThis_Save": {
+        "message": "儲存"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "如啟用，您可以按右鍵隱藏工具列上的圖示"
+    },
+    "editThis_statsSince": {
+        "message": "自 $1 起的 cookie 統計："
+    },
+    "editThis_translationIntro": {
+        "message": "協助我們翻譯這個擴充功能"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "選取您欲使用的 cookies 匯出格式"
+    },
+    "editThis_reset": {
+        "message": "重設"
+    },
+    "editThis_no": {
+        "message": "否"
+    },
+    "editThis_addRule": {
+        "message": "新增此規則"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "在此貼上要匯入的 cookies。可接納的格式："
+    },
+    "editThis_Send_Donations_To": {
+        "message": "您可以把捐款送到："
+    },
+    "editThis_description": {
+        "message": "EditThisCookie 是一個 cookie 管理器。您可以增加、刪除、修改、搜尋、保護和封鎖 cookies！"
+    },
+    "editThis_cookiesModified": {
+        "message": "Cookies modified"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "封鎖 cookie"
+    },
+    "editThis_time": {
+        "message": "時間"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "在圖示旁顯示標籤"
+    },
+    "editThis_day": {
+        "message": "日"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Block by domain"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Blocked cookies deleted"
+    },
+    "editThis_stats": {
+        "message": "統計"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "選取其他語言："
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "以網域及名稱"
+    },
+    "editThis_Charity_Message": {
+        "message": "您能幫助全球有需要的小孩，因為所得的 $1% 會送到："
+    },
+    "editThis_Max_Date_Option": {
+        "message": "複寫任何 cookie 的最長壽命"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Block by value"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "We develop high quality open source software and we give it away for free. <br><br> Support us using $1. Move the slider to change the amount",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "月"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Cookies created"
+    },
+    "editThis_cookiesImported": {
+        "message": "已匯入 cookies"
+    },
+    "editThis_secure": {
+        "message": "Secure"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Cookies' expiration shortened"
+    },
+    "editThis_hostOnly": {
+        "message": "HostOnly"
+    },
+    "editThis_Max_Date": {
+        "message": "Set the maximum cookie age to"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "以 Bitcoins 捐獻"
+    },
+    "editThis_session": {
+        "message": "Session"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Show \"Edit Cookies\" in contextual menu"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Always ask for confirmation"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster"
+    },
+    "editThis_timesUsed": {
+        "message": "您已使用 'EditThisCookie' $1 次"
+    },
+    "editThis_ppBenefit7": {
+        "message": "You are very generous! If we ever meet I'll get you a few beers (hey, beer is important)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "If we ever meet I'll get you an Italian coffee and a 'Babbà'"
+    },
+    "editThis_ppBenefit5": {
+        "message": "You can name a feature you want to be implemented and I'll make it true! (just don't ask for the impossible :P )"
+    },
+    "editThis_ppBenefit4": {
+        "message": "您可以標示任何讓您煩擾的程式錯誤，我們會迅速修正它！"
+    },
+    "editThis_ppBenefit3": {
+        "message": "You'll receive a thank you email"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Your name will be added to the Wall of Fame"
+    },
+    "editThis_ppBenefit1": {
+        "message": "您會在我的心裡拿到小小的位置"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "顯示開發人員工具面板"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "封鎖新的 cookie"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Be the cause of my very first heart stroke. All you have to do is donate now!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "還有一塊義大利比薩！"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Set as readonly"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Humanitarian program"
+    },
+    "editThis_deleteAll": {
+        "message": "全部刪除"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "我們保證個人資訊不會洩漏！"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "A protected cookie is a cookie which can't be modified by any website or extension"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "No cookies protected yet"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Delete all cookies for current website?"
+    },
+    "editThis_Donate": {
+        "message": "Contribute"
+    },
+    "editThis_year": {
+        "message": "年"
+    },
+    "editThis_seconds": {
+        "message": "秒"
+    },
+    "editThis_ContextMenu": {
+        "message": "Edit Cookies"
+    },
+    "editThis_name": {
+        "message": "名字"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "顯示 [全部封鎖並刪除] 按鈕"
+    },
+    "editThis_domain": {
+        "message": "網域"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "排序 cookies"
+    },
+    "editThis_path": {
+        "message": "路徑"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "已保護"
+    },
+    "editThis_amountByHand": {
+        "message": "to enter the amount by hand click here"
+    },
+    "editThis_yes": {
+        "message": "是"
+    },
+    "editThis_backToList": {
+        "message": "返回清單"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Reload the page after submitting the changes"
+    },
+    "editThis_expiration": {
+        "message": "有效期"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "以名稱"
+    },
+    "editThis_donations": {
+        "message": "Donations"
+    },
+    "editThis_updated": {
+        "message": "已經更新過了。按下此處檢視最新功能。"
+    },
+    "editThis_storeID": {
+        "message": "StoreID"
+    },
+    "editThis_value": {
+        "message": "值"
+    },
+    "editThis_contactsIntro": {
+        "message": "Send us an email"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Block by name"
+    },
+    "editThis_noBlockAdded": {
+        "message": "No block rules added"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "刪除此規則"
+    },
+    "editThis_Amount": {
+        "message": "Amount"
+    },
+    "editThis_cookiesExported": {
+        "message": "已匯出 cookies"
+    },
+    "editThis_advertisements": {
+        "message": "Advertisements"
+    },
+    "editThis_support_etc": {
+        "message": "支持 EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "開始使用"
+    },
+    "editThis_noStatsNotice": {
+        "message": "No data yet :("
+    },
+    "editThis_newFilter": {
+        "message": "New filter"
+    },
+    "editThis_hour": {
+        "message": "小時"
+    },
+    "editThis_Source_Code": {
+        "message": "原始碼"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Encode the value of the cookies (as per <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>) (Recommended)"
+    },
+    "editThis_helpIntro": {
+        "message": "Here you will find explanations for some basic functions of this extension"
+    },
+    "editThis_iWantDonate": {
+        "message": "我想捐獻",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Money raised so far"
+    },
+    "editThis_cancel": {
+        "message": "取消"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "在 $1 上檢視 EditThisCookie 的原始碼",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "搜尋"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Cookies copied to clipboard"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "匯出"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "刪除 cookie"
+    },
+    "editThis_Details": {
+        "message": "詳細"
+    }
+}

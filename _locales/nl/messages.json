@@ -168,7 +168,7 @@
         "message": "De maximale leeftijd voor een cookie veranderen"
     },
     "editThis_Flag_CookieWithValue": {
-        "message": "Met waarde blokkeren"
+        "message": "Blokkeer op waarde"
     },
     "editThis_paypalSupportIntro": {
         "message": "We ontwikkelen open source software van hoge kwaliteit en geven deze gratis weg. <br><br>Steun ons met $1. Verschuif de slider om het bedrag aan te passen.",
@@ -232,7 +232,7 @@
         "message": "Je naam wordt toegevoegd aan de Wall of Fame"
     },
     "editThis_ppBenefit1": {
-        "message": "Je krijgt een heel klein plaatsje in mijn hart"
+        "message": "Je krijgt een heel klein plaatsje in mijn hart!"
     },
     "editThis_Show_DevTools_Panel": {
         "message": "Het DevTools-paneel weergeven"
@@ -253,7 +253,7 @@
         "message": "Filantropische instelling"
     },
     "editThis_deleteAll": {
-        "message": "Alles verwijderen"
+        "message": "Verwijder alles"
     },
     "editThis_statsSharePolicy": {
         "message": "Wij garanderen dat persoonlijke gegevens nooit gedeeld worden!"
@@ -283,7 +283,7 @@
         "message": "Naam"
     },
     "editThis_Show_Flag_And_Delete_All": {
-        "message": "\"Markeer en verwijder alles\"-knop weergeven"
+        "message": "\"Alles blokkeren en verwijderen\"-knop weergeven"
     },
     "editThis_domain": {
         "message": "Domein"
@@ -331,7 +331,7 @@
         "message": "Stuur ons een email"
     },
     "editThis_Flag_CookieWithName": {
-        "message": "Met naam blokkeren"
+        "message": "Blokkeer op naam"
     },
     "editThis_noBlockAdded": {
         "message": "Geen blokkade regels toegevoegd"

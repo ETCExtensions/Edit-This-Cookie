@@ -57,7 +57,7 @@
         "message": "锁定的Cookies"
     },
     "editThis_flagAll": {
-        "message": "标记全部并清空"
+        "message": "全部加入黑名单后清空"
     },
     "editThis_Rate_Us_Intro": {
         "message": "如果您喜欢EditThisCookie，请在Chrome Web Store上为我们评分"
@@ -69,7 +69,7 @@
         "message": "受保护的只读Cookies"
     },
     "editThis_support": {
-        "message": "赞助开发者"
+        "message": "支持我们"
     },
     "editThis_addNew": {
         "message": "添加新cookie"
@@ -123,10 +123,10 @@
         "message": "添加规则"
     },
     "editThis_Paste_Cookie_Here": {
-        "message": "请将欲导入的cookies粘贴在这里"
+        "message": "请将要导入的cookies粘贴在这里。允许的格式："
     },
     "editThis_Send_Donations_To": {
-        "message": "你可以发送赞助给"
+        "message": "您可以将捐助发送到："
     },
     "editThis_description": {
         "message": "EditThisCookie是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！"
@@ -162,7 +162,7 @@
         "message": "根据域名和名称"
     },
     "editThis_Charity_Message": {
-        "message": "你将帮助那些需要帮助的小孩，因为 $1% 的捐赠将转到"
+        "message": "您将帮助全球的贫困儿童，我们收入的$1%将捐赠至"
     },
     "editThis_Max_Date_Option": {
         "message": "忽略任何cookies的最大周期"
@@ -214,10 +214,10 @@
         "message": "您已使用EditThisCookie插件$1次"
     },
     "editThis_ppBenefit7": {
-        "message": "你真好！来，请你喝啤酒！啤酒爽歪歪！"
+        "message": "你真壕 =v= 哪日碰面我请你喝啤酒 （啤酒是很重要的哦~）"
     },
     "editThis_ppBenefit6": {
-        "message": "如果我们相遇，我请你喝意大利咖啡和特色点心"
+        "message": "有机会碰面我请你意大利咖啡和Babbà"
     },
     "editThis_ppBenefit5": {
         "message": "你可以提出一个你想要的功能，我会尽力将其实现！(不要提不现实的功能 :P )"
@@ -226,7 +226,7 @@
         "message": "你可以提交那些让你感到不爽的功能，然后我会在第一时间将其改到您满意！"
     },
     "editThis_ppBenefit3": {
-        "message": "你会收到感谢邮件"
+        "message": "你将收到一封感谢邮件。"
     },
     "editThis_ppBenefit2": {
         "message": "您将留名青史。"
@@ -377,7 +377,7 @@
         "description": "I want to donate X euros"
     },
     "editThis_Money_Raised": {
-        "message": "已经发放的资金"
+        "message": "已募得的资金"
     },
     "editThis_cancel": {
         "message": "取消"

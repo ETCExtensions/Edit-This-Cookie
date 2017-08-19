@@ -171,7 +171,7 @@
         "message": "Zablokovat podle hodnoty"
     },
     "editThis_paypalSupportIntro": {
-        "message": "My vyvíjíme velmi kvalitní programy zdarma a rozdáváme je! <br><br> Pomozte nám pomocí $1. Pohybujte posuvníkem pro upravení množství",
+        "message": "Vyvíjíme velmi kvalitní programy zdarma a rozdáváme je! <br><br> Pomozte nám pomocí $1. Pro změnu množství posuňte posuvníkem",
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
     },
     "editThis_month": {

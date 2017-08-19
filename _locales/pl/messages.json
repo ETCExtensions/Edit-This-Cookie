@@ -42,7 +42,7 @@
         "message": "Data przekazania darowizny"
     },
     "editThis_Show_Christmas_Icon": {
-        "message": "Pokaż ikonę z czapką Świętego Mikołaja"
+        "message": "Pokaż ikonkę czapki Świętego Mikołaja"
     },
     "editThis_help": {
         "message": "Pomoc"
@@ -256,7 +256,7 @@
         "message": "Usuń wszystkie ciasteczka"
     },
     "editThis_statsSharePolicy": {
-        "message": "Gwarantujemy, że nie udostępniamy żadnych danych osobowych osobom trzecim!"
+        "message": "Gwarantujemy, że nie są udostępniane żadne dane osobowe!"
     },
     "editThis_ReadOnly_Def": {
         "message": "Chronione ciasteczka są takimi ciasteczkami, które nie mogą być modyfikowane przez żadną stronę lub rozszerzenie"

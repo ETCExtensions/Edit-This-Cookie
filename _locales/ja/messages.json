@@ -126,7 +126,7 @@
         "message": "インポートするには、ここにCookieを貼り付けます。許可されたフォーマット:"
     },
     "editThis_Send_Donations_To": {
-        "message": "You can send donations to:"
+        "message": "こちらから寄付をお願いします。"
     },
     "editThis_description": {
         "message": "EditThisCookieはCookie管理ソフトです。Cookieを追加、削除、編集、検索、保護、そしてブロックすることができます！"
@@ -184,7 +184,7 @@
         "message": "Cookieをインポートしました"
     },
     "editThis_secure": {
-        "message": "セキュア"
+        "message": "安全"
     },
     "editThis_cookiesShortened": {
         "message": "Cookie の有効期限を短縮しました"
@@ -358,7 +358,7 @@
         "message": "まだデータがありません :("
     },
     "editThis_newFilter": {
-        "message": "New filter"
+        "message": "新しいフィルター"
     },
     "editThis_hour": {
         "message": "時"

@@ -15,7 +15,7 @@
         "message": "Einstellungen"
     },
     "editThis_Blocked_Cookies": {
-        "message": "Gesperrtes Cookie"
+        "message": "Blockierte Cookies"
     },
     "editThis_minutes": {
         "message": "Minuten"
@@ -310,7 +310,7 @@
         "message": "Lade die Seite neu, nachdem du die Änderungen gespeichert hast"
     },
     "editThis_expiration": {
-        "message": "Fälligkeitsdatum"
+        "message": "Ablaufdatum"
     },
     "editThis_Sort_Cookies_Alpha": {
         "message": "nach Name"

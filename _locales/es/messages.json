@@ -18,7 +18,7 @@
         "message": "Cookies bloqueadas"
     },
     "editThis_minutes": {
-        "message": "minutos"
+        "message": "Minutos"
     },
     "editThis_Rate_ETC": {
         "message": "Califica EditThisCookie"
@@ -66,7 +66,7 @@
         "message": "Muestra el dominio antes del nombre del cookie"
     },
     "editThis_cookiesProtected": {
-        "message": "Cookies de solo lectura"
+        "message": "Cookies protegidas de solo lectura"
     },
     "editThis_support": {
         "message": "Ayúdanos"
@@ -114,7 +114,7 @@
         "message": "Elige un formato de exportación para las cookies"
     },
     "editThis_reset": {
-        "message": "Borrar todos"
+        "message": "Restablecer"
     },
     "editThis_no": {
         "message": "No"
@@ -310,7 +310,7 @@
         "message": "Recargar la página después de guardar los cambios"
     },
     "editThis_expiration": {
-        "message": "caducidad"
+        "message": "Caducidad"
     },
     "editThis_Sort_Cookies_Alpha": {
         "message": "por nombre"

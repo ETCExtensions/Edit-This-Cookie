@@ -9,7 +9,7 @@
         "message": "لا توجد كوكيز هنا !"
     },
     "editThis_Alert_submitAll": {
-        "message": "تفعيل التغييرات"
+        "message": "تفعيل تغييرات الكوكيز"
     },
     "editThis_Options": {
         "message": "خيارات"
@@ -33,7 +33,7 @@
         "message": "تم حذف الكوكيز"
     },
     "editThis_bugsFeatureRequestIntro": {
-        "message": "وجدت خطأ أو لديك اقتراح؟"
+        "message": "وجدت خطأ أو لديك اقتراح؟ اخبرنا"
     },
     "editThis_statsIntro": {
         "message": "هنا يمكنك أن تكتشف كيف استخدمت هذه الإضافة. هذه البيانات تم جمعها من شهر يوليو 2012 فقط"
@@ -48,7 +48,7 @@
         "message": "مساعدة"
     },
     "editThis_Paste_Cookies": {
-        "message": "استيراد الكعكات"
+        "message": "استيراد"
     },
     "editThis_contacts": {
         "message": "جهات الإتصال"
@@ -57,7 +57,7 @@
         "message": "كوكيز محمية"
     },
     "editThis_flagAll": {
-        "message": "علّم واحذف الكل"
+        "message": "احظر و احذف الكل"
     },
     "editThis_Rate_Us_Intro": {
         "message": "اذا احببت هذه الأداة، اترك تقييمك في Chrome Web Store"
@@ -211,7 +211,7 @@
         "message": "إنجيل شبح الأسباجتي الطائر"
     },
     "editThis_timesUsed": {
-        "message": "لقد استخدمت \" إعداد الcookie هذا \" $1 مرة"
+        "message": "لقد استخدمت \"EditThisCookie ه\" $1 مرة"
     },
     "editThis_ppBenefit7": {
         "message": "انت كريم جداً ! إذا تقابلنا في يوم ما سوف اشتري لك بعضاً من الجعة ( مهلاً, الجعة مهمة )"
@@ -331,7 +331,7 @@
         "message": "أرسل لنا رسالة"
     },
     "editThis_Flag_CookieWithName": {
-        "message": "محظور من الإسم"
+        "message": "منع بواسطة الأسم"
     },
     "editThis_noBlockAdded": {
         "message": "لا يوجد شروط ايقاف او منع"

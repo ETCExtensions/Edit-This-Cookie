@@ -18,7 +18,7 @@
         "message": "Cookies bloqués"
     },
     "editThis_minutes": {
-        "message": "minutes"
+        "message": "Minutes"
     },
     "editThis_Rate_ETC": {
         "message": "Notez EditThisCookie"
@@ -102,7 +102,7 @@
         "message": "Enregistrer"
     },
     "editThis_Show_ContextMenu_helper": {
-        "message": "Si cette option est selectionnée, vous aurez la possibilité de masquer l'icône dans la barre d'outils, par un simple clic droit sur cet icône!"
+        "message": "Si vous activez ceci, vous pourrez masquer l'icône dans la barre d'outils en faisant un clic droit sur elle !"
     },
     "editThis_statsSince": {
         "message": "Statistiques du cookie depuis : $1"
@@ -190,7 +190,7 @@
         "message": "Date d'expiration des cookies raccourcie"
     },
     "editThis_hostOnly": {
-        "message": "hôte uniquement"
+        "message": "Hôte uniquement"
     },
     "editThis_Max_Date": {
         "message": "Définir l'âge maximum d'un cookie à "
@@ -280,7 +280,7 @@
         "message": "Modifier les cookies"
     },
     "editThis_name": {
-        "message": "nom"
+        "message": "Nom"
     },
     "editThis_Show_Flag_And_Delete_All": {
         "message": "Montrer le bouton \"Supprimer et bloquer tout\""
@@ -292,7 +292,7 @@
         "message": "Trier les cookies"
     },
     "editThis_path": {
-        "message": "Chemin"
+        "message": "Chemin d'accès"
     },
     "editThis_Is_ReadOnly": {
         "message": "Protégé"
@@ -325,7 +325,7 @@
         "message": "storeID"
     },
     "editThis_value": {
-        "message": "valeur"
+        "message": "Valeur"
     },
     "editThis_contactsIntro": {
         "message": "Envoyez-nous un email"
@@ -393,7 +393,7 @@
         "message": "Cookies copiés dans le presse-papiers"
     },
     "editThis_Copy_Cookies": {
-        "message": "Exporter des cookies"
+        "message": "Exporter"
     },
     "editThis_Alert_deleteCookie": {
         "message": "Supprimer le cookie"

@@ -1,0 +1,404 @@
+{
+    "editThis_httpOnly": {
+        "message": "Chỉ Http"
+    },
+    "editThis_AN_optInDescription": {
+        "message": "Cho phép chúng tôi chia sẻ dữ liệu lướt web của bạn. Tất cả sẽ là nặc danh."
+    },
+    "editThis_no_cookies": {
+        "message": "Không có cookie nào ở đây"
+    },
+    "editThis_Alert_submitAll": {
+        "message": "Xác nhận thay đổi cookie"
+    },
+    "editThis_Options": {
+        "message": "Tùy chọn"
+    },
+    "editThis_Blocked_Cookies": {
+        "message": "Cookie bị chặn"
+    },
+    "editThis_minutes": {
+        "message": "Phút"
+    },
+    "editThis_Rate_ETC": {
+        "message": "Đánh giá EditThisCookie"
+    },
+    "editThis_Blocked_Def": {
+        "message": "Nếu bạn muốn xóa cookie một cách tự động mỗi khi nó được tạo, hãy thêm bộ lọc để chúng không bao giờ làm phiền bạn nữa"
+    },
+    "editThis_translation": {
+        "message": "Dịch thuật"
+    },
+    "editThis_cookiesDeleted": {
+        "message": "Các cookie đã bị xóa"
+    },
+    "editThis_bugsFeatureRequestIntro": {
+        "message": "Nếu bạn tìm thấy lỗi hay là có bất kỳ gợi ý nào? Hãy cho chúng tôi biết !"
+    },
+    "editThis_statsIntro": {
+        "message": "Tại đây bạn có thể hiểu cách sử dụng của tiện ích này. Dữ liệu này chỉ được thu thập bắt đầu từ tháng 7 2012."
+    },
+    "editThis_Donation_Date": {
+        "message": "Ngày quyên góp"
+    },
+    "editThis_Show_Christmas_Icon": {
+        "message": "Hiên biểu tượng mũ của Santa"
+    },
+    "editThis_help": {
+        "message": "Trợ giúp"
+    },
+    "editThis_Paste_Cookies": {
+        "message": "Nhập dữ liệu"
+    },
+    "editThis_contacts": {
+        "message": "Các liên hệ"
+    },
+    "editThis_Protected_Cookies": {
+        "message": "Cookies được bảo vệ"
+    },
+    "editThis_flagAll": {
+        "message": "Chặn và xóa tất cả"
+    },
+    "editThis_Rate_Us_Intro": {
+        "message": "Nếu bạn thích Edit This Cookie, hãy đánh giá trên Chrome Web Store"
+    },
+    "editThis_Show_Domain_Before_Name": {
+        "message": "Hiện domain trước tên của cookie"
+    },
+    "editThis_cookiesProtected": {
+        "message": "Cookie chỉ cho phép đọc"
+    },
+    "editThis_support": {
+        "message": "Hỗ trợ chúng tôi"
+    },
+    "editThis_addNew": {
+        "message": "Cookie mới"
+    },
+    "editThis_AN_adsDescription": {
+        "message": "Hiện quảng cáo kín đáo ở 1 số trang tôi ghé qua"
+    },
+    "editThis_": {
+        "message": ""
+    },
+    "editThis_Show_Domain": {
+        "message": "Hiện domain gần tên cookie"
+    },
+    "editThis_skipCacheOnReload": {
+        "message": "Bỏ qua lưu cache khi tải lại trang"
+    },
+    "editThis_adsInfoAndSettings": {
+        "message": "Thông tin và thiết lập"
+    },
+    "editThis_useRegularExpressions": {
+        "message": "Bạn có thể sử dụng cách diễn giải thông thường"
+    },
+    "editThis_Contribute_PayPal": {
+        "message": "Đóng góp qua PayPal"
+    },
+    "editThis_bugsFeatureRequest": {
+        "message": "Lỗi / Các chức năng được yêu cầu"
+    },
+    "editThis_Save": {
+        "message": "Lưu"
+    },
+    "editThis_Show_ContextMenu_helper": {
+        "message": "Nếu được bật, bạn sẽ có thể ẩn biểu tượng trên toolbar bằng cách chuột phải vào nó!"
+    },
+    "editThis_statsSince": {
+        "message": "Thống kê cookie từ: $1"
+    },
+    "editThis_translationIntro": {
+        "message": "Giúp chúng tôi dịch tiện ích mở rộng này sang ngôn ngữ của bạn"
+    },
+    "editThis_Copy_Cookies_Type": {
+        "message": "Chọn kiểu dữ liệu bạn muốn lưu ra"
+    },
+    "editThis_reset": {
+        "message": "Khởi động lại"
+    },
+    "editThis_no": {
+        "message": "Không"
+    },
+    "editThis_addRule": {
+        "message": "Thêm quy tắc này"
+    },
+    "editThis_Paste_Cookie_Here": {
+        "message": "Paste cookies vào đây để nhập dữ liệu. Các định dạng được chấp nhận:"
+    },
+    "editThis_Send_Donations_To": {
+        "message": "Bạn có thể đóng góp tới:"
+    },
+    "editThis_description": {
+        "message": "EditThisCookie là chương trình quản lý cookie. Bạn có thể thêm, xóa, chỉnh sửa, tìm kiếm, bảo vệ và chặn cookies trên các website!"
+    },
+    "editThis_cookiesModified": {
+        "message": "Cookie đã được sửa"
+    },
+    "editThis_Flag_Cookie": {
+        "message": "Chặn cookie"
+    },
+    "editThis_time": {
+        "message": "Thời gian"
+    },
+    "editThis_ShowCommandsLabels": {
+        "message": "Hiện label cạnh các biểu tượng"
+    },
+    "editThis_day": {
+        "message": "Ngày"
+    },
+    "editThis_Flag_CookieWithDomain": {
+        "message": "Bị chặn bởi domain"
+    },
+    "editThis_cookiesFlagged": {
+        "message": "Đã xóa các cookie bị chặn"
+    },
+    "editThis_stats": {
+        "message": "Tình trạng"
+    },
+    "editThis_Use_Custom_Locale": {
+        "message": "Chọn ngôn ngữ khác"
+    },
+    "editThis_Sort_Cookies_Domain_Alpha": {
+        "message": "theo tên và domain"
+    },
+    "editThis_Charity_Message": {
+        "message": "Bạn sẽ giúp đỡ trẻ em cần hỗ trợ trên toàn thế giới, bởi $1% lợi nhuận sẽ được chuyển đến "
+    },
+    "editThis_Max_Date_Option": {
+        "message": "Sửa thời gian tồn tại lâu nhất của bất kỳ cookie nào"
+    },
+    "editThis_Flag_CookieWithValue": {
+        "message": "Chặn theo giá trị"
+    },
+    "editThis_paypalSupportIntro": {
+        "message": "Chúng tôi phát triển phần mềm nguồn mở chất lượng cao và chúng tôi trao nó miễn phí.  <br><br> Hãy hỗ trợ chúng tôi với $1. Di chuyển thanh cuộn để thay đổi",
+        "description": "It will read: Support us using PayPal. Move the slider to change the amount"
+    },
+    "editThis_month": {
+        "message": "Tháng"
+    },
+    "editThis_cookiesCreated": {
+        "message": "Cookie đã được tạo"
+    },
+    "editThis_cookiesImported": {
+        "message": "Cookie đã được lưu vào bộ nhớ"
+    },
+    "editThis_secure": {
+        "message": "An toàn"
+    },
+    "editThis_cookiesShortened": {
+        "message": "Thời hạn tồn tại của cookie đã bị giảm đi"
+    },
+    "editThis_hostOnly": {
+        "message": "Chỉ Host"
+    },
+    "editThis_Max_Date": {
+        "message": "Đặt thời gian tồn tại lâu nhất cho"
+    },
+    "editThis_Contribute_Bitcoins": {
+        "message": "Đóng góp bằng Bitcoins"
+    },
+    "editThis_session": {
+        "message": "Phiên làm việc"
+    },
+    "editThis_Show_ContextMenu": {
+        "message": "Hiện nút \"Sửa Cookies\" trong bảng chuột phải"
+    },
+    "editThis_Show_Alerts": {
+        "message": "Luôn yêu cầu xác nhận"
+    },
+    "editThis_gospelBookTitle": {
+        "message": "The Gospel of the Flying Spaghetti Monster (tên sách)"
+    },
+    "editThis_timesUsed": {
+        "message": "Bạn đã sử dụng 'EditThisCookie' $1 lần"
+    },
+    "editThis_ppBenefit7": {
+        "message": "Bạn thật hào phóng! Nếu chúng ta có duyên gặp nhau, tôi sẽ mời bạn chút bia (hey, beer hơi bị quan trọng đấy)"
+    },
+    "editThis_ppBenefit6": {
+        "message": "Nếu chúng ta có duyên gặp nhau, tôi sẽ mua cho bạn cà phê Ý và 1 chiếc bánh 'Babbà' (Thử tìm trên Google xem)"
+    },
+    "editThis_ppBenefit5": {
+        "message": "Bạn có thể đặt tên chức năng bạn muốn và tôi sẽ biến nó thành hiện thực! (đừng yêu cầu chức năng không thể làm :P)"
+    },
+    "editThis_ppBenefit4": {
+        "message": "Bạn có thể đặt tên bất kỳ lỗi nào trong EditThisCookie làm cho bạn thấy khó chịu và Tôi sẽ sửa nó với tốc độ cực-kỳ-nhanh"
+    },
+    "editThis_ppBenefit3": {
+        "message": "Bạn sẽ nhận được một email cảm ơn"
+    },
+    "editThis_ppBenefit2": {
+        "message": "Tên của bạn đã được thêm vào Wall of Fame ( Bức tường Danh vọng )"
+    },
+    "editThis_ppBenefit1": {
+        "message": "Bạn sẽ nhận được 1 góc nhỏ trong tim tôi"
+    },
+    "editThis_Show_DevTools_Panel": {
+        "message": "Hiện bảng DevTools"
+    },
+    "editThis_Flag_New_Cookie": {
+        "message": "Chặn cookie mới"
+    },
+    "editThis_ppBenefit9": {
+        "message": "Bạn làm tôi shock vãi, lên cơn đau tim mất rồi. Bạn hãy đóng góp cho tôi nhanh đi!"
+    },
+    "editThis_ppBenefit8": {
+        "message": "Và 1 bánh pizza chính gốc Italia"
+    },
+    "editThis_Set_ReadOnly": {
+        "message": "Đặt chế độ chỉ đọc"
+    },
+    "editThis_Humanitarian_Program": {
+        "message": "Chương trình nhân đạo"
+    },
+    "editThis_deleteAll": {
+        "message": "Xóa tất cả"
+    },
+    "editThis_statsSharePolicy": {
+        "message": "Chúng tôi đảm bảo không bao giờ chia sẻ thông tin cá nhân!"
+    },
+    "editThis_ReadOnly_Def": {
+        "message": "Một cookie được bảo vệ thì không thể bị thay đổi bởi bất kỳ website hay phần mềm tiện ích nào"
+    },
+    "editThis_noReadOnlyAdded": {
+        "message": "Chưa có cookie được bảo vệ"
+    },
+    "editThis_Alert_deleteAll": {
+        "message": "Xóa tất cả cookie trên trang hiện tại ?"
+    },
+    "editThis_Donate": {
+        "message": "Đóng góp"
+    },
+    "editThis_year": {
+        "message": "Năm"
+    },
+    "editThis_seconds": {
+        "message": "Giây"
+    },
+    "editThis_ContextMenu": {
+        "message": "Sửa cookie"
+    },
+    "editThis_name": {
+        "message": "Tên"
+    },
+    "editThis_Show_Flag_And_Delete_All": {
+        "message": "Hiện nút \"Chặn và xóa tất cả\""
+    },
+    "editThis_domain": {
+        "message": "Domain"
+    },
+    "editThis_Sort_Cookies": {
+        "message": "Sắp xếp cookies"
+    },
+    "editThis_path": {
+        "message": "Đường dẫn"
+    },
+    "editThis_Is_ReadOnly": {
+        "message": "Được bảo vệ"
+    },
+    "editThis_amountByHand": {
+        "message": "để nhập số lượng bằng tay, hãy ấn vào đây"
+    },
+    "editThis_yes": {
+        "message": "Có"
+    },
+    "editThis_backToList": {
+        "message": "Quay trở lại danh sách trước"
+    },
+    "editThis_reloadAfterChanges": {
+        "message": "Tải lại trang sau khi sửa đổi"
+    },
+    "editThis_expiration": {
+        "message": "Sự hết hạn"
+    },
+    "editThis_Sort_Cookies_Alpha": {
+        "message": "theo tên"
+    },
+    "editThis_donations": {
+        "message": "Sự đóng góp"
+    },
+    "editThis_updated": {
+        "message": "đã được cập nhật. Hãy ấn vào đây để xem có gì mới."
+    },
+    "editThis_storeID": {
+        "message": "ID lưu trữ"
+    },
+    "editThis_value": {
+        "message": "Giá trị"
+    },
+    "editThis_contactsIntro": {
+        "message": "Hãy gửi email cho chúng tôi"
+    },
+    "editThis_Flag_CookieWithName": {
+        "message": "Chặn theo tên"
+    },
+    "editThis_noBlockAdded": {
+        "message": "Không có quy tắc chặn nào được thêm"
+    },
+    "editThis_Alert_deleteRule": {
+        "message": "Xóa quy tắc này"
+    },
+    "editThis_Amount": {
+        "message": "Số lượng"
+    },
+    "editThis_cookiesExported": {
+        "message": "Xuất dữ liệu cookie ra file"
+    },
+    "editThis_advertisements": {
+        "message": "Quảng cáo"
+    },
+    "editThis_support_etc": {
+        "message": "Hãy ủng hộ EditThisCookie"
+    },
+    "editThis_getting_started": {
+        "message": "Hãy cùng bắt đầu"
+    },
+    "editThis_noStatsNotice": {
+        "message": "Tạm thời chưa có dữ liệu :("
+    },
+    "editThis_newFilter": {
+        "message": "Bộ lọc mới"
+    },
+    "editThis_hour": {
+        "message": "GIờ"
+    },
+    "editThis_Source_Code": {
+        "message": "Mã nguồn"
+    },
+    "editThis_Encode_Cookie_Value": {
+        "message": "Mã hóa giá trị cookie (như là  <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">http://curl.haxx.se/rfc/cookie_spec.html</a>)  (Được đề nghị)"
+    },
+    "editThis_helpIntro": {
+        "message": "Tại đây bạn sẽ tìm thấy lời giải thích cho một số chức năng cơ bản của tiện ích này"
+    },
+    "editThis_iWantDonate": {
+        "message": "Tôi muốn đóng góp",
+        "description": "I want to donate X euros"
+    },
+    "editThis_Money_Raised": {
+        "message": "Số tiền đóng góp cho đên bây giờ"
+    },
+    "editThis_cancel": {
+        "message": "Hoãn lại"
+    },
+    "editThis_Source_Code_Intro": {
+        "message": "Xem mã nguồn của EditThisCookie chỉ với $1",
+        "description": "It will read: Check EditThisCookie's source code on GitHub"
+    },
+    "editThis_search": {
+        "message": "Tím kiếm"
+    },
+    "editThis_Copied_clipboard": {
+        "message": "Cookies đã được copy vào clipboard"
+    },
+    "editThis_Copy_Cookies": {
+        "message": "Xuất dữ liệu"
+    },
+    "editThis_Alert_deleteCookie": {
+        "message": "Xóa cookie"
+    },
+    "editThis_Details": {
+        "message": "Chi tiết"
+    }
+}
