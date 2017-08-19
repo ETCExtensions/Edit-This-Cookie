@@ -2,7 +2,7 @@
 	"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
 	
 	"name": "EditThisCookie",
-	"version": "1.4",
+	"version": "1.4.2",
 	
 	"description": "__MSG_editThis_description__",
 	"icons": {
@@ -45,7 +45,7 @@
 	
 	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 	
-	"minimum_chrome_version": "18",
+	"minimum_chrome_version": "41",
 	"manifest_version": 2,
 	"update_url": "http://clients2.google.com/service/update2/crx"
 }
