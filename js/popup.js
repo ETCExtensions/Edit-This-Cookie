@@ -21,7 +21,8 @@ function start() {
 	var arguments = getUrlVars();
 	if(arguments.url == undefined) {
 		chrome.tabs.query(
-			{active: true},
+			{active: true,
+			 lastFocusedWindow: true},
 			function(tabs) {
 				url = tabs[0].url;
 				currentTabID = tabs[0].id;
