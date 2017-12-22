@@ -262,6 +262,10 @@
       "message": "We develop high quality open source software and we give it away for free. <br><br> Support us using $1. Move the slider to change the amount",
       "description": "It will read: Support us using PayPal. Move the slider to change the amount"
    },
+   "editThis_paypalSupportCharity": {
+      "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+      "description": "It will read: Donate now with PayPal"
+   },
    "editThis_iWantDonate": {
       "message": "I want to donate",
       "description": "I want to donate X euros"
