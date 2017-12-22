@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Rodyti domeną prieš slapuko pavadinimą"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Slapukai tik skaitymui apsaugoti"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Mes garantuojame, kad jokie asmeniniai duomenys nėra dalinami!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Apsaugotas slapukas yra slapukas, kuris negali būti pakeistas bet kokios svetainės ar plėtinio"

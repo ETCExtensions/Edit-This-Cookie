@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "在 cookie 名稱前顯示網域名稱"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Read-only cookies protected"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "我們保證個人資訊不會洩漏！"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "A protected cookie is a cookie which can't be modified by any website or extension"

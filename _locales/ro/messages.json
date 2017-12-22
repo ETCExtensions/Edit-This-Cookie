@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Afiseaza Domeniul inaintea Numelui cookie-ului"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Cookie-urile read-only sunt protejate"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Garantam că datele personale nu sunt publicate/distribuite nicăieri !"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Un cookie Protejat  nu poate fi modificat de nici un site sau de o alta extensie."

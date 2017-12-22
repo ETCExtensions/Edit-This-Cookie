@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Mostra o domínio antes do nome do cookie"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Cookies de leitura apenas estão protegidos"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Nós garantimos que nenhuma informação pessoal é partilhada/divulgada!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Um cookie preotegido é um cookie que não pede ser modificado por nenhum site ou extensão"

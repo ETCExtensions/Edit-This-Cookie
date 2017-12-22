@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Muestra el dominio antes del nombre del cookie"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Cookies protegidas de solo lectura"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "¡Te garantizamos que no compartiremos datos personales!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Una cookie protegida es una cookie que no puede ser modificada por ninguna página web o extensión"

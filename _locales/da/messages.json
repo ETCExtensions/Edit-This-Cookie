@@ -30,7 +30,7 @@
         "message": "Oversættelse"
     },
     "editThis_cookiesDeleted": {
-        "message": "Cookies er slettet"
+        "message": "Cookies slettet"
     },
     "editThis_bugsFeatureRequestIntro": {
         "message": "Har du fundet en bug eller har du et forslag? Fortæl os om det!"
@@ -39,7 +39,7 @@
         "message": "Her kan du finde ud af hvordan du brugte denne udvidelse. Dette data er udelukkende blevet indsamlet siden Juli 2012"
     },
     "editThis_Donation_Date": {
-        "message": "Dato for donation"
+        "message": "Donations dato"
     },
     "editThis_Show_Christmas_Icon": {
         "message": "Vis nissehue på ikonet"
@@ -64,6 +64,10 @@
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Vis domænenavnet før cookiens navn"
+    },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
         "message": "Skrivebeskyttede cookies"
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Vi garanterer dig, at vi aldrig deler dine personlige data!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "En beskyttet cookie er en cookie, der ikke kan ændres af hverken et website eller en udvidelse"

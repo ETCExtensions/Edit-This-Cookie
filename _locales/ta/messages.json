@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "டொமைனை குக்கீயின் பெயர் முன்பு  காட்டு"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "படிக்க-மட்டும் குக்கிகள் பாதுகாக்கப்பட்டன"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "எந்த தனிப்பட்ட தரவுகளையும் எப்போதும் பகிர்ந்து கொள்ளமாட்டோம் என்பதற்க்கு நாங்கள் உத்தரவாதம்!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "A protected cookie is a cookie which can't be modified by any website or extension"

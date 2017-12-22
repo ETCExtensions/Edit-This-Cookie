@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "쿠키 이름 앞에 도메인을 보여줍니다."
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "보호된 읽기 전용 쿠키"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "어떠한 개인 정보도 절대로 공유되지 않는다는 것을 보장합니다!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "보호된 쿠키는 어떠한 웹 사이트나 확장기능도 편집할 수 없는 쿠키입니다"

@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Show the domain before the cookie's name"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "読み取り専用の保護されたCookie"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "個人情報を第三者に開示することが決してないことをお約束します！"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "保護されたCookieは、Webサイトまたは拡張機能によって変更されることはありません。"

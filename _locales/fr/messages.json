@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Montrer le domaine avant le nom du cookie"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Cookies en lecture seule"
     },
@@ -199,7 +203,7 @@
         "message": "Contribuer en Bitcoins"
     },
     "editThis_session": {
-        "message": "session"
+        "message": "Session"
     },
     "editThis_Show_ContextMenu": {
         "message": "Afficher \"Éditer les cookies\" dans le menu contextuel"
@@ -258,6 +262,9 @@
     "editThis_statsSharePolicy": {
         "message": "Nous garantissons que vos données personnelles ne seront jamais partagées !"
     },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
+    },
     "editThis_ReadOnly_Def": {
         "message": "Un cookie protégé est un cookie qui ne peut pas être modifié, ni pas un site, ni pas une extension"
     },
@@ -298,7 +305,7 @@
         "message": "Protégé"
     },
     "editThis_amountByHand": {
-        "message": "pour entrer un montant à la main, cliquez ici"
+        "message": "pour saisir un montant manuellement, cliquez ici"
     },
     "editThis_yes": {
         "message": "Oui"

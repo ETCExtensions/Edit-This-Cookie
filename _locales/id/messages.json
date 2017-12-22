@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Tampilkan domain sebelum nama kuki"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Kuki yang hanya dibaca-saja terproteksi"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Kami menjamin berkas pribadi tidak akan pernah di sebarluaskan!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Kuki terproteksi ialah kuki yang tidak bisa dimodifikasi oleh website ataupun ekstensi manapun"

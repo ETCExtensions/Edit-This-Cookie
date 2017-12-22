@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Visa domän före cookie-namnet"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Skyddade Skrivskyddade Cookies"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Vi garanterar att vi aldrig kommer dela med oss utav din privata data, någonsin!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "En skyddad cookie är en cookie som inte kan bli modifierad av någon webbsida eller tillägg."

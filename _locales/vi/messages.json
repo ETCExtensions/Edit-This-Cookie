@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Hiện domain trước tên của cookie"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Cookie chỉ cho phép đọc"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Chúng tôi đảm bảo không bao giờ chia sẻ thông tin cá nhân!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Một cookie được bảo vệ thì không thể bị thay đổi bởi bất kỳ website hay phần mềm tiện ích nào"

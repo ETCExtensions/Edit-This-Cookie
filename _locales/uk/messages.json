@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Показувати ім'я домену перед іменем кукі"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Кукі, дозволене тільки для читання"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Ми гарантуємо, що будь-яка персональна інформація не буде розповсюдженою!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Захищене кукі не може бути модифіковано будь-яким браузером або розширенням"

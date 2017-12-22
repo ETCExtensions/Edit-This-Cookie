@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Site adını cookieden önce göster"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Sadece-okunan çerezler korunuyor"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Kişisel bilgilerinizin kesinlikle kimseyle paylaşılmayacağını garanti ederiz"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "'Korunan çerez' hiçbir site veya eklenti tarafından değiştirilemeyen çerezdir."

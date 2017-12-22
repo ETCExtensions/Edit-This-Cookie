@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Domain mutatása a sütik neve előtt"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Csak olvasható sütik védve"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Garantáljuk, hogy semmilyen személyes adatot nem adunk ki!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "A védett süti az, amit nem módosíthat sem egy oldal, sem egy kiegészítő"

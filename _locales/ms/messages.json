@@ -65,6 +65,10 @@
     "editThis_Show_Domain_Before_Name": {
         "message": "Tunjukkan domain sebelum nama cookie ini"
     },
+    "editThis_paypalSupportCharity": {
+        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "description": "It will read: Donate now with PayPal"
+    },
     "editThis_cookiesProtected": {
         "message": "Baca sahaja cookie dilindungi"
     },
@@ -257,6 +261,9 @@
     },
     "editThis_statsSharePolicy": {
         "message": "Kami jamin data peribadi tidak pernah dikongsi!"
+    },
+    "editThis_Contribute_Other": {
+        "message": "Contribute with another method"
     },
     "editThis_ReadOnly_Def": {
         "message": "Sebuah cookie yang dilindungi adalah cookie dimana ia tidak boleh diubahsuai oleh mana-mana laman sesawang atau extension"
