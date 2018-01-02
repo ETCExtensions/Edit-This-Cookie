@@ -11,22 +11,22 @@ function addBlockRule(rule){
     var dfilters=data.filters;
     for(var x=0;x<dfilters.length;x++){
         var currFilter=dfilters[x];
-        if((currFilter.domain!=null)==(rule.domain!=null)){
-            if(currFilter.domain!=rule.domain){
+        if((currFilter.domain!==null)===(rule.domain!==null)){
+            if(currFilter.domain!==rule.domain){
                 continue
             }
         }else{
             continue
         }
-        if((currFilter.name!=null)==(rule.name!=null)){
-            if(currFilter.name!=rule.name){
+        if((currFilter.name!==null)===(rule.name!==null)){
+            if(currFilter.name!==rule.name){
                 continue;
             }
         }else{
             continue;
         }
-        if((currFilter.value!=null)==(rule.value!=null)){
-            if(currFilter.value!=rule.value){
+        if((currFilter.value!==null)===(rule.value!==null)){
+            if(currFilter.value!==rule.value){
                 continue;
             }
         }else{
@@ -38,13 +38,13 @@ function addBlockRule(rule){
     data.filters = dfilters;
     filterURL={};
 
-    if(rule.name!=undefined){
+    if(rule.name!==undefined){
         filterURL.name=rule.name
     }
-    if(rule.value!=undefined){
+    if(rule.value!==undefined){
         filterURL.value=rule.value
     }
-    if(rule.domain!=undefined){
+    if(rule.domain!==undefined){
         filterURL.domain=rule.domain
     }
     chrome.cookies.getAll({},function(cookieL){
@@ -64,7 +64,7 @@ function switchReadOnlyRule(rule){
     for(var x=0;x<readOnlyList.length;x++){
     	try{
 		    var cRule=readOnlyList[x];
-		    if(cRule.domain==rule.domain && cRule.name==rule.name && cRule.path==rule.path){
+		    if(cRule.domain===rule.domain && cRule.name===rule.name && cRule.path===rule.path){
 		        added=false;
 		        readOnlyList.splice(x,1)
 		    }
@@ -110,28 +110,28 @@ function filterMatchesCookie(rule, name, domain, value){
 	var ruleDomainReg = new RegExp(rule.domain);
 	var ruleNameReg = new RegExp(rule.name);
 	var ruleValueReg = new RegExp(rule.value);
-    if(rule.domain!=undefined && domain.match(ruleDomainReg) == null){
+    if(rule.domain!==undefined && domain.match(ruleDomainReg) === null){
         return false
     }
-    if(rule.name!=undefined && name.match(ruleNameReg) == null){
+    if(rule.name!==undefined && name.match(ruleNameReg) === null){
         return false
     }
-    if(rule.value!=undefined && value.match(ruleValueReg) == null){
+    if(rule.value!==undefined && value.match(ruleValueReg) === null){
         return false
     }
     return true
 }
 function filterMatchesCookieOLD(c,g,a,e){
     var d=new RegExp(c.domain);
-    if(c.domain!=null&&a.match(d)==null){
+    if(c.domain!==null&&a.match(d)===null){
         return false
     }
     var f=new RegExp(c.name);
-    if(c.name!=null && g != c){
+    if(c.name!==null && g !== c){
         return false
     }
     var b=new RegExp(c.value);
-    if(c.value!=null&&e.match(b)==null){
+    if(c.value!==null&&e.match(b)===null){
         return false
     }
     return true
@@ -157,7 +157,7 @@ function showPopup(info,tab){
 //    chrome.tabs.getAllInWindow(null,function(tabList){
         for(var x=0;x<tabList.length;x++){
             var cTab=tabList[x];
-            if(cTab.url.indexOf(urlToOpen)==0){
+            if(cTab.url.indexOf(urlToOpen)===0){
                 chrome.tabs.update(cTab.id,{
                     'selected':true
                 });
@@ -171,7 +171,7 @@ function showPopup(info,tab){
 }
 
 function copyToClipboard(text){
-	if(text == undefined)
+	if(text === undefined)
 		return;
 
 	var scrollsave = $('body').scrollTop();	//Appending an element causes the window to scroll...so we save the scroll position and restore it later
@@ -197,11 +197,10 @@ function getDomain(url) {
 
 function isChristmasPeriod(){
 	var nowDate = new Date();
-	var isEndNovember = (nowDate.getMonth() == 10 && nowDate.getDate() >= 28);
-	var isDecember = (nowDate.getMonth() == 11);
-	var isStartJanuary = (nowDate.getMonth() == 0 && nowDate.getDate() <= 8);
-	var isChristmasDate = (isEndNovember || isDecember || isStartJanuary);
-	return isChristmasDate;
+	var isEndNovember = (nowDate.getMonth() === 10 && nowDate.getDate() >= 28);
+	var isDecember = (nowDate.getMonth() === 11);
+	var isStartJanuary = (nowDate.getMonth() === 0 && nowDate.getDate() <= 8);
+	return isEndNovember || isDecember || isStartJanuary;
 }
 
 var canvasLoader;
@@ -215,7 +214,7 @@ function setLoaderVisible(visible) {
 	return;
 	
 	if(visible) {
-		if(canvasLoader == undefined)
+		if(canvasLoader === undefined)
 			canvasLoader = new CanvasLoader('loader-container');
 		canvasLoader.setShape('square'); // default is 'oval'
 		canvasLoader.setDiameter(50); // default is 40
@@ -229,7 +228,7 @@ function setLoaderVisible(visible) {
 		loaderObj.style["top"] = (loaderContainer.offsetHeight/2.0) + canvasLoader.getDiameter() * -0.5 + "px";
 		loaderObj.style["left"] = (loaderContainer.offsetWidth/2.0) + canvasLoader.getDiameter() * -0.5 + "px";
 	} else {
-		if(canvasLoader != undefined)
+		if(canvasLoader !== undefined)
 			canvasLoader.kill();
 		canvasLoader = undefined;
 		$("#loader-container").hide();
