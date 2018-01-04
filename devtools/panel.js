@@ -1,14 +1,14 @@
 var tabURL;
-var cookieList = new Array();
+var cookieList = [];
 
 var backgroundPageConnection = chrome.runtime.connect({
 	name : "devtools-page"
 });
 
 backgroundPageConnection.onMessage.addListener(function(message) {
-	if(message.action == "getall") {
+	if(message.action === "getall") {
 		createTable(message);
-	} else if(message.action == "refresh") {
+	} else if(message.action === "refresh") {
 		location.reload(true);
 	}
 });
@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
 
 function start() {
 	var arguments = getUrlVars();
-	if (arguments.url != undefined) {//TESTING PURPOSES
+	if (arguments.url !== undefined) {//TESTING PURPOSES
 		createList("https://google.com");
 		return;
 	}
@@ -171,7 +171,6 @@ function updateCookie() {
 	if (!session) {
 		var expirationDate = new Date(expiration).getTime() / 1000.0;
 		console.log(expirationDate);
-		//var expirationDate = (expiration != null) ? parseFloat(expiration) / 1000.0 : new Date().getTime() / 1000.0;
 		newCookie.expirationDate = expirationDate;
 	}
 	newCookie.secure = secure;
@@ -183,4 +182,3 @@ function updateCookie() {
 		origName : origName
 	});
 }
-

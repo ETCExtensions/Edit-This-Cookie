@@ -41,18 +41,6 @@ var preferences_template = {
 	"copyCookiesType":{						//Supported: netscape, json, semicolonPairs -> as in cookie_helpers.js "cookiesToString"
 		"default_value": "json"
 	},
-	"useMaxCookieAge":{
-		"default_value": false
-	},
-	"useMaxCookieAge":{
-		"default_value": false
-	},
-	"useMaxCookieAge":{
-		"default_value": false
-	},
-	"useMaxCookieAge":{
-		"default_value": false
-	},
 	"showChristmasIcon":{
 		"default_value": true
 	},
@@ -64,15 +52,15 @@ var preferences_template = {
 	},
 	"showLabelChooserBanner":{
 		"default_value": false
-	},
+	}
 };
 
 var data_template = {
 	"filters":{
-		"default_value": new Array()
+		"default_value": []
 	},
 	"readOnly":{
-		"default_value": new Array()
+		"default_value": []
 	},
 	"installDate":{
 		"default_value": new Date()
@@ -122,7 +110,7 @@ var data_prefix = "data_";
 var an_prefix = "AN_";
 
 var updateCallback = undefined;
-var dataToSync = new Array();
+var dataToSync = [];
 var syncTimeout = false;
 var syncTime = 200;
 
@@ -135,8 +123,8 @@ var ls = {
 		localStorage.setItem(name, JSON.stringify(value));
 	},
 	get : function(name, default_value) {
-		if(localStorage[name] == undefined) {
-			if(default_value!=undefined)
+		if(localStorage[name] === undefined) {
+			if(default_value !== undefined)
 				ls.set(name, default_value);
 			else
 				return null;
@@ -152,7 +140,7 @@ var ls = {
 	remove : function(name) {
 		return localStorage.removeItem(name);
 	}
-}
+};
 
 function syncDataToLS() {				//This way we limit the max amount of storage change events to one per second
 	for(var cID in dataToSync) {
@@ -170,8 +158,6 @@ function fetchData() {
 	
 		preferences.watch(key,
 			function (id, oldval, newval) {
-				//ls.set(preferences_prefix+id, newval);
-				//return;
 				dataToSync[preferences_prefix+id] = newval;
 				if(!syncTimeout)
 					syncTimeout = setTimeout(syncDataToLS, syncTime);
@@ -189,8 +175,6 @@ function fetchData() {
 		
 		data.watch(key,
 			function (id, oldval, newval) {
-				//ls.set(data_prefix+id, newval);
-				//return;
 				dataToSync[data_prefix+id] = newval;
 				if(!syncTimeout)
 					syncTimeout = setTimeout(syncDataToLS, syncTime);
@@ -209,27 +193,27 @@ window.addEventListener("storage", function(event) {
 		//console.log("Storage event key:" + event.key);
 		var varUsed = false;
 		var varChanged = false;
-		var oldValue = (event.oldValue != null) ? JSON.parse(event.oldValue) : null;
-		var newValue = (event.newValue != null) ? JSON.parse(event.newValue) : null;
+		var oldValue = (event.oldValue !== null) ? JSON.parse(event.oldValue) : null;
+		var newValue = (event.newValue !== null) ? JSON.parse(event.newValue) : null;
 		
-		if(oldValue == newValue)
+		if(oldValue === newValue)
 			return;
 	
 		var key;
-		if(event.key.indexOf(preferences_prefix) == 0) {
+		if(event.key.indexOf(preferences_prefix) === 0) {
 			key = event.key.substring(preferences_prefix.length);
 			varUsed = !!preferences_template[key].used;
-			varChanged = preferences[key] != newValue;
-			preferences[key] = (newValue == null) ? preferences_template[key].default_value : newValue;
+			varChanged = preferences[key] !== newValue;
+			preferences[key] = (newValue === null) ? preferences_template[key].default_value : newValue;
 			preferences_template[key].used = varUsed;
-		} else if(event.key.indexOf(data_prefix) == 0) {
+		} else if(event.key.indexOf(data_prefix) === 0) {
 			key = event.key.substring(data_prefix.length);
-			varUsed = (data_template[key].used!=undefined && data_template[key].used);
-			varChanged = data[key] != newValue;
-			data[key] = (newValue == null) ? data_template[key].default_value : newValue;
+			varUsed = (data_template[key].used !== undefined && data_template[key].used);
+			varChanged = data[key] !== newValue;
+			data[key] = (newValue === null) ? data_template[key].default_value : newValue;
 			data_template[key].used = varUsed;
 		}
-		if(varUsed && varChanged && updateCallback != undefined) {
+		if(varUsed && varChanged && updateCallback !== undefined) {
 			updateCallback();
 		}
 	} catch(e) {
@@ -239,7 +223,7 @@ window.addEventListener("storage", function(event) {
 fetchData();
 
 firstRun = ls.get("status_firstRun");
-if(firstRun != null) {
+if(firstRun !== null) {
     data.lastVersionRun = chrome.runtime.getManifest().version;
 }
 
