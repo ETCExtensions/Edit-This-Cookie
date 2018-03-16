@@ -68,14 +68,18 @@ body {
 }
 
 .input {
-   width: 99%;
-   padding: 2px;
+    width: 99%;
+    padding: 2px;
 }
 .checkbox {
-   vertical-align: middle;
+    vertical-align: middle;
 }
 .searchCondition {
-   width: 100%;
+    width: 100%;
+    padding: 5px;
+    margin: 0px 0 0px 0;
+    text-overflow: ellipsis;
+    font-weight: bold;
 }
 #searchBox {
     float: right;
@@ -230,8 +234,6 @@ body {
 .value {
 	resize: vertical;
 }
-#cookieList {
-}
 
 .cookie_details_template {
 	display: none;
@@ -262,8 +264,6 @@ body {
 	display: table-cell;
 	padding-right: 5px;
 	vertical-align: middle;
-}
-.cookie-row > label {
 }
 
 
@@ -330,8 +330,6 @@ body {
 	margin-bottom: -100px;
 	width: 30px;
 	padding: 0;
-	#border-right: 1px solid #5C5C5C;
-	#border-bottom: 1px solid #5C5C5C;
 }
 .vertical-commands-row > *{
 	height: 2.3em;

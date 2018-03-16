@@ -26,8 +26,8 @@ function start() {
 				url = tabs[0].url;
 				currentTabID = tabs[0].id;
 				$('input', '#cookieSearchCondition').val(url);
-				doSearch();
 				document.title = document.title + "-" + url;
+				doSearch();
 			}
 		);
 	} else {
@@ -36,8 +36,8 @@ function start() {
 		currentTabID = parseInt(decodeURI(arguments.id));
 		isTabIncognito = decodeURI(arguments.incognito) == "true";
 		$('input', '#cookieSearchCondition').val(url);
-		doSearch();
 		document.title = document.title + "-" + url;
+		doSearch();
 	}
 }
 
@@ -49,7 +49,7 @@ function doSearch(){
 	if(/^https?:\/\/.+$/.test(txt)){
 		url = txt;
 		filter.setUrl(txt);
-	}else{
+	} else {
 		url = 'http://' + txt;
 		filter.setDomain(txt);
 	}
@@ -74,7 +74,6 @@ function submitAll(currentTabID) {
 		var index = $(".index", 			$(this) ).val();
 		
 		var name 		=  $(".name", 		$(this) ).val();
-		console.log(name);
 		var value 		=  $(".value", 		$(this) ).val();
 		var domain 		=  $(".domain", 	$(this) ).val();
 		var hostOnly 	=  $(".hostOnly",	$(this) ).prop("checked");
@@ -491,8 +490,7 @@ function setEvents() {
 	});
 	
 	$("#copyButton").unbind().click(function() {
-		var tmpUrl = $('input', '#cookieSearchCondition').val();
-		copyToClipboard(cookiesToString.get(cookieList, tmpUrl));
+		copyToClipboard(cookiesToString.get(cookieList));
 		data.nCookiesExported += cookieList.length;
 		$("#copiedToast").fadeIn(function(){
 			setTimeout(function(){
