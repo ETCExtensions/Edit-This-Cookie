@@ -406,8 +406,7 @@
    "editThis_updated": {
       "message": "has been updated. Click here to check what's new."
    },
-   
-   "editThis_": {
-      "message": ""
+   "editThis_URL": {
+      "message": "URL"
    }
 }
