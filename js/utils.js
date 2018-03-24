@@ -1,9 +1,3 @@
-
-
-var escapeVar=$("<i></i>");
-function escapeJQ(string){
-    return escapeVar.text(string).html()
-}
 function getHost(url){
     return(url.match(/:\/\/(.[^:/]+)/)[1]).replace("www.","")
 }
@@ -56,7 +50,6 @@ function addBlockRule(rule){
             }
         }
     });
-//    rulesChanged()
 }
 function switchReadOnlyRule(rule){
     var added=true;
@@ -111,31 +104,17 @@ function filterMatchesCookie(rule, name, domain, value){
 	var ruleNameReg = new RegExp(rule.name);
 	var ruleValueReg = new RegExp(rule.value);
     if(rule.domain!==undefined && domain.match(ruleDomainReg) === null){
-        return false
+        return false;
     }
     if(rule.name!==undefined && name.match(ruleNameReg) === null){
-        return false
+        return false;
     }
     if(rule.value!==undefined && value.match(ruleValueReg) === null){
-        return false
+        return false;
     }
-    return true
+    return true;
 }
-function filterMatchesCookieOLD(c,g,a,e){
-    var d=new RegExp(c.domain);
-    if(c.domain!==null&&a.match(d)===null){
-        return false
-    }
-    var f=new RegExp(c.name);
-    if(c.name!==null && g !== c){
-        return false
-    }
-    var b=new RegExp(c.value);
-    if(c.value!==null&&e.match(b)===null){
-        return false
-    }
-    return true
-}
+
 function getUrlVars(){
     var d=[],c;
     var a=window.location.href.slice(window.location.href.indexOf("?")+1).split("&");
@@ -154,7 +133,6 @@ function showPopup(info,tab){
     var urlToOpen=chrome.extension.getURL("popup.html")+"?url="+tabUrl+"&id="+tabID+"&incognito="+tabIncognito;
     
     chrome.tabs.query({'windowId':chrome.windows.WINDOW_ID_CURRENT}, function(tabList){
-//    chrome.tabs.getAllInWindow(null,function(tabList){
         for(var x=0;x<tabList.length;x++){
             var cTab=tabList[x];
             if(cTab.url.indexOf(urlToOpen)===0){

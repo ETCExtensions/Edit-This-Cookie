@@ -8,9 +8,9 @@ chrome.runtime.onConnect.addListener(function(port) {
 	// assign the listener function to a variable so we can remove it later
 	var devToolsListener = function(message, sender, sendResponse) {
 		var action = message.action;
-		if (action == "getall") {
+		if (action === "getall") {
 			getAll(port, message);
-		} else if (action == "submitCookie") {
+		} else if (action === "submitCookie") {
 			var cookie = message.cookie;
 			var origName = message.origName;
 			deleteCookie(cookie.url, origName, cookie.storeId);

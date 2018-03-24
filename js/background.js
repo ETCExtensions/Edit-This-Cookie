@@ -1,7 +1,7 @@
 var showContextMenu = undefined;
 
 updateCallback = function() {
-	if(showContextMenu != preferences.showContextMenu) {
+	if(showContextMenu !== preferences.showContextMenu) {
 		showContextMenu = preferences.showContextMenu;
 		setContextMenu(showContextMenu);
 	}
@@ -19,8 +19,8 @@ var oldVersion = data.lastVersionRun;
 
 data.lastVersionRun = currentVersion;
 
-if(oldVersion != currentVersion) {
-	if(oldVersion == undefined) { //Is firstrun
+if(oldVersion !== currentVersion) {
+	if(oldVersion === undefined) { //Is firstrun
 		chrome.tabs.create({url:'http://www.editthiscookie.com/start/'});
 	} else {
 		chrome.notifications.onClicked.addListener(function(notificationId) {
@@ -35,7 +35,7 @@ if(oldVersion != currentVersion) {
 			message: _getMessage("updated"),
 			iconUrl: "/img/icon_128x128.png",
 			isClickable: true
-		}
+		};
 		chrome.notifications.create("", opt, function(notificationId){
 		});
 	}
@@ -52,7 +52,7 @@ chrome.cookies.onChanged.addListener( function(changeInfo) {
 	var domain = cookie.domain;
 	var value = cookie.value;
 	
-	if(cause == "expired" || cause == "evicted")
+	if(cause === "expired" || cause === "evicted")
 		return;
 	
 	for(var i=0; i<data.readOnly.length; i++) {
@@ -69,7 +69,6 @@ chrome.cookies.onChanged.addListener( function(changeInfo) {
 					var newCookie = cookieForCreationFromFullCookie(currentRORule);
 					chrome.cookies.set(newCookie);
 					++data.nCookiesProtected;
-					return;
 				});
 			}
 			return;
@@ -91,7 +90,6 @@ chrome.cookies.onChanged.addListener( function(changeInfo) {
 						toRemove.name = name;
 						chrome.cookies.remove(toRemove);
 						++data.nCookiesFlagged;
-						return;
 				});
 			}
 		}
@@ -99,13 +97,12 @@ chrome.cookies.onChanged.addListener( function(changeInfo) {
 	
 	if(!removed && preferences.useMaxCookieAge && preferences.maxCookieAgeType>0) {	//Check expiration, if too far in the future shorten on user's preference
 		var maxAllowedExpiration = Math.round((new Date).getTime()/1000) + (preferences.maxCookieAge * preferences.maxCookieAgeType);
-		if(cookie.expirationDate != undefined && cookie.expirationDate > maxAllowedExpiration+60) {
+		if(cookie.expirationDate !== undefined && cookie.expirationDate > maxAllowedExpiration+60) {
 			var newCookie = cookieForCreationFromFullCookie(cookie);
 			if(!cookie.session)
 				newCookie.expirationDate = maxAllowedExpiration;
 			chrome.cookies.set(newCookie);
 			++data.nCookiesShortened;
-			return;
 		}
 	}
 });
@@ -114,7 +111,7 @@ function setContextMenu(show) {
 	chrome.contextMenus.removeAll();
 	if(show) {
 		chrome.contextMenus.create({
-			"title": "EditThisCookie", //_getMessage("ContextMenu"),
+			"title": "EditThisCookie",
 			"contexts":["page"],
 			"onclick":function(info,tab){
 				showPopup(info,tab);
