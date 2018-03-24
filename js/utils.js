@@ -104,15 +104,15 @@ function filterMatchesCookie(rule, name, domain, value){
 	var ruleNameReg = new RegExp(rule.name);
 	var ruleValueReg = new RegExp(rule.value);
     if(rule.domain!==undefined && domain.match(ruleDomainReg) === null){
-        return false
+        return false;
     }
     if(rule.name!==undefined && name.match(ruleNameReg) === null){
-        return false
+        return false;
     }
     if(rule.value!==undefined && value.match(ruleValueReg) === null){
-        return false
+        return false;
     }
-    return true
+    return true;
 }
 
 function getUrlVars(){

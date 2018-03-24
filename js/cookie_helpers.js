@@ -1,7 +1,13 @@
+function buildUrl(secure, domain, path){
+	if(domain.substr(0, 1) === '.')
+		domain = domain.substring(1);
+	return "http" + ((secure) ? "s" : "") + "://" + domain + path;
+}
 
-function deleteAll(cookieList, url) {
+function deleteAll(cookieList) {
     for(var i=0; i<cookieList.length; i++) {
         var curr = cookieList[i];
+        var url = buildUrl(curr.secure, curr.domain, curr.path);
         deleteCookie(url, curr.name, curr.storeId);
     }
 }
