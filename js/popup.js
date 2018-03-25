@@ -607,36 +607,6 @@ function setCookieEvents() {
 			titleName.css("color","#000");
 		}
 	});
-	
-	var now = new Date();
-	$('.expiration').scroller({
-		preset: 'datetime',
-		minDate: new Date(now.getFullYear(), now.getMonth(), now.getDate()),
-		maxDate: new Date(2050, now.getMonth(), now.getDate()),
-		dateFormat: "dd/mm/yy",
-		timeFormat: "hh:ii A",
-		theme: 'android-ics light',
-		display: 'modal',
-		mode: 'clickpick'
-	});
-	$('.expiration').each(function(){
-		$(this).scroller('setDate', new Date($(this).val()), true);
-	});
-	$('#show').click(function(){
-		var cookie = $(this).closest(".cookie");
-		scrollsave = $('body').scrollTop();
-		$("html").scrollTop(0);
-		$('.expiration', cookie).scroller('show'); 
-		return false;
-	});
-	$('#clear').click(function () {
-		var cookie = $(this).closest(".cookie");
-		$('.expiration', cookie).val('');
-		$('body').scrollTop(scrollsave);
-		return false;
-	});
-	
-	$(".domain",$("#newCookie")).val(getHost(url));
 }
 
 function startAlertDialog(title, ok_callback, cancel_callback) {
