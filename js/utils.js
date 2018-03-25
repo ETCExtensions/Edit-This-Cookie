@@ -1,6 +1,22 @@
+var canvasLoader;
+
+Array.prototype.toTop=function(a){
+    var c;
+    if(a<=0||a>=this.length){
+        return false
+    }
+    c=this[a];
+    for(var b=a;b>0;b--){
+        this[b]=this[b-1]
+    }
+    this[0]=c;
+    return true
+};
+
 function getHost(url){
     return(url.match(/:\/\/(.[^:/]+)/)[1]).replace("www.","")
 }
+
 function addBlockRule(rule){
     var dfilters=data.filters;
     for(var x=0;x<dfilters.length;x++){
@@ -51,19 +67,20 @@ function addBlockRule(rule){
         }
     });
 }
+
 function switchReadOnlyRule(rule){
     var added=true;
     var readOnlyList=data.readOnly;
     for(var x=0;x<readOnlyList.length;x++){
-    	try{
-		    var cRule=readOnlyList[x];
-		    if(cRule.domain===rule.domain && cRule.name===rule.name && cRule.path===rule.path){
-		        added=false;
-		        readOnlyList.splice(x,1)
-		    }
-	   	} catch(e) {
-	   		console.error(e.message);
-	   	}
+        try{
+            var cRule=readOnlyList[x];
+            if(cRule.domain===rule.domain && cRule.name===rule.name && cRule.path===rule.path){
+                added=false;
+                readOnlyList.splice(x,1)
+            }
+           } catch(e) {
+               console.error(e.message);
+           }
     }
     if(added){
         readOnlyList[readOnlyList.length]=rule
@@ -71,38 +88,27 @@ function switchReadOnlyRule(rule){
     data.readOnly = readOnlyList;
     return !!added;
 }
+
 function deleteReadOnlyRule(toDelete){
-	readOnlyList = data.readOnly;
+    readOnlyList = data.readOnly;
     readOnlyList.splice(toDelete,1);
     data.readOnly = readOnlyList;
 }
+
 function deleteBlockRule(toDelete){
     filtersList = data.filters;
     filtersList.splice(toDelete,1);
     data.filters = filtersList;
 }
 
-Array.prototype.toTop=function(a){
-    var c;
-    if(a<=0||a>=this.length){
-        return false
-    }
-    c=this[a];
-    for(var b=a;b>0;b--){
-        this[b]=this[b-1]
-    }
-    this[0]=c;
-    return true
-};
-    
 function _getMessage(string, args){
     return(chrome.i18n.getMessage("editThis_"+string, args))
 }
 
 function filterMatchesCookie(rule, name, domain, value){
-	var ruleDomainReg = new RegExp(rule.domain);
-	var ruleNameReg = new RegExp(rule.name);
-	var ruleValueReg = new RegExp(rule.value);
+    var ruleDomainReg = new RegExp(rule.domain);
+    var ruleNameReg = new RegExp(rule.name);
+    var ruleValueReg = new RegExp(rule.value);
     if(rule.domain!==undefined && domain.match(ruleDomainReg) === null){
         return false;
     }
@@ -125,13 +131,14 @@ function getUrlVars(){
     }
     return d
 }
+
 function showPopup(info,tab){
     var tabUrl=encodeURI(tab.url);
     var tabID=encodeURI(tab.id);
     var tabIncognito=encodeURI(tab.incognito);
-    
+
     var urlToOpen=chrome.extension.getURL("popup.html")+"?url="+tabUrl+"&id="+tabID+"&incognito="+tabIncognito;
-    
+
     chrome.tabs.query({'windowId':chrome.windows.WINDOW_ID_CURRENT}, function(tabList){
         for(var x=0;x<tabList.length;x++){
             var cTab=tabList[x];
@@ -149,21 +156,21 @@ function showPopup(info,tab){
 }
 
 function copyToClipboard(text){
-	if(text === undefined)
-		return;
+    if(text === undefined)
+        return;
 
-	var scrollsave = $('body').scrollTop();	//Appending an element causes the window to scroll...so we save the scroll position and restore it later
+    var scrollsave = $('body').scrollTop();	//Appending an element causes the window to scroll...so we save the scroll position and restore it later
 
-	var copyDiv = document.createElement('textarea');
-	copyDiv.style.height="0.5px";
-	document.body.appendChild(copyDiv, document.body.firstChild);
-	$(copyDiv).text(text);
-	copyDiv.focus();
-	document.execCommand('SelectAll');
-	document.execCommand("Copy", false, null);
-	document.body.removeChild(copyDiv);
-	
-	$('body').scrollTop(scrollsave);
+    var copyDiv = document.createElement('textarea');
+    copyDiv.style.height="0.5px";
+    document.body.appendChild(copyDiv, document.body.firstChild);
+    $(copyDiv).text(text);
+    copyDiv.focus();
+    document.execCommand('SelectAll');
+    document.execCommand("Copy", false, null);
+    document.body.removeChild(copyDiv);
+
+    $('body').scrollTop(scrollsave);
 }
 
 function getDomain(url) {
@@ -180,34 +187,10 @@ function isChristmasPeriod(){
     return isMidDecember || isStartJanuary;
 }
 
-var canvasLoader;
 function setLoaderVisible(visible) {
-	if(visible) {
-		$("#loader-container").show();
-	} else {
-		$("#loader-container").hide();
-	}
-	
-	return;
-	
-	if(visible) {
-		if(canvasLoader === undefined)
-			canvasLoader = new CanvasLoader('loader-container');
-		canvasLoader.setShape('square'); // default is 'oval'
-		canvasLoader.setDiameter(50); // default is 40
-		canvasLoader.setDensity(50); // default is 40
-		canvasLoader.setRange(1); // default is 1.3
-		canvasLoader.show(); // Hidden by default
-	
-		var loaderContainer = document.getElementById("loader-container");
-		var loaderObj = document.getElementById("canvasLoader");
-		loaderObj.style.position = "absolute";
-		loaderObj.style["top"] = (loaderContainer.offsetHeight/2.0) + canvasLoader.getDiameter() * -0.5 + "px";
-		loaderObj.style["left"] = (loaderContainer.offsetWidth/2.0) + canvasLoader.getDiameter() * -0.5 + "px";
-	} else {
-		if(canvasLoader !== undefined)
-			canvasLoader.kill();
-		canvasLoader = undefined;
-		$("#loader-container").hide();
-	}
+    if(visible) {
+        $("#loader-container").show();
+    } else {
+        $("#loader-container").hide();
+    }
 }
