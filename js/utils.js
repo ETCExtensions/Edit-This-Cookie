@@ -174,11 +174,10 @@ function getDomain(url) {
 }
 
 function isChristmasPeriod(){
-	var nowDate = new Date();
-	var isEndNovember = (nowDate.getMonth() === 10 && nowDate.getDate() >= 28);
-	var isDecember = (nowDate.getMonth() === 11);
-	var isStartJanuary = (nowDate.getMonth() === 0 && nowDate.getDate() <= 8);
-	return isEndNovember || isDecember || isStartJanuary;
+    var nowDate = new Date();
+    var isMidDecember = (nowDate.getMonth() === 11 && nowDate.getDate() > 5);
+    var isStartJanuary = (nowDate.getMonth() === 0 && nowDate.getDate() <= 6);
+    return isMidDecember || isStartJanuary;
 }
 
 var canvasLoader;
