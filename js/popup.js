@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
 
 function start() {
 	setLoaderVisible(true);
-	
+
 	var arguments = getUrlVars();
 	if(arguments.url === undefined) {
 		chrome.tabs.query(
@@ -67,7 +67,7 @@ function submit(currentTabID) {
 }
 
 function submitAll(currentTabID) {
-	
+
 	var cookies = $(".cookie", "#cookiesList");
 	var nCookiesChangedThisTime = 0;
 	cookies.each(function() {
@@ -156,16 +156,16 @@ function submitNew() {
 
 function createList(filters) {
 	var filteredCookies = [];
-	
+
 	if(filters === null)
 		filters = {};
-	
+
 	var filterURL = {};
 	if(filters.url !== undefined)
 		filterURL.url = filters.url;
 	if(filters.domain !== undefined)
 		filterURL.domain = filters.domain;
-	
+
 	if(!isSeparateWindow) {
 		$('#submitDiv').css({
 			'bottom': 0
@@ -173,12 +173,12 @@ function createList(filters) {
 	} else {
 		$('#submitDiv').addClass("submitDivSepWindow");
 	}
-	
+
 	chrome.cookies.getAll(filterURL, function(cks) {
 		var currentC;
 		for(var i=0; i<cks.length; i++) {
 			currentC = cks[i];
-			
+
 			if(filters.name !== undefined && currentC.name.toLowerCase().indexOf(filters.name.toLowerCase()) === -1)
 				continue;
 			if(filters.domain !== undefined && currentC.domain.toLowerCase().indexOf(filters.domain.toLowerCase()) === -1)
@@ -187,7 +187,7 @@ function createList(filters) {
 				continue;
 			if(filters.session !== undefined && currentC.session.toLowerCase().indexOf(filters.session.toLowerCase()) === -1)
 				continue;
-			
+
 			for(var x=0; x<data.readOnly.length; x++) {
 				try {
 					var lock = data.readOnly[x];
@@ -212,16 +212,16 @@ function createList(filters) {
 			setLoaderVisible(false);
 			return;
 		}
-		
+
 		cookieList.sort(function (a, b) {
 			if(preferences.sortCookiesType === "domain_alpha") {
 				var compDomain = a.domain.toLowerCase().localeCompare(b.domain.toLowerCase());
 				if(compDomain)
 					return compDomain;
-			} 
+			}
 			return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
 		});
-		
+
 		createAccordionList(cookieList, function(){
 			swithLayout();
 			setEvents();
@@ -234,7 +234,7 @@ function createList(filters) {
 function createAccordionList(cks, callback, callbackArguments) {
 	createAccordionCallback = callback;
 	createAccordionCallbackArguments = callbackArguments;
-	
+
 	try {
 		$("#cookiesList").accordion("destroy");
 	} catch(e) {
@@ -245,7 +245,7 @@ function createAccordionList(cks, callback, callbackArguments) {
 		cks = cookieList;
 	for(var i=0; i<cks.length; i++) {
 		currentC = cks[i];
-		
+
 	 	var domainText = "";
 	 	if(preferences.showDomain) {
 	 		domainText = currentC.domain;
@@ -255,7 +255,7 @@ function createAccordionList(cks, callback, callbackArguments) {
 	 			domainText = " | " + domainText;
 	 		}
 	 	}
-	 	
+
 	 	var titleText;
 	 	if(preferences.showDomainBeforeName) {
 	 		titleText = $("<p/>").text(domainText).append($("<b/>").text(currentC.name));
@@ -264,23 +264,23 @@ function createAccordionList(cks, callback, callbackArguments) {
 	 	} else {
 	 		titleText = $("<p/>").append($("<b/>").text(currentC.name)).append($("<span/>").text(domainText));
 	 	}
-	 	
+
 	 	var titleElement = $("<h3/>").append($("<a/>").html(titleText.html()).attr("href", "#"));
-	 	
+
 		var cookie = $(".cookie_details_template").clone().removeClass("cookie_details_template");
-		
-		$(".index", cookie).val(i);
-		$(".name", cookie).val(currentC.name);
-		$(".value", cookie).val(currentC.value);
-		$(".domain", cookie).val(currentC.domain);
-		$(".path", cookie).val(currentC.path);
+
+		$(".index",   cookie).val(i);
+		$(".name",    cookie).val(currentC.name);
+		$(".value",   cookie).val(currentC.value);
+		$(".domain",  cookie).val(currentC.domain);
+		$(".path",    cookie).val(currentC.path);
 		$(".storeId", cookie).val(currentC.storeId);
-		
+
 		if(currentC.isProtected)
 			$(".unprotected", cookie).hide();
 		else
 			$(".protected", cookie).hide();
-			
+
 		if(currentC.hostOnly) {
 			$(".domain", cookie).attr("disabled", "disabled");
 			$(".hostOnly", cookie).prop("checked", true);
@@ -299,17 +299,16 @@ function createAccordionList(cks, callback, callbackArguments) {
 		var expDate;
 		if(currentC.session) {
 			expDate = new Date();
-			expDate.setFullYear(expDate.getFullYear() + 1)
+			expDate.setFullYear(expDate.getFullYear() + 1);
 		} else {
 			expDate = new Date(currentC.expirationDate * 1000.0);
 		}
-
 		$('.expiration', cookie).val(expDate);
-		
+
 		$("#cookiesList").append(titleElement);
 		$("#cookiesList").append(cookie);
 	}
-	
+
 	$("#cookiesList").accordion({
 		autoHeight: false,
 		heightStyle: "content",
@@ -329,7 +328,7 @@ function importCookies() {
 	error.hide();
 	error.text("For format reference export cookies in JSON");
 	error.html(error.html()+"<br> Also check&nbsp;<a href='http://developer.chrome.com/extensions/cookies.html#type-Cookie' target='_blank'>Developer Chrome Cookie</a><br>Error:");
-	
+
 	try {
 		var cookieArray = $.parseJSON(text);
 		if(Object.prototype.toString.apply(cookieArray) === "[object Object]")
@@ -367,15 +366,15 @@ function setEvents() {
 		$("#submitDiv").show();
 	}
 	$("#submitFiltersButton").button();
-	
+
 	$("#submitFiltersDiv").unbind().click(function() {
 		var domainChecked = $(".filterDomain:checked", $(this).parent()).val() !== null;
-		var domain = $("#filterByDomain", $(this).parent()).text();
-		var nameChecked = $(".filterName:checked", $(this).parent()).val() !== null;
-		var name = $("#filterByName", $(this).parent()).text();
-		var valueChecked = $(".filterValue:checked", $(this).parent()).val() !== null;
-		var value = $("#filterByValue", $(this).parent()).text();
-		
+		var domain        = $("#filterByDomain",       $(this).parent()).text();
+		var nameChecked   = $(".filterName:checked",   $(this).parent()).val() !== null;
+		var name          = $("#filterByName",         $(this).parent()).text();
+		var valueChecked  = $(".filterValue:checked",  $(this).parent()).val() !== null;
+		var value         = $("#filterByValue",        $(this).parent()).text();
+
 		var newRule = {};
 		if(domainChecked)
 			newRule.domain = domain;
@@ -389,9 +388,9 @@ function setEvents() {
 			var currentCookie = cookieList[i];
 			if(currentCookie.isProtected)
 				continue;
-			
 			if(!filterMatchesCookie(newRule,currentCookie.name,currentCookie.domain,currentCookie.value))
-					continue;
+				continue;
+
 			var tmpUrl = buildUrl(currentCookie.secure, currentCookie.domain, currentCookie.path);
 			deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
 			nCookiesFlaggedThisTime++;
@@ -404,7 +403,7 @@ function setEvents() {
 		doSearch();
 		return;
 	});
-	
+
 	$("#deleteAllButton").unbind().click(function() {
 		if(cookieList.length === 0)
 			return false;
@@ -415,13 +414,13 @@ function setEvents() {
 			data.nCookiesDeleted += nCookiesDeletedThisTime;
 			doSearch();
 		}
-		startAlertDialog(_getMessage("Alert_deleteAll"), okFunction, function(){});
+		startAlertDialog(_getMessage("Alert_deleteAll"), okFunction);
 	});
-	
+
 	if(preferences.showCommandsLabels) {
 		$(".commands-row", ".commands-table").addClass("commands-row-texy");
 	}
-	
+
 	if(preferences.showFlagAndDeleteAll) {
 		$("#flagAllButton").show();
 		$("#flagAllButton").unbind().click(function() {
@@ -444,7 +443,7 @@ function setEvents() {
 				doSearch();
 				return;
 			}
-			startAlertDialog(_getMessage("flagAll"), okFunction, function(){});
+			startAlertDialog(_getMessage("flagAll"), okFunction);
 		});
 	} else {
 		$("#flagAllButton").hide();
@@ -453,30 +452,26 @@ function setEvents() {
 	$("#refreshButton").unbind().click(function() {
 		location.reload(true);
 	});
-	
+
 	$("#addCookieButton").unbind().click(function() {
 		newCookie = true;
 		pasteCookie = false;
 		swithLayout("new");
 	});
-	
+
 	$("#backToList").unbind().click(function() {
 		newCookie = false;
 		pasteCookie = false;
 		swithLayout();
 	});
-	
-	$("#clearNew").unbind().click(function() {
-		clearNewCookieData();
-	});
-	
+
 	$("#optionsButton").unbind().click(function() {
 		var urlToOpen = chrome.extension.getURL('options_main_page.html');
 		chrome.tabs.create({
 			url:urlToOpen
 		});
 	});
-	
+
 	$("#copyButton").unbind().click(function() {
 		copyToClipboard(cookiesToString.get(cookieList));
 		data.nCookiesExported += cookieList.length;
@@ -484,49 +479,48 @@ function setEvents() {
 			setTimeout(function(){
 				$("#copiedToast").fadeOut();
 			}, 2500);
-			
+
 		});
 		$(this).animate({ backgroundColor: "#B3FFBD" }, 300, function() {
 			$(this).animate({ backgroundColor: "#EDEDED" }, 500);
 		});
 	});
-	
+
 	$("#pasteButton").unbind().click(function() {
 		newCookie = false;
 		pasteCookie = true;
 		swithLayout("paste");
 	});
-	
+
 	$("#searchButton").unbind().click(function() {
 		$("#searchField").focus();
 		$("#searchField").fadeIn("normal",function(){$("#searchField").focus();});
 		$("#searchField").focus();
 	});
-	
+
 	$("#searchBox").unbind().focusout( function() {
 		$("#searchField").fadeOut();
 	});
-	
+
 	$("#searchField").unbind().keyup(function() {
 		find($(this).val());
 	});
 	$('input', '#cookieSearchCondition').unbind().keyup(doSearch);
 	clearNewCookieData();
-	
+
 	$(".toast").each(function(){
-		//var pos = $(this).position();
 		$(this).css("margin-top", "-" + ( $(this).height()/2 ) + "px" );
 		$(this).css("margin-left", "-" + ( $(this).width()/2 ) + "px" );
 	});
 
 	$('textarea.value, input.domain, input.path').keydown(function (event) {
-	if (event.ctrlKey && event.keyCode === 13) {
-		submit(currentTabID);
-		console.log('trigger save (submit)');
-		event.preventDefault();
-		event.stopPropagation();
-	}
-});
+		if (event.ctrlKey && event.keyCode === 13) {
+			submit(currentTabID);
+			console.log('trigger save (submit)');
+			event.preventDefault();
+			event.stopPropagation();
+		}
+	});
 
 	setCookieEvents();
 }
@@ -540,7 +534,7 @@ function setCookieEvents() {
 		else
 			$(".domain", cookie).removeAttr("disabled");
 	});
-	
+
 	$(".session").click(function() {
 		var cookie = $(this).closest(".cookie");
 		var checked = $(this).prop("checked");
@@ -549,7 +543,7 @@ function setCookieEvents() {
 		else
 			$(".expiration", cookie).removeAttr("disabled");
 	});
-	
+
 	$(".deleteOne").click(function() {
 		var cookie = $(this).closest(".cookie");
 		var name 	= $(".name", cookie).val();
@@ -566,34 +560,34 @@ function setCookieEvents() {
 						$(this).remove();
 						swithLayout();
 					});
-					
+
 				} else {
 					location.reload(true);
 				}
 			});
 			++data.nCookiesDeleted;
 		};
-		startAlertDialog(_getMessage("Alert_deleteCookie") + ": \"" + name + "\"?", okFunction, function(){})
+		startAlertDialog(_getMessage("Alert_deleteCookie") + ": \"" + name + "\"?", okFunction)
 	});
 	$(".flagOne").click(function() {
 		var cookie = $(this).closest(".cookie");
-		var domain 	= $(".domain", 	cookie).val();
-		var name 	= $(".name", 	cookie).val();
-		var value 	= $(".value", 	cookie).val();
-		
-		$("#filterByDomain","#cookieFilter").text(domain);
-		$("#filterByName","#cookieFilter").text(name);
-		$("#filterByValue","#cookieFilter").text(value);
-		
+		var domain = $(".domain", cookie).val();
+		var name = $(".name", cookie).val();
+		var value = $(".value", cookie).val();
+
+		$("#filterByDomain", "#cookieFilter").text(domain);
+		$("#filterByName", "#cookieFilter").text(name);
+		$("#filterByValue", "#cookieFilter").text(value);
+
 		swithLayout("flag");
 	});
-	
+
 	$(".protectOne").click(function() {
 		var cookie = $(this).closest(".cookie");
 		var titleName = $("b", cookie.prev()).first();
 		var index = $(".index", cookie).val();
 		isProtected = switchReadOnlyRule(cookieList[index]);
-		
+
 		cookieList[index].isProtected = isProtected;
 		if(isProtected) {
 			$(".unprotected", cookie).fadeOut('fast',function(){
@@ -610,19 +604,19 @@ function setCookieEvents() {
 }
 
 function startAlertDialog(title, ok_callback, cancel_callback) {
-	if(ok_callback != undefined) {
-		if(!preferences.showAlerts) {
-			ok_callback();
-			return;
-		}
-		$("#alert_ok").unbind().click(function() {
-			$("#alert_wrapper").hide();
-			ok_callback();
-		});
-	} else {
+	if(ok_callback == undefined) {
+		return
+	}
+	if(!preferences.showAlerts) {
+		ok_callback();
 		return;
 	}
-	
+
+	$("#alert_ok").unbind().click(function() {
+		$("#alert_wrapper").hide();
+		ok_callback();
+	});
+
 	if(cancel_callback !== undefined) {
 		$("#alert_cancel").show();
 		$("#alert_cancel").unbind().click(function() {
