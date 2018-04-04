@@ -169,7 +169,7 @@ function updateCookie() {
 	var hostOnly 	= getValue(7, $cols);
 	var secure 		= getValue(8, $cols);
 	var httpOnly 	= getValue(9, $cols);
-	var sameSite  = getValue(10, $cols);
+	var sameSite	= getValue(10, $cols);
 	var origName 	= getValue(11, $cols);
 	var storeId 	= getValue(12, $cols);
 

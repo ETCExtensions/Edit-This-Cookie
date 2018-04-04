@@ -232,7 +232,6 @@ function createAccordionList(cks, callback, callbackArguments) {
 		$(".domain",  cookie).val(currentC.domain);
 		$(".path",    cookie).val(currentC.path);
 		$(".storeId", cookie).val(currentC.storeId);
-
 		$(".sameSite",cookie).val(currentC.sameSite);
 
 		if(currentC.isProtected)
