@@ -75,6 +75,13 @@ function createTable(message) {
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").addClass("hostOnlyCB").prop("checked", currentC.hostOnly)));
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").prop("checked", currentC.secure)));
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").prop("checked", currentC.httpOnly)));
+
+		var $options = $("<select/>").append("<option selected='selected' value='no_restriction'>None</option>'");
+		$options.append("<option value='lax'>Lax</option>'");
+		$options.append("<option value='strict'>Strict</option>'");
+		$options.val(currentC.sameSite);
+
+		$row.append($("<td/>").append($options));
 		$row.append($("<td/>").addClass("hiddenColumn").text(currentC.name));
 		$row.append($("<td/>").addClass("hiddenColumn").text(currentC.storeId));
 		$tableBody.append($row);
@@ -135,12 +142,18 @@ function updateCookie() {
 	var isCheckbox = function(element) {
 		return $("input", element).length;
 	};
+	var isSelect = function(element) {
+		return $("select", element).length;
+	}
 	var getValue = function(column, container) {
 		element = container[column];
 		if (isCheckbox(element)) {
 			return $(element).children(0).prop("checked");
 		} else if (isForm(element)) {
 			return $("textarea", element).first().val();
+		}
+		else if (isSelect(element)) {
+			return $("select",element).val();
 		} else {
 			return $(element).text();
 		}
@@ -156,9 +169,10 @@ function updateCookie() {
 	var hostOnly 	= getValue(7, $cols);
 	var secure 		= getValue(8, $cols);
 	var httpOnly 	= getValue(9, $cols);
-	var origName 	= getValue(10, $cols);
-	var storeId 	= getValue(11, $cols);
-	
+	var sameSite  = getValue(10, $cols);
+	var origName 	= getValue(11, $cols);
+	var storeId 	= getValue(12, $cols);
+
 	newCookie = {};
 	newCookie.url = tabURL;
 	newCookie.name = name.replace(";", "").replace(",", "");
@@ -175,6 +189,7 @@ function updateCookie() {
 	}
 	newCookie.secure = secure;
 	newCookie.httpOnly = httpOnly;
+	newCookie.sameSite = sameSite;
 	
 	backgroundPageConnection.postMessage({
 		action : "submitCookie",
