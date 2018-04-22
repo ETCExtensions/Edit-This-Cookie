@@ -41,9 +41,6 @@ function Filter() {
     this.setName = function(name) {
         filter.name = name;
     };
-    this.setDomain = function(domain) {
-        filter.domain = domain;
-    };
     this.setSecure = function(secure) {
         filter.secure = secure;
     };
