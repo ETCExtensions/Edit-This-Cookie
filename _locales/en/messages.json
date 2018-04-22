@@ -408,5 +408,17 @@
    },
    "editThis_URL": {
       "message": "URL"
+   },
+   "editThis_SameSite": {
+    "message": "SameSite"
+   },
+   "editThis_SameSite_None": {
+    "message": "No Restriction"
+   },
+   "editThis_SameSite_Lax": {
+    "message": "Lax"
+   },
+   "editThis_SameSite_Strict": {
+    "message": "Strict"
    }
 }

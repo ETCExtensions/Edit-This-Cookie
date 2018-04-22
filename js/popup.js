@@ -232,6 +232,7 @@ function createAccordionList(cks, callback, callbackArguments) {
 		$(".domain",  cookie).val(currentC.domain);
 		$(".path",    cookie).val(currentC.path);
 		$(".storeId", cookie).val(currentC.storeId);
+		$(".sameSite",cookie).val(currentC.sameSite);
 
 		if(currentC.isProtected)
 			$(".unprotected", cookie).hide();
@@ -732,6 +733,7 @@ function formCookieData(form) {
 	var session    = $(".session",    form).prop("checked");
 	var storeId    = $(".storeId",    form).val();
 	var expiration = $(".expiration", form).val();
+	var sameSite   = $(".sameSite"  , form).val();
 
 	var newCookie = {};
 	newCookie.url = buildUrl(secure, domain, path);
@@ -763,6 +765,7 @@ function formCookieData(form) {
 	}
 	newCookie.secure = secure;
 	newCookie.httpOnly = httpOnly;
+	newCookie.sameSite = sameSite;
 
 	return newCookie;
 }
