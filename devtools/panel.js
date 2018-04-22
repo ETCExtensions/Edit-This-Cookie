@@ -52,17 +52,17 @@ function createTable(message) {
 
 	for (var i = 0; i < cookieList.length; i++) {
 		currentC = cookieList[i];
-		
+
 		var domainDisabled = (currentC.hostOnly) ? "disabled" : "";
 		var expirationDisabled = (currentC.session) ? "disabled" : "";
-		
+
 		$row = $("<tr/>");
 		$row.append($("<td/>").addClass("hiddenColumn").text(i));
 		$row.append($("<td/>").addClass("editable").text(currentC.name));
 		$row.append($("<td/>").addClass("editable").text(currentC.value));
 		$row.append($("<td/>").addClass("editable domain " + domainDisabled).text(currentC.domain));
 		$row.append($("<td/>").addClass("editable").text(currentC.path));
-		
+
 		if(currentC.session) {
 			expDate = new Date();
 			expDate.setFullYear(expDate.getFullYear() + 1);
@@ -70,23 +70,25 @@ function createTable(message) {
 			expDate = new Date(currentC.expirationDate * 1000.0);
 		}
 		$row.append($("<td/>").addClass("editable expiration " + expirationDisabled).text(expDate));
-		
+
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").addClass("sessionCB").prop("checked", currentC.session)));
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").addClass("hostOnlyCB").prop("checked", currentC.hostOnly)));
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").prop("checked", currentC.secure)));
 		$row.append($("<td/>").append($("<input/>").attr("type", "checkbox").prop("checked", currentC.httpOnly)));
 
-		var $options = $("<select/>").append("<option selected='selected' value='no_restriction'>None</option>'");
-		$options.append("<option value='lax'>Lax</option>'");
-		$options.append("<option value='strict'>Strict</option>'");
-		$options.val(currentC.sameSite);
+		var $sameSite = $("<select/>");
+		$sameSite.append($("<option/>").attr("value", "no_restriction").attr("i18n", "SameSite_None"));
+		$sameSite.append($("<option/>").attr("value", "lax").attr("i18n", "SameSite_Lax"));
+		$sameSite.append($("<option/>").attr("value", "strict").attr("i18n", "SameSite_Strict"));
+		$sameSite.val(currentC.sameSite);
+		$row.append($("<td/>").append($sameSite));
 
-		$row.append($("<td/>").append($options));
 		$row.append($("<td/>").addClass("hiddenColumn").text(currentC.name));
 		$row.append($("<td/>").addClass("hiddenColumn").text(currentC.storeId));
 		$tableBody.append($row);
-		
 	}
+
+	localizePage();
 
 	setEvents();
 }
@@ -100,7 +102,7 @@ function setEvents() {
 		else
 			$domain.removeClass("disabled");
 	});
-	
+
 	$(".hostOnlyCB").click(function() {
 		var checked = $(this).prop("checked");
 		var $domain = $(".domain", $(this).parent().parent()).first();
@@ -109,11 +111,11 @@ function setEvents() {
 		else
 			$domain.removeClass("disabled");
 	});
-	
+
 	$(":checkbox").click(function() {
 		updateCookie.call($(this).parent().first());
 	});
-	
+
 	$("#cookieTable").tablesorter({
 		// sort on the first column and third column in ascending order
 		sortList : [[1, 0]],
@@ -153,7 +155,7 @@ function updateCookie() {
 			return $("textarea", element).first().val();
 		}
 		else if (isSelect(element)) {
-			return $("select",element).val();
+			return $("select", element).val();
 		} else {
 			return $(element).text();
 		}
@@ -190,7 +192,7 @@ function updateCookie() {
 	newCookie.secure = secure;
 	newCookie.httpOnly = httpOnly;
 	newCookie.sameSite = sameSite;
-	
+
 	backgroundPageConnection.postMessage({
 		action : "submitCookie",
 		cookie : newCookie,

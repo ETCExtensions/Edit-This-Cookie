@@ -409,16 +409,16 @@
    "editThis_URL": {
       "message": "URL"
    },
-   "editThis_sameSite": {
-    "message": "Samesite Attribute"
+   "editThis_SameSite": {
+    "message": "SameSite"
    },
-   "editThis_sameSite_None": {
+   "editThis_SameSite_None": {
     "message": "No Restriction"
    },
-   "editThis_sameSite_Lax": {
+   "editThis_SameSite_Lax": {
     "message": "Lax"
    },
-   "editThis_sameSite_Strict": {
+   "editThis_SameSite_Strict": {
     "message": "Strict"
    }
 }
