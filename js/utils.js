@@ -159,15 +159,16 @@ function copyToClipboard(text) {
     if (text === undefined)
         return;
 
-    var scrollsave = $('body').scrollTop();	//Appending an element causes the window to scroll...so we save the scroll position and restore it later
+    //Appending an element causes the window to scroll...so we save the scroll position and restore it later
+    var scrollsave = $('body').scrollTop();
 
     var copyDiv = document.createElement('textarea');
     copyDiv.style.height = "0.5px";
     document.body.appendChild(copyDiv, document.body.firstChild);
     $(copyDiv).text(text);
     copyDiv.focus();
-    document.execCommand('SelectAll');
-    document.execCommand("Copy", false, null);
+    copyDiv.select();
+    document.execCommand("copy");
     document.body.removeChild(copyDiv);
 
     $('body').scrollTop(scrollsave);
