@@ -1,85 +1,86 @@
-body {
-#	background-color: #F7F7F7;
-}
-
 hr:first-of-type {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .disabled {
-	color: #9e9e9e;
+    color: #9e9e9e;
 }
 
 #maxDateType {
-	display: inline;
+    display: inline;
 }
 
 #maxDateContainer {
-	margin-top: -8px;
+    margin-top: -8px;
 }
 
 #maxDateContainer .ui-icon {
-	margin-top: 4px !important;
+    margin-top: 4px !important;
 }
 
 #saveMaxDateButton {
-	display: inline-block;
-	max-width: 80px;
-	margin-left: 20px;
+    display: inline-block;
+    max-width: 80px;
+    margin-left: 20px;
 }
 
 #shortenProgress {
-	display: inline-block;
-	height: 25px;
-	margin-left: 20px;
-	border-bottom-width:0px;
-	border-bottom-style:solid;
-	border-bottom-color: #E3E3E3;
+    display: inline-block;
+    height: 25px;
+    margin-left: 20px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #E3E3E3;
 }
 
 #shortenProgress img {
-	height: 30px;
-	vertical-align: middle;
+    height: 30px;
+    vertical-align: middle;
 }
 
 #shortenProgress span {
-	display: inline-block;
-	font-weight: bold;
-	font-size: 95%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 95%;
 }
+
 span.ui-icon {
-	float:left; 
-	margin-right:12px; 
-	margin-top: 2px;
+    float: left;
+    margin-right: 12px;
+    margin-top: 2px;
 }
+
 .ui-buttonset .ui-button {
-	height: 22px !important;
-	margin-right: -.5em !important;
+    height: 22px !important;
+    margin-right: -.5em !important;
 }
-.ui-button.ui-widget{
-	height: 22px !important;
+
+.ui-button.ui-widget {
+    height: 22px !important;
 }
+
 .ui-button-text {
-	margin-top: -3px !important;
+    margin-top: -3px !important;
 }
+
 .ui-state-active {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .benefit-unmatched {
-	color: #999;
-	text-decoration: line-through;
+    color: #999;
+    text-decoration: line-through;
 }
 
 .table {
-	width: auto !important;
-	margin: -7px 0 15px 30px;
+    width: auto !important;
+    margin: -7px 0 15px 30px;
 }
 
 .table_row div {
-	height: 1.3em;
+    height: 1.3em;
 }
 
 .table_data:hover {
-	background-color: #F7F7F7;
+    background-color: #F7F7F7;
 }

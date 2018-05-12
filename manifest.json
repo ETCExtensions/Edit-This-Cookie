@@ -1,51 +1,49 @@
 {
-	"key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
-
-	"name": "EditThisCookie",
-	"version": "1.4.5",
-
-	"description": "__MSG_editThis_description__",
-	"icons": {
-		"16": "img/icon_16x16.png",
-		"48": "img/icon_48x48.png",
-		"128": "img/icon_128x128.png"
-	},
-
-	"default_locale": "en",
-
-	"homepage_url": "http://www.editthiscookie.com/",
-
-	"browser_action": {
-		"default_icon": {
-			"19": "img/icon_19x19.png",
-			"38": "img/icon_38x38.png"
-		},
-		"default_title": "EditThisCookie",
-		"default_popup": "popup.html"
-	},
-
-	"devtools_page": "/devtools/devtools-page.html",
-
-	"background": {
-		"scripts" : ["/lib/jquery-2.0.3.min.js", "/lib/object-watch.js", "/js/cookie_helpers.js", "/js/utils.js", "/js/data.js", "/js/background.js", "/devtools/background-devtools.js", "/js/ga.js"]
-	},
-
-	"options_page": "options_main_page.html",
-
-	"permissions": [
-		"tabs",
-		"\u003Call_urls\u003E",
-		"cookies",
-		"contextMenus",
-		"unlimitedStorage",
-		"notifications",
-		"storage",
-		"clipboardWrite"
-	],
-
-	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-
-	"minimum_chrome_version": "41",
-	"manifest_version": 2,
-	"update_url": "http://clients2.google.com/service/update2/crx"
+    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
+    "name": "EditThisCookie",
+    "version": "1.4.5",
+    "description": "__MSG_editThis_description__",
+    "icons": {
+        "16": "img/icon_16x16.png",
+        "48": "img/icon_48x48.png",
+        "128": "img/icon_128x128.png"
+    },
+    "default_locale": "en",
+    "homepage_url": "http://www.editthiscookie.com/",
+    "browser_action": {
+        "default_icon": {
+            "19": "img/icon_19x19.png",
+            "38": "img/icon_38x38.png"
+        },
+        "default_title": "EditThisCookie",
+        "default_popup": "popup.html"
+    },
+    "devtools_page": "/devtools/devtools-page.html",
+    "background": {
+        "scripts": [
+            "/lib/jquery-2.0.3.min.js",
+            "/lib/object-watch.js",
+            "/js/cookie_helpers.js",
+            "/js/utils.js",
+            "/js/data.js",
+            "/js/background.js",
+            "/devtools/background-devtools.js",
+            "/js/ga.js"
+        ]
+    },
+    "options_page": "options_main_page.html",
+    "permissions": [
+        "tabs",
+        "\u003Call_urls\u003E",
+        "cookies",
+        "contextMenus",
+        "unlimitedStorage",
+        "notifications",
+        "storage",
+        "clipboardWrite"
+    ],
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    "minimum_chrome_version": "41",
+    "manifest_version": 2,
+    "update_url": "http://clients2.google.com/service/update2/crx"
 }

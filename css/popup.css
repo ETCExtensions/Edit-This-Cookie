@@ -1,5 +1,5 @@
 body {
-	background-color: #ededed;
+    background-color: #ededed;
     width: 550px;
     height: 100.1%;
     margin: 0 auto;
@@ -9,58 +9,67 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: .7em;
 }
+
 #wrapper {
     width: 100%;
     padding: 0 0 40px 0;
 }
 
 #labelChooserBanner {
-	position:relative;
-	display: none;
-	height: auto;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #8f392b;
-	color: #FFF;
-	font-size: 1.1em;
+    position: relative;
+    display: none;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #8f392b;
+    color: #FFF;
+    font-size: 1.1em;
 }
-#labelChooserBanner > .labelChooserText {
-	margin-right: 20px;
-	padding: 3px 5px;
+
+#labelChooserBanner>.labelChooserText {
+    margin-right: 20px;
+    padding: 3px 5px;
 }
-#labelChooserBanner > .labelChooserText > span {
-	font-weight: bold;
+
+#labelChooserBanner>.labelChooserText>span {
+    font-weight: bold;
 }
-#labelChooserBanner > .labelChooserText > a {
-	color: #FFF;
+
+#labelChooserBanner>.labelChooserText>a {
+    color: #FFF;
 }
-#labelChooserBanner > .labelChooserClose {
-	position:absolute;
-	top: 0;
-	right: 0;
-	padding: 5px;
-	font-size: 1.3em;
-	cursor: pointer;
-	color: #EDEDED;
+
+#labelChooserBanner>.labelChooserClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: #EDEDED;
 }
 
 #newCookie, #pasteCookie {
     display: none;
 }
+
 #newCookieFromString {
     display: none;
     visibility: hidden;
 }
+
 #cookieFilter {
     display: none;
 }
+
 .filteredBy {
     color: red;
     font-weight: bold;
     max-width: 250px;
     overflow: hidden;
 }
+
 .filterInput {
     float: left;
     width: 5%;
@@ -71,9 +80,11 @@ body {
     width: 99%;
     padding: 2px;
 }
+
 .checkbox {
     vertical-align: middle;
 }
+
 .searchCondition {
     width: 100%;
     padding: 5px;
@@ -81,10 +92,12 @@ body {
     text-overflow: ellipsis;
     font-weight: bold;
 }
+
 #searchBox {
     float: right;
     z-index: 1000;
 }
+
 #searchField {
     display: none;
     position: fixed;
@@ -93,54 +106,62 @@ body {
     width: 100px;
     z-index: 1000;
 }
+
 #submitFiltersDiv {
     float: right;
     height: 30px;
     right: 15px;
     top: 10px;
 }
+
 #submitFiltersButton {
     display: none;
 }
+
 #submitDiv {
-	position: fixed;
-	display: none;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 35px;
-	text-align: center;
-	background-color: #ededed;
-	border-top: 1px solid #525252;
+    position: fixed;
+    display: none;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #ededed;
+    border-top: 1px solid #525252;
 }
+
 .submitDivSepWindow {
-	position: relative !important;
-	bottom: 0 !important;
+    position: relative !important;
+    bottom: 0 !important;
 }
+
 #helpButton {
-	position: absolute;
-	width: 50px;
-	margin: 10px 0 0 -55px;
-	right: 10px;
-	text-align: right;
-	color: #000;
+    position: absolute;
+    width: 50px;
+    margin: 10px 0 0 -55px;
+    right: 10px;
+    text-align: right;
+    color: #000;
 }
+
 #helpButton:hover {
-	color: #3B3B3B;
+    color: #3B3B3B;
 }
+
 #submitButton {
-	width: auto;
-	height: auto;
-	margin: 0;
-	padding: 0 20px;
-	cursor: pointer;
-	text-align: center;
-	font-size: 3.3em;
-	color: #008000;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 3.3em;
+    color: #008000;
 }
+
 #submitButton:hover {
-	color: #009300;
+    color: #009300;
 }
 
 .clearDiv {
@@ -149,14 +170,17 @@ body {
     margin-right: 3px;
     margin-top: -10px;
 }
+
 .searchResult {
     background: none!important;
     background-color: #4DFFA3!important;
 }
+
 .highlight {
     color: black;
     font-weight: bold;
 }
+
 #alert_wrapper {
     position: fixed;
     display: none;
@@ -168,6 +192,7 @@ body {
     right: 0;
     z-index: 1000;
 }
+
 #alert_background {
     position: absolute;
     background-color: #FFF;
@@ -175,6 +200,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 #alert_box {
     position: relative;
     width: 400px;
@@ -186,17 +212,21 @@ body {
     background-color: #000;
     color: #FFF;
 }
+
 #alert_title {
     margin: 0 0 10px 0;
     word-wrap: break-word;
 }
+
 #alert_title_p {
     margin: 0;
 }
+
 #alert_buttons {
     margin: auto;
     width: 75%;
 }
+
 .alert_button {
     width: 45%;
     padding-top: 5px;
@@ -206,15 +236,19 @@ body {
     border-width: 1px;
     cursor: pointer;
 }
+
 .alert_button:hover {
     background-color: #2a2a2a;
 }
+
 #alert_ok {
     float: left;
 }
+
 #alert_cancel {
     float: right;
 }
+
 .helper {
     visibility: hidden;
     margin-left: -9px;
@@ -223,194 +257,202 @@ body {
     font-weight: bold;
 }
 
-#cookieFilter .cookie-row > div {
-	width: 150px !important;
+#cookieFilter .cookie-row>div {
+    width: 150px !important;
 }
 
 .cmdText {
-	height: 16px;
+    height: 16px;
 }
 
 .value {
-	resize: vertical;
+    resize: vertical;
 }
 
 .cookie_details_template {
-	display: none;
+    display: none;
 }
-
-
 
 .cookie-table {
-	display: table;
-	z-index: 10;
-	margin-left: 35px;
-	width: 92%;
+    display: table;
+    z-index: 10;
+    margin-left: 35px;
+    width: 92%;
 }
-.cookie-table > * {
-	display: table-row;
+
+.cookie-table>* {
+    display: table-row;
 }
-.cookie-table > label {
-	font-size: 1em;
-	color: #383838;
+
+.cookie-table>label {
+    font-size: 1em;
+    color: #383838;
 }
 
 .cookie-row {
-	display: table;
-	margin-left: 35px;
-	width: 92%;
-}
-.cookie-row > * {
-	display: table-cell;
-	padding-right: 5px;
-	vertical-align: middle;
+    display: table;
+    margin-left: 35px;
+    width: 92%;
 }
 
-
+.cookie-row>* {
+    display: table-cell;
+    padding-right: 5px;
+    vertical-align: middle;
+}
 
 .commands-table {
-	display: table;
-	z-index: 10;
-	width: 100%;
-	border-bottom: 1px solid #525252;
-	color: #363636;
-	table-layout: fixed;
+    display: table;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid #525252;
+    color: #363636;
+    table-layout: fixed;
 }
+
 .commands-row {
-	display: table-row;
-	width: 100%;
-	text-align: center;
+    display: table-row;
+    width: 100%;
+    text-align: center;
 }
-.commands-row > * {
-	display: table-cell;
-	width: 100%;
-	padding: 0;
-	vertical-align: middle;
+
+.commands-row>* {
+    display: table-cell;
+    width: 100%;
+    padding: 0;
+    vertical-align: middle;
 }
+
 .commands-row a {
-	text-align: center;
-	padding: 5px 10px;
-	border-right: 1px solid #A1A1A1;
-	cursor: pointer;
+    text-align: center;
+    padding: 5px 10px;
+    border-right: 1px solid #A1A1A1;
+    cursor: pointer;
 }
+
 .commands-row a:last-child {
-	border-right: 0px solid #A1A1A1;
+    border-right: 0px solid #A1A1A1;
 }
-.commands-row > a:hover {
-	opacity: 0.8;
+
+.commands-row>a:hover {
+    opacity: 0.8;
 }
+
 .commands-row a i {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	font-size: 1.8em;
-}
-.commands-row > a > span {
-	font-size: 1em;
-	line-height: 1em;
-	display: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.8em;
 }
 
-.commands-row-texy > a {
-	vertical-align: top;
-}
-.commands-row-texy > a > i {
-	padding-bottom: 2px;
-}
-.commands-row-texy > a > span {
-	display: block;
+.commands-row>a>span {
+    font-size: 1em;
+    line-height: 1em;
+    display: none;
 }
 
+.commands-row-texy>a {
+    vertical-align: top;
+}
 
+.commands-row-texy>a>i {
+    padding-bottom: 2px;
+}
+
+.commands-row-texy>a>span {
+    display: block;
+}
 
 .vertical-commands-row {
-	display: table;
-	vertical-align: middle;
-	margin-top: -13px;
-	margin-bottom: -100px;
-	width: 30px;
-	padding: 0;
-}
-.vertical-commands-row > *{
-	height: 2.3em;
-	width: 30px;
-	display: table-row;
-	text-align: left;
-	cursor: pointer;
-}
-.vertical-commands-row > a:hover {
-	opacity: 0.8;
-}
-.vertical-commands-row > * > * {
-	padding: 5px;
-	width: 30px;
-	font-size: 1.8em;
+    display: table;
+    vertical-align: middle;
+    margin-top: -13px;
+    margin-bottom: -100px;
+    width: 30px;
+    padding: 0;
 }
 
+.vertical-commands-row>* {
+    height: 2.3em;
+    width: 30px;
+    display: table-row;
+    text-align: left;
+    cursor: pointer;
+}
+
+.vertical-commands-row>a:hover {
+    opacity: 0.8;
+}
+
+.vertical-commands-row>*>* {
+    padding: 5px;
+    width: 30px;
+    font-size: 1.8em;
+}
 
 .fa:not(.fa-spin) {
-	padding-right: 1px;
-	padding-left: 5px;
-	width: 14px;
-	height: 18px;
+    padding-right: 1px;
+    padding-left: 5px;
+    width: 14px;
+    height: 18px;
 }
 
 .error {
-	width: 100%;
-	color: red;
-	font-size: 1.1em;
-	text-align: left !important;
+    width: 100%;
+    color: red;
+    font-size: 1.1em;
+    text-align: left !important;
 }
 
 .toast {
-	display:none;
-	position: fixed;
-	z-index: 4000;
-	background-color: #4D4D4D;
-	color: #FFF;
-	border-radius: 5px;
-	font-size: 1.5em;
-	padding: 7px;
-	width: auto;
-	top: 10%;
-	left: 50%;
+    display: none;
+    position: fixed;
+    z-index: 4000;
+    background-color: #4D4D4D;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 7px;
+    width: auto;
+    top: 10%;
+    left: 50%;
 }
 
 #loader-container {
     z-index: 1000;
-    position:absolute;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    text-align:center;
+    text-align: center;
     padding-top: 15px;
-    background-image:url('/img/transparent_white_60.png');
+    background-image: url('/img/transparent_white_60.png');
 }
 
 #loader-container i {
     z-index: 1001;
-	color: #222;
+    color: #222;
 }
 
 #noCookies {
-	display:none;
-	width: 100%;
-	margin-top: 50px;
-	text-align:center;
-	font-size: 1.6em;
-	font-weight: bold;
+    display: none;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
 }
 
 .unselectable {
-	-moz-user-select: -moz-none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	-o-user-select: none;
-	user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .error {
-	color: #ff0000 !important;
-	font-weight: bold;
+    color: #ff0000 !important;
+    font-weight: bold;
 }

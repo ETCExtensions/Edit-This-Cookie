@@ -1,77 +1,77 @@
 #addRule {
-	float: right;
-	border-bottom-width: 0 !important;
-	width:130px;
-	height: 25px;
-	margin-top: -37px;
+    float: right;
+    border-bottom-width: 0 !important;
+    width: 130px;
+    height: 25px;
+    margin-top: -37px;
 }
 
 .active {
-	background-color: #F7F7F7;
+    background-color: #F7F7F7;
 }
 
 .new_rule_operations {
-	position: fixed;
-	display: none;
-	width: 40px;
-	height: 30px;
-	padding-top: 5px;
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
 }
 
-.new_rule_operations > * {
-	cursor: pointer;
-	width: 10px;
+.new_rule_operations>* {
+    cursor: pointer;
+    width: 10px;
 }
 
 .table {
-  position: relative;
+    position: relative;
 }
 
 .operations {
-	display: none;
-	position: absolute;
-	left: 5px;
-	width: 20px;
-	height: 30px;
+    display: none;
+    position: absolute;
+    left: 5px;
+    width: 20px;
+    height: 30px;
 }
 
-.operations > * {
-	cursor: pointer;
+.operations>* {
+    cursor: pointer;
 }
 
 .domain_field {
-	padding-left: 30px !important;
-	width: 25%;
+    padding-left: 30px !important;
+    width: 25%;
 }
 
 .name_field {
-	width: 25%;
+    width: 25%;
 }
 
 .value_field {
-	width: 40%;
+    width: 40%;
 }
 
 .popup {
-	position: fixed;
-	display: none;
-	top: 35%;
-	left: 35%;
-	height: 21%;
-	width: 30%;
+    position: fixed;
+    display: none;
+    top: 35%;
+    left: 35%;
+    height: 21%;
+    width: 30%;
 }
 
 #submitDiv {
-	float: right;
-	margin-right: 5px;
-	margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 #submitButton {
-	right: 0;
-	height: 30px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+    right: 0;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }

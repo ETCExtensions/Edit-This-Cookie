@@ -1,147 +1,147 @@
-/* ROWS color #eaf3ff */
-
 body {
-	padding: 0;
-	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #sidebar {
-	display: none;
-	float: left;
-	width: 200px;
-	height: 100%;
-	background: #d6dde5;
-	border-right: #B3B3B3;
-	border-right-width: 1px;
-	border-right-style: solid;
+    display: none;
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: #d6dde5;
+    border-right: #B3B3B3;
+    border-right-width: 1px;
+    border-right-style: solid;
 }
 
 #main {
-	float: none;
-	width: auto;
-	height: 100%;
-	margin-bottom: 30px;
-	background: #ffffff;
+    float: none;
+    width: auto;
+    height: 100%;
+    margin-bottom: 30px;
+    background: #ffffff;
 }
 
 .datagrid table {
-	border-collapse: collapse;
-	text-align: left;
-	width: 100%;
-	margin: 0;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    margin: 0;
 }
 
 .datagrid {
-	/*font: normal 12px/150% Arial, Helvetica, sans-serif;*/
-	background: #fff;
-	overflow: hidden;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+    background: #fff;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .datagrid table td, .datagrid table th {
-	padding: 3px 10px;
+    padding: 3px 10px;
 }
 
 .datagrid table thead th {
-	background: 0;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E7E7E7',endColorstr='#FFFFFF');
-	background-color: #E7E7E7;
-	color: #000;
-	font-size: 12px;
-	font-weight: 700;
-	border-left: 1px solid #B3B3B3;
+    background: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E7E7E7', endColorstr='#FFFFFF');
+    background-color: #E7E7E7;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    border-left: 1px solid #B3B3B3;
 }
 
 .datagrid table thead th:first-child {
-	border: none;
+    border: none;
 }
 
 .datagrid table tbody td {
-	color: #000;
-	border-left: 1px solid #B3B3B3;
-	font-size: 12px;
-	font-weight: 400;
+    color: #000;
+    border-left: 1px solid #B3B3B3;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .datagrid table tbody tr:nth-child(even) {
-	background: #FAFAFA !important;
-	color: #000;
+    background: #FAFAFA !important;
+    color: #000;
 }
 
 .datagrid table tbody td:first-child {
-	border-left: none;
+    border-left: none;
 }
 
 .datagrid table tbody tr:last-child td {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 .minColumn {
-	width: 1px;
+    width: 1px;
 }
 
 .medColumn {
-	width: 200px;
+    width: 200px;
 }
 
 form {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .hiddenColumn {
-	display: none;
+    display: none;
 }
 
 tr td {
-	width: auto;
-	max-width: 1px; /* Fix for tablesorter not resizing well columns */
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	background-color: transparent !important;
+    width: auto;
+    max-width: 1px;
+    /* Fix for tablesorter not resizing well columns */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: transparent !important;
 }
 
 tr td:nth-of-type(3) textarea {
-	min-height: 50px;
+    min-height: 50px;
 }
 
 tr td:nth-of-type(6) textarea {
-	min-height: 50px;
+    min-height: 50px;
 }
 
 textarea {
-	resize: vertical;
+    resize: vertical;
 }
 
 .disabled {
-	color: #919191 !important;
+    color: #919191 !important;
 }
 
 .datagrid table tbody tr:hover {
-	background: #DEECFF !important;
+    background: #DEECFF !important;
 }
 
 #beta_alter {
-	position: fixed;
-	display: table;
-	vertical-align: middle;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 30px;
-	background-color: #FFC2C2;
-	text-align: center;
-	font-color: #000;
+    position: fixed;
+    display: table;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #FFC2C2;
+    text-align: center;
+    color: #000;
 }
-#beta_alter > div{
-	display: table-cell;
-	vertical-align: middle;
+
+#beta_alter>div {
+    display: table-cell;
+    vertical-align: middle;
 }
+
 #beta_alter a {
-	color: red;
+    color: red;
 }
