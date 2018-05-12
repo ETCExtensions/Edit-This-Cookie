@@ -419,5 +419,8 @@
     },
     "editThis_SameSite_Strict": {
         "message": "Strict"
+    },
+    "editThis_ShowUpdateNotifications": {
+        "message": "Show Desktop Notifications When EditThisCookie Updates"
     }
 }

@@ -19,7 +19,7 @@ var oldVersion = data.lastVersionRun;
 
 data.lastVersionRun = currentVersion;
 
-if (oldVersion !== currentVersion) {
+if (preferences.showUpdateNotifications && oldVersion !== currentVersion) {
     if (oldVersion === undefined) { //Is firstrun
         chrome.tabs.create({ url: 'http://www.editthiscookie.com/start/' });
     } else {

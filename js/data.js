@@ -52,7 +52,10 @@ var preferences_template = {
     },
     "showLabelChooserBanner": {
         "default_value": false
-    }
+	},
+	"showUpdateNotifications":{
+		"default_value": true
+	}
 };
 
 var data_template = {
