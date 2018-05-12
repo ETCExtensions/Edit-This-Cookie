@@ -1,13 +1,18 @@
-function buildUrl(secure, domain, path){
-	if(domain.substr(0, 1) === '.')
+function buildUrl(domain, path, searchUrl){
+    // Keep same protocol as searchUrl
+    // This fixes a bug when we want to unset 'secure' property in an https domain
+    var secure = searchUrl.indexOf("https://") === 0;
+
+    if(domain.substr(0, 1) === '.')
 		domain = domain.substring(1);
+
 	return "http" + ((secure) ? "s" : "") + "://" + domain + path;
 }
 
-function deleteAll(cookieList) {
+function deleteAll(cookieList, searchUrl) {
     for(var i=0; i<cookieList.length; i++) {
         var curr = cookieList[i];
-        var url = buildUrl(curr.secure, curr.domain, curr.path);
+        var url = buildUrl(curr.domain, curr.path, searchUrl);
         deleteCookie(url, curr.name, curr.storeId);
     }
 }

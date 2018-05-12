@@ -359,7 +359,7 @@ function setEvents() {
 			if(!filterMatchesCookie(newRule,currentCookie.name,currentCookie.domain,currentCookie.value))
 				continue;
 
-			var tmpUrl = buildUrl(currentCookie.secure, currentCookie.domain, currentCookie.path);
+			var tmpUrl = buildUrl(currentCookie.domain, currentCookie.path, url);
 			deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
 		}
 		data.nCookiesFlagged += cookieList.length;
@@ -375,7 +375,7 @@ function setEvents() {
 
 		var okFunction = function() {
 			nCookiesDeletedThisTime = cookieList.length;
-			deleteAll(cookieList);
+			deleteAll(cookieList, url);
 			data.nCookiesDeleted += nCookiesDeletedThisTime;
 			doSearch();
 		}
@@ -401,7 +401,7 @@ function setEvents() {
 					newRule.domain = currentCookie.domain;
 					newRule.name = currentCookie.name;
 					addBlockRule(newRule);
-					var tmpUrl = buildUrl(currentCookie.secure, currentCookie.domain, currentCookie.path);
+					var tmpUrl = buildUrl(currentCookie.domain, currentCookie.path, url);
 					deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
 				}
 				data.nCookiesFlagged += nCookiesFlaggedThisTime;
@@ -521,7 +521,7 @@ function setCookieEvents() {
 		var secure	= $(".secure", cookie).prop("checked");
 		var storeId = $(".storeId", cookie).val();
 		var okFunction = function() {
-			var tmpUrl = buildUrl(secure, domain, path);
+			var tmpUrl = buildUrl(domain, path, url);
 			deleteCookie(tmpUrl, name, storeId, function(success) {
 				if(success === true) {
 					var head = cookie.prev('h3');
@@ -746,7 +746,7 @@ function formCookieData(form) {
 	var sameSite   = $(".sameSite"  , form).val();
 
 	var newCookie = {};
-	newCookie.url = buildUrl(secure, domain, path);
+	newCookie.url = buildUrl(domain, path, url);
 	newCookie.name = name.replace(";", "").replace(",", "");
 	value = value.replace(";", "");
 	newCookie.value = value;
