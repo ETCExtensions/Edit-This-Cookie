@@ -1,12 +1,8 @@
-var url;
 var currentTabID;
 var isTabIncognito = false;
 var cookieList = [];
 var newCookie = false;
 var pasteCookie = false;
-var isSeparateWindow = false;
-var createAccordionCallback, createAccordionCallbackArguments;
-var scrollsave;
 var currentLayout = "none";
 var lastInput = "";
 
@@ -38,37 +34,38 @@ function start() {
                 lastFocusedWindow: true
             },
             function (tabs) {
-                url = tabs[0].url;
+                let currentTabURL = tabs[0].url;
                 currentTabID = tabs[0].id;
-                $('input', '#cookieSearchCondition').val(url);
-                document.title = document.title + "-" + url;
-                doSearch();
+                $('input', '#cookieSearchCondition').val(currentTabURL);
+                document.title = document.title + "-" + currentTabURL;
+                doSearch(false);
             }
         );
     } else {
-        isSeparateWindow = true;
-        url = decodeURI(arguments.url);
+        var url = decodeURI(arguments.url);
         currentTabID = parseInt(decodeURI(arguments.id));
         isTabIncognito = decodeURI(arguments.incognito) === "true";
         $('input', '#cookieSearchCondition').val(url);
         document.title = document.title + "-" + url;
-        doSearch();
+        doSearch(true);
     }
 }
 
-function doSearch() {
-    var txt = $('input', '#cookieSearchCondition').val();
-    if (txt.length < 3)
+function getUrlOfCookies() {
+    return $('input', '#cookieSearchCondition').val();
+}
+
+function doSearch(isSeparateWindow) {
+    var url = $('input', '#cookieSearchCondition').val();
+    if (url.length < 3)
         return;
     var filter = new Filter();
-    if (/^https?:\/\/.+$/.test(txt)) {
-        url = txt;
-        filter.setUrl(txt);
+    if (/^https?:\/\/.+$/.test(url)) {
+        filter.setUrl(url);
     } else {
-        url = 'http://' + txt;
-        filter.setDomain(txt);
+        filter.setDomain(url);
     }
-    createList(filter.getFilter());
+    createList(filter.getFilter(), isSeparateWindow);
 }
 
 function submit(currentTabID) {
@@ -122,7 +119,7 @@ function submitNew() {
     });
 }
 
-function createList(filters) {
+function createList(filters, isSeparateWindow) {
     var filteredCookies = [];
 
     if (filters === null)
@@ -200,8 +197,8 @@ function createList(filters) {
 }
 
 function createAccordionList(cks, callback, callbackArguments) {
-    createAccordionCallback = callback;
-    createAccordionCallbackArguments = callbackArguments;
+    let createAccordionCallback = callback;
+    let createAccordionCallbackArguments = callbackArguments;
 
     try {
         $("#cookiesList").accordion("destroy");
@@ -360,8 +357,8 @@ function setEvents() {
             if (!filterMatchesCookie(newRule, currentCookie.name, currentCookie.domain, currentCookie.value))
                 continue;
 
-            var tmpUrl = buildUrl(currentCookie.domain, currentCookie.path, url);
-            deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
+            var url = buildUrl(currentCookie.domain, currentCookie.path, getUrlOfCookies());
+            deleteCookie(url, currentCookie.name, currentCookie.storeId);
         }
         data.nCookiesFlagged += cookieList.length;
         var exists = addBlockRule(newRule);
@@ -376,7 +373,7 @@ function setEvents() {
 
         var okFunction = function () {
             nCookiesDeletedThisTime = cookieList.length;
-            deleteAll(cookieList, url);
+            deleteAll(cookieList, getUrlOfCookies());
             data.nCookiesDeleted += nCookiesDeletedThisTime;
             doSearch();
         }
@@ -402,8 +399,8 @@ function setEvents() {
                     newRule.domain = currentCookie.domain;
                     newRule.name = currentCookie.name;
                     addBlockRule(newRule);
-                    var tmpUrl = buildUrl(currentCookie.domain, currentCookie.path, url);
-                    deleteCookie(tmpUrl, currentCookie.name, currentCookie.storeId);
+                    var url = buildUrl(currentCookie.domain, currentCookie.path, getUrlOfCookies());
+                    deleteCookie(url, currentCookie.name, currentCookie.storeId);
                 }
                 data.nCookiesFlagged += nCookiesFlaggedThisTime;
                 doSearch();
@@ -522,8 +519,8 @@ function setCookieEvents() {
         var secure = $(".secure", cookie).prop("checked");
         var storeId = $(".storeId", cookie).val();
         var okFunction = function () {
-            var tmpUrl = buildUrl(domain, path, url);
-            deleteCookie(tmpUrl, name, storeId, function (success) {
+            var url = buildUrl(domain, path, getUrlOfCookies());
+            deleteCookie(url, name, storeId, function (success) {
                 if (success === true) {
                     var head = cookie.prev('h3');
                     cookie.add(head).slideUp(function () {
@@ -605,7 +602,7 @@ function clearNewCookieData() {
     $(".index", cookieForm).val("");
     $(".name", cookieForm).val("");
     $(".value", cookieForm).val("");
-    $(".domain", cookieForm).val(getHost(url));
+    $(".domain", cookieForm).val(getHost(getUrlOfCookies()));
     $(".hostOnly", cookieForm).prop("checked", false);
     $(".path", cookieForm).val("/");
     $(".secure", cookieForm).prop("checked", false);
@@ -747,7 +744,7 @@ function formCookieData(form) {
     var sameSite = $(".sameSite", form).val();
 
     var newCookie = {};
-    newCookie.url = buildUrl(domain, path, url);
+    newCookie.url = buildUrl(domain, path, getUrlOfCookies());
     newCookie.name = name.replace(";", "").replace(",", "");
     value = value.replace(";", "");
     newCookie.value = value;
