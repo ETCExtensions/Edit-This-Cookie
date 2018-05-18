@@ -78,7 +78,6 @@ function submit(currentTabID) {
 }
 
 function submitAll(currentTabID) {
-
     var cookies = $(".cookie", "#cookiesList");
     var nCookiesToUpdate = cookies.length;
 
@@ -640,24 +639,26 @@ function find(pattern) {
 }
 
 function swithLayout(newLayout) {
-    if (newLayout === undefined)
-        newLayout = "default";
+    if (newLayout === undefined) {
+        if ($("h3", "#cookiesList").length) {
+            newLayout = "list";
+        } else {
+            newLayout = "empty";
+        }
+    }
+
     if (currentLayout === newLayout)
         return;
     currentLayout = newLayout;
 
-    if (newLayout === "default") {
+    if (newLayout === "list" || newLayout === "empty") {
         $("#newCookie").slideUp();
         $("#pasteCookie").slideUp();
         $("#cookieFilter").slideUp();
         $("#submitFiltersButton").slideUp();
+    }
 
-        if ($("h3", "#cookiesList").length) {
-            swithLayout("list");
-        } else {
-            swithLayout("empty");
-        }
-    } else if (newLayout === "list") {
+    if (newLayout === "list") {
         $(".commands-table").first().animate({ opacity: 0 }, function () {
             $("#deleteAllButton").show();
             if (preferences.showFlagAndDeleteAll)
