@@ -174,13 +174,6 @@ function copyToClipboard(text) {
     $('body').scrollTop(scrollsave);
 }
 
-function getDomain(url) {
-    server = url.match(/:\/\/(.[^/:#?]+)/)[1];
-    parts = server.split(".");
-    domain = parts[parts.length - 2] + "." + parts[parts.length - 1];
-    return domain;
-}
-
 function isChristmasPeriod() {
     var nowDate = new Date();
     var isMidDecember = (nowDate.getMonth() === 11 && nowDate.getDate() > 5);
