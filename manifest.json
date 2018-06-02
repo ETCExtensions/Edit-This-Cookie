@@ -21,7 +21,7 @@
     "devtools_page": "/devtools/devtools-page.html",
     "background": {
         "scripts": [
-            "/lib/jquery-2.0.3.min.js",
+            "/lib/jquery-3.3.1.min.js",
             "/lib/object-watch.js",
             "/js/cookie_helpers.js",
             "/js/utils.js",
