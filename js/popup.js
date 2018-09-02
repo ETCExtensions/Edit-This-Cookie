@@ -138,59 +138,68 @@ function createList(filters, isSeparateWindow) {
         $('#submitDiv').addClass("submitDivSepWindow");
     }
 
-    chrome.cookies.getAll(filterURL, function (cks) {
-        var currentC;
-        for (var i = 0; i < cks.length; i++) {
-            currentC = cks[i];
+    chrome.cookies.getAllCookieStores(function (cookieStores) {
+        for (let x = 0; x < cookieStores.length; x++) {
+            if (cookieStores[x].tabIds.indexOf(currentTabID) != -1) {
+                filterURL.storeId = cookieStores[x].id;
+                break;
+            }
+        }
 
-            if (filters.name !== undefined && currentC.name.toLowerCase().indexOf(filters.name.toLowerCase()) === -1)
-                continue;
-            if (filters.domain !== undefined && currentC.domain.toLowerCase().indexOf(filters.domain.toLowerCase()) === -1)
-                continue;
-            if (filters.secure !== undefined && currentC.secure.toLowerCase().indexOf(filters.secure.toLowerCase()) === -1)
-                continue;
-            if (filters.session !== undefined && currentC.session.toLowerCase().indexOf(filters.session.toLowerCase()) === -1)
-                continue;
+        chrome.cookies.getAll(filterURL, function (cks) {
+            var currentC;
+            for (var i = 0; i < cks.length; i++) {
+                currentC = cks[i];
 
-            for (var x = 0; x < data.readOnly.length; x++) {
-                try {
-                    var lock = data.readOnly[x];
-                    if (lock.name === currentC.name && lock.domain === currentC.domain) {
-                        currentC.isProtected = true;
-                        break;
+                if (filters.name !== undefined && currentC.name.toLowerCase().indexOf(filters.name.toLowerCase()) === -1)
+                    continue;
+                if (filters.domain !== undefined && currentC.domain.toLowerCase().indexOf(filters.domain.toLowerCase()) === -1)
+                    continue;
+                if (filters.secure !== undefined && currentC.secure.toLowerCase().indexOf(filters.secure.toLowerCase()) === -1)
+                    continue;
+                if (filters.session !== undefined && currentC.session.toLowerCase().indexOf(filters.session.toLowerCase()) === -1)
+                    continue;
+
+                for (var x = 0; x < data.readOnly.length; x++) {
+                    try {
+                        var lock = data.readOnly[x];
+                        if (lock.name === currentC.name && lock.domain === currentC.domain) {
+                            currentC.isProtected = true;
+                            break;
+                        }
+                    } catch (e) {
+                        console.error(e.message);
+                        delete data.readOnly[x];
                     }
-                } catch (e) {
-                    console.error(e.message);
-                    delete data.readOnly[x];
                 }
+                filteredCookies.push(currentC);
             }
-            filteredCookies.push(currentC);
-        }
-        cookieList = filteredCookies;
+            cookieList = filteredCookies;
 
-        $("#cookiesList").empty();
+            $("#cookiesList").empty();
 
-        if (cookieList.length === 0) {
-            swithLayout();
-            setEvents();
-            setLoaderVisible(false);
-            return;
-        }
-
-        cookieList.sort(function (a, b) {
-            if (preferences.sortCookiesType === "domain_alpha") {
-                var compDomain = a.domain.toLowerCase().localeCompare(b.domain.toLowerCase());
-                if (compDomain)
-                    return compDomain;
+            if (cookieList.length === 0) {
+                swithLayout();
+                setEvents();
+                setLoaderVisible(false);
+                return;
             }
-            return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
-        });
 
-        createAccordionList(cookieList, function () {
-            swithLayout();
-            setEvents();
-            $("input:checkbox").uniform();
-            setLoaderVisible(false);
+            cookieList.sort(function (a, b) {
+                if (preferences.sortCookiesType === "domain_alpha") {
+                    var compDomain = a.domain.toLowerCase().localeCompare(b.domain.toLowerCase());
+                    if (compDomain)
+                        return compDomain;
+                }
+                return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+            });
+
+            createAccordionList(cookieList, function () {
+                swithLayout();
+                setEvents();
+                $("input:checkbox").uniform();
+                setLoaderVisible(false);
+            });
         });
     });
 }
