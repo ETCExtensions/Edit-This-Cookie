@@ -1,7 +1,7 @@
 {
     "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSn5dhR3eTtYJoXe4DW2j9oFWIg71/f21Z3b6tzFva3M9xo07+xUWo9qLmyWkMeisCMhT7VNsuRbP4kIWjWFcFCi/FgtYCWwCV29CVDvj5Xv+Jzrp8znbCICaczf4ZNqCDdk3WrvSBqp1WqRqJ5q8Y7A0aoFRvMoIxqn1/u11rrwIDAQAB",
     "name": "EditThisCookie",
-    "version": "1.4.7",
+    "version": "1.4.8",
     "description": "__MSG_editThis_description__",
     "icons": {
         "16": "img/icon_16x16.png",
