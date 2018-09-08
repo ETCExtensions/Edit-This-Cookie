@@ -27,10 +27,6 @@
     <div id="navigation">
         <h1>EditThisCookie</h1>
         <ul>
-            <li class="chooser selected" id="support">
-                <i class="fa fa-heart"></i>
-                <span i18n="support"></span>
-            </li>
             <li class="chooser" id="getting_started" i18n="getting_started"></li>
             <li class="chooser" id="user_preferences" i18n="Options"></li>
             <li class="chooser" id="block_rules" i18n="Blocked_Cookies"></li>
@@ -39,61 +35,7 @@
     </div>
 
     <div id="support-box" class="box">
-        <h1 i18n="support_etc"></h1>
-        <hr>
-        <div class="section-title" i18n="donations"></div>
-        <div i18n="paypalSupportCharity" i18n_argument='<img style="height: 20px; width:70px; vertical-align: -40%;" src="/img/paypal-logo-res.png"/>'></div>
-        <div style="margin-top: 10px;">
-            <div id="paypal-slider"></div>
-            <div id="paypal-amount">
-                <span i18n="iWantDonate"></span>
-                <b id="amount-show"></b>
-                <select id="paypal-currency-selector" name="currency" style="margin:0; padding:0;">
-                    <option value="EUR">EUR &euro;</option>
-                    <option value="USD">USD $</option>
-                    <option value="GBP">GBP &pound;</option>
-                </select>
-            </div>
-            <div id="paypal-custom-amount" class="link_like">(
-                <span i18n="amountByHand"></span>)</div>
-        </div>
-        <div id="paypal-benefits">
-            <ul id="benefits-list">
-                <li i18n="ppBenefit1"></li>
-                <li i18n="ppBenefit2" style="display:none;"></li>
-                <li i18n="ppBenefit3"></li>
-                <li i18n="ppBenefit4"></li>
-                <li i18n="ppBenefit5"></li>
-                <li i18n="ppBenefit6"></li>
-                <li i18n="ppBenefit7"></li>
-                <li i18n="ppBenefit8"></li>
-                <li>
-                    <b i18n="ppBenefit9"></b>
-                </li>
-            </ul>
-        </div>
-        <form id="paypal-form" target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display:none;">
-            <input type="hidden" name="notify_url" value="http://www.fdev.eu/etc_donation_center/ipn.php" />
-            <input type="hidden" id="paypal-form-amount" name="amount" value="10.00">
-            <input type="hidden" id="paypal-form-currency" name="currency_code" value="EUR">
-            <input type="hidden" name="cmd" value="_donations">
-            <input type="hidden" name="business" value="fcapano@gmail.com">
-            <input type="hidden" name="item_name" value="Chrome Extensions Developer">
-            <input type="hidden" name="item_number" value="Edit This Cookie">
-            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHosted">
-            <input type="image" src="https://www.paypalobjects.com/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        <div id="donation-buttons-container">
-            <div id="paypal-donate-button" class="donate-button">
-                <i class="fa fa-paypal"></i>
-                <span i18n="Contribute_PayPal"></span>
-            </div>
-            <div id="other-donate-button" class="donate-button" i18n="Contribute_Other">
-                <i class="fa fa-mail-forward"></i>
-            </div>
-        </div>
-        <hr>
+
         <div class="linkify" lnk="https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg/reviews">
             <div class="section-title" i18n="Rate_ETC"></div>
             <i style="color: #FF9D00; font-size: 4em; margin-top:5px; margin-right:5px;" class="fa fa-star fa-fw"></i>
@@ -118,7 +60,7 @@
             <span i18n="Source_Code_Intro" i18n_argument="GitHub"></span>
         </div>
         <hr>
-        <div class="linkify" lnk="mailto:fcapano@gmail.com?Subject=About Edit This Cookie">
+        <div class="linkify" lnk="mailto:support@editthiscookie.com?Subject=About Edit This Cookie">
             <div class="section-title" i18n="contacts"></div>
             <i style="color: #0034C4; font-size: 4em; margin-top:5px; margin-right:5px;" class="fa fa-envelope-o fa-fw"></i>
             <span i18n="contactsIntro"></span>
