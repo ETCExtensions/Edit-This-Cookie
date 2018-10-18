@@ -126,7 +126,7 @@ var cookiesToString = {
         for (var i = 0; i < cookies.length; i++) {
             cookie = cookies[i];
             string += cookie.domain + "\t" +
-                cookie.hostOnly.toString().toUpperCase() + "\t" +
+                (cookie.domain.startsWith(".") ? true : cookie.hostOnly).toString().toUpperCase() + "\t" +
                 cookie.path + "\t" +
                 cookie.secure.toString().toUpperCase() + "\t" +
                 ((cookie.expirationDate !== undefined) ? cookie.expirationDate : "0") + "\t" +
