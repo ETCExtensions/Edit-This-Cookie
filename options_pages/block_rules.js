@@ -125,7 +125,7 @@ function hideEditCommands() {
 }
 
 function showNewEmptyRule() {
-    if ($(".new_row:not(.template)").size() > 0) {
+    if ($(".new_row:not(.template)").length > 0) {
         $(".new_rule_operations").css("top", $(".new_row:not(.template)").position().top + "px");
         $(".new_rule_operations").css("left", $(".new_row:not(.template)").position().left + "px");
         return;
