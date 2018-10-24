@@ -408,7 +408,7 @@
     "editThis_Details": {
         "message": "Dettagli"
     },
-    "editThis_autoURLDecode":{
-        "message": "autoURLDecode"
+    "editThis_autoURLDecode": {
+        "message": "Decodifica automaticamente i cookie in formato \"URL-encoding\""
     }
 }

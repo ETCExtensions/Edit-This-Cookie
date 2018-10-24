@@ -76,7 +76,7 @@ var preferences_template = {
     "showDevToolsPanel": {
         "default_value": true
     },
-    // Whether to try to decode URLencoded cookies
+    // Whether to display the cookies URL-decoded
     "autoURLDecode": {
         "default_value": false
     }
