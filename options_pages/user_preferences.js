@@ -14,6 +14,7 @@ function setOptions() {
     $(':checkbox', '#options-box').removeAttr('checked');
     $("#justDelete").prop('checked', preferences.justDelete);
     $("#showAlerts").prop('checked', preferences.showAlerts);
+    $("#autoURLDecode").prop('checked', preferences.autoURLDecode);
     $("#showDomain").prop('checked', preferences.showDomain);
     $("#showContextMenu").prop('checked', preferences.showContextMenu);
     $("#showFlagAndDeleteAll").prop('checked', preferences.showFlagAndDeleteAll);
@@ -79,6 +80,9 @@ function setOptions() {
 function setEvents() {
     $("#showAlerts").click(function () {
         preferences.showAlerts = $('#showAlerts').prop("checked");
+    });
+    $("#autoURLDecode").click(function () {
+        preferences.autoURLDecode = $('#autoURLDecode').prop("checked");
     });
     $("#showDomain").click(function () {
         preferences.showDomain = $('#showDomain').prop("checked");
