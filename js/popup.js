@@ -352,11 +352,11 @@ function setEvents() {
     $("#submitFiltersButton").button();
 
     $("#submitFiltersDiv").unbind().click(function () {
-        var domainChecked = $(".filterDomain:checked", $(this).parent()).val() !== null;
+        var domainChecked = $(".filterDomain:checked", $(this).parent()).val() !== undefined;
         var domain = $("#filterByDomain", $(this).parent()).text();
-        var nameChecked = $(".filterName:checked", $(this).parent()).val() !== null;
+        var nameChecked = $(".filterName:checked", $(this).parent()).val() !== undefined;
         var name = $("#filterByName", $(this).parent()).text();
-        var valueChecked = $(".filterValue:checked", $(this).parent()).val() !== null;
+        var valueChecked = $(".filterValue:checked", $(this).parent()).val() !== undefined;
         var value = $("#filterByValue", $(this).parent()).text();
 
         var newRule = {};
