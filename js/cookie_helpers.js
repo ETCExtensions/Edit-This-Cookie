@@ -166,6 +166,15 @@ var cookiesToString = {
         }
         return string;
     },
+    "map":function(cookies,url){
+            var string = "";
+            for (var i = 0; i < cookies.length; i++) {
+                cookie = cookies[i];
+                string += "\""+cookie.name +"\""+ "," +"\""+ cookie.value + "\""+"\n";
+
+            }
+            return string;
+        },
 
     "lpw": function (cookies, url) {
         var string = "";
