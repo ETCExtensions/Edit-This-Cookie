@@ -790,6 +790,22 @@ function formCookieData(form) {
             $(".expiration", form).removeClass("error");
         }
     }
+
+    /*
+     * New Chrome restrictions do not allow SameSite=None without Secure being
+     * marked as true.
+     */
+    if (sameSite === 'no_restriction' && !secure) {
+      $(".sameSite", form).addClass("error");
+      $(".sameSite", form).focus();
+      $(".error-message").html("'No Restriction' requires that Secure be checked.");
+      $(".error-message").show();
+      return undefined;
+    } else {
+      $(".sameSite", form).removeClass("error");
+      $(".error-message").hide();
+    }
+
     newCookie.secure = secure;
     newCookie.httpOnly = httpOnly;
     newCookie.sameSite = sameSite;
