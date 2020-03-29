@@ -227,7 +227,7 @@
                     <label class="formLabel" i18n="sameSite"></label>
                     <select class="sameSite input" type="text">
                         <option selected="selected" i18n="SameSite_None" value="no_restriction"></option>
-                        <option i18n="SameSite_Lax" value="lax"></option>
+                        <option i18n="SameSite_Lax" value="lax" selected></option>
                         <option i18n="SameSite_Strict" value="strict"></option>
                     </select>
                 </div>
@@ -249,6 +249,7 @@
                         <input id="httpOnly-checkbox-new" class="httpOnly checkbox" type="checkbox">
                     </div>
                 </div>
+              <div class="error-message error" style="display: none"></div>
             </div>
         </div>
 
