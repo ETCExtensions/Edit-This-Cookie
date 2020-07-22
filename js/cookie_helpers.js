@@ -59,6 +59,8 @@ function Filter() {
 
 function cookieForCreationFromFullCookie(fullCookie) {
     var newCookie = {};
+    // If domain start with . , cookies can not be imported.
+    fullCookie.domain =  fullCookie.domain.startsWith(".") ? fullCookie.domain.substr(1) : fullCookie.domain;
     //If no real url is available use: "https://" : "http://" + domain + path
     newCookie.url = "http" + ((fullCookie.secure) ? "s" : "") + "://" + fullCookie.domain + fullCookie.path;
     newCookie.name = fullCookie.name;
