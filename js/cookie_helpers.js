@@ -61,15 +61,18 @@ function cookieForCreationFromFullCookie(fullCookie) {
     var newCookie = {};
     //If no real url is available use: "https://" : "http://" + domain + path
     newCookie.url = "http" + ((fullCookie.secure) ? "s" : "") + "://" + fullCookie.domain + fullCookie.path;
+    newCookie.secure = fullCookie.secure;
     if ($('#toCurrentTabCookieUrl-checkbox:checked').length) {
         newCookie.url = getCurrentTabCookieUrl();
+        if (fullCookie.secure && !newCookie.url.match(/^https:\/\//)) {
+            newCookie.secure = false;
+        }
     }
     newCookie.name = fullCookie.name;
     newCookie.value = fullCookie.value;
     if (!fullCookie.hostOnly)
         newCookie.domain = fullCookie.domain;
     newCookie.path = fullCookie.path;
-    newCookie.secure = fullCookie.secure;
     newCookie.httpOnly = fullCookie.httpOnly;
     if (!fullCookie.session)
         newCookie.expirationDate = fullCookie.expirationDate;
