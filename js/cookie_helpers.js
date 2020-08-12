@@ -61,6 +61,9 @@ function cookieForCreationFromFullCookie(fullCookie) {
     var newCookie = {};
     //If no real url is available use: "https://" : "http://" + domain + path
     newCookie.url = "http" + ((fullCookie.secure) ? "s" : "") + "://" + fullCookie.domain + fullCookie.path;
+    if ($('#toCurrentTabCookieUrl-checkbox:checked').length) {
+        newCookie.url = getCurrentTabCookieUrl();
+    }
     newCookie.name = fullCookie.name;
     newCookie.value = fullCookie.value;
     if (!fullCookie.hostOnly)
@@ -182,3 +185,11 @@ var cookiesToString = {
         return string;
     }
 };
+
+function getCurrentTabCookieUrl () {
+    var url = $('input', '#cookieSearchCondition').val();
+    var protocol = url.match(/^http(s?):\/\//)[0] || '';
+    var target = url.slice(protocol.length, protocol.length + url.replace(protocol, '').indexOf('/'));
+    var result = protocol + target;
+    return result;
+}
