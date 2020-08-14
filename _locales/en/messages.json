@@ -419,5 +419,8 @@
     },
     "editThis_SameSite_Strict": {
         "message": "Strict"
+    },
+    "editThis_toCurrentTabCookieUrl": {
+        "message": "To Current Tab Cookie Url"
     }
 }
