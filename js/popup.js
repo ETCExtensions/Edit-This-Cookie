@@ -119,7 +119,7 @@ function submitNew() {
                 break;
             }
         }
-
+        cCookie = cookieForCreationFromFullCookie(cCookie);
         deleteCookie(cCookie.url, cCookie.name, cCookie.storeId, function () {
             chrome.cookies.set(cCookie, doSearch);
             ++data.nCookiesCreated;
