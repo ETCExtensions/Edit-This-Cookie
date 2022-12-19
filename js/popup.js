@@ -334,7 +334,15 @@ function importCookies() {
             try {
                 var cJSON = cookieArray[i];
                 var cookie = cookieForCreationFromFullCookie(cJSON);
-                chrome.cookies.set(cookie);
+                chrome.cookies.set(cookie, (cookieResponse) => {
+                    let error = chrome.runtime.lastError;
+                    if (!cookieResponse || error) {
+                        let errorMessage = (error ? error.message : '') || 'Unknown error';
+                        console.error( "EditThisCookie::importCookies: " + errorMessage );
+                        }
+                    }
+                );
+
                 nCookiesImportedThisTime++;
             } catch (e) {
                 error.html(error.html() + "<br>" + $('<div/>').text("Cookie number " + i).html() + "<br>" + $('<div/>').text(e.message).html());
