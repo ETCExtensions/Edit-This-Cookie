@@ -3,13 +3,13 @@
         "message": "HttpOnly"
     },
     "editThis_AN_optInDescription": {
-        "message": "Tillat oss å dele din surfedata. All data er anonym"
+        "message": "Tillat oss å dele din surfedata. All data er anonyme."
     },
     "editThis_no_cookies": {
         "message": "Ingen informasjonskapsler her!"
     },
     "editThis_Alert_submitAll": {
-        "message": "Lagre endringer i informasjonskapsel"
+        "message": "Lagre endringer i informasjonskapselen"
     },
     "editThis_Options": {
         "message": "Alternativer"
@@ -21,10 +21,10 @@
         "message": "Minutter"
     },
     "editThis_Rate_ETC": {
-        "message": "Vurdér EditThisCookie"
+        "message": "Vurder EditThisCookie"
     },
     "editThis_Blocked_Def": {
-        "message": "Dersom du ønsker å programmatisk slette en informasjonskapsel hver gang den lages, opprett et filter så vil den ikke plage deg mer"
+        "message": "Dersom du ønsker å programmatisk slette en informasjonskapsel hver gang den lages, opprett et filter så vil den ikke irritere deg mer"
     },
     "editThis_translation": {
         "message": "Oversettelse"
@@ -48,7 +48,7 @@
         "message": "Hjelp"
     },
     "editThis_Paste_Cookies": {
-        "message": "Importér informasjonskapsler"
+        "message": "Importer informasjonskapsler"
     },
     "editThis_contacts": {
         "message": "Kontakter"
@@ -66,8 +66,8 @@
         "message": "Vis domenet før informasjonskapslens navn"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
-        "description": "It will read: Donate now with PayPal"
+        "message": "EditThisCookie er gratis men vennligst hjelp oss med å donere $1. All inntekt går til veldedige organisasjoner! :)<br><br>Endre beløpet ved å dra i bryteren.",
+        "description": "Det vil lyde: Doner nå med PayPal"
     },
     "editThis_cookiesProtected": {
         "message": "Skrivebeskyttede informasjonskapsler er beskyttet"
@@ -133,7 +133,7 @@
         "message": "Du kan sende donasjoner til:"
     },
     "editThis_description": {
-        "message": "EditThisCookie er en informasjonskapselbehandler.Du kan legge til,slette,redigere,søke,beskytte og blokkere informasjonskapsler!"
+        "message": "EditThisCookie er en informasjonskapselbehandler. Du kan legge til, slette, redigere, søke, beskytte og blokkere informasjonskapsler!"
     },
     "editThis_cookiesModified": {
         "message": "Informasjonskaplser endret"
@@ -151,7 +151,7 @@
         "message": "Dager"
     },
     "editThis_Flag_CookieWithDomain": {
-        "message": "Blokkér per domene"
+        "message": "Blokker per domene"
     },
     "editThis_cookiesFlagged": {
         "message": "Flaggede informasjonskapsler slettet"
@@ -172,7 +172,7 @@
         "message": "Overstyr maksimumsalder for alle informasjonskapsler"
     },
     "editThis_Flag_CookieWithValue": {
-        "message": "Blokkér per verdi"
+        "message": "Blokker per verdi"
     },
     "editThis_paypalSupportIntro": {
         "message": "Vi utvikler åpen programvare med høy kvalitet og gir den vekk gratis. <br><br> Støtt oss ved å bruke $1. Beveg slideren for å endre beløp",
@@ -215,7 +215,7 @@
         "message": "Det flygende spaghettimonsters evangelium"
     },
     "editThis_timesUsed": {
-        "message": "Du har brukt EditThisCookie $1 ganger"
+        "message": "Du har brukt 'EditThisCookie' $1 ganger"
     },
     "editThis_ppBenefit7": {
         "message": "Du er veldig generøs! Dersom vi noen gang møtes skal jeg spandere et par øl (hey, øl er viktig)"
@@ -245,7 +245,7 @@
         "message": "Blokker en ny informasjonskapsel"
     },
     "editThis_ppBenefit9": {
-        "message": "Bli årsaken til mit første hjerteatrakk. Alt du behøver å gjøre er å donere nå!"
+        "message": "Bli årsaken til mit første hjerteinfarkt. Alt du behøver å gjøre er å donere nå!"
     },
     "editThis_ppBenefit8": {
         "message": "Og en italiensk pizza!"
@@ -263,7 +263,7 @@
         "message": "Vi garanterer at ingen personlig data noen sinne blir delt!"
     },
     "editThis_Contribute_Other": {
-        "message": "Contribute with another method"
+        "message": "Bidra med en annen metode"
     },
     "editThis_ReadOnly_Def": {
         "message": "En beskyttet informasjonskapsel er en informasjonskapsel som ikke kan endres av noen nettside eller utvidelse"
@@ -338,7 +338,7 @@
         "message": "Send oss en epost"
     },
     "editThis_Flag_CookieWithName": {
-        "message": "Blokkér per navn"
+        "message": "Blokker per navn"
     },
     "editThis_noBlockAdded": {
         "message": "Ingen blokkeringsregler er lagt til"
@@ -381,7 +381,7 @@
     },
     "editThis_iWantDonate": {
         "message": "Jeg vil donere",
-        "description": "I want to donate X euros"
+        "description": "Jeg vil donere X euro"
     },
     "editThis_Money_Raised": {
         "message": "Penger samlet inn så langt"
@@ -391,7 +391,7 @@
     },
     "editThis_Source_Code_Intro": {
         "message": "Sjekk ut EditThisCookie sin kildekode på $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "description": "Det vil lyde: Sjekk ut EditThisCookie sin kildekode på GitHub"
     },
     "editThis_search": {
         "message": "Søk"
