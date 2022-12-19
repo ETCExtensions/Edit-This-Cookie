@@ -239,12 +239,19 @@ function createAccordionList(cks, callback, callbackArguments) {
         }
 
         var titleText;
+
+        var nameText;
+        if(preferences.autoURLDecode){
+            nameText = decodeURIComponent(currentC.name);
+        } else {
+            nameText = currentC.name;
+        }
         if (preferences.showDomainBeforeName) {
-            titleText = $("<p/>").text(domainText).append($("<b/>").text(currentC.name));
+            titleText = $("<p/>").text(domainText).append($("<b/>").text(nameText));
             if (currentC.isProtected)
                 $(":first-child", titleText).css("color", "green");
         } else {
-            titleText = $("<p/>").append($("<b/>").text(currentC.name)).append($("<span/>").text(domainText));
+            titleText = $("<p/>").append($("<b/>").text(nameText)).append($("<span/>").text(domainText));
         }
 
         var titleElement = $("<h3/>").append($("<a/>").html(titleText.html()).attr("href", "#"));
@@ -252,8 +259,14 @@ function createAccordionList(cks, callback, callbackArguments) {
         var cookie = $(".cookie_details_template").clone().removeClass("cookie_details_template");
 
         $(".index", cookie).val(i);
-        $(".name", cookie).val(currentC.name);
-        $(".value", cookie).val(currentC.value);
+        $(".name", cookie).val(nameText);
+
+        if(preferences.autoURLDecode)
+            $(".value", cookie).val(decodeURIComponent(currentC.value));
+        else
+            $(".value", cookie).val(currentC.value);
+
+
         $(".domain", cookie).val(currentC.domain);
         $(".path", cookie).val(currentC.path);
         $(".storeId", cookie).val(currentC.storeId);
@@ -321,7 +334,15 @@ function importCookies() {
             try {
                 var cJSON = cookieArray[i];
                 var cookie = cookieForCreationFromFullCookie(cJSON);
-                chrome.cookies.set(cookie);
+                chrome.cookies.set(cookie, (cookieResponse) => {
+                    let error = chrome.runtime.lastError;
+                    if (!cookieResponse || error) {
+                        let errorMessage = (error ? error.message : '') || 'Unknown error';
+                        console.error( "EditThisCookie::importCookies: " + errorMessage );
+                        }
+                    }
+                );
+
                 nCookiesImportedThisTime++;
             } catch (e) {
                 error.html(error.html() + "<br>" + $('<div/>').text("Cookie number " + i).html() + "<br>" + $('<div/>').text(e.message).html());

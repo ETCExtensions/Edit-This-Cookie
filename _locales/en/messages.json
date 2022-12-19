@@ -419,5 +419,8 @@
     },
     "editThis_SameSite_Strict": {
         "message": "Strict"
+    },
+    "editThis_autoURLDecode": {
+        "message": "Automatically decode URL-encoded cookies"
     }
 }
