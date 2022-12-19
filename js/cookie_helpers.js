@@ -58,21 +58,41 @@ function Filter() {
 }
 
 function cookieForCreationFromFullCookie(fullCookie) {
-    var newCookie = {};
-    // If domain start with . , cookies can not be imported.
-    fullCookie.domain =  fullCookie.domain.startsWith(".") ? fullCookie.domain.substr(1) : fullCookie.domain;
-    //If no real url is available use: "https://" : "http://" + domain + path
-    newCookie.url = "http" + ((fullCookie.secure) ? "s" : "") + "://" + fullCookie.domain + fullCookie.path;
-    newCookie.name = fullCookie.name;
-    newCookie.value = fullCookie.value;
-    if (!fullCookie.hostOnly)
-        newCookie.domain = fullCookie.domain;
-    newCookie.path = fullCookie.path;
-    newCookie.secure = fullCookie.secure;
-    newCookie.httpOnly = fullCookie.httpOnly;
-    if (!fullCookie.session)
-        newCookie.expirationDate = fullCookie.expirationDate;
-    newCookie.storeId = fullCookie.storeId;
+    // Fix malformed domains
+    // ".wikipedia.com" => "wikipedia.com"
+    fullCookie.domain = fullCookie.domain
+                        .replace( /^\./,"");
+                        
+    // If no real url is available use: "https://" : "http://" + domain + path
+    var url = "http" + ((fullCookie.secure) ? "s" : "") + "://" + fullCookie.domain + fullCookie.path;
+
+const newCookie = {
+    url:            url,
+    name:           fullCookie.name           || '', // Empty by default if omitted.
+    value:          fullCookie.value          || '', // Empty by default if omitted.
+    domain:         fullCookie.domain         || '', // If omitted, the cookie becomes a host-only cookie.
+    path:           fullCookie.path           || '', // Defaults to the path portion of the url parameter.
+    secure:         fullCookie.secure         || false,
+    httpOnly:       fullCookie.httpOnly       || false,
+    expirationDate: fullCookie.expirationDate || null,
+ // Make sure we are using the right store ID. This is in case we are importing from a basic store ID and the
+ // current user is using custom containers
+ // storeId:        fullCookie.storeId || cookieHandler.currentTab.cookieStoreId || null,
+    storeId:        fullCookie.storeId        || null, //The ID of the cookie store in which to set the cookie. By default, the cookie is set in the current execution context's cookie store.
+    sameSite:       fullCookie.sameSite       || null, 
+};
+ 
+    if (fullCookie.hostOnly)
+        newCookie.domain = null;
+    
+    if (fullCookie.session)
+        newCookie.expirationDate = null;
+    
+    // sameSite SameSiteStatus optional Chrome 51+
+    // Defaults to "unspecified", i.e., if omitted, the cookie is set without specifying a SameSite attribute.
+    if (fullCookie.sameSite && fullCookie.sameSite === 'unspecified') {
+        newCookie.sameSite = null;
+    }
     return newCookie;
 }
 
